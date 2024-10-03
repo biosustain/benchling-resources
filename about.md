@@ -1,5 +1,10 @@
 # About
 
-> More information about your (your team) and your work.
+> The Informatics Platform
 
-Some text about you here.
+The objectives of the Informatic Platform (IP) team is to
+- Standardize, automate and accelerate data processes and analyses 
+- Improve data findability, accessibility, interoperability, (re)usability
+- Build an industry level platform that covers the entire data lifecycle from raw data to insights
+
+
