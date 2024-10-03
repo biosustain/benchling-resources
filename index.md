@@ -17,3 +17,11 @@ about
 folder_topic/article_topic
 folder_topic/training_goals
 ```
+
+```{toctree}
+:maxdepth: 2
+:hidden:
+:caption: A topic
+
+new_topic/contents
+```
