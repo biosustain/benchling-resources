@@ -15,12 +15,5 @@ about
 :caption: A topic
 
 folder_topic/article_topic
-```
-
-```{toctree}
-:maxdepth: 2
-:hidden:
-:caption: A topic
-
-folder_topic/training_goal
+folder_topic/training_goals
 ```
