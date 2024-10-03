@@ -15,6 +15,7 @@ about
 :caption: A topic
 
 folder_topic/article_topic
+folder_topic/training_goal
 ```
 
 ```{toctree}
@@ -22,5 +23,5 @@ folder_topic/article_topic
 :hidden:
 :caption: A topic
 
-folder_topic/training_goal
+new_topic/contents
 ```
