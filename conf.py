@@ -77,7 +77,7 @@ nb_custom_formats = {
 # html_title = ""
 #OLD THEME html_theme = "sphinx_book_theme"
 #NEW THEME
-html_theme = 'press'
+html_theme = 'sphinx_press_theme'
 # html_theme = "sphinx_book_theme" # alternative
 # html_logo = "_static/logo-wide.svg"
 # html_favicon = "_static/logo-square.svg"
