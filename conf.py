@@ -1,29 +1,31 @@
-# Configuration file for the Sphinx documentation builder.
+# Configuration file for Sphinx documentation builder.
 #
-# This file only contains a selection of the most common options. For a full
-# list see the documentation:
+# This file contains a selection of the most common options for setting up a website using a Sphinx template. 
+# See the full documentation here:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 # -- Project information -----------------------------------------------------
 
-project = "Data Science Platform notes template"
-copyright = "2024, DTU Biosustain, Informatics Platform, DSP"
-author = "Henry Webel"
+project = "Benchling materials for DTU Biosustain"
+copyright = "2024, DTU Biosustain, Informatics Platform, Research Data Management Team"
+author = "Ester Milesi"
 
 
 # -- General configuration ---------------------------------------------------
 
-
+# Enable MyST-NB, which allows Sphinx to render Markdown files with notebook (Jupyter) support.
+# Enable "sphinx_new_tab_link", which automatically makes links open in a new tab.
 extensions = [
-    "myst_nb",
+    "myst_nb", 
     # "sphinx_design", # https://sphinx-design.readthedocs.io/en/sbt-theme/
     # "sphinx_copybutton", # https://sphinx-copybutton.readthedocs.io/
     "sphinx_new_tab_link",
 ]
 
 templates_path = ["_templates"]
-# As we can use percent notebooks and markdowns files, we need to exclude some files
-# additinally to the default ones (add to the list if needed)
+# Website pages can only be built from percent notebooks and markdowns files.
+# We need to exclude some files/patterns included in the repository.
+
 exclude_patterns = [
     "_build",
     "Thumbs.db",
@@ -37,9 +39,9 @@ exclude_patterns = [
 ]
 
 
-# -- Notebook related settings -----------------------------------------------
+# -- Jupiter Notebook related settings -----------------------------------------------
 
-# add notebooks
+# add notebooks (myst-nb extension)
 #  https://myst-nb.readthedocs.io/en/latest/computation/execute.html
 nb_execution_mode = "auto"
 
@@ -70,35 +72,36 @@ nb_custom_formats = {
 # browse available themes: https://sphinx-themes.org/
 
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-# See:
+# The theme to use for HTML and HTML Help pages.  
+# See the documentation for a list of existing themes:
 # https://github.com/executablebooks/MyST-NB/blob/master/docs/conf.py
-# html_title = ""
-#OLD THEME html_theme = "sphinx_book_theme"
-#NEW THEME
+
+#OLD THEME "sphinx_book_theme"
+
+#THEME (AND LOGO) 
+
+#_static directory is typically where Sphinx expects custom static assets like images
 html_theme = 'press'
-# html_theme = "sphinx_book_theme" # alternative
-# html_logo = "_static/logo-wide.svg"
+# html_logo = "_static/logo-wide.svg" #check where is _static
 # html_favicon = "_static/logo-square.svg"
 
-#OLD THEME options
+# THEME options
 html_theme_options = {
-    # "github_url": "https://github.com/enryh/",
-    # "repository_url": "https://github.com/enryh/notes_template",
-    # # "repository_branch": "main",
-    # # "home_page_in_toc": True,
-    # # "path_to_docs": "docs",
-    # "show_navbar_depth": 1,
-    # # "use_edit_page_button": True,
+    "github_url": "https://github.com/emilesi",
+    "repository_url": "https://github.com/emilesi/My-GitHub-Website",
+    "repository_branch": "main",
+    "home_page_in_toc": True,
+    # "path_to_docs": "docs",
+    "show_navbar_depth": 1,
+    # "use_edit_page_button": True,
     # "use_repository_button": True,
-    # "use_download_button": True,
-    # "launch_buttons": {
-    #     "colab_url": "https://colab.research.google.com"
-    #     #     "binderhub_url": "https://mybinder.org",
-    #     #     "notebook_interface": "jupyterlab",
-    # },
-    # "navigation_with_keys": False,
+    "use_download_button": True,
+    #"launch_buttons": {
+    #    "colab_url": "https://colab.research.google.com"
+    #    #     "binderhub_url": "https://mybinder.org",
+    #   #     "notebook_interface": "jupyterlab",
+    #},
+    "navigation_with_keys": False,
 }
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
