@@ -7,7 +7,7 @@ The website contains Benchling training resources for researchers at DTU Biosust
 
 ## Add or edit resources using Git
 
-If you are new to coding, follow these step to be able to edid the repository.
+If you are new to coding, follow these step to be able to edit the repository.
 
 #### 1. Install Visual Studio Code (VS Code)
 Install VS code here: https://code.visualstudio.com/download
@@ -66,3 +66,23 @@ Fill in the title and description for your Pull Request, explaining what changes
 Click Create pull request.
 
 In the Pull Request, you can mention specific people to request reviews by typing @username in the comments section.
+
+## To consider for following editing 
+
+Before editing again, run these commands to pull new edits from the Main and merge them to your branch.
+
+Switch to the Main branch
+
+    git checkout main
+
+Pull changes from Main branch
+
+    git pull origin main
+
+Switch to your branch
+
+    git checkout your-feature-branch 
+
+Merge the latest changes from main into your feature branch:
+
+    git merge main
