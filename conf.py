@@ -85,6 +85,7 @@ html_theme = 'press'
 # html_logo = "_static/logo-wide.svg" #check where is _static
 # html_favicon = "_static/logo-square.svg"
 
+
 # THEME options
 html_theme_options = {
     "github_url": "https://github.com/emilesi",
