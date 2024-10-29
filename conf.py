@@ -87,23 +87,23 @@ html_theme = 'press'
 
 
 # THEME options
-html_theme_options = {
-    "github_url": "https://github.com/emilesi",
-    "repository_url": "https://github.com/emilesi/benchling-resources",
-    # "repository_branch": "main",
-    # "home_page_in_toc": True,
-    # # "path_to_docs": "docs",
-    # "show_navbar_depth": 1,
-    # # "use_edit_page_button": True,
-    # # "use_repository_button": True,
-    # "use_download_button": True,
-    # #"launch_buttons": {
-    # #    "colab_url": "https://colab.research.google.com"
-    # #    #     "binderhub_url": "https://mybinder.org",
-    # #   #     "notebook_interface": "jupyterlab",
-    # #},
-    # "navigation_with_keys": False,
-}
+# html_theme_options = {
+#     "github_url": "https://github.com/emilesi",
+#     "repository_url": "https://github.com/emilesi/benchling-resources",
+#     # "repository_branch": "main",
+#     # "home_page_in_toc": True,
+#     # # "path_to_docs": "docs",
+#     # "show_navbar_depth": 1,
+#     # # "use_edit_page_button": True,
+#     # # "use_repository_button": True,
+#     # "use_download_button": True,
+#     # #"launch_buttons": {
+#     # #    "colab_url": "https://colab.research.google.com"
+#     # #    #     "binderhub_url": "https://mybinder.org",
+#     # #   #     "notebook_interface": "jupyterlab",
+#     # #},
+#     # "navigation_with_keys": False,
+# }
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
