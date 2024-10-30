@@ -29,7 +29,7 @@ Create new branch:
     
     git checkout -b your-feature-branch
 
-Move to the new branch:
+Check in which branch you are now:
 
     git branch 
 (you should see an asterisk (*) next to your-feature-branch, indicating you are currently on that branch)
