@@ -2,6 +2,8 @@
 
 Welcome to our Benchling training resources page! 
 
+Mia made a change here!
+
 We hope that here you will find the information you need to start using Benchling and master it. The resources will introduce you to various Benchling functionalities, modules and custom-built (Biosustain-specific) extensions so that you can quickly get up to speed and start using the platform! 
 
 For additonal resources, you can always visit the official Benchling support page: https://help.benchling.com/hc/en-us 
