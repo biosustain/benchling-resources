@@ -1,19 +1,20 @@
-# Static website for Benchling resources at DTU Biosustain
+# Benchling resources at DTU Biosustain
 
 ## Description
 
-This repository builds a static website using Sphinx.
-The website contains Benchling training resources for researchers at DTU Biosustain.
+This repository builds a static website  containing Benchling resources created at DTU Biosustain.
+
+The website is built using [Sphinx](https://www.sphinx-doc.org/en/master/usage/index.html) and [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 ## Add or edit resources using Git
 
 If you are new to coding, follow these step to be able to edit the repository.
 
 #### 1. Install Visual Studio Code (VS Code)
-Install VS code here: https://code.visualstudio.com/download
+Follow instructions here: https://code.visualstudio.com/download
 
 #### 2. Open terminal and install git
-
+Follow instructions here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git 
 
 #### 3. Clone repository
     git clone https://github.com/emilesi/benchling-resources.git
@@ -86,3 +87,5 @@ Switch to your branch
 Merge the latest changes from main into your feature branch:
 
     git merge main
+
+Note: If you need to access your GitHub account from the terminal, you might need [an access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
