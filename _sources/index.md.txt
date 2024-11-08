@@ -12,16 +12,17 @@ about
 ```{toctree}
 :maxdepth: 2
 :hidden:
-:caption: A topic
+:caption: Guides
 
 folder_topic/article_topic
 folder_topic/training_goal
+folder_topic/how_to_guides
 ```
 
 ```{toctree}
 :maxdepth: 2
 :hidden:
-:caption: A topic
+:caption: Training materials
 
 new_topic/contents
 ```
