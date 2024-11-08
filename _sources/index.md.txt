@@ -23,6 +23,7 @@ folder_topic/how_to_guides
 :maxdepth: 2
 :hidden:
 :caption: Training materials
+:titlesonly: 
 
 new_topic/contents
 ```
