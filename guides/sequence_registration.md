@@ -1,4 +1,4 @@
-# Guide 1
+# Sequence registration
 
 Guide 1
 

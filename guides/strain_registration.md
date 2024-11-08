@@ -1,4 +1,4 @@
-# Article headline
+# Strain registration
 
 > Author: Ester Milesi
 

@@ -14,9 +14,9 @@ about
 :hidden:
 :caption: Guides
 
-folder_topic/article_topic
-folder_topic/training_goal
-folder_topic/how_to_guides
+guides/material_orders
+guides/sequence_registration
+guides/strain_registration
 ```
 
 ```{toctree}
@@ -25,5 +25,6 @@ folder_topic/how_to_guides
 :caption: Training materials
 :titlesonly: 
 
-new_topic/contents
+training_materials/basics
+training_materials/molbio
 ```
