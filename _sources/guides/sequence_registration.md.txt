@@ -3,7 +3,7 @@
 Guide 1
 
 
-# Guide 2
+## Guide 2
 
 
 Guide 2 
@@ -11,7 +11,7 @@ Guide 2
 > By Mía and Ester
 
 
-# Guide 3
+## Guide 3
 
 Emded new video:
 

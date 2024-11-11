@@ -1,3 +1,4 @@
+# Basics
 Paragraph-level markup
 These directives create short paragraphs and can be used inside information units as well as normal text.
 
@@ -17,3 +18,7 @@ normal text
 This is a test
 To see how the Paragraph-level markup works
 ```
+
+## Part 1
+
+## Part 2

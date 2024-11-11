@@ -1,12 +1,8 @@
-# Training 1
+# Mol Bio
 
 Training: Molecular Biology Tool
 
 
+## Part 1
 
-
-
-# Training 2 
-
-Training: Intro to Benchling
-
+## Part 2
