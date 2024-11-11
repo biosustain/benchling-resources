@@ -6,9 +6,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Benchling materials for DTU Biosustain"
+#project = "Benchling resources"
 copyright = "2024, DTU Biosustain, Informatics Platform, Research Data Management Team"
-author = "Ester Milesi"
+#author = "Ester Milesi"
 
 
 # -- General configuration ---------------------------------------------------
@@ -81,10 +81,16 @@ nb_custom_formats = {
 #THEME (AND LOGO) 
 
 #_static directory is typically where Sphinx expects custom static assets like images
-html_theme = 'press'
+#html_theme = 'press'
+html_theme = 'piccolo_theme'
 # html_logo = "_static/logo-wide.svg" #check where is _static
 # html_favicon = "_static/logo-square.svg"
 
+html_theme_options = {
+    "show_theme_credit": False
+}
+
+html_title = '' 
 
 # THEME options
 # html_theme_options = {
@@ -108,3 +114,5 @@ html_theme = 'press'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 # html_static_path = ['_static']
+
+
