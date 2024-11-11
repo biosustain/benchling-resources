@@ -1,6 +1,5 @@
 sphinx
-sphinx-book-theme
-sphinx-press-theme
+piccolo_theme
 myst-nb
 ipywidgets
 sphinx-new-tab-link!=0.2.2

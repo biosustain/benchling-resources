@@ -1,6 +1,6 @@
-# Biosustain Benchling resources
+# Benchling resources
 
-Welcome to Biosustain Benchling resources page! 
+Welcome to **Biosustain Benchling resources** page! 
 
 Here you will find **step-by-step guides** and **short videos** to help you track and manage your experimental data in Benchling.
 
@@ -24,7 +24,7 @@ about
 ```{toctree}
 :maxdepth: 1
 :hidden:
-:caption: Benchling guides
+:caption: 'Benchling guides'
 
 Submit a material order <guides/material_orders>
 Register your sequences <guides/sequence_registration>
@@ -34,7 +34,7 @@ Register your strains <guides/strain_registration>
 ```{toctree}
 :maxdepth: 1
 :hidden:
-:caption: Training materials
+:caption: 'Training materials'
 
 Introduction to Benchling <training_materials/basics>
 Molecular Biology Tools <training_materials/molbio>
