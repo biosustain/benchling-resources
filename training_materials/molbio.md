@@ -1,8 +1,17 @@
-# Mol Bio
+# Molecular Biology Tools
 
-Training: Molecular Biology Tool
+```{note}
+This is a test
+```
 
+```{tip}
+This is a test
+```
 
-## Part 1
+```{warning}
+This is a test
+```
 
-## Part 2
+## Add section
+
+## Add section
