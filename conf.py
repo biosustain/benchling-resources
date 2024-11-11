@@ -19,7 +19,7 @@ extensions = [
     "myst_nb", 
     # "sphinx_design", # https://sphinx-design.readthedocs.io/en/sbt-theme/
     # "sphinx_copybutton", # https://sphinx-copybutton.readthedocs.io/
-    "sphinx_new_tab_link",
+    "sphinx_new_tab_link"
 ]
 
 templates_path = ["_templates"]

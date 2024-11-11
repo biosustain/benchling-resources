@@ -89,3 +89,23 @@ Merge the latest changes from main into your feature branch:
     git merge main
 
 Note: If you need to access your GitHub account from the terminal, you might need [an access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
+
+## Build the site locally to enable site preview in VS code
+
+While being inside the folder containing your local repository, install required packages from requirements.txt:
+    
+    pip install -r requirements.txt
+
+Build the site locally by running the following command:
+    
+    sphinx-build -n -W --keep-going -b html ./ ./_build/
+
+If this doesn't work, run the following:
+
+    python -m sphinx -n -W --keep-going -b html ./ ./_build/
+
+Now you should be able to see the _build folder in VS code.
+
+To enable the preview of the site in VS code, install the extension "Live Preview" in VS code.
+
+To preview the website, right-click on index.html and click "Show Preview".
