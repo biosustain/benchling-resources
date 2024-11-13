@@ -6,7 +6,7 @@
 
 # -- Project information -----------------------------------------------------
 
-#project = "Benchling resources"
+project = "Benchling resources"
 copyright = "2024, DTU Biosustain, Informatics Platform, Research Data Management Team"
 #author = "Ester Milesi"
 
@@ -19,7 +19,8 @@ extensions = [
     "myst_nb", 
     # "sphinx_design", # https://sphinx-design.readthedocs.io/en/sbt-theme/
     # "sphinx_copybutton", # https://sphinx-copybutton.readthedocs.io/
-    "sphinx_new_tab_link"
+    "sphinx_new_tab_link",
+    "sphinx_design" #This extension enables the hiding of answers in the FAQ page (allow us to use {dropdown})
 ]
 
 templates_path = ["_templates"]
@@ -90,7 +91,7 @@ html_theme_options = {
     "show_theme_credit": False
 }
 
-html_title = '' 
+html_title = 'Benchling resources' 
 
 # THEME options
 # html_theme_options = {
