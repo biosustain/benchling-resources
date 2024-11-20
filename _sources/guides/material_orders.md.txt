@@ -7,3 +7,22 @@ Test of embedding a video
 ## Add section
 
 ## Add section
+
+```{note}
+A note
+```
+
+```{tip}
+A tip
+```
+
+```{important}
+Something important
+```
+```{warning}
+A warning
+```
+
+```{caution}
+Something to be cautious about
+```
