@@ -46,7 +46,7 @@ Open repository in VS Code:
 - use [pandoc](https://pandoc.org/try/) to convert your existing training files into markdown or reStructuredText
 
     
-    **Custom directive**
+    **Custom directives**
 
 - create **hidden text boxes** using *{dropdowns}* (a practical use case for FAQs). Example:
 
