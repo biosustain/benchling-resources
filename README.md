@@ -45,6 +45,27 @@ Open repository in VS Code:
 - update the `index.md` file to include new files
 - use [pandoc](https://pandoc.org/try/) to convert your existing training files into markdown or reStructuredText
 
+    
+    **Custom directives**
+
+- create **hidden text boxes** using *{dropdowns}* (a practical use case for FAQs). 
+Example:
+
+    ````
+    ```{dropdown}  Dropdown title
+    Dropdown text
+    ```
+    ````
+
+- create **highlighted text boxes** for warnings and tips using *{note}*, *{tip}*, *{important}*, *{warning}*, and *{caution}*. Example:
+    
+    ````
+    ```{tip}
+    Tip text
+    ```
+    ````
+
+
 #### 6. Push changes to GitHub
 
 Go back to your terminal and stage your changes:
