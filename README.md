@@ -48,7 +48,8 @@ Open repository in VS Code:
     
     **Custom directives**
 
-- create **hidden text boxes** using *{dropdowns}* (a practical use case for FAQs). Example:
+- create **hidden text boxes** using *{dropdowns}* (a practical use case for FAQs). 
+Example:
 
     ````
     ```{dropdown}  Dropdown title
