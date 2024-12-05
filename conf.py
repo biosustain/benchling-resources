@@ -20,7 +20,9 @@ extensions = [
     # "sphinx_design", # https://sphinx-design.readthedocs.io/en/sbt-theme/
     # "sphinx_copybutton", # https://sphinx-copybutton.readthedocs.io/
     "sphinx_new_tab_link",
-    "sphinx_design" #This extension enables the hiding of answers in the FAQ page (allow us to use {dropdown})
+    "sphinx_design", #This extension enables the hiding of answers in the FAQ page (allow us to use {dropdown})
+    # "sphinxcontrib.video", # This extension allows video embedding without YouTube https://sphinxcontrib-video.readthedocs.io/en/latest/index.html (not working)
+    
 ]
 
 templates_path = ["_templates"]
@@ -115,5 +117,6 @@ html_title = 'Benchling resources'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_css_files = ['custom.css'] # Fixes ability to center text on the screen
 
 
