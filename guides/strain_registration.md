@@ -50,11 +50,29 @@ Each step is shown in the video down below.
 
     If there are no validation errors, your strains will now be registered!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_4SFBM0M1iA?si=CfAimXGJYZkgAKo1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+````{raw} html
+<div style="text-align: center;">
+   <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/_4SFBM0M1iA?si=CfAimXGJYZkgAKo1?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+   </iframe>
+</div>
+````
+
 
 ## How to store a strain
 
-![Strain storage](../_static/images/store-a-strain-v2.png)
+````{figure} ../_static/images/store-a-strain-v2.png
+:alt: Strain-storage
+:width: 90%
+:align: center
+
+````
 
 ```{note}
 Each step is shown in the video down below. 
@@ -79,17 +97,26 @@ Each step is shown in the video down below.
 
     Helps you create vials for the samples and lets you store them in the box. 
 
+````{raw} html
+<div style="text-align: center;">
+   <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/-MP_b3G6ULg?si=yfGJ5ZpS7JKkViui?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+   </iframe>
+</div>
+````
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-MP_b3G6ULg?si=yfGJ5ZpS7JKkViui" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## Can I do this from a spreadsheet?
 Yes, you can easily register strains by uploading a spreadsheet onto a strain registration table. Your spreadsheet must have columns corresponding to some or all of the required fields. 
 
 ```{important}
-**You can use the following template for strain registration:**
-
--> Document
-
+**You can use the following template for strain registration:** {download}`Strain_Template_YourName.xlsx <../_static/files/Strain_Template_YourName.xlsx>`.
 * Red fields are mandatory
 * Blue fields refer to registered entities
 ```
@@ -100,7 +127,20 @@ Benchling will try to match the names in blue fields to entities in the registry
 It is recommended to use **registry IDs** (which are unique) instead of entity names to prevent this issue.
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xKyDvrNoZh8?si=ltnVty38KMEbLJxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+````{raw} html
+<div style="text-align: center;">
+   <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/xKyDvrNoZh8?si=ltnVty38KMEbLJxY?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+   </iframe>
+</div>
+````
+
 
 ## Tips and tricks
+
 You can register from a table multiple times, without duplicating registries – only the changes and additions are uploaded! You can use this to update registered entities or add new ones from the same table.   
