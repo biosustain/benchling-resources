@@ -43,8 +43,7 @@ FAQ
 :hidden:
 :caption: 'Benchling guides'
 
-Submit a material order <guides/material_orders>
-Register your sequences <guides/sequence_registration>
+Introduction <guides/introduction>
 Register your strains <guides/strain_registration>
 ```
 

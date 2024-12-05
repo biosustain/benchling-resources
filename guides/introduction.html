@@ -5,11 +5,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Sequence registration &#8212; Benchling resources</title>
+    <title>Introduction &#8212; Benchling resources</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=9b2032db" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=bf62a8ee" />
     <script src="../_static/documentation_options.js?v=5929fcd5"></script>
     <script src="../_static/doctools.js?v=9bcbadda"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
@@ -21,7 +22,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Register strains in Benchling" href="strain_registration.html" />
-    <link rel="prev" title="Material orders" href="material_orders.html" /> 
+    <link rel="prev" title="FAQ" href="../FAQ.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -131,8 +132,7 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Benchling guides</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="material_orders.html">Submit a material order</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Register your sequences</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="strain_registration.html">Register your strains</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Training materials</span></p>
@@ -150,41 +150,79 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section class="tex2jax_ignore mathjax_ignore" id="sequence-registration">
-<h1>Sequence registration<a class="headerlink" href="#sequence-registration" title="Link to this heading">¶</a></h1>
-<p>Test of embedding a video</p>
-<iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&controls=0&loop=1&color=white&rel=0" frameborder="0" allowfullscreen></iframe>
-<section id="add-section">
-<h2>Add section<a class="headerlink" href="#add-section" title="Link to this heading">¶</a></h2>
-</section>
-<section id="id1">
-<h2>Add section<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
-</section>
-</section>
+  <section class="tex2jax_ignore mathjax_ignore" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">¶</a></h1>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text"><strong>Data collection and storage in Benchling</strong></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text"><strong>The Registry</strong></p>
+<p class="sd-card-text">When working on a project, you will often create various entities, such as primers, strains, and plasmids. <strong>Registering</strong> these entities ensures they are easily searchable and accessible across the organization, while also standardizing metadata capture.</p>
+<p class="sd-card-text">This registration process is crucial for utilizing the <strong>Inventory</strong> feature, which helps track entities and their usage over time. Additionally, registering enables you to establish relationships between entities and link them to <strong>Results</strong> tables for comprehensive data analysis.</p>
+<p class="sd-card-text">Knowing how to use the Registry will allow you to unlock the full capabilities of Benchling!</p>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/data-storage.png"><img alt="Diagram showing the meaning and relationship between Registry, Inventory and Results" src="../_images/data-storage.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>The Registry, Inventory and Results</em></span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<p class="sd-card-text"><strong>Important things to consider</strong></p>
+<p class="sd-card-text">→ <em>You can register many kinds of entities</em></p>
+<p class="sd-card-text">The Registry goes beyond biological samples. It can also be used for things like media, commercial materials and submissions for analytics.</p>
+<p class="sd-card-text">→ <em>Registering lets you keep track of entities</em></p>
+<p class="sd-card-text">By using the Registry, you can keep track of links between entities, for example, if you have a parent strain and the plasmid it was transformed with to get a new strain, you could link all three entities.</p>
+<p class="sd-card-text">You can also monitor the storage of samples. For storage, you can create batches, which represent physical instances of an entity. Batches let you know when something was stored and by whom.</p>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="../_images/transformation-storage.png"><img alt="Diagram showing the meaning and relationship between Registry, Inventory and Results" src="../_images/transformation-storage.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Relations between entities</em></span><a class="headerlink" href="#id2" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<p class="sd-card-text">→ <em>Some entities require pre-registering other entities</em></p>
+<p class="sd-card-text">For example, if you desire to link a plasmid when registering a new strain, the plasmid must be registered beforehand.</p>
+<p class="sd-card-text"><strong>The Inventory</strong></p>
+<p class="sd-card-text">The <strong>Inventory</strong> is a virtual representation of the storage system of the labs at DTU Biosustain. It allows user to track the physical location of registered entities.</p>
+<p class="sd-card-text">Using the Inventory requires a few essential steps. First, you must create a box or a plate in the location (room, freezer) you want your samples to be. This can be done from the Inventory menu or from an ELN. Afterwards, you need to store your registered entity in a container, such as a tube or a vial. Alternatively, if you want to store a sample in a plate, only the plate needs to exist beforehand.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p class="sd-card-text">Entities such as <strong>strains</strong> or <strong>plasmids</strong> require <strong>Entity Batches</strong> to be created before storage. This makes it possible to know when a particular physical instance of the entity was stored.</p>
+</div>
+<p class="sd-card-text">A general overview of the information related to the inventory is shown in the figure below.</p>
+<figure class="align-center" id="id3">
+<a class="reference internal image-reference" href="../_images/storage-inventory.png"><img alt="Diagram showing the meaning and relationship between Registry, Inventory and Results" src="../_images/storage-inventory.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Inventory overview</em></span><a class="headerlink" href="#id3" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<p class="sd-card-text"><strong>Results</strong></p>
+<p class="sd-card-text"><strong>Results</strong> tables can be created in ELNs. They allow you to capture and map specific results back to samples in the Registry.</p>
+<p class="sd-card-text">An example of how <strong>Results</strong> can be used in Benchling is shown in the figure below:</p>
+<figure class="align-center" id="id4">
+<a class="reference internal image-reference" href="../_images/results-example.png"><img alt="Diagram showing the meaning and relationship between Registry, Inventory and Results" src="../_images/results-example.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Figure adapted from Benchling</em>: <a class="reference external" href="https://help.benchling.com/hc/en-us/articles/15656552131085-Results-Best-Practices" rel="noopener noreferrer" target="_blank">Results Best Practices</a></span><a class="headerlink" href="#id4" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text"><strong>Entities and schemas in Benchling</strong></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">In Benchling, <strong>entities</strong> and <strong>schemas</strong> are the backbone of how information is structured, stored, and interconnected. They provide a standardized way to represent biological, chemical, and material components, enabling seamless workflows and robust data tracking. Together, entities and schemas ensure that data remains organized, traceable, and easily accessible throughout your research processes.</p>
+<p class="sd-card-text"><strong>Entities</strong></p>
+<p class="sd-card-text">Entities are the individual building blocks of the Benchling platform, representing key elements of your research, such as DNA sequences, strains, samples, or reagents. They hold information about physical or conceptual items in the lab, often enriched with metadata like descriptions, annotations, and relationships to other entities.</p>
+<p class="sd-card-text"><strong>Schemas</strong></p>
+<p class="sd-card-text">Schemas define the structure of entities in Benchling, acting as templates that standardize how information is captured and stored. They determine the required fields, optional properties, and relationships for a given type of entity.</p>
+</div>
+</details></section>
 
 
             <div class="clearer"></div>
           </div>
         </div>
       </div>
-    
-        <div id="show_right_sidebar">
-            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents</span></a></p>
-        </div>
-
-        <div id="right_sidebar">
-            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
-            <div class="page_toc">
-                <ul>
-<li><a class="reference internal" href="#">Sequence registration</a><ul>
-<li><a class="reference internal" href="#add-section">Add section</a></li>
-<li><a class="reference internal" href="#id1">Add section</a></li>
-</ul>
-</li>
-</ul>
-
-            </div>
-        </div>
     
 
       <div class="clearer"></div>
@@ -193,8 +231,8 @@
         <div class="button_nav">
             <div class="left">
                 
-                <a href="material_orders.html">
-                    <span class="icon">&lt;</span><span>Material orders</span></a>
+                <a href="../FAQ.html">
+                    <span class="icon">&lt;</span><span>FAQ</span></a>
                 
             </div>
 
