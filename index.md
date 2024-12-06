@@ -25,7 +25,7 @@ For additonal resources, you can always visit the [official Benchling Help Page]
 :maxdepth: 1
 :hidden:
 
-contact
+Contact us <contact>
 ```
 
 ```{toctree}
