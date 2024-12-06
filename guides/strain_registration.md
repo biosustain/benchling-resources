@@ -1,7 +1,5 @@
 # Register strains in Benchling
 
-> Author: Mía López Portillo Ontiveros
-
 ## Overview
 This article will teach you how to register a strain in Benchling from your Notebook. 
 
@@ -144,3 +142,6 @@ It is recommended to use **registry IDs** (which are unique) instead of entity n
 ## Tips and tricks
 
 You can register from a table multiple times, without duplicating registries – only the changes and additions are uploaded! You can use this to update registered entities or add new ones from the same table.   
+
+
+*Author: Mía López Portillo Ontiveros*
