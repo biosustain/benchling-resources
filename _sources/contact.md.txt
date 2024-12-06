@@ -1,4 +1,4 @@
-# Contact
+# Contact us
 
 If you have questions about Benchling or any advice on how to improve current data workflows, you can contact us at <mark style="background-color: #C5DBEC;">[lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk)</mark>.
 We are always open to feedback and suggestions!
