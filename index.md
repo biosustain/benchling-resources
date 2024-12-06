@@ -19,13 +19,13 @@ Benchling also includes an **in-silico molecular design module** and a **request
 
 For additonal resources, you can always visit the [official Benchling Help Page](https://help.benchling.com/hc/en-us)!
  
-[The LIMS Support team](about.md)
+[LIMS Support team](contact.md)
 
 ```{toctree}
 :maxdepth: 1
 :hidden:
 
-about
+contact
 ```
 
 ```{toctree}
