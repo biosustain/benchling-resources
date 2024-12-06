@@ -1,26 +1,23 @@
-# Welcome to the Biosustain Benchling Resources Page!
+# Welcome!
 
-Here you will find **step-by-step guides** and **short videos** to help you navigate Benchling and successfully track and manage your experimental data during your time at Biosustain.
+The **Biosustain Benchling Resources Page** will help you navigate Benchling and successfully track and manage your experimental data during your time at Biosustain.
 
-```{dropdown} Explore how we use Benchling at Biosustain
-At Biosustain, we primarily use Benchling as the central platform for:
-- samples metadata tracking
-- sharing SOPs and electronic notebook (ELN) pages 
-- in-silico molecular design
+Here you will find <mark style="background-color: #C5DBEC;">step-by-step tutorials and short training videos</mark>.
 
-We also use the platform to submit requests for:
-- in-house samples analysis to the [Analytics Team](https://www.biosustain.dtu.dk/technologies/biofoundry/analytics) and the [DNA Foundry](https://www.biosustain.dtu.dk/technologies/biofoundry/dna-foundry)
-- orders for lab goods 
-```
+## Benchling in a nutshell:
 
-```{dropdown} Why centralized platforms matter
-The main goal of using a centralized platform is to enhance **data findability** and **foster collaboration**. Your sample metadata, notes and SOPs are stored in a single location and linked to each other using notebook @tags and metadata @entity links.
-```
+````{figure} ./_static/images/benchling-modules.png
+:alt: benchling-modules
+:width: 90%
+:align: center
 
- 
- 
- 
-For additonal resources, you can always visit the [official Benchling support page](https://help.benchling.com/hc/en-us)!
+````
+
+Benchling is an **online platform** that <mark style="background-color: #C5DBEC;">keeps your experimental data, electronic notebooks, and SOPs all in one place</mark>, making it easy to organize and link them together, and to share them with other researchers.
+
+Benchling also includes an **in-silico molecular design module** and a **request submission** module. 
+
+For additonal resources, you can always visit the [official Benchling Help Page](https://help.benchling.com/hc/en-us)!
  
 [The LIMS Support team](about.md)
 
@@ -43,15 +40,14 @@ FAQ
 :hidden:
 :caption: 'Benchling guides'
 
-Introduction <guides/introduction>
+Overview <guides/introduction>
 Register your strains <guides/strain_registration>
 ```
 
 ```{toctree}
 :maxdepth: 1
 :hidden:
-:caption: 'Training materials'
+:caption: 'Workshops material'
 
-Introduction to Benchling <training_materials/basics>
-Molecular Biology Tools <training_materials/molbio>
+Introduction for new employees <training_materials/basics>
 ```
