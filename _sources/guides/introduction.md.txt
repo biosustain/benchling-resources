@@ -1,4 +1,4 @@
-# Introduction
+# Overview
 
 ````{dropdown} **Data collection and storage in Benchling**
 
