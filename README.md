@@ -17,7 +17,7 @@ Follow instructions here: https://code.visualstudio.com/download
 Follow instructions here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git 
 
 #### 3. Clone repository
-    git clone https://github.com/emilesi/benchling-resources.git
+    git clone https://github.com/biosustain/benchling-resources.git
 
 #### 4. Create a new branch of the repository
 

@@ -97,8 +97,8 @@ html_title = 'Benchling resources'
 
 # THEME options
 # html_theme_options = {
-#     "github_url": "https://github.com/emilesi",
-#     "repository_url": "https://github.com/emilesi/benchling-resources",
+#     "github_url": "https://github.com/biosustain",
+#     "repository_url": "https://github.com/biosustain/benchling-resources",
 #     # "repository_branch": "main",
 #     # "home_page_in_toc": True,
 #     # # "path_to_docs": "docs",
