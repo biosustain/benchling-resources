@@ -8,3 +8,9 @@
 figure.align-center {
     text-align: center;
 }
+
+.admonition.my-custom-admonition {
+    background-color: #e8daed;
+    border-left: 4px solid #ab86ba;
+    padding: 10px;
+}
