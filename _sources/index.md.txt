@@ -47,7 +47,7 @@ Register your strains <guides/strain_registration>
 ```{toctree}
 :maxdepth: 1
 :hidden:
-:caption: 'Workshops material'
+:caption: 'Workshop material'
 
 Introduction for new employees <training_materials/basics>
 ```
