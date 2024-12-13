@@ -65,6 +65,37 @@ Example:
     ```
     ````
 
+- embed an **image** as a *figure* (you can add captions to it). The image must be saved in ../_static/images/
+Example: 
+    ````
+    ```{figure} ../_static/images/data-storage.png
+    :alt: Diagram showing the meaning and relationship between Registry, Inventory and Results
+    :width: 80%
+    :align: center
+
+    *The Registry, Inventory and Results*
+    ```
+    ````
+
+- embed a **document**, available for download. The document must be saved in ../_static/files/. Example: 
+
+    {download}`Strain_Template_YourName.xlsx <../_static/files/Strain_Template_YourName.xlsx>`
+
+- embed a **video**. Note: certain parameters after the link are important: "rel=0&modestbranding=1&autoplay=0&showinfo=0". Example:
+    `````
+    ````{raw} html
+    <div style="text-align: center;">
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/xKyDvrNoZh8?si=ltnVty38KMEbLJxY?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+    </div>
+    ````
+    `````
 
 #### 6. Push changes to GitHub
 
