@@ -42,6 +42,7 @@ FAQ
 
 Overview <guides/introduction>
 Register your strains <guides/strain_registration>
+Create sequences <guides/sequence_creation.md>
 ```
 
 ```{toctree}
