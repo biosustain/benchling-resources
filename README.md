@@ -78,8 +78,9 @@ Example:
     ````
 
 - embed a **document**, available for download. The document must be saved in ../_static/files/. Example: 
-
+    `````
     {download}`Strain_Template_YourName.xlsx <../_static/files/Strain_Template_YourName.xlsx>`
+    `````
 
 - embed a **video**. Note: certain parameters after the link are important: "rel=0&modestbranding=1&autoplay=0&showinfo=0". Example:
     `````
@@ -96,6 +97,37 @@ Example:
     </div>
     ````
     `````
+
+- **highlight** a phrase. You can choose any color in HEX format. Example:
+    ```
+    Here you will find <mark style= "background-color: #C5DBEC;">step-by-step tutorials and short training videos</mark>.
+    ```
+
+- create **textboxes** with custom background color, highlight and titles. 
+
+    **Create custom admonition**
+
+    First, add the following code to the file _static/custom.css. Remember to change the **name** (my-custom-admonition).
+        
+        `````
+        .admonition.my-custom-admonition {
+            background-color: #e0f0ff;
+            border-left: 4px solid #0077cc;
+            padding: 10px;
+        }
+        `````
+
+    **Apply custom admonition**
+
+    Add the **name** of the custom admonition: 
+        
+        `````
+        ```{admonition} My Custom Title
+        :class: my-custom-admonition
+
+        This is a custom textbox with a custom color.
+        ```
+        `````
 
 #### 6. Push changes to GitHub
 
