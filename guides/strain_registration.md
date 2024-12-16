@@ -52,8 +52,8 @@ Each step is shown in the video down below.
 ````{raw} html
 <div style="text-align: center;">
    <iframe 
-      width="560" 
-      height="315" 
+      width="700" 
+      height="400" 
       src="https://www.youtube.com/embed/_4SFBM0M1iA?si=CfAimXGJYZkgAKo1?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
       frameborder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -98,8 +98,8 @@ Each step is shown in the video down below.
 ````{raw} html
 <div style="text-align: center;">
    <iframe 
-      width="560" 
-      height="315" 
+     width="700"
+     height="400" 
       src="https://www.youtube.com/embed/-MP_b3G6ULg?si=yfGJ5ZpS7JKkViui?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
       frameborder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -128,8 +128,8 @@ It is recommended to use **registry IDs** (which are unique) instead of entity n
 ````{raw} html
 <div style="text-align: center;">
    <iframe 
-      width="560" 
-      height="315" 
+      width="700" 
+      height="400" 
       src="https://www.youtube.com/embed/xKyDvrNoZh8?si=ltnVty38KMEbLJxY?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
       frameborder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
