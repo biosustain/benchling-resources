@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Register strains in Benchling &#8212; Benchling resources</title>
+    <title>Use the Registry &#8212; Benchling resources</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=9b2032db" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
@@ -20,8 +20,8 @@
     <script src="../_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Create and import sequences" href="sequence_creation.html" />
-    <link rel="prev" title="Overview" href="introduction.html" /> 
+    <link rel="next" title="Introduction for new employees" href="../training_materials/basics.html" />
+    <link rel="prev" title="Create and import sequences" href="sequence_creation.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -132,9 +132,9 @@
 <p class="caption" role="heading"><span class="caption-text">Benchling guides</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Overview</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Register your strains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="strain_registration.html">Register your strains</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sequence_creation.html">Create sequences</a></li>
-<li class="toctree-l1"><a class="reference internal" href="use_registry.html">Use the Registry</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Use the Registry</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Workshop material</span></p>
 <ul>
@@ -150,141 +150,154 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section class="tex2jax_ignore mathjax_ignore" id="register-strains-in-benchling">
-<h1>Register strains in Benchling<a class="headerlink" href="#register-strains-in-benchling" title="Link to this heading">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="use-the-registry">
+<h1>Use the Registry<a class="headerlink" href="#use-the-registry" title="Link to this heading">¶</a></h1>
 <section id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">¶</a></h2>
-<p>This article will teach you how to register a strain in Benchling from your Notebook.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Registering your strains in Benchling will make it easier for you to <strong>keep track of their lineage</strong>, links to other entities such as plasmids and parent strains, and their <strong>storage locations</strong> at Biosustain.</p>
-</div>
+<p>This article will help you understand how to use the Benchling Registry according to your needs.</p>
 </section>
-<section id="pre-requisites">
-<h2>Pre-requisites<a class="headerlink" href="#pre-requisites" title="Link to this heading">¶</a></h2>
-<p>Before registering your strains, register relevant linked entities such as the <strong>organism</strong> (i.e. <em>Escherichia coli</em>, <em>Pichia pastoris</em>, etc.), the <strong>parent strain</strong>, <strong>plasmids</strong>, or a specific <strong>medium</strong>. In order to link your strains to these other entities, they must be registered beforehand.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Organisms and Media must be stored in the <strong>Biosustain Common Inventory</strong> project in Benchling (to avoid needing to register the same Organism or Medium multiple times).</p>
-</div>
-<section id="about-registration-fields">
-<h3>About registration fields<a class="headerlink" href="#about-registration-fields" title="Link to this heading">¶</a></h3>
-<table class="docutils align-default">
-<thead>
-<tr class="row-odd"><th class="head"><p>Field</p></th>
-<th class="head"><p>Definition</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Host strain</p></td>
-<td><p>A well-characterized microbial strain, like <em>E. coli BL21</em>, used as the baseline for genetic manipulation or protein expression.</p></td>
-</tr>
-<tr class="row-odd"><td><p>Parent strain</p></td>
-<td><p>A genetically modified derivative of the host strain that serves as the starting point for further modifications.</p></td>
-</tr>
-</tbody>
-</table>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">¶</a></h2>
+<p>Using the Registry might seem like a daunting task, but it is quite flexible, and <strong>it comes with many benefits</strong>, including (1) the <strong>ability to assign distinct data types</strong> to samples, containers, and results, ensuring that data is easy to find and interpret; and (2) the possibility of <strong>standardizing metadata fields</strong> across the organization, so data types like plasmids or strains have consistent and uniform metadata.</p>
+<p><strong>Registering your experimental data in the Benchling Registry</strong> is a big step towards its standardization and its long-term findability (by you and other colleagues).</p>
+<p>You might have already recorded your experimental data in your ELN, in sequence files (for example, in the case of plasmids) and/or in spreadsheets. All of these can be standardized and added to the Registry.</p>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/registry-sources.png"><img alt="../_images/registry-sources.png" src="../_images/registry-sources.png" style="width: 50%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Sources of information for the Registry</em></span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
 </section>
-</section>
-<section id="how-to-register-a-strain">
-<h2>How to register a strain<a class="headerlink" href="#how-to-register-a-strain" title="Link to this heading">¶</a></h2>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Each step is shown in the video down below.</p>
-</div>
-<ol class="arabic">
-<li><p><strong>Open your ELN (or create a new ELN page)</strong></p>
-<p>Registering Strains directly in the ELN is the recommended way to register strains.
-You can create a specific Notebook related to strain registration, or you can add registration tables in your experimental ELNs as you go.</p>
-</li>
-<li><p><strong>Insert a strain registration table</strong></p>
-<p><em>“Insert” &gt; “Registration table”</em></p>
-</li>
-<li><p><strong>Fill in the information</strong></p>
-<p>There are some mandatory fields, the rest are optional. You can fill all the fields that are relevant to you. Fields that link to other entities require the exact entity name.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>You can drag down cells to auto-fill names if you are following a numerical sequence.</p>
-</div>
-</li>
-<li><p><strong>Click on “Submit”!</strong></p>
-<p>If there is any issue with the registration, the side of the table will be red, and you will get an error message.</p>
-<p>If there are no validation errors, your strains will now be registered!</p>
-</li>
-</ol>
-<div style="text-align: center;">
-   <iframe 
-      width="700" 
-      height="400" 
-      src="https://www.youtube.com/embed/_4SFBM0M1iA?si=CfAimXGJYZkgAKo1?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-   </iframe>
-</div></section>
-<section id="how-to-store-a-strain">
-<h2>How to store a strain<a class="headerlink" href="#how-to-store-a-strain" title="Link to this heading">¶</a></h2>
+<section id="choose-a-registration-method">
+<h2>Choose a registration method<a class="headerlink" href="#choose-a-registration-method" title="Link to this heading">¶</a></h2>
+<p>The choice of registration method depends on your particular needs.</p>
+<p>Generally, it is recommended to use <strong>registration tables</strong>, which can be added to an ELN, because they are a convenient way to visualize and keep track of all registered entities and related metadata.</p>
+<p>Nevertheless, if you’d like to explore different options, you can refer to the flowchart below to get some guidance on the <strong>recommended methods</strong> for different scenarios.</p>
 <figure class="align-center">
-<a class="reference internal image-reference" href="../_images/store-a-strain-v2.png"><img alt="Strain-storage" src="../_images/store-a-strain-v2.png" style="width: 90%;" />
+<a class="reference internal image-reference" href="../_images/registry-options.png"><img alt="../_images/registry-options.png" src="../_images/registry-options.png" style="width: 90%;" />
 </a>
 </figure>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Each step is shown in the video down below.</p>
-</div>
-<ol class="arabic">
-<li><p><strong>Insert the “Strain storage” sub-template</strong></p>
-<p><em>Insert &gt; Sub-Template &gt; LIMS Support &gt; Strain Storage</em></p>
-</li>
-<li><p><strong>Fill-in and submit each registration table</strong></p>
-<p><em>Three tables are needed to successfully store your strain(s):</em></p>
-<p>a. Strain batch registration</p>
-<p>Allows you to create entities representing a physical batch of a strain. You can have multiple batches for a single strain.</p>
-<p>b. Box creation</p>
-<p>Allows you to generate a new, empty box in your preferred location (e.g., a Freezer)</p>
-<p>c. Container creation</p>
-<p>Helps you create vials for the samples and lets you store them in the box.</p>
-</li>
-</ol>
-<div style="text-align: center;">
-   <iframe 
-     width="700"
-     height="400" 
-      src="https://www.youtube.com/embed/-MP_b3G6ULg?si=yfGJ5ZpS7JKkViui?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-   </iframe>
-</div></section>
-<section id="can-i-do-this-from-a-spreadsheet">
-<h2>Can I do this from a spreadsheet?<a class="headerlink" href="#can-i-do-this-from-a-spreadsheet" title="Link to this heading">¶</a></h2>
-<p>Yes, you can easily register strains by uploading a spreadsheet onto a strain registration table. Your spreadsheet must have columns corresponding to some or all of the required fields.</p>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p><strong>You can use the following template for strain registration:</strong> <a class="reference download internal" download="" href="../_downloads/08987e5dd9ba8afdd5c4295fc57aeb55/Strain_Template_YourName.xlsx"><code class="xref download docutils literal notranslate"><span class="pre">Strain_Template_YourName.xlsx</span></code></a>.</p>
-<ul class="simple">
-<li><p>Red fields are mandatory</p></li>
-<li><p>Blue fields refer to registered entities</p></li>
-</ul>
-</div>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
-<p>Benchling will try to match the names in blue fields to entities in the registry. If multiple entities have the same name, you will get a <strong>validation error</strong>.</p>
-<p>It is recommended to use <strong>registry IDs</strong> (which are unique) instead of entity names to prevent this issue.</p>
+<p>It is important to note that entities <strong>registered</strong> outside of registration tables <strong>cannot be updated via registration tables</strong>. For updating of these entities, it is necessary to go to their metadata tab individually, or to use <a class="reference external" href="https://help.benchling.com/hc/en-us/articles/9684264620941-Export-Registry-data-in-bulk" rel="noopener noreferrer" target="_blank">bulk actions in the registry</a> to modify larger amounts of registered entities.</p>
+</div>
+</section>
+<section id="a-reminder-set-the-schema">
+<h2>A reminder: Set the schema!<a class="headerlink" href="#a-reminder-set-the-schema" title="Link to this heading">¶</a></h2>
+<p>Setting the <strong>schema</strong> of an entity is a <strong>crucial</strong> step which is <strong>always</strong> required for registration. If you create new entities in Benchling, such as DNA sequences, plasmids or primers, <strong>remember to set their schema</strong>! This can save you a lot of time later.</p>
+</section>
+<section id="how-to-register">
+<h2>How to register…<a class="headerlink" href="#how-to-register" title="Link to this heading">¶</a></h2>
+<section id="a-from-your-eln-with-registration-tables">
+<h3>a. From your ELN (with registration tables)<a class="headerlink" href="#a-from-your-eln-with-registration-tables" title="Link to this heading">¶</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you’d like to familiarize yourself with a comprehensive start-to-finish example of registration and storage from an ELN, you can check out the article on <a class="reference external" href="https://biosustain.github.io/benchling-resources/guides/strain_registration.html" rel="noopener noreferrer" target="_blank">Strain Registration</a>.</p>
+</div>
+<p>The easiest and most traceable way of registering is from your own Notebook. You can create an ELN meant for all your registrations, or register entities by experiment or day.</p>
+<ol class="arabic">
+<li><p><strong>Insert a registration table</strong></p>
+<p><em>Your ELN &gt; Insert &gt; Registration table</em></p>
+<p>You may choose to create new entities or register existing ones.</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To register an existing entity, its <strong>schema</strong> must be set correctly (eg. plasmid, DNA fragment, primer, etc.) You can do this from your entity file: <em>Metadata &gt; Schema</em></p>
+</div>
+<p>Registration tables are created by schema. If you’d like to register entities with different schemas, you will need multiple tables.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/select-schema-registrationtable.png"><img alt="../_images/select-schema-registrationtable.png" src="../_images/select-schema-registrationtable.png" style="width: 80%;" />
+</a>
+</figure>
+<ol class="arabic" start="2">
+<li><p><strong>Fill in the fields that are relevant for your workflow</strong></p>
+<p>Some fields are mandatory, and many are optional. It’s recommended to fill in as much information as possible, so other users can know what the purpose of a given entity is.</p>
+</li>
+<li><p><strong>Check for validation errors and submit</strong>
+You will be able to submit your entities to the registry once all required fields are full.</p></li>
+</ol>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/reg-table.png"><img alt="../_images/reg-table.png" src="../_images/reg-table.png" style="width: 80%;" />
+</a>
+</figure>
+<p>If there are any oversights, Benchling will indicate that there is a value error:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/value-error.png"><img alt="../_images/value-error.png" src="../_images/value-error.png" style="width: 50%;" />
+</a>
+</figure>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Value errors may occur <em>after</em> registration if an entity that is referenced in one of the fields is archived.</p>
+</div>
+</section>
+<section id="b-directly-from-an-entity">
+<h3>b. Directly from an entity<a class="headerlink" href="#b-directly-from-an-entity" title="Link to this heading">¶</a></h3>
+<p>This option is mostly useful when working with only a few entities. For example, if you are designing a single plasmid, you might want to fill the relevant schema fields to avoid missing or forgetting about important information.</p>
+<ol class="arabic simple">
+<li><p>Click on the entity’s Metadata tab</p></li>
+<li><p>Set the schema (if not done previously)</p></li>
+<li><p>Fill in the schema fields</p></li>
+<li><p>Register the entity</p></li>
+</ol>
+<div style="text-align: center;">
+<iframe 
+    width="700" 
+    height="400" 
+    src="https://www.youtube.com/embed/ubmvfK-iqEs?si=2cv50WMQRTln9Onl?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+</div></section>
+<section id="c-from-your-project-folder">
+<h3>c. From your project folder<a class="headerlink" href="#c-from-your-project-folder" title="Link to this heading">¶</a></h3>
+<p>This option is similar to b), in the sense that it reduces the amount of clicks needed to register several pre-existing entities.</p>
+<ol class="arabic simple">
+<li><p>Open the expanded project view</p></li>
+<li><p>Select the entities you want to register</p></li>
+<li><p>Click the registration button</p></li>
+</ol>
+<div style="text-align: center;">
+<iframe 
+    width="700" 
+    height="400" 
+    src="https://www.youtube.com/embed/YLivrYSQVBg?si=RUzvdjpYNPpVtoP4?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+</div></section>
+<section id="d-from-the-registry-menu">
+<h3>d. From the Registry menu<a class="headerlink" href="#d-from-the-registry-menu" title="Link to this heading">¶</a></h3>
+<p>If you have a spreadsheet containing metadata for unregistered entities, you can upload the information directly from the registry menu. This feature allows you to create and register these entities in one seamless step.</p>
+<p>This approach is especially useful when managing large datasets, as it allows for bulk actions on registered entities. so you can quickly register new entities or update pre-existing ones with ease. All you need is a properly formatted spreadsheet that aligns with your schema fields, ensuring that your data integrates smoothly into the system.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Make sure your spreadsheet’s columns match the schema fields, although additional fields can be omitted when uploading. This step ensures that your data is mapped correctly during the upload process.</p>
 </div>
 <div style="text-align: center;">
-   <iframe 
-      width="700" 
-      height="400" 
-      src="https://www.youtube.com/embed/xKyDvrNoZh8?si=ltnVty38KMEbLJxY?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-   </iframe>
+<iframe 
+    width="700" 
+    height="400" 
+    src="https://www.youtube.com/embed/bvRfALTDH_I?si=mJD0LWR1uXEIMVcQ?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
 </div></section>
-<section id="tips-and-tricks">
-<h2>Tips and tricks<a class="headerlink" href="#tips-and-tricks" title="Link to this heading">¶</a></h2>
-<p>You can register from a table multiple times, without duplicating registries – only the changes and additions are uploaded! You can use this to update registered entities or add new ones from the same table.</p>
+</section>
+<section id="recommendations">
+<h2>Recommendations<a class="headerlink" href="#recommendations" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Create a structured ELN where you can keep track of your registrations.</p>
+<ul>
+<li><p>This could be done for each big project or experiment. This way, you will be able to see all the entities you have generated and registered in a single place. Additionally, this can facilitate the storage process.</p></li>
+<li><p>You can register from a table multiple times, without duplicating registries – only the changes and additions are uploaded.</p></li>
+</ul>
+</li>
+</ul>
 <p><em>Author: Mía López Portillo Ontiveros</em></p>
 </section>
 </section>
@@ -303,16 +316,19 @@ You can create a specific Notebook related to strain registration, or you can ad
             <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
             <div class="page_toc">
                 <ul>
-<li><a class="reference internal" href="#">Register strains in Benchling</a><ul>
+<li><a class="reference internal" href="#">Use the Registry</a><ul>
 <li><a class="reference internal" href="#overview">Overview</a></li>
-<li><a class="reference internal" href="#pre-requisites">Pre-requisites</a><ul>
-<li><a class="reference internal" href="#about-registration-fields">About registration fields</a></li>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#choose-a-registration-method">Choose a registration method</a></li>
+<li><a class="reference internal" href="#a-reminder-set-the-schema">A reminder: Set the schema!</a></li>
+<li><a class="reference internal" href="#how-to-register">How to register…</a><ul>
+<li><a class="reference internal" href="#a-from-your-eln-with-registration-tables">a. From your ELN (with registration tables)</a></li>
+<li><a class="reference internal" href="#b-directly-from-an-entity">b. Directly from an entity</a></li>
+<li><a class="reference internal" href="#c-from-your-project-folder">c. From your project folder</a></li>
+<li><a class="reference internal" href="#d-from-the-registry-menu">d. From the Registry menu</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#how-to-register-a-strain">How to register a strain</a></li>
-<li><a class="reference internal" href="#how-to-store-a-strain">How to store a strain</a></li>
-<li><a class="reference internal" href="#can-i-do-this-from-a-spreadsheet">Can I do this from a spreadsheet?</a></li>
-<li><a class="reference internal" href="#tips-and-tricks">Tips and tricks</a></li>
+<li><a class="reference internal" href="#recommendations">Recommendations</a></li>
 </ul>
 </li>
 </ul>
@@ -327,14 +343,14 @@ You can create a specific Notebook related to strain registration, or you can ad
         <div class="button_nav">
             <div class="left">
                 
-                <a href="introduction.html">
-                    <span class="icon">&lt;</span><span>Overview</span></a>
+                <a href="sequence_creation.html">
+                    <span class="icon">&lt;</span><span>Create and import sequences</span></a>
                 
             </div>
 
             <div class="right">
                 
-                    <a href="sequence_creation.html"><span>Create and import sequences</span><span class="icon">&gt;</span></a>
+                    <a href="../training_materials/basics.html"><span>Introduction for new employees</span><span class="icon">&gt;</span></a>
                 
             </div>
         </div>
