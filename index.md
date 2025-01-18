@@ -44,6 +44,7 @@ Start here <guides/introduction>
 Create sequences <guides/sequence_creation.md>
 Create strains <guides/strain_registration>
 Use the Registry <guides/use_registry.md>
+Register collections <guides/strain_collection.md>
 ```
 
 ```{toctree}
