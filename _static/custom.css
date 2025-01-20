@@ -14,3 +14,19 @@ figure.align-center {
     border-left: 4px solid #ab86ba;
     padding: 10px;
 }
+
+
+/* Spacing for unordered lists (ul) */
+ul li {
+    margin-bottom: 10px; /* Value can be adjusted */
+}
+
+/* Spacing for ordered lists (ol) */
+ol li {
+    margin-bottom: 10px; /* Value can be adjusted */
+}
+
+/* Spacing for nested lists */
+ul ul li, ol ol li {
+    margin-bottom: 5px; /* Value can be adjusted */
+}
