@@ -154,9 +154,86 @@
             
   <section class="tex2jax_ignore mathjax_ignore" id="create-a-plate-map">
 <h1>Create a plate map<a class="headerlink" href="#create-a-plate-map" title="Link to this heading">¶</a></h1>
-<section id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">¶</a></h2>
-<p>Text</p>
+<p>Benchling plate mapping is a useful tool for planning, visualising and registering your plate experiments:</p>
+<ul class="simple">
+<li><p>You can add multiple layers of annotations and values to create a digital record of your plate experiment.</p></li>
+<li><p>You can insert the resulting map in your ELN and navigate through the different variables in the wells.</p></li>
+<li><p>You can access or search the plate data stored the inventory.</p></li>
+</ul>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/plate-map-1.png"><img alt="Demonstrates layers of annotation that plate maps can have" src="../_images/plate-map-1.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Example of layers of annotations in a plate map</em></span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<section id="pre-requesites">
+<h2>Pre-requesites<a class="headerlink" href="#pre-requesites" title="Link to this heading">¶</a></h2>
+<p>Before creating the Plate Map, make sure the contents you want to fill the plate with are <a class="reference external" href="https://biosustain.github.io/benchling-resources/guides/use_registry.html" rel="noopener noreferrer" target="_blank">registered</a> and containable (see note for list of containable entities). You can also add those entities to a worklist to facilitate filling up the plate in bulk.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">List of Containable Entities</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">List of Benchling entities that are containable - i.e., can be added into containers (Bottle, Cryovial, Well, etc.):</p>
+<ul class="simple">
+<li><p class="sd-card-text">Analytical Submission Sample</p></li>
+<li><p class="sd-card-text">Cell Line Batch</p></li>
+<li><p class="sd-card-text">Cell Line Design</p></li>
+<li><p class="sd-card-text">Commercial Material</p></li>
+<li><p class="sd-card-text">Confidential Compound</p></li>
+<li><p class="sd-card-text">Confidential Compound Batch</p></li>
+<li><p class="sd-card-text">DNA Fragment Batch</p></li>
+<li><p class="sd-card-text">Strain Batch</p></li>
+<li><p class="sd-card-text">Plasmid Batch</p></li>
+<li><p class="sd-card-text">Fermentation Culture</p></li>
+<li><p class="sd-card-text">Generic Sample / Cell Pellet</p></li>
+<li><p class="sd-card-text">gDNA</p></li>
+<li><p class="sd-card-text">Media Samples</p></li>
+<li><p class="sd-card-text">Medium Prep</p></li>
+<li><p class="sd-card-text">Microbiome Diluted Sample</p></li>
+<li><p class="sd-card-text">Microbiome Diluted Sample in Media</p></li>
+<li><p class="sd-card-text">Microbiome Sample</p></li>
+<li><p class="sd-card-text">Nanopore Sequencing Submission Sample</p></li>
+<li><p class="sd-card-text">Primary Cell Batch</p></li>
+<li><p class="sd-card-text">Primer</p></li>
+<li><p class="sd-card-text">Primer Pair Mix</p></li>
+<li><p class="sd-card-text">Protein Batch</p></li>
+<li><p class="sd-card-text">Protein Sample</p></li>
+<li><p class="sd-card-text">Proteomics Submission Sample</p></li>
+<li><p class="sd-card-text">Stem Cell Batch</p></li>
+<li><p class="sd-card-text">Timepoint Sample</p></li>
+</ul>
+</div>
+</details></section>
+<section id="steps-to-create-a-plate-map">
+<h2>Steps to create a plate map<a class="headerlink" href="#steps-to-create-a-plate-map" title="Link to this heading">¶</a></h2>
+<p>To create a plate map, you can either insert it into a notebook entry (<em>Insert &gt; Plate Map</em>) or create a plate in the Inventory (<em>Create &gt; Plate</em>). This opens an interface where you can carry out the plate mapping in three major steps:</p>
+<section id="select-the-fixed-plate">
+<h3>1. Select the fixed plate<a class="headerlink" href="#select-the-fixed-plate" title="Link to this heading">¶</a></h3>
+<p>Choose between 6-well, 12-well, 24-well, 48-well, 96-well, or 384-well plates. Designate a location in the inventory, or fill other fields for that plate schema.</p>
+</section>
+<section id="annotate-the-wells-in-the-plate">
+<h3>2. Annotate the wells in the plate<a class="headerlink" href="#annotate-the-wells-in-the-plate" title="Link to this heading">¶</a></h3>
+<p>Select multiple wells at once by dragging the cursor or by using the <em>shift</em> key, or fill wells individually.</p>
+<ul class="simple">
+<li><p><strong>Add the well contents</strong> from the registry or from your worklist.</p></li>
+<li><p><strong>Assign roles to the wells</strong>: samples, controls, blanks or standards.</p></li>
+<li><p><strong>Add additional labels with the Well schema fields</strong>: Treatment and Dilution Factor.</p></li>
+</ul>
+</section>
+<section id="specify-the-concentrations-and-volumes-of-your-contents">
+<h3>3. Specify the concentrations and volumes of your contents<a class="headerlink" href="#specify-the-concentrations-and-volumes-of-your-contents" title="Link to this heading">¶</a></h3>
+<p>Indicate the values for the contents filling up the plate in your experiment: total well volume, stock concentration, transfer volume and well concentration.</p>
+<p><strong>Follow along this video demonstration of creating a plate map in a notebook entry.</strong></p>
+<div style="text-align: center;">
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/p_TlsnvtSxE?si=7GoysTqS336TJgnx"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div></section>
 </section>
 </section>
 
@@ -175,7 +252,13 @@
             <div class="page_toc">
                 <ul>
 <li><a class="reference internal" href="#">Create a plate map</a><ul>
-<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#pre-requesites">Pre-requesites</a></li>
+<li><a class="reference internal" href="#steps-to-create-a-plate-map">Steps to create a plate map</a><ul>
+<li><a class="reference internal" href="#select-the-fixed-plate">1. Select the fixed plate</a></li>
+<li><a class="reference internal" href="#annotate-the-wells-in-the-plate">2. Annotate the wells in the plate</a></li>
+<li><a class="reference internal" href="#specify-the-concentrations-and-volumes-of-your-contents">3. Specify the concentrations and volumes of your contents</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
