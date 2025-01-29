@@ -39,6 +39,7 @@ exclude_patterns = [
     "**/.ipynb_checkpoints/*",
     "jupyter_execute",
     "conf.py",
+    ".venv",
 ]
 
 
