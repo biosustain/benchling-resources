@@ -35,7 +35,7 @@ Please consider data ownership and confidentiality matters if you plan to share 
 ```
 
 ```{dropdown} Can I transfer data from the Biosustain instance of Benchling to a free version account?
-There is no automatic way to trasfer file across instances (for example, from your Biosustain account to a free version account). In order to achieve it, you can follow [this guide](add link) that explains the step to follow to transfer the data manually.
+There is no automatic way to trasfer file across instances (for example, from your Biosustain account to a free version account). In order to achieve it, you can follow [this guide](https://biosustain.github.io/benchling-resources/guides/transfer_data_guests.html) that explains the step to follow to transfer the data manually.
 ```
 
 
