@@ -46,6 +46,7 @@ Create strains <guides/strain_registration>
 Use the Registry <guides/use_registry.md>
 Register collections <guides/strain_collection.md>
 Create a Plate Map <guides/plate_map.md>
+Benchling terminology <guides/terminology.md>
 Guests: Transfer your data to a free account <guides/transfer_data_guests.md>
 ```
 

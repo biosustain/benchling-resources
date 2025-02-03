@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Introduction for new employees &#8212; Benchling resources</title>
+    <title>Benchling terminology &#8212; Benchling resources</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=9b2032db" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
@@ -20,7 +20,8 @@
     <script src="../_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Biosustain guests: How to export research data and continue working on Benchling" href="../guides/transfer_data_guests.html" /> 
+    <link rel="next" title="Biosustain guests: How to export research data and continue working on Benchling" href="transfer_data_guests.html" />
+    <link rel="prev" title="Create a plate map" href="plate_map.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -129,19 +130,19 @@
 <li class="toctree-l1"><a class="reference internal" href="../FAQ.html">FAQ</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Benchling guides</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../guides/introduction.html">Start here</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/sequence_creation.html">Create sequences</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/strain_registration.html">Create strains</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/use_registry.html">Use the Registry</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/strain_collection.html">Register collections</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/plate_map.html">Create a Plate Map</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/terminology.html">Benchling terminology</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/transfer_data_guests.html">Guests: Transfer your data to a free account</a></li>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Start here</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sequence_creation.html">Create sequences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="strain_registration.html">Create strains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use_registry.html">Use the Registry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="strain_collection.html">Register collections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plate_map.html">Create a Plate Map</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Benchling terminology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transfer_data_guests.html">Guests: Transfer your data to a free account</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Workshop material</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction for new employees</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../training_materials/basics.html">Introduction for new employees</a></li>
 </ul>
 
         </div>
@@ -153,9 +154,96 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section class="tex2jax_ignore mathjax_ignore" id="introduction-for-new-employees">
-<h1>Introduction for new employees<a class="headerlink" href="#introduction-for-new-employees" title="Link to this heading">¶</a></h1>
-<p><em>Coming soon!</em></p>
+  <section class="tex2jax_ignore mathjax_ignore" id="benchling-terminology">
+<h1>Benchling terminology<a class="headerlink" href="#benchling-terminology" title="Link to this heading">¶</a></h1>
+<p>Important Benchling terms and what they refer to:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Term</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Entity</p></td>
+<td><p>Structured data object. There are default Benchling entities (e.g. DNA Sequence, Amino Acid Sequence, Oligo) and a Custom Entities. See full list of entities in table bellow. Entities can be created and stored within Projects, formally registered in the Registry or assigned Inventory locations.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Entry</p></td>
+<td><p>Notebook page for research documentation. Can contain text, tables, images and links to Benchling entities.</p></td>
+</tr>
+<tr class="row-even"><td><p>Schema</p></td>
+<td><p>Defined data structure of Entities, Entries, Workflows, Requests or Automation runs. A schema comprises a set of fields (of specific data types) that captures relevant properties of an object, including tracking its relationships with other objects within Benchling.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Project</p></td>
+<td><p>Folder for storing and organizing materials created in the development of a research project: ELN entries, biological entities, protocols. Permissions can be managed to facilitate collaboration.</p></td>
+</tr>
+<tr class="row-even"><td><p>Registry</p></td>
+<td><p>Database with the biological materials used/created in research projects at DTU Biosustain, where metadata is searchable and standardized. When an entity is registered, it is formalized within the system through the assignment of an unique ID and the storage of its metadata in structured manner (i.e., within a schema).</p></td>
+</tr>
+<tr class="row-odd"><td><p>Inventory</p></td>
+<td><p>Represents the physical storage system of samples and reagents at DTU Biosustain, and is used to manage and track these items at the center: their location, container, quantity, usage history.</p></td>
+</tr>
+<tr class="row-even"><td><p>Worklist</p></td>
+<td><p>List of samples facilitating transfer of entities between applications and performing actions in bulk.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sequence</p></td>
+<td><p>(entity type) DNA, RNA, Amino Acid or Oligo sequence which can be processed with Benchling’s molecular biology design and analysis tools. There are currently 9 sequence entity schemas.</p></td>
+</tr>
+<tr class="row-even"><td><p>Custom Entity</p></td>
+<td><p>(entity type) Entity created using a “custom schema” developed at Biosustain based on researchers needs and most used sample types. There are currently 49 custom entity schemas.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Mixture</p></td>
+<td><p>(entity type) Solution comprised of multiple ingredients where the exact quantities of each ingredient are tracked. There are currently two mixture entity schemas: Medium with recipe and Medium prep.</p></td>
+</tr>
+<tr class="row-even"><td><p>Container</p></td>
+<td><p>Represents physical containers such as tubes or wells that hold biological samples or reagents, and tracks concentration and volume of the contents.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Box</p></td>
+<td><p>Structured inventory type that is assigned a location, representing boxes stored at the center. Technically functions as a grid of containers of fixed dimension (i.e., with a max number of containers it can hold).</p></td>
+</tr>
+<tr class="row-even"><td><p>Plate</p></td>
+<td><p>Structured inventory type that is assigned a location, representing plates stored at the center. Technically functions as a grid of well containers, and can be “matrix” or “fixed” depending on whether well containers can or cannot be moved within the plate, respectively.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Template</p></td>
+<td><p>Predefined entry structure used to facilitate writing specific and recurrent types of entries. Templates can be created by Benchling admin or users themselves.</p></td>
+</tr>
+<tr class="row-even"><td><p>Subtemplate</p></td>
+<td><p>Entry section with predefined structure that is inserted into entries. Subtemplates can be created by Benchling admin or users themselves.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Protocol</p></td>
+<td><p>Structured document used to detail experimental procedures. Can be linked to notebook entries.</p></td>
+</tr>
+<tr class="row-even"><td><p>Dropdown</p></td>
+<td><p>Data type consisting of a predefined list of values, useful for standardizing metadata options.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Workflow</p></td>
+<td><p>New workflow management system that enhances collaboration by linking together sample processing steps in a single workflow. Each step (also called “workflow task”) can be executed by different researchers.</p></td>
+</tr>
+<tr class="row-even"><td><p>Workflow Task</p></td>
+<td><p>Single processing job within a workflow. Each task has standard operational properties and custom fields that represent the parameters required to do the job.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Legacy Workflow</p></td>
+<td><p>Legacy workflow management system that connected different notebook templates to facilitate high-throughput sample tracking. Substituted by Workflow module.</p></td>
+</tr>
+<tr class="row-even"><td><p>Legacy Request</p></td>
+<td><p>Legacy request system that enabled submission of standardized requests to colleagues (e.g., a lab purchasing order or a sample analysis). Substituted by the Workflow module.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Automation Run</p></td>
+<td><p>Action performed through a lab instrument, or by a user in the Notebook. This action can, for example, automatize the transformation of a spreadsheet to facilitate data ingestion and extraction to/from lab robots or other instruments.</p></td>
+</tr>
+<tr class="row-even"><td><p>Benchling Connect</p></td>
+<td><p>System that enables Benchling to link to instruments in the lab and ingest/export data from them.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Results</p></td>
+<td><p>Tables that capture experimental results in a standardized manner through custom schemas created by Benchling admin, and that can link those results to samples in the registry.</p></td>
+</tr>
+<tr class="row-even"><td><p>App Canvas</p></td>
+<td><p>Blocks programmed to provide specific features through an interactive interface inserted in notebook entries. These can be particularly useful for interacting with external systems - e.g., allow user to import data on a chemical from PubChem in their notebook.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Benchling App</p></td>
+<td><p>External application integrated into Benchling’s platform.</p></td>
+</tr>
+</tbody>
+</table>
 </section>
 
 
@@ -171,12 +259,14 @@
         <div class="button_nav">
             <div class="left">
                 
-                <a href="../guides/transfer_data_guests.html">
-                    <span class="icon">&lt;</span><span>Biosustain guests: How to export research data and continue working on Benchling</span></a>
+                <a href="plate_map.html">
+                    <span class="icon">&lt;</span><span>Create a plate map</span></a>
                 
             </div>
 
             <div class="right">
+                
+                    <a href="transfer_data_guests.html"><span>Biosustain guests: How to export research data and continue working on Benchling</span><span class="icon">&gt;</span></a>
                 
             </div>
         </div>
