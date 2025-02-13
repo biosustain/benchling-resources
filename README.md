@@ -81,6 +81,21 @@ Example:
     `````
     {download}`Strain_Template_YourName.xlsx <../_static/files/Strain_Template_YourName.xlsx>`
     `````
+Alternatevely: 
+    `````
+    [Download Material Order Guide (PDF)](../_static/files/material_order_guide.pdf)
+    `````
+
+- preview a **pdf file** directly in the page. The document must be saved in ../_static/files/. Example: 
+
+    `````
+    <iframe src="https://docs.google.com/gview?url=https://biosustain.github.io/benchling-resources/_static/files/material_order_guide.pdf&embedded=true" width="100%" height="600px"></iframe>
+    `````
+- **open a file in another tab** in the browser. The document must be saved in ../_static/files/. Example: 
+
+    `````
+    <a href="../_static/files/material_order_guide.pdf" target="_blank">Open Material Order Guide in a new tab</a>
+    `````
 
 - embed a **video**. Note: certain parameters after the link are important: "rel=0&modestbranding=1&autoplay=0&showinfo=0". Example:
     `````
