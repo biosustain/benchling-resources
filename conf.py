@@ -20,10 +20,11 @@ extensions = [
     # "sphinx_design", # https://sphinx-design.readthedocs.io/en/sbt-theme/
     # "sphinx_copybutton", # https://sphinx-copybutton.readthedocs.io/
     "sphinx_new_tab_link",
-    "sphinx_design", #This extension enables the hiding of answers in the FAQ page (allow us to use {dropdown})
+    "sphinx_design" #This extension enables the hiding of answers in the FAQ page (allow us to use {dropdown})
     # "sphinxcontrib.video", # This extension allows video embedding without YouTube https://sphinxcontrib-video.readthedocs.io/en/latest/index.html (not working)
     
 ]
+
 
 templates_path = ["_templates"]
 # Website pages can only be built from percent notebooks and markdowns files.
@@ -49,7 +50,8 @@ exclude_patterns = [
 #  https://myst-nb.readthedocs.io/en/latest/computation/execute.html
 nb_execution_mode = "auto"
 
-myst_enable_extensions = ["dollarmath", "amsmath"]
+myst_enable_extensions = ["dollarmath", "amsmath","html_admonition", "html_image", "raw_html"] 
+#"html_admonition", "html_image", "raw_html" --> extensions that enable the embed and preview of pdfs
 
 # Plolty support through require javascript library
 # https://myst-nb.readthedocs.io/en/latest/render/interactive.html#plotly
