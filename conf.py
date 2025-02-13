@@ -50,7 +50,7 @@ exclude_patterns = [
 #  https://myst-nb.readthedocs.io/en/latest/computation/execute.html
 nb_execution_mode = "auto"
 
-myst_enable_extensions = ["dollarmath", "amsmath","html_admonition", "html_image", "raw_html"] 
+myst_enable_extensions = ["dollarmath", "amsmath","html_admonition", "html_image"] 
 #"html_admonition", "html_image", "raw_html" --> extensions that enable the embed and preview of pdfs
 
 # Plolty support through require javascript library
