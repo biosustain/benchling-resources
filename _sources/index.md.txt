@@ -47,13 +47,14 @@ Use the Registry <guides/use_registry.md>
 Register collections <guides/strain_collection.md>
 Create a Plate Map <guides/plate_map.md>
 Benchling terminology <guides/terminology.md>
+Order materials <guides/material_order.md>
 Guests: Transfer your data to a free account <guides/transfer_data_guests.md>
 ```
 
 ```{toctree}
 :maxdepth: 1
 :hidden:
-:caption: 'Workshop material'
+:caption: 'Workshops'
 
 Introduction for new employees <training_materials/basics>
 ```

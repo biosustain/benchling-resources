@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Register a Strain Collection in Benchling &#8212; Benchling resources</title>
+    <title>Submit a lab material order &#8212; Benchling resources</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=9b2032db" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
@@ -20,8 +20,8 @@
     <script src="../_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Create a plate map" href="plate_map.html" />
-    <link rel="prev" title="Use the Registry" href="use_registry.html" /> 
+    <link rel="next" title="Biosustain guests: How to export research data and continue working on Benchling" href="transfer_data_guests.html" />
+    <link rel="prev" title="Benchling terminology" href="terminology.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -135,10 +135,10 @@
 <li class="toctree-l1"><a class="reference internal" href="sequence_creation.html">Create sequences</a></li>
 <li class="toctree-l1"><a class="reference internal" href="strain_registration.html">Create strains</a></li>
 <li class="toctree-l1"><a class="reference internal" href="use_registry.html">Use the Registry</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Register collections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="strain_collection.html">Register collections</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plate_map.html">Create a Plate Map</a></li>
 <li class="toctree-l1"><a class="reference internal" href="terminology.html">Benchling terminology</a></li>
-<li class="toctree-l1"><a class="reference internal" href="material_order.html">Order materials</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Order materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="transfer_data_guests.html">Guests: Transfer your data to a free account</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Workshops</span></p>
@@ -155,122 +155,11 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section class="tex2jax_ignore mathjax_ignore" id="register-a-strain-collection-in-benchling">
-<h1>Register a Strain Collection in Benchling<a class="headerlink" href="#register-a-strain-collection-in-benchling" title="Link to this heading">¶</a></h1>
-<section id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">¶</a></h2>
-<p>This article will show you how to update a strain collection to Benchling using an ELN <strong>template</strong> with registration tables.</p>
-<p><em>The only prerequisite is to have a spreadsheet with metadata related to your strains.</em></p>
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-text">You may want to do this if…</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<ul class="simple">
-<li><p class="sd-card-text">You have an externally stored collection (for example, in a spreadsheet) you’re interested in sharing with others through Benchling</p></li>
-<li><p class="sd-card-text">You want to be able to link strains to experiments and ELN entries</p></li>
-<li><p class="sd-card-text">You want to keep track of the links between parental and child strains</p></li>
-<li><p class="sd-card-text">You’d like to keep a record of where all your strains are stored and when they are used</p></li>
-<li><p class="sd-card-text">You’d like to upload strain-related metadata to Benchling at the end of a project or before leaving Biosustain, to make sure that data is not lost over time</p></li>
-<li><p class="sd-card-text">You’d like to promote FAIR data! 😄</p></li>
-</ul>
-</div>
-</details></section>
-<section id="template-overview-and-guide">
-<h2>Template overview and guide<a class="headerlink" href="#template-overview-and-guide" title="Link to this heading">¶</a></h2>
-<ol class="arabic">
-<li><p><strong>Create an ELN based on the template.</strong></p>
-<p>You will need the Registration of Strain Collection template, which you can find under the LIMS Support folder, as seen in the picture below.</p>
-<figure class="align-center">
-<a class="reference internal image-reference" href="../_images/straincol-template.png"><img alt="../_images/straincol-template.png" src="../_images/straincol-template.png" style="width: 90%;" />
-</a>
-</figure>
-<p>The template should look like this:</p>
-<figure class="align-center">
-<a class="reference internal image-reference" href="../_images/template-overview.png"><img alt="../_images/template-overview.png" src="../_images/template-overview.png" style="width: 90%;" />
-</a>
-</figure>
-</li>
-<li><p><strong>Watch the video to understand how to use the template.</strong></p>
-<div style="text-align: center;">
-<iframe 
-    width="600" 
-    height="350" 
-    src="https://www.youtube.com/embed/dTW0_-R111Q?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-</div></li>
-</ol>
-</section>
-<section id="troubleshooting">
-<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Link to this heading">¶</a></h2>
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-text">If you run into any issues while registering your collection, read through this list and see if you can find a solution.</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<ul>
-<li><p class="sd-card-text"><strong>General tip:</strong> Refresh the Benchling tab you are working on. This can help when entity links are not being detected properly.</p></li>
-<li><p class="sd-card-text"><em>“I submitted a registration table and realized the entities were saved to an unwanted place.”</em></p>
-<ul class="simple">
-<li><p class="sd-card-text">By default, the entities will be saved to the folder where the template ELN is located. This can be changed in the <strong>Registration table settings</strong>.</p></li>
-<li><p class="sd-card-text">These settings can only be modified <strong>before submitting entities</strong>. If you made a mistake, you will have to move them manually to the desired location; and create a <strong>new table</strong> for future entities of the same schema that you’d like to register.</p></li>
-</ul>
-</li>
-<li><p class="sd-card-text"><em>“While setting up a registration table, I deleted a column that is important for me. How do I bring it back?”</em></p>
-<ul class="simple">
-<li><p class="sd-card-text">This can be done easily by following these steps:</p>
-<ul>
-<li><p class="sd-card-text"><em>Right click &gt; Insert column left/right &gt; Select the column you’d like to bring back</em></p></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p class="sd-card-text"><em>“I can’t find a field that matches my spreadsheet on the registration table.”</em></p>
-<ul class="simple">
-<li><p class="sd-card-text">First option: look for a field that could allow for the type of data you want to store and add a note on your ELN regarding this.</p></li>
-<li><p class="sd-card-text">Second option: Add a custom field/column</p>
-<ul>
-<li><p class="sd-card-text">This only supports the following data types: text, integer, decimal, boolean, date, and datetime.</p></li>
-</ul>
-</li>
-<li><p class="sd-card-text">Third option: Reach out to us to potentially add a new field to the schema. This may or may not be possible.</p></li>
-</ul>
-</li>
-<li><p class="sd-card-text"><em>“I registered some plasmids that are not in Benchling, and now I’d like to upload the sequences to the corresponding entities. How can I do this?”</em></p>
-<ul class="simple">
-<li><p class="sd-card-text">You can update your registered plasmid entities with the <strong>“Reimport DNA sequences in bulk”</strong> option.</p></li>
-</ul>
-<figure class="align-center">
-<a class="reference internal image-reference" href="../_images/reimport-DNA.png"><img alt="../_images/reimport-DNA.png" src="../_images/reimport-DNA.png" style="width: 80%;" />
-</a>
-</figure>
-<ul class="simple">
-<li><p class="sd-card-text">You only need to upload a file with the same filename as the entity name, and the entity will be updated accordingly, keeping the fields that had already been filled.</p></li>
-</ul>
-</li>
-</ul>
-</div>
-</details><p>If you have any other problem, don’t hesitate to contact us at <a class="reference external" href="mailto:lims_support&#37;&#52;&#48;biosustain&#46;dtu&#46;dk" rel="noopener noreferrer" target="_blank">lims_support<span>&#64;</span>biosustain<span>&#46;</span>dtu<span>&#46;</span>dk</a>!</p>
-</section>
-<section id="additional-resources">
-<h2>Additional resources<a class="headerlink" href="#additional-resources" title="Link to this heading">¶</a></h2>
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-text">Links that could be helpful</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<ul class="simple">
-<li><p class="sd-card-text">Once your collection is uploaded to Benchling, you can use lookup tables to easily find specific information related to your strains in your experiment ELNs.</p>
-<ul>
-<li><p class="sd-card-text"><a class="reference external" href="https://help.benchling.com/hc/en-us/articles/9684194769421-Lookup-Columns-and-Tables" rel="noopener noreferrer" target="_blank">Lookup Columns and Tables – Benchling</a></p></li>
-</ul>
-</li>
-<li><p class="sd-card-text">If you’d like to know more about the inventory system in Benchling and how you can use it to track your strains, you can check out the Benchling guides.</p>
-<ul>
-<li><p class="sd-card-text"><a class="reference external" href="https://help.benchling.com/hc/en-us/articles/9684234442509-What-is-the-Inventory" rel="noopener noreferrer" target="_blank">What is the Inventory? – Benchling</a></p></li>
-<li><p class="sd-card-text"><a class="reference external" href="https://help.benchling.com/hc/en-us/articles/9684234442509-What-is-the-Inventory" rel="noopener noreferrer" target="_blank">Using your inventory – Benchling</a></p></li>
-</ul>
-</li>
-</ul>
-</div>
-</details></section>
+  <section class="tex2jax_ignore mathjax_ignore" id="submit-a-lab-material-order">
+<h1>Submit a lab material order<a class="headerlink" href="#submit-a-lab-material-order" title="Link to this heading">¶</a></h1>
+<p>Follow the down-below guide to learn how to submit a lab material order in Benchling:</p>
+<p>–&gt; <a class="reference download internal" download="" href="../_downloads/bbdf99a28fc3da2284a2ae9a2e38ebc2/material_order_guide.pdf"><span class="xref download myst">Open Material Order Guide (PDF) in a new tab</span></a></p>
+<iframe src="https://docs.google.com/gview?url=https://biosustain.github.io/benchling-resources/_static/files/material_order_guide.pdf&embedded=true" width="100%" height="600px"></iframe>
 </section>
 
 
@@ -279,26 +168,6 @@
         </div>
       </div>
     
-        <div id="show_right_sidebar">
-            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents</span></a></p>
-        </div>
-
-        <div id="right_sidebar">
-            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
-            <div class="page_toc">
-                <ul>
-<li><a class="reference internal" href="#">Register a Strain Collection in Benchling</a><ul>
-<li><a class="reference internal" href="#introduction">Introduction</a></li>
-<li><a class="reference internal" href="#template-overview-and-guide">Template overview and guide</a></li>
-<li><a class="reference internal" href="#troubleshooting">Troubleshooting</a></li>
-<li><a class="reference internal" href="#additional-resources">Additional resources</a></li>
-</ul>
-</li>
-</ul>
-
-            </div>
-        </div>
-    
 
       <div class="clearer"></div>
     </div>
@@ -306,14 +175,14 @@
         <div class="button_nav">
             <div class="left">
                 
-                <a href="use_registry.html">
-                    <span class="icon">&lt;</span><span>Use the Registry</span></a>
+                <a href="terminology.html">
+                    <span class="icon">&lt;</span><span>Benchling terminology</span></a>
                 
             </div>
 
             <div class="right">
                 
-                    <a href="plate_map.html"><span>Create a plate map</span><span class="icon">&gt;</span></a>
+                    <a href="transfer_data_guests.html"><span>Biosustain guests: How to export research data and continue working on Benchling</span><span class="icon">&gt;</span></a>
                 
             </div>
         </div>
