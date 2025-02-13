@@ -1,4 +1,4 @@
-# FAQ 
+# ❓ FAQ 
 
 **<mark style="background-color: #C5DBEC;">Accessing Benchling</mark>**
 
