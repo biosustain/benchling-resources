@@ -19,7 +19,4 @@ Explore Benchling Molecular Biology Tools, covering features like **construct de
 
 To **download** the guide, click [here](../_static/files/2025_Molecular_Biology_Tools_HandsOn.pdf).
 
-<a href="/_static/files/2025_Molecular_Biology_Tools_HandsOn.pdf" target="_blank" rel="noopener noreferrer">📄 View in Full Screen</a>
-
-```{raw} html
-<iframe src="/_static/files/2025_Molecular_Biology_Tools_HandsOn.pdf" width="100%" height="600px"></iframe>
+<iframe src="https://docs.google.com/gview?url=https://biosustain.github.io/benchling-resources/_/_static/files/2025_Molecular_Biology_Tools_HandsOn.pdf&embedded=true" width="100%" height="600px"></iframe>
