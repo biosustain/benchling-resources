@@ -80,8 +80,8 @@ Primers attached to a sequence are formatted as annotations when exported, with 
 ````{raw} html
 <div style="text-align: center;">
 <iframe 
-    width="620" 
-    height="394" 
+    width="640" 
+    height="360" 
     src="https://www.youtube.com/embed/tMHmkRvIcSE?si=EsrdVA-hG1_H4jJTrel=0&modestbranding=1&autoplay=0&showinfo=0" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

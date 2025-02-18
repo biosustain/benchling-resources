@@ -22,7 +22,7 @@ Watch the following video to learn **how to add new strains** in Benchling direc
 <div style="text-align: center;">
    <iframe 
       width="700" 
-      height="400" 
+      height="320" 
       src="https://www.youtube.com/embed/_4SFBM0M1iA?si=CfAimXGJYZkgAKo1?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
       frameborder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -78,7 +78,7 @@ Watch the following video to learn **how to track the storage location of your n
 <div style="text-align: center;">
    <iframe 
      width="700"
-     height="400" 
+     height="320" 
       src="https://www.youtube.com/embed/-MP_b3G6ULg?si=yfGJ5ZpS7JKkViui?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
       frameborder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -123,7 +123,7 @@ Yes, you can register strains also by uploading a spreadsheet onto a strain regi
 <div style="text-align: center;">
    <iframe 
       width="700" 
-      height="400" 
+      height="320" 
       src="https://www.youtube.com/embed/xKyDvrNoZh8?si=ltnVty38KMEbLJxY?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
       frameborder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

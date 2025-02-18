@@ -17,7 +17,7 @@ Locate the sequence creation menu:
 <div style="text-align: center;">
 <iframe 
     width="700"
-    height="400"
+    height="315"
     src="https://www.youtube.com/embed/QtYoWOCuWUQ?si=a9sqcj1lYzCexX-Z?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -25,6 +25,8 @@ Locate the sequence creation menu:
 </iframe>
 </div>
 ````
+
+
 
 **Note**: Always double-check which folder you are saving to!
 
@@ -36,7 +38,7 @@ This can be useful for raw sequences. For example, if you have a .docx file with
 <div style="text-align: center;">
 <iframe 
     width="700"
-    height="400" 
+    height="315" 
     src="https://www.youtube.com/embed/tvN3V3bXu-A?si=YiwlvxNtnNT9WU1d?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -59,7 +61,7 @@ If you have one or more sequences saved to your computer, you can upload them. T
 <div style="text-align: center;">
 <iframe 
     width="700"
-    height="400" 
+    height="315" 
     src="https://www.youtube.com/embed/KSD90nuH6Vc?si=-i_JGslUakaLyApF?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -93,7 +95,7 @@ The following identifiers are supported: 
 <div style="text-align: center;">
 <iframe 
     width="700"
-    height="400" 
+    height="315" 
     src="https://www.youtube.com/embed/Gqu1k3_1iS4?si=6lwnC_snghjh6dK6?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -120,7 +122,7 @@ It’s also possible to import sequences from genomic loci by searching for them
 <div style="text-align: center;">
 <iframe 
     width="700"
-    height="400" 
+    height="315" 
     src="https://www.youtube.com/embed/AN2FIvO7ZTc?si=HT7QOVAA4XCaosFp?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

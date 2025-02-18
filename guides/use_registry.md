@@ -103,7 +103,7 @@ This option is mostly useful when working with only a few entities. For example,
 <div style="text-align: center;">
 <iframe 
     width="700" 
-    height="400" 
+    height="320" 
     src="https://www.youtube.com/embed/ubmvfK-iqEs?si=2cv50WMQRTln9Onl?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -124,7 +124,7 @@ This option is similar to b), in the sense that it reduces the amount of clicks 
 <div style="text-align: center;">
 <iframe 
     width="700" 
-    height="400" 
+    height="320" 
     src="https://www.youtube.com/embed/YLivrYSQVBg?si=RUzvdjpYNPpVtoP4?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -147,7 +147,7 @@ Make sure your spreadsheet's columns match the schema fields, although additiona
 <div style="text-align: center;">
 <iframe 
     width="700" 
-    height="400" 
+    height="320" 
     src="https://www.youtube.com/embed/bvRfALTDH_I?si=mJD0LWR1uXEIMVcQ?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
