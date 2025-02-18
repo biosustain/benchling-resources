@@ -9,12 +9,6 @@ figure.align-center {
     text-align: center;
 }
 
-.admonition.my-custom-admonition {
-    background-color: #e8daed;
-    border-left: 4px solid #ab86ba;
-    padding: 10px;
-}
-
 
 /* Spacing for unordered lists (ul) */
 ul li {
@@ -29,4 +23,10 @@ ol li {
 /* Spacing for nested lists */
 ul ul li, ol ol li {
     margin-bottom: 5px; /* Value can be adjusted */
+}
+
+.admonition.my-custom-admonition {
+    background-color: #c5dbec;
+    border-left: 4px solid #0f87e3;
+    color: #000
 }
