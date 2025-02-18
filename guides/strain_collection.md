@@ -1,18 +1,13 @@
-# Register a Strain Collection in Benchling
+# Register a strain collection in Benchling
 
-## Introduction
-
-This article will show you how to update a strain collection to Benchling using an ELN **template** with registration tables. 
-
-*The only prerequisite is to have a spreadsheet with metadata related to your strains.* 
-
+🎯 This guide will show you how to **upload an entire strain collection** from a spreadsheet to Benchling following a **Notebook template**.
 
 ```{dropdown} You may want to do this if...
-* You have an externally stored collection (for example, in a spreadsheet) you’re interested in sharing with others through Benchling
+* You have an externally stored collection (for example, in a spreadsheet) and you’re interested in sharing with others through Benchling
 
-* You want to be able to link strains to experiments and ELN entries
+* You want to be able to link strains in your Notebook entries (also referred as "tagging" in Benchling, e.g., *@MyStrain*)
 
-* You want to keep track of the links between parental and child strains
+* You want to keep track of the links between parental and child strains, therefore create a lineage of your strains
 
 * You’d like to keep a record of where all your strains are stored and when they are used
 
@@ -21,9 +16,15 @@ This article will show you how to update a strain collection to Benchling using 
 * You’d like to promote FAIR data! 😄
 ```
 
+⚠️ If you need to register only a few strains, and not an entire strain collection, you might find it easier to follow this [guide](strain_registration.md) instead.
+
+## Before starting
+
+The only prerequisite to the following steps is to **have a spreadsheet** with metadata related to your strains.
+
 ## Template overview and guide
 
-1. **Create an ELN based on the template.**
+1. **Create a Notebook entry based on the template.**
     
     You will need the Registration of Strain Collection template, which you can find under the LIMS Support folder, as seen in the picture below.
 

@@ -1,6 +1,6 @@
-# Create a plate map
+# Try out Plate Maps
 
-Benchling plate mapping is a useful tool for planning, visualising and registering your plate experiments:
+Benchling plate mapping is a useful tool for **planning, visualising and registering** your plate experiments:
 
 - You can add multiple layers of annotations and values to create a digital record of your plate experiment.
 
@@ -28,19 +28,13 @@ List of Benchling entities that are containable - i.e., can be added into contai
 - Cell Line Batch 
 - Cell Line Design 
 - Commercial Material 
-- Confidential Compound  
-- Confidential Compound Batch 
 - DNA Fragment Batch 
 - Strain Batch 
 - Plasmid Batch 
 - Fermentation Culture 
 - Generic Sample / Cell Pellet 
 - gDNA  
-- Media Samples 
 - Medium Prep 
-- Microbiome Diluted Sample 
-- Microbiome Diluted Sample in Media 
-- Microbiome Sample 
 - Nanopore Sequencing Submission Sample 
 - Primary Cell Batch 
 - Primer 
@@ -52,24 +46,9 @@ List of Benchling entities that are containable - i.e., can be added into contai
 - Timepoint Sample 
 ````
 
-## Steps to create a plate map
+## Get started
 
-To create a plate map, you can either insert it into a notebook entry (*Insert > Plate Map*) or create a plate in the Inventory (*Create > Plate*). This opens an interface where you can carry out the plate mapping in three major steps:
-
-### 1. Select the fixed plate
-Choose between 6-well, 12-well, 24-well, 48-well, 96-well, or 384-well plates. Designate a location in the inventory, or fill other fields for that plate schema.
-
-### 2. Annotate the wells in the plate
-Select multiple wells at once by dragging the cursor or by using the *shift* key, or fill wells individually.
-- **Add the well contents** from the registry or from your worklist.
-- **Assign roles to the wells**: samples, controls, blanks or standards.
-- **Add additional labels with the Well schema fields**: Treatment and Dilution Factor.
-
-### 3. Specify the concentrations and volumes of your contents
-Indicate the values for the contents filling up the plate in your experiment: total well volume, stock concentration, transfer volume and well concentration.
-
-
-**Follow along this video demonstration of creating a plate map in a notebook entry.**
+Watch the following video to **learn how to create and use a Plate Map** directly in your Notebook entry.
 
 ````{raw} html
 <div style="text-align: center;">
@@ -83,3 +62,32 @@ Indicate the values for the contents filling up the plate in your experiment: to
 </iframe>
 </div>
 ````
+
+**Summary of the steps:**
+
+1. **Create a plate map**
+
+    To create a plate map, you can insert it into a Notebook entry (as showed in the video), or create it within the Benchling inventory:
+
+            Notebook entry > "Insert" > "Plate Map"
+
+    or
+
+            Benchling Navigation Bar > "Create (+)" > "Plate" 
+
+2. **Choose the fixed plate type**
+
+    Choose between 6-well, 12-well, 24-well, 48-well, 96-well, or 384-well plates. Designate a location in the inventory, or fill other fields for that plate schema.
+
+3. **Annotate the wells in the plate**
+
+    Select multiple wells at once by dragging the cursor or by using the *shift* key, or fill wells individually.
+    - **Add the well contents** from the registry or from your worklist.
+    - **Assign roles to the wells**: samples, controls, blanks or standards.
+    - **Add additional labels with the Well schema fields**: Treatment and Dilution Factor.
+
+4. **Specify the concentrations and volumes of  your contents**
+   
+    Indicate the values for the contents filling up the plate in your experiment: total well volume, stock concentration, transfer volume and well concentration.
+
+If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).

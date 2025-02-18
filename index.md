@@ -45,14 +45,14 @@ For additonal resources, you can always visit the [official Benchling Help Page]
 ```{toctree}
 :maxdepth: 1
 :hidden:
-:caption: 'Benchling guides'
+:caption: 'How-to Guides'
 
-📎 Start here <guides/introduction>
-📎 Create sequences <guides/sequence_creation.md>
-📎 Create strains <guides/strain_registration>
-📎 Use the Registry <guides/use_registry.md>
-📎 Register collections <guides/strain_collection.md>
-📎 Create a Plate Map <guides/plate_map.md>
-📎 Order materials <guides/material_order.md>
-📎 Guests: Transfer your data to a free account <guides/transfer_data_guests.md>
+🔹 Start here <guides/introduction>
+🔹 Upload sequences <guides/sequence_creation.md>
+🔹 Register strains <guides/strain_registration.md>
+🔹 Register collections <guides/strain_collection.md>
+🔹 Understand the Registry <guides/use_registry.md>
+🔹 Try out Plate Maps <guides/plate_map.md>
+🔹 Order lab materials <guides/material_order.md>
+🔹 Transfer your data (for guests) <guides/transfer_data_guests.md>
 ```

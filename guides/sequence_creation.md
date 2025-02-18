@@ -1,8 +1,13 @@
-# Create and import sequences
+# Upload sequences in Benchling
 
-## Introduction 
-
-One of the first steps to start using Benchling’s Molecular Biology tool is to upload the sequences of interest into the platform. This will allow you to view, annotate and modify the DNA and RNA sequences you need to work with. It is possible to create plasmids, DNA fragments, genes, primers and more, and there are several ways to do this. This guide will cover the most common ones.  
+ 🎯 This guide will show you all the possible ways to **upload a sequence in Benchling**, including:
+ - **copy/pasting** a sequence
+ - **uploading** a sequence file
+ - **importing** a sequence from a database
+ - **importing** a chromosomal region from a database
+ 
+ 
+ Sequences may be **plasmids, DNA fragments, genes, primers** or others. After creating a sequence, you will be able to **view, annotate and modify** it, and perform further processing using Benchling Molecular Biology Tools. For an introduction to Benchling Molecular Biology Tools, check this [guide](/training_materials/basics.md).
 
 ## Get started
 
@@ -46,7 +51,7 @@ This can be useful for raw sequences. For example, if you have a .docx file with
 ➜ Create a file for the **pCAT** promoter (agaggttccaactttcaccataatgaaaca) 
 ```
 
-## Upload a file
+## Upload a sequence file
 
 If you have one or more sequences saved to your computer, you can upload them. The sequence, annotations and comments will be imported.  
 
@@ -129,4 +134,4 @@ It’s also possible to import sequences from genomic loci by searching for them
 
 ➜ Import the human HBB gene by selecting the human genome, chromosome 11, and write 5225464 as the start and 5229395 as the end.  
 ```
-
+If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
