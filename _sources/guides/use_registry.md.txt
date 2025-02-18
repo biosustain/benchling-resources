@@ -1,15 +1,16 @@
-# Use the Registry
+# Understand the Registry
 
-## Overview
-This article will help you understand how to use the Benchling Registry according to your needs. 
+🎯 This guide will help you understand how to use the Benchling Registry according to your needs. 
 
-## Introduction
+## Why using the Registry
 
-Using the Registry might seem like a daunting task, but it is quite flexible, and **it comes with many benefits**, including (1) the **ability to assign distinct data types** to samples, containers, and results, ensuring that data is easy to find and interpret; and (2) the possibility of **standardizing metadata fields** across the organization, so data types like plasmids or strains have consistent and uniform metadata.
+Using the Registry might seem like a daunting task, but it is quite flexible, and **it comes with many benefits**, including:
+- the **ability to assign distinct data types** to samples, containers, and results, ensuring that data is easy to find and interpret
+- the possibility of **standardizing metadata fields** across the organization, so data types like plasmids or strains have consistent and uniform metadata.
 
-**Registering your experimental data in the Benchling Registry** is a big step towards its standardization and its long-term findability (by you and other colleagues).
+**Registering your experimental data in the Benchling Registry** is a big step towards its standardization and its long-term **findability** (by you and other colleagues).
 
-You might have already recorded your experimental data in your ELN, in sequence files (for example, in the case of plasmids) and/or in spreadsheets. All of these can be standardized and added to the Registry.
+You might have already recorded your experimental data in your Electronic Notebook, in sequence files (for example, in the case of plasmids) and/or in spreadsheets. All of these can be standardized and added to the Registry.
 
 ```{figure} ../_static/images/registry-sources.png
 :width: 50%
@@ -163,5 +164,4 @@ Make sure your spreadsheet's columns match the schema fields, although additiona
 
     - You can register from a table multiple times, without duplicating registries – only the changes and additions are uploaded.
 
-
-*Author: Mía López Portillo Ontiveros*
+If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).

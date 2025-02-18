@@ -1,53 +1,22 @@
-# Register strains in Benchling
+# Manage your strains in Benchling
 
-## Overview
-This article will teach you how to register a strain in Benchling from your Notebook. 
+ 🎯 This guide will show you how to:
+ - **register strains** in Benchling
+ - **track strains storage location** in the Benchling Inventory
 
-```{note}
-Registering your strains in Benchling will make it easier for you to **keep track of their lineage**, links to other entities such as plasmids and parent strains, and their **storage locations** at Biosustain.
-```
+The guide will illustrate how to do both of this actions **directly from your Electronic Notebook entry**.
 
-## Pre-requisites
-Before registering your strains, register relevant linked entities such as the **organism** (i.e. *Escherichia coli*, *Pichia pastoris*, etc.), the **parent strain**, **plasmids**, or a specific **medium**. In order to link your strains to these other entities, they must be registered beforehand. 
+ 
+⚠️ If you need to register an **entire Strain Collection**, we recommend you to follow this [guide](strain_collection.md) instead.
 
-```{note}
-Organisms and Media must be stored in the **Biosustain Common Inventory** project in Benchling (to avoid needing to register the same Organism or Medium multiple times).
-```
+## Before starting
 
-### About registration fields
-|Field         |Definition   |
-|--------------|-------------|
-|Host strain   |A well-characterized microbial strain, like *E. coli BL21*, used as the baseline for genetic manipulation or protein expression.   |
-|Parent strain |A genetically modified derivative of the host strain that serves as the starting point for further modifications.   |
+During the strain registration process in Benchling, **you will be asked to link your strains to relevant entities**, e.g., the parent strain, the contained plasmid, the organism etc.
+Since these entities need to pre-exist in the system before linking them to your strains, we suggest you to register those beforehand. 
+To learn how to **create plasmids in Benchling**, follow this [guide](sequence_creation.md). 
 
-## How to register a strain
-
-```{note}
-Each step is shown in the video down below. 
-```
-
-1. **Open your ELN (or create a new ELN page)**
-
-    Registering Strains directly in the ELN is the recommended way to register strains. 
-    You can create a specific Notebook related to strain registration, or you can add registration tables in your experimental ELNs as you go. 
-
-2. **Insert a strain registration table**
-
-    *“Insert” > “Registration table”*
-
-3. **Fill in the information**
-
-    There are some mandatory fields, the rest are optional. You can fill all the fields that are relevant to you. Fields that link to other entities require the exact entity name.  
-
-    ```{note}
-    You can drag down cells to auto-fill names if you are following a numerical sequence.
-    ```
-4. **Click on “Submit”!**
-
-    If there is any issue with the registration, the side of the table will be red, and you will get an error message. 
-
-    If there are no validation errors, your strains will now be registered!
-
+## Register your strains
+Watch the following video to learn **how to add new strains** in Benchling directly from your Notebook entry.
 
 ````{raw} html
 <div style="text-align: center;">
@@ -61,39 +30,49 @@ Each step is shown in the video down below.
    </iframe>
 </div>
 ````
+**Summary of the steps:**
 
+1. **Open your Notebook (or create a new Notebook entry)**
 
-## How to store a strain
+    Registering Strains directly in the Notebook is the easiest way to register strains. 
+    You can create a new entry only devoted for strain registration, or use an existing entry where you took your experimental notes.
+        
+        Benchling Navigation Bar > "Create (+)" > "Entry"
+        
 
-````{figure} ../_static/images/store-a-strain-v2.png
-:alt: Strain-storage
-:width: 90%
-:align: center
+2. **Insert a Registration table**
 
-````
+        “Insert” > “Registration table” > Select schema "Strain"
 
-```{note}
-Each step is shown in the video down below. 
-```
-1. **Insert the “Strain storage” sub-template**
+3. **Fill in the metadata for each strain**
 
-    *Insert > Sub-Template > LIMS Support > Strain Storage*
+    There are some mandatory fields, the rest are optional. You can fill all the fields that are relevant to you. 
 
-2. **Fill-in and submit each registration table** 
+    → The field **"Organism"** is mandatory, as it specify the species of your strain.
+    If you cannot find the relevant organism for your strain, you need to create it yourself and save it in *Benchling Common Inventory* project:
+    
+        “Insert” > “Registration table” > Select schema "Organism"
 
-    *Three tables are needed to successfully store your strain(s):*
+    → To assure tracking the lineage of your strain, it is reccomended to enter the **Host strain** or the **Parent strain** in the metadata. This is the main difference between the two fields:
+        
+   |Field         |Definition   |
+    |--------------|-------------|
+    |Host strain   |A well-characterized microbial strain, like *E. coli BL21*, used as the baseline for genetic manipulation or protein expression.   |
+    |Parent strain |A genetically modified derivative of the host strain that serves as the starting point for further modifications.   |
 
-    a. Strain batch registration
+4. **Click on “Submit”!**
 
-    Allows you to create entities representing a physical batch of a strain. You can have multiple batches for a single strain.
+    If there is any issue with the registration, the side of the table will be red, and you will get an error message. 
 
-    b. Box creation
+    If there are no validation errors, you can click "Submit". Your strains are now registered!
 
-    Allows you to generate a new, empty box in your preferred location (e.g., a Freezer)
+    → You can use the same registration table to **register new strains** by adding new rows to the table, and to **edit** metadata, if you made a mistake. To **save the changes**, click again on "Submit". 
 
-    c. Container creation
+        Edit table > Click "Submit"
 
-    Helps you create vials for the samples and lets you store them in the box. 
+## Track strains storage location
+
+Watch the following video to learn **how to track the storage location of your newly created strains** directly from your Notebook.
 
 ````{raw} html
 <div style="text-align: center;">
@@ -107,23 +86,38 @@ Each step is shown in the video down below.
    </iframe>
 </div>
 ````
+**Summary of the steps:**
+
+````{figure} ../_static/images/store-a-strain-v2.png
+:alt: Strain-storage
+:width: 90%
+:align: center
+
+````
+
+1. **Insert the “Strain storage” sub-template**
+
+        "Insert" > "Sub-Template" > "LIMS Support" > "Strain Storage"
+
+2. **Fill-in and submit each registration table** 
+
+    **Three tables** are needed to successfully store your strain(s):
+
+    - Strain batch registration
+
+        Allows you to create entities representing a physical batch of a strain. You can have multiple batches for a single strain.
+
+    - Box/Plate creation
+
+        Allows you to generate a new, empty box in your preferred location (e.g., a Freezer)
+
+    -  Container creation
+
+        Allows you to move your newly generated batched to the correct container in a Box or a Plate.
 
 
-
-## Can I do this from a spreadsheet?
-Yes, you can easily register strains by uploading a spreadsheet onto a strain registration table. Your spreadsheet must have columns corresponding to some or all of the required fields. 
-
-```{important}
-**You can use the following template for strain registration:** {download}`Strain_Template_YourName.xlsx <../_static/files/Strain_Template_YourName.xlsx>`.
-* Red fields are mandatory
-* Blue fields refer to registered entities
-```
-
-```{caution}
-Benchling will try to match the names in blue fields to entities in the registry. If multiple entities have the same name, you will get a **validation error**. 
-
-It is recommended to use **registry IDs** (which are unique) instead of entity names to prevent this issue.
-```
+## Can I register strains using a spreadsheet?
+Yes, you can register strains also by uploading a spreadsheet onto a strain registration table. Watch the video to learn how:
 
 ````{raw} html
 <div style="text-align: center;">
@@ -138,10 +132,27 @@ It is recommended to use **registry IDs** (which are unique) instead of entity n
 </div>
 ````
 
+**Summary of the steps:**
 
-## Tips and tricks
+1. **Insert a Registration table in your Notebook**
 
-You can register from a table multiple times, without duplicating registries – only the changes and additions are uploaded! You can use this to update registered entities or add new ones from the same table.   
+        “Insert” > “Registration table” > Select schema "Strain"
+
+2. **Populate table from your spreadsheet**
+
+       Registration table > "Add (+) > "Add from spreadsheet" 
+
+    In order to use this registration method, your spreadsheet must have columns corresponding to some or all of the required fields. 
+
+    **You can use the following excel template** to make sure that the spreasheet columns correspond to the columns of the Registration table: {download}`Strain_Template_YourName.xlsx <../_static/files/Strain_Template_YourName.xlsx>`.
+    - **Red fields** are mandatory
+    - **Blue fields** refer to pre-existing Benchling entities
 
 
-*Author: Mía López Portillo Ontiveros*
+    ```{caution}
+    Benchling will try to match the entities names that you added in the **blue fields** to existing entities in the Benchling registry. Make sure to insert the **exact** Benchling name, or the Benchling ID of the entity you are trying to link to your strain.
+    ```
+
+3. **Click on “Submit”!**
+
+If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).

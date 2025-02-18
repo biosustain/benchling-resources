@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Register strains in Benchling &#8212; Benchling resources</title>
+    <title>Manage your strains in Benchling &#8212; Benchling resources</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=9b2032db" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
@@ -20,8 +20,8 @@
     <script src="../_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Use the Registry" href="use_registry.html" />
-    <link rel="prev" title="Create and import sequences" href="sequence_creation.html" /> 
+    <link rel="next" title="Register a strain collection in Benchling" href="strain_collection.html" />
+    <link rel="prev" title="Upload sequences in Benchling" href="sequence_creation.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -132,16 +132,16 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../training_materials/basics.html">📚 Training for new employees</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Benchling guides</span></p>
+<p class="caption" role="heading"><span class="caption-text">How-to Guides</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">📎 Start here</a></li>
-<li class="toctree-l1"><a class="reference internal" href="sequence_creation.html">📎 Create sequences</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">📎 Create strains</a></li>
-<li class="toctree-l1"><a class="reference internal" href="use_registry.html">📎 Use the Registry</a></li>
-<li class="toctree-l1"><a class="reference internal" href="strain_collection.html">📎 Register collections</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plate_map.html">📎 Create a Plate Map</a></li>
-<li class="toctree-l1"><a class="reference internal" href="material_order.html">📎 Order materials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="transfer_data_guests.html">📎 Guests: Transfer your data to a free account</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">🔹 Start here</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sequence_creation.html">🔹 Upload sequences</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">🔹 Register strains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="strain_collection.html">🔹 Register collections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use_registry.html">🔹 Understand the Registry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plate_map.html">🔹 Try out Plate Maps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material_order.html">🔹 Order lab materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transfer_data_guests.html">🔹 Transfer your data (for guests)</a></li>
 </ul>
 
         </div>
@@ -153,25 +153,55 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section class="tex2jax_ignore mathjax_ignore" id="register-strains-in-benchling">
-<h1>Register strains in Benchling<a class="headerlink" href="#register-strains-in-benchling" title="Link to this heading">¶</a></h1>
-<section id="overview">
-<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">¶</a></h2>
-<p>This article will teach you how to register a strain in Benchling from your Notebook.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Registering your strains in Benchling will make it easier for you to <strong>keep track of their lineage</strong>, links to other entities such as plasmids and parent strains, and their <strong>storage locations</strong> at Biosustain.</p>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="manage-your-strains-in-benchling">
+<h1>Manage your strains in Benchling<a class="headerlink" href="#manage-your-strains-in-benchling" title="Link to this heading">¶</a></h1>
+<p>🎯 This guide will show you how to:</p>
+<ul class="simple">
+<li><p><strong>register strains</strong> in Benchling</p></li>
+<li><p><strong>track strains storage location</strong> in the Benchling Inventory</p></li>
+</ul>
+<p>The guide will illustrate how to do both of this actions <strong>directly from your Electronic Notebook entry</strong>.</p>
+<p>⚠️ If you need to register an <strong>entire Strain Collection</strong>, we recommend you to follow this <a class="reference internal" href="strain_collection.html"><span class="std std-doc">guide</span></a> instead.</p>
+<section id="before-starting">
+<h2>Before starting<a class="headerlink" href="#before-starting" title="Link to this heading">¶</a></h2>
+<p>During the strain registration process in Benchling, <strong>you will be asked to link your strains to relevant entities</strong>, e.g., the parent strain, the contained plasmid, the organism etc.
+Since these entities need to pre-exist in the system before linking them to your strains, we suggest you to register those beforehand.
+To learn how to <strong>create plasmids in Benchling</strong>, follow this <a class="reference internal" href="sequence_creation.html"><span class="std std-doc">guide</span></a>.</p>
 </section>
-<section id="pre-requisites">
-<h2>Pre-requisites<a class="headerlink" href="#pre-requisites" title="Link to this heading">¶</a></h2>
-<p>Before registering your strains, register relevant linked entities such as the <strong>organism</strong> (i.e. <em>Escherichia coli</em>, <em>Pichia pastoris</em>, etc.), the <strong>parent strain</strong>, <strong>plasmids</strong>, or a specific <strong>medium</strong>. In order to link your strains to these other entities, they must be registered beforehand.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Organisms and Media must be stored in the <strong>Biosustain Common Inventory</strong> project in Benchling (to avoid needing to register the same Organism or Medium multiple times).</p>
+<section id="register-your-strains">
+<h2>Register your strains<a class="headerlink" href="#register-your-strains" title="Link to this heading">¶</a></h2>
+<p>Watch the following video to learn <strong>how to add new strains</strong> in Benchling directly from your Notebook entry.</p>
+<div style="text-align: center;">
+   <iframe 
+      width="700" 
+      height="320" 
+      src="https://www.youtube.com/embed/_4SFBM0M1iA?si=CfAimXGJYZkgAKo1?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+   </iframe>
+</div><p><strong>Summary of the steps:</strong></p>
+<ol class="arabic">
+<li><p><strong>Open your Notebook (or create a new Notebook entry)</strong></p>
+<p>Registering Strains directly in the Notebook is the easiest way to register strains.
+You can create a new entry only devoted for strain registration, or use an existing entry where you took your experimental notes.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> Benchling Navigation Bar &gt; &quot;Create (+)&quot; &gt; &quot;Entry&quot;
+</pre></div>
 </div>
-<section id="about-registration-fields">
-<h3>About registration fields<a class="headerlink" href="#about-registration-fields" title="Link to this heading">¶</a></h3>
+</li>
+<li><p><strong>Insert a Registration table</strong></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> “Insert” &gt; “Registration table” &gt; Select schema &quot;Strain&quot;
+</pre></div>
+</div>
+</li>
+<li><p><strong>Fill in the metadata for each strain</strong></p>
+<p>There are some mandatory fields, the rest are optional. You can fill all the fields that are relevant to you.</p>
+<p>→ The field <strong>“Organism”</strong> is mandatory, as it specify the species of your strain.
+If you cannot find the relevant organism for your strain, you need to create it yourself and save it in <em>Benchling Common Inventory</em> project:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> “Insert” &gt; “Registration table” &gt; Select schema &quot;Organism&quot;
+</pre></div>
+</div>
+<p>→ To assure tracking the lineage of your strain, it is reccomended to enter the <strong>Host strain</strong> or the <strong>Parent strain</strong> in the metadata. This is the main difference between the two fields:</p>
 <table class="docutils align-default">
 <thead>
 <tr class="row-odd"><th class="head"><p>Field</p></th>
@@ -187,68 +217,20 @@
 </tr>
 </tbody>
 </table>
-</section>
-</section>
-<section id="how-to-register-a-strain">
-<h2>How to register a strain<a class="headerlink" href="#how-to-register-a-strain" title="Link to this heading">¶</a></h2>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Each step is shown in the video down below.</p>
-</div>
-<ol class="arabic">
-<li><p><strong>Open your ELN (or create a new ELN page)</strong></p>
-<p>Registering Strains directly in the ELN is the recommended way to register strains.
-You can create a specific Notebook related to strain registration, or you can add registration tables in your experimental ELNs as you go.</p>
-</li>
-<li><p><strong>Insert a strain registration table</strong></p>
-<p><em>“Insert” &gt; “Registration table”</em></p>
-</li>
-<li><p><strong>Fill in the information</strong></p>
-<p>There are some mandatory fields, the rest are optional. You can fill all the fields that are relevant to you. Fields that link to other entities require the exact entity name.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>You can drag down cells to auto-fill names if you are following a numerical sequence.</p>
-</div>
 </li>
 <li><p><strong>Click on “Submit”!</strong></p>
 <p>If there is any issue with the registration, the side of the table will be red, and you will get an error message.</p>
-<p>If there are no validation errors, your strains will now be registered!</p>
-</li>
-</ol>
-<div style="text-align: center;">
-   <iframe 
-      width="700" 
-      height="320" 
-      src="https://www.youtube.com/embed/_4SFBM0M1iA?si=CfAimXGJYZkgAKo1?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-   </iframe>
-</div></section>
-<section id="how-to-store-a-strain">
-<h2>How to store a strain<a class="headerlink" href="#how-to-store-a-strain" title="Link to this heading">¶</a></h2>
-<figure class="align-center">
-<a class="reference internal image-reference" href="../_images/store-a-strain-v2.png"><img alt="Strain-storage" src="../_images/store-a-strain-v2.png" style="width: 90%;" />
-</a>
-</figure>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Each step is shown in the video down below.</p>
+<p>If there are no validation errors, you can click “Submit”. Your strains are now registered!</p>
+<p>→ You can use the same registration table to <strong>register new strains</strong> by adding new rows to the table, and to <strong>edit</strong> metadata, if you made a mistake. To <strong>save the changes</strong>, click again on “Submit”.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> Edit table &gt; Click &quot;Submit&quot;
+</pre></div>
 </div>
-<ol class="arabic">
-<li><p><strong>Insert the “Strain storage” sub-template</strong></p>
-<p><em>Insert &gt; Sub-Template &gt; LIMS Support &gt; Strain Storage</em></p>
-</li>
-<li><p><strong>Fill-in and submit each registration table</strong></p>
-<p><em>Three tables are needed to successfully store your strain(s):</em></p>
-<p>a. Strain batch registration</p>
-<p>Allows you to create entities representing a physical batch of a strain. You can have multiple batches for a single strain.</p>
-<p>b. Box creation</p>
-<p>Allows you to generate a new, empty box in your preferred location (e.g., a Freezer)</p>
-<p>c. Container creation</p>
-<p>Helps you create vials for the samples and lets you store them in the box.</p>
 </li>
 </ol>
+</section>
+<section id="track-strains-storage-location">
+<h2>Track strains storage location<a class="headerlink" href="#track-strains-storage-location" title="Link to this heading">¶</a></h2>
+<p>Watch the following video to learn <strong>how to track the storage location of your newly created strains</strong> directly from your Notebook.</p>
 <div style="text-align: center;">
    <iframe 
      width="700"
@@ -258,23 +240,36 @@ You can create a specific Notebook related to strain registration, or you can ad
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
       allowfullscreen>
    </iframe>
-</div></section>
-<section id="can-i-do-this-from-a-spreadsheet">
-<h2>Can I do this from a spreadsheet?<a class="headerlink" href="#can-i-do-this-from-a-spreadsheet" title="Link to this heading">¶</a></h2>
-<p>Yes, you can easily register strains by uploading a spreadsheet onto a strain registration table. Your spreadsheet must have columns corresponding to some or all of the required fields.</p>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p><strong>You can use the following template for strain registration:</strong> <a class="reference download internal" download="" href="../_downloads/08987e5dd9ba8afdd5c4295fc57aeb55/Strain_Template_YourName.xlsx"><code class="xref download docutils literal notranslate"><span class="pre">Strain_Template_YourName.xlsx</span></code></a>.</p>
-<ul class="simple">
-<li><p>Red fields are mandatory</p></li>
-<li><p>Blue fields refer to registered entities</p></li>
+</div><p><strong>Summary of the steps:</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/store-a-strain-v2.png"><img alt="Strain-storage" src="../_images/store-a-strain-v2.png" style="width: 90%;" />
+</a>
+</figure>
+<ol class="arabic">
+<li><p><strong>Insert the “Strain storage” sub-template</strong></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> &quot;Insert&quot; &gt; &quot;Sub-Template&quot; &gt; &quot;LIMS Support&quot; &gt; &quot;Strain Storage&quot;
+</pre></div>
+</div>
+</li>
+<li><p><strong>Fill-in and submit each registration table</strong></p>
+<p><strong>Three tables</strong> are needed to successfully store your strain(s):</p>
+<ul>
+<li><p>Strain batch registration</p>
+<p>Allows you to create entities representing a physical batch of a strain. You can have multiple batches for a single strain.</p>
+</li>
+<li><p>Box/Plate creation</p>
+<p>Allows you to generate a new, empty box in your preferred location (e.g., a Freezer)</p>
+</li>
+<li><p>Container creation</p>
+<p>Allows you to move your newly generated batched to the correct container in a Box or a Plate.</p>
+</li>
 </ul>
-</div>
-<div class="admonition caution">
-<p class="admonition-title">Caution</p>
-<p>Benchling will try to match the names in blue fields to entities in the registry. If multiple entities have the same name, you will get a <strong>validation error</strong>.</p>
-<p>It is recommended to use <strong>registry IDs</strong> (which are unique) instead of entity names to prevent this issue.</p>
-</div>
+</li>
+</ol>
+</section>
+<section id="can-i-register-strains-using-a-spreadsheet">
+<h2>Can I register strains using a spreadsheet?<a class="headerlink" href="#can-i-register-strains-using-a-spreadsheet" title="Link to this heading">¶</a></h2>
+<p>Yes, you can register strains also by uploading a spreadsheet onto a strain registration table. Watch the video to learn how:</p>
 <div style="text-align: center;">
    <iframe 
       width="700" 
@@ -284,11 +279,31 @@ You can create a specific Notebook related to strain registration, or you can ad
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
       allowfullscreen>
    </iframe>
-</div></section>
-<section id="tips-and-tricks">
-<h2>Tips and tricks<a class="headerlink" href="#tips-and-tricks" title="Link to this heading">¶</a></h2>
-<p>You can register from a table multiple times, without duplicating registries – only the changes and additions are uploaded! You can use this to update registered entities or add new ones from the same table.</p>
-<p><em>Author: Mía López Portillo Ontiveros</em></p>
+</div><p><strong>Summary of the steps:</strong></p>
+<ol class="arabic">
+<li><p><strong>Insert a Registration table in your Notebook</strong></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> “Insert” &gt; “Registration table” &gt; Select schema &quot;Strain&quot;
+</pre></div>
+</div>
+</li>
+<li><p><strong>Populate table from your spreadsheet</strong></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Registration table &gt; &quot;Add (+) &gt; &quot;Add from spreadsheet&quot; 
+</pre></div>
+</div>
+<p>In order to use this registration method, your spreadsheet must have columns corresponding to some or all of the required fields.</p>
+<p><strong>You can use the following excel template</strong> to make sure that the spreasheet columns correspond to the columns of the Registration table: <a class="reference download internal" download="" href="../_downloads/08987e5dd9ba8afdd5c4295fc57aeb55/Strain_Template_YourName.xlsx"><code class="xref download docutils literal notranslate"><span class="pre">Strain_Template_YourName.xlsx</span></code></a>.</p>
+<ul class="simple">
+<li><p><strong>Red fields</strong> are mandatory</p></li>
+<li><p><strong>Blue fields</strong> refer to pre-existing Benchling entities</p></li>
+</ul>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Benchling will try to match the entities names that you added in the <strong>blue fields</strong> to existing entities in the Benchling registry. Make sure to insert the <strong>exact</strong> Benchling name, or the Benchling ID of the entity you are trying to link to your strain.</p>
+</div>
+</li>
+<li><p><strong>Click on “Submit”!</strong></p></li>
+</ol>
+<p>If you have any question, don’t hesitate to contact us at <a class="reference external" href="mailto:lims_support&#37;&#52;&#48;biosustain&#46;dtu&#46;dk" rel="noopener noreferrer" target="_blank">lims_support<span>&#64;</span>biosustain<span>&#46;</span>dtu<span>&#46;</span>dk</a>.</p>
 </section>
 </section>
 
@@ -306,16 +321,11 @@ You can create a specific Notebook related to strain registration, or you can ad
             <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
             <div class="page_toc">
                 <ul>
-<li><a class="reference internal" href="#">Register strains in Benchling</a><ul>
-<li><a class="reference internal" href="#overview">Overview</a></li>
-<li><a class="reference internal" href="#pre-requisites">Pre-requisites</a><ul>
-<li><a class="reference internal" href="#about-registration-fields">About registration fields</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#how-to-register-a-strain">How to register a strain</a></li>
-<li><a class="reference internal" href="#how-to-store-a-strain">How to store a strain</a></li>
-<li><a class="reference internal" href="#can-i-do-this-from-a-spreadsheet">Can I do this from a spreadsheet?</a></li>
-<li><a class="reference internal" href="#tips-and-tricks">Tips and tricks</a></li>
+<li><a class="reference internal" href="#">Manage your strains in Benchling</a><ul>
+<li><a class="reference internal" href="#before-starting">Before starting</a></li>
+<li><a class="reference internal" href="#register-your-strains">Register your strains</a></li>
+<li><a class="reference internal" href="#track-strains-storage-location">Track strains storage location</a></li>
+<li><a class="reference internal" href="#can-i-register-strains-using-a-spreadsheet">Can I register strains using a spreadsheet?</a></li>
 </ul>
 </li>
 </ul>
@@ -331,13 +341,13 @@ You can create a specific Notebook related to strain registration, or you can ad
             <div class="left">
                 
                 <a href="sequence_creation.html">
-                    <span class="icon">&lt;</span><span>Create and import sequences</span></a>
+                    <span class="icon">&lt;</span><span>Upload sequences in Benchling</span></a>
                 
             </div>
 
             <div class="right">
                 
-                    <a href="use_registry.html"><span>Use the Registry</span><span class="icon">&gt;</span></a>
+                    <a href="strain_collection.html"><span>Register a strain collection in Benchling</span><span class="icon">&gt;</span></a>
                 
             </div>
         </div>
@@ -346,7 +356,7 @@ You can create a specific Notebook related to strain registration, or you can ad
 
     <div class="footer" role="contentinfo">
     &#169; Copyright 2024, DTU Biosustain, Informatics Platform, Research Data Management Team.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.0.
     </div>
 
 <p id="theme_credit"></p>
