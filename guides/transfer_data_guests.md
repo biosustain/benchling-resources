@@ -1,8 +1,8 @@
-# Biosustain guests: How to export research data and continue working on Benchling
+# How to export research data and continue working on Benchling 
 
-## Introduction
+**If you are a guest researcher** at DTU Biosustain, staying for a limited amount of time, you may still want to work on Benchling after your stay is over. 
 
-If you are a guest at DTU Biosustain, staying for a limited amount of time, you may still want to work on Benchling after your stay is over. This article explains the available options and limitations related to data export and setting up a free Benchling account. 
+🎯 This guide explains the available options and limitations related to data export and setting up a free Benchling account. 
 
 ## How to export your data
 
@@ -32,7 +32,7 @@ You will receive an email with a link to download the file. Depending on the siz
 
 The “Export” options shown above generate **individual files for each registered entity**, and the option to obtain a spreadsheet leads to all entities of a given schema in the Biosustain Registry being included. 
 
-To obtain a **spreadsheet of specific entities**, you can either select them from the expanded workspace view or from registration tables in your ELNs, as shown below. 
+To obtain a **spreadsheet of specific entities**, you can either select them from the expanded workspace view or from registration tables in your Notebook entry, as shown below. 
 
 - **Note:** The first option lets you download entities from different schemas at the same time, generating a single spreadsheet that combines all schema fields as columns. To avoid this, you can filter by schema before selecting the entities to export. 
 
@@ -90,7 +90,7 @@ Primers attached to a sequence are formatted as annotations when exported, with 
 </div>
 ````
 
-**ELN entries**
+**Notebook entries**
 
 These can be exported as HTML or PDF files. If there are links, they will remain functional, but may lead back to the Biosustain tenant (for example, if you link to a particular plasmid). 
 
@@ -101,7 +101,7 @@ Files attached to your entries will be mentioned or shown in the HTML/PDF file a
 As mentioned in the previous section, the *“Export”* option for an entire folder generates individual **.txt** files for each entity, which list off all fields that correspond to their schema. Schemas that have an associated DNA file to them also generate a **.gb** file, which includes both the sequence and the schema fields in the *“Keywords”* field. 
 
 
-## Setting up a personal account
+## Setting up a personal Benchling account
 
 1. **Create a free personal account.**
 
@@ -127,9 +127,10 @@ You should not create your personal account with your DTU email, which will be *
 | **Data type**  | **Import option**  |
 |---|---|
 | DNA sequence | Upload GenBank files  |
-| ELN  | Attach PDF files to **new** ELN entries  |
-| Registry and inventory  | Your personal account will **not** have access to the registry, therefore, there will be no schemas nor inventory options. You can keep this information as external spreadsheets or attach it to ELN entries.  |
+| Notebook  | Attach PDF files to **new** Notebook entries  |
+| Registry and inventory  | Your personal account will **not** have access to the registry, therefore, there will be no schemas nor inventory options. You can keep this information as external spreadsheets or attach it to Notebook entries.  |
 
 ```{note}
 Once you’re done with these steps, you will be able to continue using the free version of Benchling to keep track of your experiments and to take advantage of its **Molecular Biology** suite.
 ```
+If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).

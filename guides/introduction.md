@@ -1,6 +1,9 @@
 # Benchling essentials
 
-This guide will introduce you to the **main features and concepts of Benchling**, helping you navigate the platform and manage your research data effectively.
+
+🎯 This guide will introduce you to the **main features and concepts of Benchling**, helping you navigate the platform and manage your research data effectively.
+
+For a **more extensive introduction** to Benchling and its **Molecular Biology Tools** functionalities (including **construct design, construct assembly, sequence alignment**, **CRISPR tool**), check-out these [training materials](/training_materials/basics.md)!
 
 ## Navigate Benchling
 
@@ -75,6 +78,14 @@ For example, if you desire to link a plasmid when registering a new strain, the 
 
 You can track the location of your entities in Benchling (for example, by specifying in which **box** and **freezer** a sample is stored) using the <mark style="background-color: #C5DBEC;">Benchling Inventory</mark> feature.
 
+```{figure} ../_static/images/a-box.png
+:alt: Image of a box in Benchling
+:width: 80%
+:align: center
+
+*Example of a 9x9 Box in Benchling*
+```
+
 ````{dropdown} The Inventory
 
 The **Inventory** is a virtual representation of the storage system of the labs at DTU Biosustain. It allows user to track the physical location of registered entities. 
@@ -95,13 +106,6 @@ A general overview of the information related to the inventory is shown in the f
 *Inventory overview*
 ```
 ````
-```{figure} ../_static/images/a-box.png
-:alt: Image of a box in Benchling
-:width: 80%
-:align: center
-
-*Example of a 9x9 Box in Benchling*
-```
 
 ## Use structured tables
 
@@ -122,8 +126,6 @@ Here are the available types of structured tables that you can add to your Elect
 Registration tables enable you to create multiple entities at the same time. The generated entities will be **automatically added to the Registry**, without the need to manually register them.
 ```
 ````
-→ Check out [this guide](strain_registration.md) to learn how to use Structured tables to register and store Strains. 
-
 To insert a Structured table in your Notebook Entry, click on **"Insert"**, and select the table of interest:
 
 ```{figure} ../_static/images/insert-button.png
@@ -133,6 +135,8 @@ To insert a Structured table in your Notebook Entry, click on **"Insert"**, and 
 
 
 ```
+
+→ Check out [this guide](strain_registration.md) to learn how to use Structured tables to register and store Strains. 
 
 ## Track your results 
 
@@ -214,3 +218,5 @@ If you are unsure about the meaning of a term in Benchling, here you can find a 
 | App Canvas | Blocks programmed to provide specific features through an interactive interface inserted in notebook entries. These can be particularly useful for interacting with external systems - e.g., allow user to import data on a chemical from PubChem in their notebook. |
 | Benchling App | External application integrated into Benchling’s platform.  |
 ````
+
+If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
