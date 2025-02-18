@@ -17,5 +17,7 @@ To **download** the guide, click [here](../_static/files/2025_02_10_Introduction
 ## Introduction to the Molecular Biology Tools
 Explore Benchling Molecular Biology Tools, covering features like **construct design, construct assembly, sequence alignment**, **CRISPR tool**, and much more.
 
-*coming soon*
+To **download** the guide, click [here](../_static/files/2025_Molecular_Biology_Tools_HandsOn.pdf).
+
+<iframe src="https://docs.google.com/gview?url=https://biosustain.github.io/benchling-resources/_static/files/2025_Molecular_Biology_Tools_HandsOn.pdf&embedded=true" width="100%" height="600px"></iframe>
 
