@@ -39,20 +39,32 @@ For additonal resources, you can always visit the [official Benchling Help Page]
 :maxdepth: 1
 :hidden:
 
-📚 Training for new employees <training_materials/basics>
+📚 Training for new employees <training_materials/basics.md>
 ```
 
 ```{toctree}
 :maxdepth: 1
 :hidden:
-:caption: 'How-to Guides'
+:caption: 'Registering data'
 
-🔹 Start here <guides/introduction>
-🔹 Upload sequences <guides/sequence_creation.md>
-🔹 Register strains <guides/strain_registration.md>
-🔹 Register collections <guides/strain_collection.md>
-🔹 Understand the Registry <guides/use_registry.md>
-🔹 Try out Plate Maps <guides/plate_map.md>
-🔹 Order lab materials <guides/material_order.md>
-🔹 Transfer your data (for guests) <guides/transfer_data_guests.md>
+→ Start here <guides/introduction.md>
+→ Upload sequences <guides/sequence_creation.md>
+→ Register strains <guides/strain_registration.md>
+→ Register collections <guides/strain_collection.md>
+→ Understand the Registry <guides/use_registry.md>
+→ Transfer your data (for guests) <guides/transfer_data_guests.md>
+```
+
+```{toctree}
+:maxdepth: 1
+:hidden:
+:caption: 'New functionalities'
+→ Try out Plate Maps <guides/plate_map.md>
+```
+
+```{toctree}
+:maxdepth: 1
+:hidden:
+:caption: 'In-house services'
+→ Order lab materials <guides/material_order.md>
 ```

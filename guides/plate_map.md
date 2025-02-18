@@ -16,7 +16,7 @@ Benchling plate mapping is a useful tool for **planning, visualising and registe
 *Example of layers of annotations in a plate map*
 ```
 
-## Pre-requesites
+## Before starting
 
 Before creating the Plate Map, make sure the contents you want to fill the plate with are [registered](https://biosustain.github.io/benchling-resources/guides/use_registry.html) and containable (see note for list of containable entities). You can also add those entities to a worklist to facilitate filling up the plate in bulk. 
 
