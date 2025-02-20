@@ -30,3 +30,10 @@ ul ul li, ol ol li {
     border-left: 4px solid #0f87e3;
     color: #000
 }
+
+.caption-text {
+    color: #04477b; /* Change as needed */
+    /*font-size: 16px; /* Adjust the size */
+    font-weight: bold; /* Optional: Make it bold */
+    /*font-style: italic; /* Optional: Make it italic */
+}
