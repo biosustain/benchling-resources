@@ -5,6 +5,8 @@ At Biosustain, a **Benchling training** is offered for new employees a few times
 - **"Introduction to the Molecular Biology Tools"**
 
 If you missed the training, you can find <mark style="background-color: #C5DBEC;">all the training materials</mark> down-below. 
+<br/><br/><br/>
+⏳ _The loading of the PowerPoints can take some seconds as the file size is quite big_ ⏳
 
 ## Introduction to Benchling
 
