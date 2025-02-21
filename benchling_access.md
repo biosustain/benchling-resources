@@ -26,7 +26,7 @@ A **Project** is a workspace for storing and organizing research data. In Benchl
 
 _Note: If you cannot add/edit collaborators in your Project, it means that you are not a Project Admin. Ask the Project Admin to change your role, if needed._
 
-#### Project permission options
+### Project permission options
 <br/>
 
 | Role  | Permissions |
