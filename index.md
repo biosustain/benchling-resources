@@ -2,6 +2,10 @@
 
 The **Biosustain Benchling Resources Page** will help you navigate Benchling and successfully track and manage your experimental data during your time at Biosustain.
 
+For a whole-round introduction to the platform, we suggest you to check-out the [_Introduction to Benchling_](/training_materials/basics.md) learing materials (or to directly attend one of our Benchling training session!).
+
+Not all functionalities are covered by our guides. If you cannot find what you are looking for here, you can learn more about specific functionalities in [_Benchling Learning Labs_](https://www.benchling.com/learning-labs), an learning platform administered by Benchling. The courses offered help you build essential Benchling knowledge and skills at any time. Plus, career-building and role-specific badges to to showcase your learnings.. 
+
 Here you will find <mark style="background-color: #C5DBEC;">step-by-step tutorials and short training videos</mark>.
 
 ## Benchling in a nutshell:
@@ -25,14 +29,21 @@ For additonal resources, you can always visit the [official Benchling Help Page]
 :maxdepth: 1
 :hidden:
 
-📩 Contact us <contact>
+📩 Contact us <contact.md>
 ```
 
 ```{toctree}
 :maxdepth: 1
 :hidden:
 
-❓ FAQ <FAQ>
+❓ FAQ <FAQ.md>
+```
+
+```{toctree}
+:maxdepth: 1
+:hidden:
+
+🔐 Benchling access <benchling_access.md>
 ```
 
 ```{toctree}
