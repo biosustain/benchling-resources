@@ -1,14 +1,19 @@
 # Welcome!
 
-The **Biosustain Benchling Resources Page** will help you navigate Benchling and successfully track and manage your experimental data during your time at Biosustain.
+The Biosustain **Benchling Resources** page will help you navigate Benchling and successfully track and manage your experimental data during your time at Biosustain.
 
-For a whole-round introduction to the platform, we suggest you to check-out the [_Introduction to Benchling_](/training_materials/basics.md) learing materials (or to directly attend one of our Benchling training session!).
+Here you will find **step-by-step tutorials** and short **training videos** covering topics like:
+- How to access Benchling
+- How to register data into the system
+- How to submit requests for in-house services
+- Highlights of new functionalities 
 
-Not all functionalities are covered by our guides. If you cannot find what you are looking for here, you can learn more about specific functionalities in [_Benchling Learning Labs_](https://www.benchling.com/learning-labs), an learning platform administered by Benchling. The courses offered help you build essential Benchling knowledge and skills at any time. Plus, career-building and role-specific badges to to showcase your learnings.. 
+## Benchling in a nutshell
 
-Here you will find <mark style="background-color: #C5DBEC;">step-by-step tutorials and short training videos</mark>.
+Benchling is an **online platform** that keeps your experimental data, electronic notebooks, and SOPs **all in one place**, making it easy to organize and link them together, and to share them with other researchers.
 
-## Benchling in a nutshell:
+Here is an **overview of the main modules** in the system: 
+
 
 ````{figure} ./_static/images/benchling-modules.png
 :alt: benchling-modules
@@ -17,13 +22,29 @@ Here you will find <mark style="background-color: #C5DBEC;">step-by-step tutoria
 
 ````
 
-Benchling is an **online platform** that <mark style="background-color: #C5DBEC;">keeps your experimental data, electronic notebooks, and SOPs all in one place</mark>, making it easy to organize and link them together, and to share them with other researchers.
 
-Benchling also includes an **in-silico molecular design module** and a **request submission** module. 
+## Start exploring
 
-For additonal resources, you can always visit the [official Benchling Help Page](https://help.benchling.com/hc/en-us)!
- 
-[LIMS Support team](contact.md)
+Start exploring some of our resources: 
+
+→ [Get or grant access to Benchling](/benchling_access.md) 
+
+→ [Get a comprehensive introduction to the platform](/training_materials/basics.md) 
+
+→ [Get familiar with the core functionalities](/guides/introduction.md) 
+
+→ [Get hands-on support](/contact.md)
+
+For specific needs, **browse the list of guides** on the left-hand side of the page, or search for a key-word in the **search bar** 🔍 
+
+## More resources
+
+Not all Benchling functionalities are covered by our guides. 
+Here are some additional learning materials and guides:
+
+→ [Benchling Help Center](https://help.benchling.com/hc/en-us) (official Benchling Help page)
+
+→ [Benchling Learning Labs](https://www.benchling.com/learning-labs) (learning platform administered by Benchling)
 
 ```{toctree}
 :maxdepth: 1
