@@ -99,4 +99,5 @@ Here are some additional learning materials and guides:
 :hidden:
 :caption: 'In-house services'
 → Order lab materials <guides/material_order.md>
+→ Submit samples for analysis <guides/samples_submission.md>
 ```
