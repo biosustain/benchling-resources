@@ -33,7 +33,7 @@ Medium Recipes are the base schema for your media in Benchling. You can register
 
 See how to:
 
-### A) Create a Medium Recipe from scratch
+### Create a Medium Recipe from scratch
 
 ````{raw} html
 <div style="text-align: center;">
@@ -43,6 +43,7 @@ See how to:
 </div>
 ````
 
+***Summary of the steps:***
 
 **Step 1: Create a Medium Recipe entity.**
 ```
@@ -71,7 +72,7 @@ Benchling Navigation Bar: "Create (+)" > "Mixture" > "Medium Recipe"
 
 **Step 6: *Register!***
 
-### B) Create a Medium Recipe from another Medium Recipe
+### Create a Medium Recipe from another Medium Recipe
 
 The process follows the same steps as **A) Create a Medium Recipe from scratch**, with the following changes:
 
@@ -104,13 +105,15 @@ You may find this schema useful for the following reasons:
 - **Track the batches of medium used in experiments** - link individual media preparations to your experiments, and control it as a variable.
 - **Keep inventory** - Medium Batches can be added into Benchling Inventory.
 
-### C) Create a Medium Batch from a Medium Recipe using a mixture prep table
+### Create a Medium Batch from a Medium Recipe using a mixture prep table
 
 ````{raw} html
 <iframe
     width="560" height="315" src="https://www.youtube.com/embed/S4mX3Mb9esg?si=pMgCXQIuN_xdO2Di" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
 ````
+
+***Summary of the steps:***
 
 **Step 1: Insert a mixture prep table into your ELN entry.**
 ```
@@ -161,8 +164,8 @@ To represent this laboratory workflow and document the recipes for both your sol
 Having a library of Medium Recipes for your project may help you document your experiments as you develop your work, and facilitate collaboration. A way to approach it is:
 
 - Create a specific folder within your project to store Medium Recipes.
+- Create a subfolder for your intermediate solutions recipes.
 - Decide on a naming convention for the Medium Recipes and use it consistently.
-- Create a subfolder for media components - e.g., containing the Medium Recipe entities that represent the supplementary/intermediate solutions that you prepare to use as ingredients of your media.
 
 ### Bulk import Medium Recipes from a spreadsheet
 
