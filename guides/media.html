@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Upload sequences in Benchling &#8212; Benchling resources</title>
+    <title>Register media &#8212; Benchling resources</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=9b2032db" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
@@ -20,8 +20,8 @@
     <script src="../_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Manage your strains in Benchling" href="strain_registration.html" />
-    <link rel="prev" title="Benchling essentials" href="introduction.html" /> 
+    <link rel="next" title="Try out Plate Maps" href="plate_map.html" />
+    <link rel="prev" title="How to export research data and continue working on Benchling" href="transfer_data_guests.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -138,12 +138,12 @@
 <p class="caption" role="heading"><span class="caption-text">Registering data</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">→ Start here</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">→ Upload sequences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sequence_creation.html">→ Upload sequences</a></li>
 <li class="toctree-l1"><a class="reference internal" href="strain_registration.html">→ Register strains</a></li>
 <li class="toctree-l1"><a class="reference internal" href="strain_collection.html">→ Register collections</a></li>
 <li class="toctree-l1"><a class="reference internal" href="use_registry.html">→ Understand the Registry</a></li>
 <li class="toctree-l1"><a class="reference internal" href="transfer_data_guests.html">→ Transfer your data (for guests)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="media.html">→ Register media</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">→ Register media</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">New functionalities</span></p>
 <ul>
@@ -164,123 +164,161 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section class="tex2jax_ignore mathjax_ignore" id="upload-sequences-in-benchling">
-<h1>Upload sequences in Benchling<a class="headerlink" href="#upload-sequences-in-benchling" title="Link to this heading">¶</a></h1>
-<p>🎯 This guide will show you all the possible ways to <strong>upload a sequence in Benchling</strong>, including:</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="register-media">
+<h1>Register media<a class="headerlink" href="#register-media" title="Link to this heading">¶</a></h1>
+<p>🎯 This guide will show you how to:</p>
 <ul class="simple">
-<li><p><strong>copy/pasting</strong> a sequence</p></li>
-<li><p><strong>uploading</strong> a sequence file</p></li>
-<li><p><strong>importing</strong> a sequence from a database</p></li>
-<li><p><strong>importing</strong> a chromosomal region from a database</p></li>
+<li><p><strong>Register media</strong> in Benchling with the Medium Recipe.</p></li>
+<li><p><strong>Track individual batches of media</strong> you prepare for your experiments with Medium Batch.</p></li>
+<li><p>Leverage mixture prep tables to facilitate your media preparations.</p></li>
+<li><p>Build your library of media recipes.</p></li>
 </ul>
-<p>Sequences may be <strong>plasmids, DNA fragments, genes, primers</strong> or others. After creating a sequence, you will be able to <strong>view, annotate and modify</strong> it, and perform further processing using Benchling Molecular Biology Tools. For an introduction to Benchling Molecular Biology Tools, check this <a class="reference internal" href="../training_materials/basics.html"><span class="std std-doc">guide</span></a>.</p>
-<section id="get-started">
-<h2>Get started<a class="headerlink" href="#get-started" title="Link to this heading">¶</a></h2>
-<p>Locate the sequence creation menu:</p>
-<div style="text-align: center;">
-<iframe 
-    width="700"
-    height="315"
-    src="https://www.youtube.com/embed/QtYoWOCuWUQ?si=a9sqcj1lYzCexX-Z?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-</div><p><strong>Note</strong>: Always double-check which folder you are saving to!</p>
-</section>
-<section id="create-a-new-sequence">
-<h2>Create a new sequence<a class="headerlink" href="#create-a-new-sequence" title="Link to this heading">¶</a></h2>
-<p>This can be useful for raw sequences. For example, if you have a .docx file with a sequence, or the PDF of a paper with a sequence you are interested in, you can easily copy and paste it. The menu allows you to set the topology and schema depending on what your sequence corresponds to.</p>
-<div style="text-align: center;">
-<iframe 
-    width="700"
-    height="315" 
-    src="https://www.youtube.com/embed/tvN3V3bXu-A?si=YiwlvxNtnNT9WU1d?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-</div><div class="my-custom-admonition admonition">
-<p class="admonition-title"><em>Try it out!</em></p>
-<p>➜ Create a file for the <strong>pCAT</strong> promoter (agaggttccaactttcaccataatgaaaca)</p>
-</div>
-</section>
-<section id="upload-a-sequence-file">
-<h2>Upload a sequence file<a class="headerlink" href="#upload-a-sequence-file" title="Link to this heading">¶</a></h2>
-<p>If you have one or more sequences saved to your computer, you can upload them. The sequence, annotations and comments will be imported.</p>
-<div style="text-align: center;">
-<iframe 
-    width="700"
-    height="315" 
-    src="https://www.youtube.com/embed/KSD90nuH6Vc?si=-i_JGslUakaLyApF?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-</div><div class="my-custom-admonition admonition">
-<p class="admonition-title"><em>Try it out!</em></p>
-<p>➜ Download the file for the <strong>pET-28b(+)</strong> plasmid and upload it to Benchling:
-<a class="reference external" href="https://www.snapgene.com/plasmids/pet_and_duet_vectors_(novagen)/pET-28b(%2B)" rel="noreferrer" target="_blank">pET-28b(+)</a></p>
-</div>
-</section>
-<section id="import-from-databases">
-<h2>Import from databases<a class="headerlink" href="#import-from-databases" title="Link to this heading">¶</a></h2>
-<p>If you have a link or ID from a database, you can directly import the corresponding sequence into Benchling.</p>
-<p>The following identifiers are supported:</p>
+<section id="overview-of-media-schemas">
+<h2>Overview of media schemas<a class="headerlink" href="#overview-of-media-schemas" title="Link to this heading">¶</a></h2>
+<p>Benchling has two schemas for media:</p>
 <ul class="simple">
-<li><p>Addgene URL</p></li>
-<li><p>BioBrick ID</p></li>
-<li><p>Ensembl ID</p></li>
-<li><p>Gene name or symbol</p></li>
-<li><p>iGEM Registry</p></li>
-<li><p>Joint BioEnergy Institute (JBEI) ID</p></li>
-<li><p>NCBI Accession Number</p></li>
+<li><p><strong>Medium Recipe</strong> is the main schema to register your media.</p></li>
+<li><p><strong>Medium Batch</strong> allows you to register individual preparations of a Medium Recipe.</p></li>
 </ul>
-<div style="text-align: center;">
-<iframe 
-    width="700"
-    height="315" 
-    src="https://www.youtube.com/embed/Gqu1k3_1iS4?si=6lwnC_snghjh6dK6?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-</div><div class="my-custom-admonition admonition">
-<p class="admonition-title"><em>Try it out!</em></p>
-<p>➜ Copy and paste any of these IDs into the sequence search bar:</p>
-<table class="docutils align-default">
-<thead>
-<tr class="row-odd"><th class="head"><p><strong>BioBrick ID</strong></p></th>
-<th class="head"><p><strong>Gene name</strong></p></th>
-<th class="head"><p><strong>Addgene URL</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>BBa_K156014</p></td>
-<td><p>XXT3 (Species: <em>Arabidopsis thaliana</em>)</p></td>
-<td><p><a class="reference external" href="https://www.addgene.org/54536/" rel="noreferrer" target="_blank">Link</a></p></td>
-</tr>
-</tbody>
-</table>
-</div>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/media-guide-1.jpg"><img alt="Demonstrates layers of annotation that plate maps can have" src="../_images/media-guide-1.jpg" style="width: 100%;" />
+</a>
+</figure>
 </section>
-<section id="select-a-chromosomal-region">
-<h2>Select a chromosomal region<a class="headerlink" href="#select-a-chromosomal-region" title="Link to this heading">¶</a></h2>
-<p>It’s also possible to import sequences from genomic loci by searching for them directly from Benchling, which uses the Ensembl database. You need to know the organism or genome ID, the chromosome and the locations of the start and the end.</p>
+<section id="how-to-register-medium-recipe-entities">
+<h2>How to register Medium Recipe entities<a class="headerlink" href="#how-to-register-medium-recipe-entities" title="Link to this heading">¶</a></h2>
+<p>Medium Recipes are the base schema for your media in Benchling. You can register them in two different ways.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/media-guide-2.png"><img alt="Demonstrates layers of annotation that plate maps can have" src="../_images/media-guide-2.png" style="width: 70%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p><strong>Create a Medium Recipe from scratch:</strong> define the medium composition (ingredients and their concentrations) from a blank starting point.</p></li>
+<li><p><strong>Create a Medium Recipe based on another Medium Recipe:</strong> define the medium composition (ingredients and their concentrations) having a pre-existing Medium Recipe composition as starting point.</p></li>
+</ul>
+<p>See how to:</p>
+<section id="create-a-medium-recipe-from-scratch">
+<h3>Create a Medium Recipe from scratch<a class="headerlink" href="#create-a-medium-recipe-from-scratch" title="Link to this heading">¶</a></h3>
 <div style="text-align: center;">
-<iframe 
-    width="700"
-    height="315" 
-    src="https://www.youtube.com/embed/AN2FIvO7ZTc?si=HT7QOVAA4XCaosFp?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
+<iframe
+    width="560" height="315" src="https://www.youtube.com/embed/DDK1mbwI9_w?si=_xI3cQtm3-a8s_hq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
-</div><div class="my-custom-admonition admonition">
-<p class="admonition-title"><em>Try it out!</em></p>
-<p>➜ Import the human HBB gene by selecting the human genome, chromosome 11, and write 5225464 as the start and 5229395 as the end.</p>
+</div><p><em><strong>Summary of the steps:</strong></em></p>
+<p><strong>Step 1: Create a Medium Recipe entity.</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Benchling</span> <span class="n">Navigation</span> <span class="n">Bar</span><span class="p">:</span> <span class="s2">&quot;Create (+)&quot;</span> <span class="o">&gt;</span> <span class="s2">&quot;Mixture&quot;</span> <span class="o">&gt;</span> <span class="s2">&quot;Medium Recipe&quot;</span>
+</pre></div>
 </div>
+<p><strong>Step 2: Add the medium composition: select the ingredients and their concentrations.</strong></p>
+<blockquote>
+<div><p>Select the appropriate ingredient entities to represent the components used for the preparation of the mixture. For example:</p>
+<ul class="simple">
+<li><p>Indicate a specific product with a <strong>Commercial Material</strong> entity (from orders).</p></li>
+<li><p>More generally reference a chemical with a <strong>Chemical Compound</strong> entity (includes chemical formula).</p></li>
+<li><p>Indicate a pre-prepared solution with <strong>another Medium Recipe</strong>.</p></li>
+</ul>
+<p>Pay extra attention to the concentration values <strong>and units</strong> for the ingredients in your Medium Recipes. Mixing up units can be a small mistake with big consequences.</p>
+</div></blockquote>
+<p><strong>Step 3: Write recipe instructions.</strong></p>
+<blockquote>
+<div><p>Use the Instructions free text module to describe the preparation of the medium and its storage.</p>
+</div></blockquote>
+<p><strong>Step 4: Fill out relevant schema fields, or add your own in Custom Fields.</strong></p>
+<p><strong>Step 5: Add aliases.</strong></p>
+<blockquote>
+<div><p>Use aliases to indicate other names the medium might be know as. This could even be, for example, an internal ID for your media library. You can then reach you entity through any of the aliases when searching in Benchling.</p>
+</div></blockquote>
+<p><strong>Step 6: <em>Register!</em></strong></p>
+</section>
+<section id="create-a-medium-recipe-from-another-medium-recipe">
+<h3>Create a Medium Recipe from another Medium Recipe<a class="headerlink" href="#create-a-medium-recipe-from-another-medium-recipe" title="Link to this heading">¶</a></h3>
+<p>The process follows the same steps as <strong>A) Create a Medium Recipe from scratch</strong>, with the following changes:</p>
+<p><strong>Step 1: Create a new Medium Recipe entity and <em>indicate the parental Medium Recipe.</em></strong></p>
+<blockquote>
+<div><p>Link the Medium Recipe that your new Medium Recipe will be based on in the ‘Derived from’ field of the pop-up window.</p>
+</div></blockquote>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/media-guide-3.png"><img alt="Demonstrates layers of annotation that plate maps can have" src="../_images/media-guide-3.png" style="width: 70%;" />
+</a>
+</figure>
+<p><strong>Step 2: <em>Modify the composition of the new Medium Recipe.</em></strong></p>
+<blockquote>
+<div><p>The new Medium Recipe inherits the composition of the parental Medium Recipe. You should then apply the desired  modifications: add/remove ingredients, or change concentrations.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="how-to-register-medium-batch-entities">
+<h2>How to register Medium Batch entities<a class="headerlink" href="#how-to-register-medium-batch-entities" title="Link to this heading">¶</a></h2>
+<p>The Medium Batch schema allows you to manage individual preparations of Medium Recipes.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/media-guide-4.png"><img alt="Demonstrates layers of annotation that plate maps can have" src="../_images/media-guide-4.png" style="width: 50%;" />
+</a>
+</figure>
+<p>You may find this schema useful for the following reasons:</p>
+<ul class="simple">
+<li><p><strong>Leverage mixture prep tables</strong> - a great tool to facilitate media prep and its documention in your ELN.</p></li>
+<li><p><strong>Track the batches of medium used in experiments</strong> - link individual media preparations to your experiments, and control it as a variable.</p></li>
+<li><p><strong>Keep inventory</strong> - Medium Batches can be added into Benchling Inventory.</p></li>
+</ul>
+<section id="create-a-medium-batch-from-a-medium-recipe-using-a-mixture-prep-table">
+<h3>Create a Medium Batch from a Medium Recipe using a mixture prep table<a class="headerlink" href="#create-a-medium-batch-from-a-medium-recipe-using-a-mixture-prep-table" title="Link to this heading">¶</a></h3>
+<iframe
+    width="560" height="315" src="https://www.youtube.com/embed/S4mX3Mb9esg?si=pMgCXQIuN_xdO2Di" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe><p><em><strong>Summary of the steps:</strong></em></p>
+<p><strong>Step 1: Insert a mixture prep table into your ELN entry.</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">In</span> <span class="n">entry</span><span class="p">:</span> <span class="s2">&quot;Insert&quot;</span> <span class="o">&gt;</span> <span class="s2">&quot;Mixture prep table&quot;</span>
+</pre></div>
+</div>
+<blockquote>
+<div><p>Keep Name and registry ID settings as “Generate new registry IDs, and replace name according to name template” the name for your Medium Batch following <strong>naming convention</strong>: <em>(Medium Recipe name)</em>-<em>(number)</em>.</p>
+</div></blockquote>
+<p><strong>Step 2: Indicate the Medium Recipe that your Medium Batch is following.</strong></p>
+<blockquote>
+<div><p>The mixture prep table will update the composition of your Medium Prep based on that defined in the Medium Recipe. By default, the composition will be presented as amount of each ingredient per 1 L of medium.</p>
+</div></blockquote>
+<p><strong>Step 3: Adjust the target volume of medium you are preparing.</strong></p>
+<blockquote>
+<div><p>The mixture prep table will automatically calculate the actual amount of each ingredient for the total volume of medium you specify.</p>
+</div></blockquote>
+<p><strong>Step 4: Paste the recipe instructions into the entry.</strong></p>
+<blockquote>
+<div><p>You can paste the instructions from Medium Recipe detailing how to prepare the medium with a click.</p>
+</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Mixture</span> <span class="n">prep</span> <span class="n">table</span> <span class="n">top</span> <span class="n">bar</span><span class="p">:</span> <span class="s2">&quot;Insert parent instruction into entry&quot;</span>
+</pre></div>
+</div>
+<p><strong>Step 5: Add details about the ingredients specific to your preparation.</strong></p>
+<blockquote>
+<div><p>These details could be the actual measured amounts of ingredient, or other notes you want to specify about the ingredients.</p>
+</div></blockquote>
+<p><strong>Step 6: Fill out relevant schema fields.</strong></p>
+<p><strong>Step 7: <em>Submit!</em></strong></p>
+</section>
+</section>
+<section id="tips">
+<h2>Tips<a class="headerlink" href="#tips" title="Link to this heading">¶</a></h2>
+<section id="use-medium-recipe-entities-as-ingredients">
+<h3>Use Medium Recipe entities as ingredients<a class="headerlink" href="#use-medium-recipe-entities-as-ingredients" title="Link to this heading">¶</a></h3>
+<p>The preparation of medium may often require that some solutions are pre-prepared - these could be intermediate solutions that are mixed to compose the final medium, or supplements such as antibiotic stock solutions.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/media-guide-5.png"><img alt="Demonstrates layers of annotation that plate maps can have" src="../_images/media-guide-5.png" style="width: 80%;" />
+</a>
+</figure>
+<p>To represent this laboratory workflow and document the recipes for both your solutions and media in Benchling, we recommend <strong>creating Medium Recipe entities for those pre-prepared solutions, then using them as ingredients for your Medium Recipes</strong>.</p>
+</section>
+<section id="build-your-media-library">
+<h3>Build your media library<a class="headerlink" href="#build-your-media-library" title="Link to this heading">¶</a></h3>
+<p>Having a library of Medium Recipes for your project may help you document your experiments as you develop your work, and facilitate collaboration. A way to approach it is:</p>
+<ul class="simple">
+<li><p>Create a specific folder within your project to store Medium Recipes.</p></li>
+<li><p>Create a subfolder for your intermediate solutions recipes.</p></li>
+<li><p>Decide on a naming convention for the Medium Recipes and use it consistently.</p></li>
+</ul>
+</section>
+<section id="bulk-import-medium-recipes-from-a-spreadsheet">
+<h3>Bulk import Medium Recipes from a spreadsheet<a class="headerlink" href="#bulk-import-medium-recipes-from-a-spreadsheet" title="Link to this heading">¶</a></h3>
+<p>If you are creating multiple Medium Recipes at once, bulk import of Medium Recipe composition from a spreadsheet may be the best option. Learn how to do it with Benchling guide <a class="reference external" href="https://help.benchling.com/hc/en-us/articles/9684226244621-Import-mixture-ingredients-in-bulk" rel="noreferrer" target="_blank">Import Mixture Ingredients in Bulk</a>.</p>
 <p>If you have any question, don’t hesitate to contact us at <a class="reference external" href="mailto:lims_support&#37;&#52;&#48;biosustain&#46;dtu&#46;dk" rel="noreferrer" target="_blank">lims_support<span>&#64;</span>biosustain<span>&#46;</span>dtu<span>&#46;</span>dk</a>.</p>
+</section>
 </section>
 </section>
 
@@ -298,12 +336,23 @@
             <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
             <div class="page_toc">
                 <ul>
-<li><a class="reference internal" href="#">Upload sequences in Benchling</a><ul>
-<li><a class="reference internal" href="#get-started">Get started</a></li>
-<li><a class="reference internal" href="#create-a-new-sequence">Create a new sequence</a></li>
-<li><a class="reference internal" href="#upload-a-sequence-file">Upload a sequence file</a></li>
-<li><a class="reference internal" href="#import-from-databases">Import from databases</a></li>
-<li><a class="reference internal" href="#select-a-chromosomal-region">Select a chromosomal region</a></li>
+<li><a class="reference internal" href="#">Register media</a><ul>
+<li><a class="reference internal" href="#overview-of-media-schemas">Overview of media schemas</a></li>
+<li><a class="reference internal" href="#how-to-register-medium-recipe-entities">How to register Medium Recipe entities</a><ul>
+<li><a class="reference internal" href="#create-a-medium-recipe-from-scratch">Create a Medium Recipe from scratch</a></li>
+<li><a class="reference internal" href="#create-a-medium-recipe-from-another-medium-recipe">Create a Medium Recipe from another Medium Recipe</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#how-to-register-medium-batch-entities">How to register Medium Batch entities</a><ul>
+<li><a class="reference internal" href="#create-a-medium-batch-from-a-medium-recipe-using-a-mixture-prep-table">Create a Medium Batch from a Medium Recipe using a mixture prep table</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#tips">Tips</a><ul>
+<li><a class="reference internal" href="#use-medium-recipe-entities-as-ingredients">Use Medium Recipe entities as ingredients</a></li>
+<li><a class="reference internal" href="#build-your-media-library">Build your media library</a></li>
+<li><a class="reference internal" href="#bulk-import-medium-recipes-from-a-spreadsheet">Bulk import Medium Recipes from a spreadsheet</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -318,14 +367,14 @@
         <div class="button_nav">
             <div class="left">
                 
-                <a href="introduction.html">
-                    <span class="icon">&lt;</span><span>Benchling essentials</span></a>
+                <a href="transfer_data_guests.html">
+                    <span class="icon">&lt;</span><span>How to export research data and continue working on Benchling</span></a>
                 
             </div>
 
             <div class="right">
                 
-                    <a href="strain_registration.html"><span>Manage your strains in Benchling</span><span class="icon">&gt;</span></a>
+                    <a href="plate_map.html"><span>Try out Plate Maps</span><span class="icon">&gt;</span></a>
                 
             </div>
         </div>
