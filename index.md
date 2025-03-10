@@ -85,6 +85,7 @@ Here are some additional learning materials and guides:
 → Register collections <guides/strain_collection.md>
 → Understand the Registry <guides/use_registry.md>
 → Transfer your data (for guests) <guides/transfer_data_guests.md>
+→ Register media <guides/media.md>
 ```
 
 ```{toctree}
