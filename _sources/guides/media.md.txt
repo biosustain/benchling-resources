@@ -74,7 +74,7 @@ Benchling Navigation Bar: "Create (+)" > "Mixture" > "Medium Recipe"
 
 ### Create a Medium Recipe from another Medium Recipe
 
-The process follows the same steps as **A) Create a Medium Recipe from scratch**, with the following changes:
+The process follows the same steps as **Create a Medium Recipe from scratch**, with the following changes:
 
 **Step 1: Create a new Medium Recipe entity and *indicate the parental Medium Recipe.***
 
