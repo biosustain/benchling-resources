@@ -21,15 +21,14 @@ In this guide you will learn how to make the most out of the ELN capabilities to
 
 ## Inside an ELN entry
 
-Inside an entry you have multiple formatting tools to help build your ELN. From:
+Inside an entry you have multiple formatting tools to help build your ELN.
 - Format and structure text: toggle headers, add colors, links, lists and checkboxes, separaters
 - Insert elements: tables, images, files, code blocks
-- Table of contents
-- Version control
+- Table of contents and Version control
 
 Figure with notebook example (lots of elements)
 
-See dropdowns for more detail and link to entry template where you can try them for yourself
+See dropdowns for more detail and check out entry template where you can try functionalities for yourself
 
 ````{dropdown} Text formatting
 
