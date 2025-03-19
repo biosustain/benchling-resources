@@ -9,26 +9,25 @@
 
 Documenting experiments is an indispensable part of scientific research.
 
-Much like the traditional paper notebook, you can open a blank entry of electronic lab notebook (ELN) and start writing your experimental notes. However, the ELN is built to facilitate and elevate note taking as it offers:
+Much like the traditional paper notebook, you can open a blank entry of the electronic lab notebook (ELN) and start writing your experimental notes. However, the ELN is built to facilitate and elevate note taking, as it offers:
 
 - Tools for structuring your notes
-- Connecting notes to data in the LIMS or external links
-- Ability to create entries from templates (agility, reproducibility)
+- Ability to connect notes to data in the LIMS, or to add external links
+- Ability to create entries from templates
 - History and version control
-- Easy search within your notes
+- Searchable notes
 
 In this guide you will learn how to make the most out of the ELN capabilities to make experiment documentation easier and more powerful.
 
 ## Inside an ELN entry
 
-Inside an entry you have multiple formatting tools to help build your ELN.
-- Format and structure text: toggle headers, add colors, links, lists and checkboxes, separaters
-- Insert elements: tables, images, files, code blocks
-- Table of contents and Version control
+Entries provide multiple formatting options and acessory functionalities that help you write good experimental notes. Bellow you can learn about these functionalities in more detail, and you can try them out yourself with [this entry template].
 
-Figure with notebook example (lots of elements)
-
-See dropdowns for more detail and check out entry template where you can try functionalities for yourself
+```{figure} ../_static/images/eln-guide-5.png
+:alt:
+:width: 90%
+:align: center
+```
 
 ````{dropdown} Text formatting
 
@@ -52,7 +51,9 @@ Links @ to mention user. record of linked data under relevant items.
 
 ````{dropdown} Attach images and files
 
-attach images, pdf, pwp or csv files. annotate image
+attach images, pdf, pwp or csv files.
+annotate image
+open preview
 
 ````
 
@@ -85,6 +86,8 @@ benchling is saving as you go, you can access history of versions of your entry 
 ## Templates and subtemplates
 
 Write in an unstructured manner, or give a structure to your notes manually, **or use templates**
+
+ (agility, reproducibility)
 
 ## Tips
 
