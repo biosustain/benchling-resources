@@ -19,7 +19,7 @@ Much like the traditional paper notebook, you can open a blank entry of the elec
 
 In this guide you will learn how to make the most out of the ELN capabilities to make experiment documentation easier and more powerful.
 
-## Inside an ELN entry
+## Functionalities inside an ELN entry
 
 Entries provide multiple formatting options and acessory functionalities that facilitate writing clear and well-structured experimental notes. Bellow you can learn about these functionalities in more detail, and you can try them out yourself with [this entry template].
 
@@ -29,32 +29,44 @@ Entries provide multiple formatting options and acessory functionalities that fa
 :align: center
 ```
 
-````{dropdown} Text formatting
+````{dropdown} Format text & Create lists
 
-Similarly to other word processors, in the Benchling ELN you can: toggle headers, format text style and change text or highlight color.
+Similarly to other word processors, in the Benchling ELN you can: toggle headers, format text style and change text or highlight color. You can also create three types of lists: bulleted, numbered or with toggable checkboxes.
 
-```{figure} ../_static/images/eln-guide-6.png
+```{figure} ../_static/images/eln-guide-14.png
 :alt:
-:width: 80%
+:width: 90%
 :align: center
 ```
 ````
-````{dropdown} Lists
-You can create three types of lists: bulleted, numbered or with toggable checkboxes. 
-```{figure} ../_static/images/eln-guide-7.png
+````{dropdown} Section notes by calendar day
+Supposedly there are "Sections" but I do not have that option.
+Add a calendar day for your entry: adding new days causes the entry to span multiple days in your personal calendar
+
+````
+
+````{dropdown} Insert tables and perform calculations
+
+Tables in the ELN allow you to perform calculations and format table similarly to other spreadsheet applications. Particularly, these tables support:
+- Writing your **formulas** using '=' to begin, and anchoring cells in a formula with '$'.
+- Using predefined **functions** (SUM, AVERAGE, MIN, MAX, COUNT, etc.).
+- Converting to **scientific notation** and setting **decimal precision**.
+- Dragging cell to **auto-fill numerical series**.
+- Merging cells, and deleting/inserting rows or columns.
+- Formatting cell and text colours.
+```{figure} ../_static/images/eln-guide-12.png
 :alt:
 :width: 60%
 :align: center
 ```
-````
-````{dropdown} Structure notes with Sections or Day separators
-Add a calendar day for your entry: adding new days causes the entry to span multiple days in your personal calendar
+For more information, check out [Benchling guide Use tables in Notebook entries](https://help.benchling.com/hc/en-us/articles/9684274339597-Use-tables-in-Notebook-entries).
 
 ````
-````{dropdown} Link to items within Benchling or to external URLs
 
-**You can create internal links to Benchling entities, entries or users:** By typing "@", a prompt appears that allows you to search and select the object within Benchling that you want to link.
-With internal links you can connect the entities in an experiment (strains, plasmids, primers, etc.) and the documentation of that experiment, enabling you to report your research more precisely and systematically. The relationships established between items across your project is shown in their Metadata section under "Relevant Items".
+````{dropdown} Link within Benchling or to external URLs
+
+**You can create internal links to Benchling entities, entries or users:** By typing "@", a prompt allows you to search and select the object within Benchling that you want to link, and you can do so within your text or tables. 
+With internal links you can connect the entities in an experiment (strains, plasmids, primers, etc.) and the documentation of that experiment, enabling a more precise and systematical report. The relationships established between items across your project is shown in their Metadata section under "Relevant Items".
 
 **You can also link to external URLs:** Integrate links to external URLs in the text of the ELN entry.
 
@@ -65,47 +77,84 @@ With internal links you can connect the entities in an experiment (strains, plas
 ```
 ````
 
-````{dropdown} Attach external images and files
+````{dropdown} Attach external files and images
 
-attach images, pdf, pwp or csv files.
-annotate image
-open preview
-For enterprise and non-academic users, attachments are limited to 2GB per file. If larger files are needed, store them externally and link the file to redirect users.
+You can upload files up to 2GB directly into an entry. This is easily accomplished by either **drag-and-drop** or **copy-paste** of a file, or by clicking **Insert > Attachment > select file**. If larger files are needed, store them externally and link the file.
 
+```{figure} ../_static/images/eln-guide-15.png
+:alt:
+:width: 70%
+:align: center
+```
+
+Images are displayed directly in the entry, while attachements such as Word, Excel, Powerpoint, PDF and text files can be viewed in a tab that opens within the entry upon clicking on the file.
+
+```{figure} ../_static/images/eln-guide-10.png
+:alt:
+:width: 70%
+:align: center
+```
 ````
 
-````{dropdown} Insert tables
+````{dropdown} Annotate images
 
-enter free-form data, format table and perform calculations as you would in other spreadsheet applications. support formulas, functions, scientific notation, and precision settings
+Benchling now allows you to annotate images within entries. When you click "Annotate image" you are given the option of adding **text**, **arrows** or **circles**, then dragging, re-sizing and coloring these elements.
 
+```{figure} ../_static/images/eln-guide-11.png
+:alt:
+:width: 60%
+:align: center
+```
 ````
 
-````{dropdown} Insert structured tables
 
-see introduction guide
+
+````{dropdown} Use structured tables
+
+You can create your Benchling entities and inventory items directly in your ELN using structured tables. The available types of structured tables are the following:
+
+- **Registration table**: create and register entities.
+- **Inventory table**: move entities in boxes or plates.
+- **Box Creation table**: create boxes.
+- **Plate Creation table**: create plates.
+- **Lookup table**: look up values from registry entities and inventory items.
+- **Result table**: register results linked to entities.
+- **Mixture prep table**: create Medium Batches from your Medium Recipes.
+
+To insert a Structured table in your Notebook Entry, click on **"Insert"**, and select the table of interest:
+```{figure} ../_static/images/eln-guide-16.png
+:alt:
+:width: 60%
+:align: center
+```
+
+→ Learn how to:
+- [Use structured tables to register Strains](strain_registration.md)
+- [Use Mixture prep tables to create Medium Batches](media.md)
 
 ````
-
 
 ````{dropdown} Table of contents
-Automatic, click through to navigate the elements in your notes
-The Notebook automatically creates a dynamic table of contents that is organized by section, then headers, inserted tables (structured and unstructured), attachments, and text boxes. By toggling over the table of contents feature to the right of your screen, you can easily navigate lengthy or multi-day experiments within sections. Sections, headers, and days create these references in the table of contents automatically.
+Benchling automatically generates a dynamic table of contents to help you navigate the elements in your ELN, which is particularly useful for lengthy and complex notes. The order in which the table of contents is organized is: section, headers, tables and attachements.
 
-
+```{figure} ../_static/images/eln-guide-17.png
+:alt:
+:width: 90%
+:align: center
+```
 ````
 
 ````{dropdown} History and version control 
-View, Reset, or Clone Previous Versions of an Entry
-benchling is saving as you go, you can access history of versions of your entry (by timestamp) 
-View, Reset, or Clone Previous Versions of an Entry
 
-The clock icon in the top right corner of the Notebook allows you to review the version history of an entry, and reset to an earlier one if needed. A new version saves automatically while you are editing.
-If you accidentally deleted necessary content in an Entry or added unwanted content, you can select the timestamp from before you made the edits to reset your entry to that version. 
+Benchling automatically saves changes in your ELN. You can review the version history of your entry and if needed you can:
+- **Restore the entry to a previous version** - e.g. because you accidentally deleted/added unwanted content.
+- **Clone a version of the entry to a new entry** - e.g. because you want to try and compare different methodologies during part of an experiment.
 
-For example, if you accidentally deleted a table between 11:45 AM and 12:06 PM, then you could select the 2/28/2022 11:45 AM timestamp, then select reset to version to make the table appear in your entry once again. 
-Cloning from version allows you to copy a version of an entry into a new entry.
-
-For example, if you decided during part of an experiment that you wanted to try two different methods to compare the results, then you could clone the entry and compare the different methodologies. 
+```{figure} ../_static/images/eln-guide-18.png
+:alt:
+:width: 90%
+:align: center
+```
 
 ````
 
@@ -115,7 +164,19 @@ For example, if you decided during part of an experiment that you wanted to try 
 
 Write in an unstructured manner, or give a structure to your notes manually, **or use templates**
 
- (agility, reproducibility)
+(agility, reproducibility)
+
+"What are Notebook Templates & Collections?
+
+Benchling's Notebook application streamlines the documentation of study observations and data, and ensures your scientists remain in compliance with established protocols. These benefits can be directly realized via the use of Notebook Templates and Collections, which standardizes the layout of entries for well-defined experimental workflows in your organization.
+
+Notebook Templates are pre-formatted entries that aid in ensuring consistency, completeness, and compliance across an organization. There are created just like other entries, and provide benefits including:
+
+    Ensuring necessary data for a study are captured with Structured Tables
+    Providing review criteria to ensure completeness before entry approval
+    Categorizing entries and attaching metadata with Entry Schemas
+
+Notebook Collections are folders that house a group of Notebook Templates, and can be managed by your team's designated admins or leads."
 
 ## Tips
 
