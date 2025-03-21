@@ -162,15 +162,25 @@ Benchling automatically saves changes in your ELN. You can review the version hi
 
 ## Templates and subtemplates
 
-Write in an unstructured manner, or give a structure to your notes manually, **or use templates**
+Benchling gives you the option of creating entries following **templates**. This is particularly useful for well-defined experimental workflows
 
-(agility, reproducibility)
+Main benefits of using templates
+- **Streamline documentation process**: Templates and subtemplates provide standardized layouts as starting point for your ELN entries. So rather than manually structuring your notes repeteadly, you can ...
+- **Ensure consistency and completedness of documentation**: Template collections can be set up center or team-wide (by admin and superusers?), meaning that you can integrate common structures to your ELN that facilitate 
+- **Compliance**: 
 
-"What are Notebook Templates & Collections?
+Template collections can be set up center or team-wide (by admin and superusers?). This **ensures consistency and completedness** of experimental documentation across a team, which facilitates collaboration and FAIRness of data.
 
-Benchling's Notebook application streamlines the documentation of study observations and data, and ensures your scientists remain in compliance with established protocols. These benefits can be directly realized via the use of Notebook Templates and Collections, which standardizes the layout of entries for well-defined experimental workflows in your organization.
+Lastly 
 
-Notebook Templates are pre-formatted entries that aid in ensuring consistency, completeness, and compliance across an organization. There are created just like other entries, and provide benefits including:
+- streamlining documentation, ease
+- and ensuring consistency, completeness --> FAIR data
+- also compliance
+
+
+
+"
+There are created just like other entries, and provide benefits including:
 
     Ensuring necessary data for a study are captured with Structured Tables
     Providing review criteria to ensure completeness before entry approval
