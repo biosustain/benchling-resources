@@ -32,28 +32,31 @@ In this guide you will **learn how to make the most out of the ELN capabilities 
 
 ---
 
-## ✅ Version control your ELN
-(Good to know from the beginning - potential life saver)
-With each new edit to your ELN, Benchling automatically saves a version of the entry. This allows you to go through the history of versions of your entry and if you ever come to need it, you can:
-- **Restore the entry to a previous version**, e.g. because you accidentally deleted/added unwanted content.
-- **Clone a version of the entry to a new entry**, e.g. because you want to try and compare different methodologies during part of an experiment.
+## ✅ Learn to version control your ELN
+As you edit your ELN entry, Benchling is automatically saving each version of your entry. This enables you to access the history of versions of your entry and if you ever come to need it, you can:
+- **Restore the entry to a previous version**, e.g. because you accidentally deleted/added content.
+- **Clone a version to a new entry**, e.g. because you want to try and compare different methodologies during part of an experiment.
 
 ```{figure} ../_static/images/eln-guide-18.png
 :alt:
-:width: 90%
+:width: 70%
 :align: center
 ```
 
 ## ✅ Link the experimental entities in your ELN
 You can create internal links to Benchling entities, entries or users: By typing "@", a prompt allows you to search and select the object within Benchling that you want to link, and you can do so within your text or tables. 
 With internal links you can connect the entities in an experiment (strains, plasmids, primers, etc.) and the documentation of that experiment, enabling a more precise and systematical report. The relationships established between items across your project is shown in their Metadata section under "Relevant Items".
-```{figure} ../_static/images/eln-guide-9.png
+
+```{figure} ../_static/images/eln-guide-22.png
 :alt:
-:width: 90%
+:width: 40%
 :align: center
 ```
 
+
 ## ✅ Leverage templates and subtemplates for better note taking
+Research in the lab often involves recurring workflows and, naturally, repetitive note taking. It is for such cases that templates and subtemplates are particularly useful.
+
 Templates and subtemplates are standardized layouts that can be used as starting points for your ELN entries. These enable you to cut down on manually writing and structuring notes, which can both be laborious and lead to inconsistent documentation across collaborative projects. 
 ```{figure} ../_static/images/eln-guide-20.png
 :alt:
@@ -61,20 +64,47 @@ Templates and subtemplates are standardized layouts that can be used as starting
 :align: center
 ```
 
-### Use templates for recurrent types of entries
-Creating a template is similar to writing an entry.
-- Templates as better protocols
-- Templates 
+- **Templates** are useful for documenting stable and repeatable processes. The template defines the general content of your entry, then you can add the details specific to the experiment. ***Example: template for well-defined cloning method***.
 
-### Use subtemplates for content you re-use in your entries
-Instead of copying and paste - e.g table for preparing samples for Sanger sequencing
+    Alternatively, templates can be simply used for establishing a structure to different types of documents. ***Example: templates to set a specific structure for protocols and reports.***.
 
-### Develop a team collection of templates
-Templates and subtemplates are organized into collections. Each team should develop their own collection with the templates that are useful for the members of the team. **If your team does not have a collection of templates, create one**.
+- **Subtemplates** are flexible snippets of content that can be inserted anywhere in an entry, therefore are useful for processes that reocur across experiments. ***Example: subtemplate with tables and checklists to set up PCR reaction***.
+
+````{dropdown} 🎬 See video tutorial to learn how to create an entry from a template.
+
+```{raw} html
+<div style="text-align: center;">
+<iframe
+    width="560" height="315" src="https://www.youtube.com/embed/UsUW7-fzGr4?si=E9457or4Io522Kcw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div>
+```
+
+Summary of steps:
+1. `Create > Entry > Entry from template`
+2. Search for and select template
+3. Name entry and indicate entry's initial date
+4. Create entry
+5. Edit and write in entry to document your experiment
+
+````
+
+````{dropdown} 🎬 See video tutorial to learn how to insert a subtemplate into an entry.
+
+Summary of steps:
+1. Open entry
+2. `Insert > Subtemplate`
+3. Search for and select subtemplate
+
+````
+
+### Develop a team template collection
+Templates and subtemplates are organized into collections. Each team should develop their own collection of templates. This is helpful not only for sharing templates that are useful across the team, but also for establishing a common-ground - structuring the documentation process as a team to facilitate collaboration.
+**If your team does not have a template collection, create one**. 
 
 Create templates and subtemplates...
 
-````{dropdown} See video tutorial to learn how to create a template collection.
+````{dropdown} 🎬 See video tutorial to learn how to create a template collection.
 ```{raw} html
 <div style="text-align: center;">
 <iframe
@@ -103,12 +133,23 @@ Create templates and subtemplates...
 
 ````
 
-````{dropdown} See video tutorial to learn how to create a template or a subtemplate.
-Two side by side screenshots: where to click (+ > More > Template), template settings
-Inform about the "fill-in" mode of template
-Actually subtemplate cannot be created like that... So instead teach other mode of creating:
-- navigate to template collection ...
-Use video instead
+````{dropdown} 🎬 See video tutorial to learn how to create a template or subtemplate.
+
+Templates and subtemplates are created within template collections.
+```{raw} html
+<div style="text-align: center;">
+<iframe
+    width="560" height="315" src="https://www.youtube.com/embed/CRm0P6MzsqI?si=zFdqyRTsF49pEoJf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div>
+```
+
+Summary of steps:
+1. Navigate to the template collection
+2. `Create > Entry template`
+3. Write and design template like you would for a normal notebook entry
+
+*Note:* To create a subtemplate instead of a template, follow the video tutorial but in the 'Create' dropdown select **Subtemplate** option (`Create > Subtemplate`).
 ````
 
 
