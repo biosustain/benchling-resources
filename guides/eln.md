@@ -91,6 +91,13 @@ Summary of steps:
 
 ````{dropdown} 🎬 See video tutorial to learn how to insert a subtemplate into an entry.
 
+```{raw} html
+<div style="text-align: center;">
+<iframe
+    width="560" height="315" src="https://www.youtube.com/embed/ii5zM9ajPuk?si=FJ7fmMqWchmnyKIN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div>
+```
 Summary of steps:
 1. Open entry
 2. `Insert > Subtemplate`
