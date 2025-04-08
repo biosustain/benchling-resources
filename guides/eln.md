@@ -160,21 +160,8 @@ Summary of steps:
 ````
 
 
-## ✅ Organize and navigate your notes with ease
-- Structure with sections
-- Structure text with headers, lists
-- All the formatting that improve your notes readability
-- Table of contents
-
-
-## ✅ Use tools within the ELN for planning and reporting experiments - tables, file viewing, figure annotation
-(You don't need to leave the ELN)
+## ✅ Leverage ELN tools for planning and reporting experiments
 More than a simple word processer, the ELN provides extra tools that support the planning and reporting of experiments. 
-
-```{tip}
-Shortcut to insert elements into your ELN:
-when you type **`/`**, a dropdown emerges, select the element in the dropdown.
-```
 
 ### Use tables to perform spreadsheet calculations
 Tables in the ELN allow you to perform calculations and format table similarly to other spreadsheet applications. 
@@ -219,6 +206,18 @@ Benchling now allows you to annotate images within entries. When you click "Anno
 ```
 
 ### ? Structured tables
+
+```{tip}
+Shortcut to insert elements into your ELN:
+when you type **`/`**, a dropdown emerges, select the element in the dropdown.
+```
+
+## ✅ Organize and navigate your notes with ease
+The ELN has many word processing functionalities to format and structure text, that allow you to write well organized and easy to read notes.
+(dropdown with overview of functionalities)
+
+Besides, it automatically generates a table of contents that facilitates navigation within long or complex entries.
+(dropdown explaining how it forms)
 
 # Other resources:
 - Try out ELN functionalities with this [template](https://biosustain.benchling.com/biosustain/templates/tmpl_Pl4pyA6x).
