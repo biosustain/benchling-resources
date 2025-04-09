@@ -1,11 +1,5 @@
 # Electronic Lab Notebook (ELN)
 
- 🎯 This guide show you:
-- Useful tools and functionalities inside an entry
-- How to leverage templates and subtemplates for better note taking 
-
-## Introduction
-
 Documenting experiments is an indispensable part of scientific research.
 
 Much like the traditional paper notebook, you can open a blank entry of the electronic lab notebook (ELN) and start writing your experimental notes. However, the ELN is built to facilitate and elevate note taking, as it offers:
@@ -15,19 +9,12 @@ Much like the traditional paper notebook, you can open a blank entry of the elec
 :width: 90%
 :align: center
 ```
-
-
-In this guide you will **learn how to make the most out of the ELN capabilities to make experiment documentation easier and more powerful**:
-
-✅ Version control your ELN
-
-✅ Link the experimental entities in your ELN
-
-✅ Leverage templates and subtemplates for better note taking
-
-✅ Use tools helpful for planning and reporting experiments within the ELN
-
-✅ Organize and navigate your notes with ease
+ 🎯 In this guide you will **learn how to make the most out of the ELN capabilities to make experiment documentation easier and more powerful**:
+- Version control your ELN
+- Link the experimental entities in your ELN
+- Leverage templates and subtemplates for better note taking
+- Use tools helpful for planning and reporting experiments within the ELN
+- Organize and navigate your notes with ease
 
 ---
 
@@ -237,8 +224,7 @@ Benchling automatically generates a dynamic table of contents to help you naviga
 
 
 # Other resources:
-- Try out ELN functionalities with this [template](https://biosustain.benchling.com/biosustain/templates/tmpl_Pl4pyA6x).
-- Templates and subtemplates from LIMS support - link to Benchling resource guides for registering strainds
+- Try out ELN functionalities with the following [template](https://biosustain.benchling.com/biosustain/templates/tmpl_Pl4pyA6x).
 
 
 If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
