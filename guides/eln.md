@@ -1,9 +1,8 @@
 # Electronic Lab Notebook (ELN)
 
- 🎯 Learning goals
-- Tools and functionalities inside an entry
-- Templates and subtemplates
-- Tips to structure/organize your ELN
+ 🎯 This guide show you:
+- Useful tools and functionalities inside an entry
+- How to leverage templates and subtemplates for better note taking 
 
 ## Introduction
 
