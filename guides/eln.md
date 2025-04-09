@@ -26,14 +26,14 @@ In this guide you will **learn how to make the most out of the ELN capabilities 
 
 ✅ Leverage templates and subtemplates for better note taking
 
-✅ Organize and navigate your notes with ease
+✅ Use tools helpful for planning and reporting experiments within the ELN
 
-✅ Use tools helpful for planning and reporting experiments within the ELN - tables, file viewing, figure annotation
+✅ Organize and navigate your notes with ease
 
 ---
 
 ## ✅ Learn to version control your ELN
-As you edit your ELN entry, Benchling is automatically saving each version of your entry. This enables you to access the history of versions of your entry and if you ever come to need it, you can:
+As you edit your ELN entry, Benchling is automatically saving each version of your entry. This feature may be very useful, as it enables you to access the history of versions of your entry and, if needed, you can:
 - **Restore the entry to a previous version**, e.g. because you accidentally deleted/added content.
 - **Clone a version to a new entry**, e.g. because you want to try and compare different methodologies during part of an experiment.
 
@@ -44,9 +44,11 @@ As you edit your ELN entry, Benchling is automatically saving each version of yo
 ```
 
 ## ✅ Link the experimental entities in your ELN
-You can create internal links to Benchling entities, entries or users: By typing "@", a prompt allows you to search and select the object within Benchling that you want to link, and you can do so within your text or tables. 
-With internal links you can connect the entities in an experiment (strains, plasmids, primers, etc.) and the documentation of that experiment, enabling a more precise and systematical report. The relationships established between items across your project is shown in their Metadata section under "Relevant Items".
+Use Benchling internal links within the ELN to directly **connect important components of your experiment** - strains, plasmids, primers, protocols, etc. - with the corresponding experiment documentation.
 
+**Type @** to search for and select the Benchling item you want to link (entity, entry, or user), either within text or tables. This shortcut enables you to create a more systematic and precise report with ease. 
+
+Additionally, these internal links establish clear relationships between project items, which are conveniently displayed in the **"Relevant Items" section of each entity’s metadata**. This section is useful, for example, to find out exactly in what experiments a certain entity was involved in.
 ```{figure} ../_static/images/eln-guide-22.png
 :alt:
 :width: 40%
@@ -64,9 +66,11 @@ Templates and subtemplates are standardized layouts that can be used as starting
 :align: center
 ```
 
-- **Templates** are useful for documenting stable and repeatable processes. The template defines the general content of your entry, then you can add the details specific to the experiment. ***Example: template for well-defined cloning method***.
+### ➡️ Use templates and subtemplates
 
-    Alternatively, templates can be simply used for establishing a structure to different types of documents. ***Example: templates to set a specific structure for protocols and reports.***.
+- **Templates** are useful for documenting stable and repeatable processes. The template defines the general content of your entry, which you can then edit to add the details specific to the experiment. ***Example: template for well-defined cloning method***.
+
+    Alternatively, templates can be simply used for establishing a structure to different types of documents. ***Example: templates to set a specific structure for protocols and reports***.
 
 - **Subtemplates** are flexible snippets of content that can be inserted anywhere in an entry, therefore are useful for processes that reocur across experiments. ***Example: subtemplate with tables and checklists to set up PCR reaction***.
 
@@ -105,11 +109,10 @@ Summary of steps:
 
 ````
 
-### Develop a team template collection
+### ➡️ Develop a team template collection
 Templates and subtemplates are organized into collections. Each team should develop their own collection of templates. This is helpful not only for sharing templates that are useful across the team, but also for establishing a common-ground - structuring the documentation process as a team to facilitate collaboration.
-**If your team does not have a template collection, create one**. 
 
-Create templates and subtemplates...
+Create templates and subtemplates within your team collection. **If your team does not have a template collection, create one**.
 
 ````{dropdown} 🎬 See video tutorial to learn how to create a template collection.
 ```{raw} html
@@ -161,9 +164,28 @@ Summary of steps:
 
 
 ## ✅ Leverage ELN tools for planning and reporting experiments
-More than a simple word processer, the ELN provides extra tools that support the planning and reporting of experiments. 
+More than a simple word processer, the ELN provides extra tools that support the planning and reporting of experiments. These can be inserted into your ELN through the **Insert** dropdown in the toolbar, or by typing the **"/" shortcut**.
 
-### Use tables to perform spreadsheet calculations
+### ➡️ Insert and view files within your ELN
+You can upload files up to 2GB directly into an entry by either **drag-and-drop** or **copy-paste** of a file, or by clicking **Insert > Attachment > select file**. If larger files are needed, store them externally and link the file.
+
+Images are displayed directly in the entry, while attachements such as Word, Excel, Powerpoint, PDF and text files can be viewed in a tab that opens within the entry upon clicking on the file.
+
+```{figure} ../_static/images/eln-guide-10.png
+:alt:
+:width: 70%
+:align: center
+```
+### ➡️ Annotate images
+Benchling now allows you to annotate images within entries. When you click "Annotate image" you are given the option of adding **text**, **arrows** or **circles**, then dragging, re-sizing and coloring these elements.
+
+```{figure} ../_static/images/eln-guide-11.png
+:alt:
+:width: 60%
+:align: center
+```
+
+### ➡️ Use tables to perform spreadsheet calculations
 Tables in the ELN allow you to perform calculations and format table similarly to other spreadsheet applications. 
 - Writing your **formulas** using '=' to begin, and anchoring cells in a formula with '$'.
 - Using predefined **functions** (SUM, AVERAGE, MIN, MAX, COUNT, etc.).
@@ -174,50 +196,46 @@ Tables in the ELN allow you to perform calculations and format table similarly t
 
 For more information, check out [Benchling guide Use tables in Notebook entries](https://help.benchling.com/hc/en-us/articles/9684274339597-Use-tables-in-Notebook-entries).
 
-```{figure} ../_static/images/eln-guide-12.png
-:alt:
-:width: 60%
-:align: center
-```
 
-### Insert and view files within your ELN
-You can upload files up to 2GB directly into an entry. This is easily accomplished by either **drag-and-drop** or **copy-paste** of a file, or by clicking **Insert > Attachment > select file**. If larger files are needed, store them externally and link the file.
+### ➡️ Use structured tables to create and register entities
 
-Images are displayed directly in the entry, while attachements such as Word, Excel, Powerpoint, PDF and text files can be viewed in a tab that opens within the entry upon clicking on the file.
+You can create your Benchling entities and inventory items directly in your ELN using structured tables. The available types of structured tables are the following:
 
-```{figure} ../_static/images/eln-guide-15.png
-:alt:
-:width: 70%
-:align: center
-```
+- **Registration table**: create and register entities.
+- **Inventory table**: move entities in boxes or plates.
+- **Box Creation table**: create boxes.
+- **Plate Creation table**: create plates.
+- **Lookup table**: look up values from registry entities and inventory items.
+- **Result table**: register results linked to entities.
+- **Mixture prep table**: create Medium Batches from your Medium Recipes.
 
-```{figure} ../_static/images/eln-guide-10.png
-:alt:
-:width: 70%
-:align: center
-```
-### Annotate images
-Benchling now allows you to annotate images within entries. When you click "Annotate image" you are given the option of adding **text**, **arrows** or **circles**, then dragging, re-sizing and coloring these elements.
+Learn how to:
+- [Use structured tables to register Strains](strain_registration.md)
+- [Use Mixture prep tables to create Medium Batches](media.md)
 
-```{figure} ../_static/images/eln-guide-11.png
-:alt:
-:width: 60%
-:align: center
-```
 
-### ? Structured tables
-
-```{tip}
-Shortcut to insert elements into your ELN:
-when you type **`/`**, a dropdown emerges, select the element in the dropdown.
-```
 
 ## ✅ Organize and navigate your notes with ease
-The ELN has many word processing functionalities to format and structure text, that allow you to write well organized and easy to read notes.
-(dropdown with overview of functionalities)
+The ELN has many word processing **functionalities to format and structure text**, that allow you to write well organized and easy to read notes. Besides, it automatically generates a **table of contents** that facilitates navigation in lengthy entries.
 
-Besides, it automatically generates a table of contents that facilitates navigation within long or complex entries.
-(dropdown explaining how it forms)
+### ➡️ Format and structure text
+
+Similarly to other word processors, in the Benchling ELN you can: section notes by day, toggle headers, format text style and change text or highlight color. You can also create three types of lists: bulleted, numbered or with toggable checkboxes.
+
+```{figure} ../_static/images/eln-guide-14.png
+:alt:
+:width: 90%
+:align: center
+```
+### ➡️ Navigate entry with the table of contents
+Benchling automatically generates a dynamic table of contents to help you navigate the elements in your ELN, which is particularly useful for lengthy and complex notes. The order in which the table of contents is organized is: section, headers, tables and attachements.
+
+```{figure} ../_static/images/eln-guide-17.png
+:alt:
+:width: 90%
+:align: center
+```
+
 
 # Other resources:
 - Try out ELN functionalities with this [template](https://biosustain.benchling.com/biosustain/templates/tmpl_Pl4pyA6x).
