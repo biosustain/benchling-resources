@@ -2,19 +2,20 @@
 
 Documenting experiments is an indispensable part of scientific research.
 
-Much like the traditional paper notebook, you can open a blank entry of the electronic lab notebook (ELN) and start writing your experimental notes. However, the ELN is built to facilitate and elevate note taking, as it offers:
+Much like the traditional paper notebook, you can open a blank electronic lab notebook (ELN) entry and start writing your experimental notes. However, the ELN is built to facilitate and elevate note taking.
 
-```{figure} ../_static/images/eln-guide-21.png
-:alt:
-:width: 90%
-:align: center
-```
  🎯 In this guide you will **learn how to make the most out of the ELN capabilities to make experiment documentation easier and more powerful**:
-- Version control your ELN
-- Link the experimental entities in your ELN
+- Version control your ELN entry
+- Link the experimental entities in your ELN entry
 - Leverage templates and subtemplates for better note taking
-- Use tools helpful for planning and reporting experiments within the ELN
+- Use ELN tools helpful for planning and reporting experiments
 - Organize and navigate your notes with ease
+
+````{dropdown} ❓ What is an entry?
+
+A Benchling entry is like a digital notebook page. Entries share a lot of similarities with entities, but provide a word processor tab to write notes. As you develop your project, you will create entries to document the experimental work and entities to track biological objects involved in the experiments. 
+
+````
 
 ---
 
@@ -30,9 +31,9 @@ As you edit your ELN entry, Benchling is automatically saving each version of yo
 ```
 
 ## ✅ Link the experimental entities in your ELN
-Use Benchling internal links within the ELN to directly **connect important components of your experiment** - strains, plasmids, primers, protocols, etc. - with the corresponding experiment documentation.
+Use Benchling internal links within the ELN to directly **connect important components of your experiment** - strains, plasmids, primers, protocols, etc. - with the corresponding experiment documentation. You can also link to a user or to a location (room, box, shelf, etc.).
 
-**Type @** to search for and select the Benchling item you want to link (entity, entry, or user), either within text or tables. This shortcut enables you to create a more systematic and precise report with ease. 
+**Type @** to search for and select the Benchling item you want to link, either within text or tables. This shortcut enables you to create a more systematic and precise report with ease. 
 
 Additionally, these internal links establish clear relationships between project items, which are conveniently displayed in the **"Relevant Items" section of each entity’s metadata**. This section is useful, for example, to find out exactly in what experiments a certain entity was involved in.
 ```{figure} ../_static/images/eln-guide-22.png
@@ -150,7 +151,7 @@ Summary of steps:
 
 
 ## ✅ Leverage ELN tools for planning and reporting experiments
-More than a simple word processer, the ELN provides extra tools that support the planning and reporting of experiments. These can be inserted into your ELN through the **Insert** dropdown in the toolbar, or by typing the **"/" shortcut**.
+More than a simple word processor, the ELN provides extra tools that support the planning and reporting of experiments. These can be inserted into your ELN through the **Insert** dropdown in the toolbar, or by typing the **"/" shortcut**.
 
 ### ➡️ Insert and view files within your ELN
 You can upload files up to 2GB directly into an entry by either **drag-and-drop** or **copy-paste** of a file, or by clicking **Insert > Attachment > select file**. If larger files are needed, store them externally and link the file.
@@ -161,6 +162,10 @@ Images are displayed directly in the entry, while attachements such as Word, Exc
 :alt:
 :width: 70%
 :align: center
+```
+
+```{tip}
+Use the **Split Workspace** functionality (*button on the bottom right corner of the window*) to split your workspace and simultaneously work on your notes and have the file preview side by side!
 ```
 ### ➡️ Annotate images
 Benchling now allows you to annotate images within entries. When you click "Annotate image" you are given the option of adding **text**, **arrows** or **circles**, then dragging, re-sizing and coloring these elements.
@@ -224,7 +229,7 @@ Benchling automatically generates a dynamic table of contents to help you naviga
 
 
 # Other resources:
-- Try out ELN functionalities with the following [template](https://biosustain.benchling.com/biosustain/templates/tmpl_Pl4pyA6x).
+- Try out ELN functionalities by creating entry from template **"The basics"** stored in **LIMS SUPPORT** template collection.
 
 
 If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).

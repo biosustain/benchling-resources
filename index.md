@@ -80,13 +80,13 @@ Here are some additional learning materials and guides:
 :caption: 'Registering data'
 
 → Start here <guides/introduction.md>
+→ Use the Electronic Lab Notebook <guides/eln.md>
 → Upload sequences <guides/sequence_creation.md>
 → Register strains <guides/strain_registration.md>
 → Register collections <guides/strain_collection.md>
 → Understand the Registry <guides/use_registry.md>
 → Transfer your data (for guests) <guides/transfer_data_guests.md>
 → Register media <guides/media.md>
-→ ELN <guides/eln.md>
 ```
 
 ```{toctree}
