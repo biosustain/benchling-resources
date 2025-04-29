@@ -1,4 +1,4 @@
-# Electronic Lab Notebook (ELN)
+# Use the Electronic Lab Notebook
 
 Documenting experiments is an indispensable part of scientific research.
 
