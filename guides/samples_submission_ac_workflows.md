@@ -1,4 +1,11 @@
-# Submit samples to Analytics team
+# (_coming soon_) Submit samples to Analytics team using Workflows
+
+ ```{admonition} *COMING SOON*
+:class: my-custom-admonition
+
+This functionality will be available from May 7 onwards.
+```
+
 Benchling has replaced one of its modules (**“Requests”**) with another new module (**“Workflow”**). To discover how to submit samples for analysis to the Analytics team using Workflows, follow this guide. 
 
 ## Grant access to Analytics to your Project
@@ -54,7 +61,14 @@ The sub-template includes a Box (or) Plate Creation table for, respectively, a *
 
 ## Create a Workflow
 
-In order to submit your newly-registered samples to the Analytics team, you need to create a Workflow and attach them samples within it.
+In order to submit your newly-registered samples for analysis to the Analytics team, you need to create a Workflow and attach the samples within it. 
+
+ ```{admonition} *Note*
+:class: my-custom-admonition
+
+The Workflows that you can submit to the Analytics team for in-house analysis are labelled with **"AC"** (that stands for "Analytics"). Check the full list of available "AC" Workflows [here](#my-list-of-available-workflows).
+
+```
 
 Follow this video to learn how to do it:
 ````{raw} html
@@ -101,7 +115,8 @@ To access the results, download the attached file.
 
 ```
 
-## Available list of Workflows
+(my-list-of-available-workflows)=
+## List of available Workflows
 
 This is the available list of Workflows (one for each analysis type performed by the Analytics team):
 
