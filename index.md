@@ -102,4 +102,6 @@ Here are some additional learning materials and guides:
 :caption: 'In-house services'
 → Order lab materials <guides/material_order.md>
 → Submit samples for analysis <guides/samples_submission.md>
+→ (coming soon) Submit samples to Analytics team using Workflows <guides/samples_submission_ac_workflows.md>
+
 ```
