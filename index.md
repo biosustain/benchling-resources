@@ -77,16 +77,30 @@ Here are some additional learning materials and guides:
 ```{toctree}
 :maxdepth: 1
 :hidden:
-:caption: 'Registering data'
 
-→ Start here <guides/introduction.md>
+📌 Benchling core concepts <guides/introduction.md>
+```
+
+```{toctree}
+:maxdepth: 1
+:hidden:
+:caption: 'Electronic Lab Notebook'
+
+→ Explore main functionalities <guides/eln.md>
+```
+
+
+```{toctree}
+:maxdepth: 1
+:hidden:
+:caption: 'Data registation'
+
+→ Understand the Registry <guides/use_registry.md>
 → Upload sequences <guides/sequence_creation.md>
 → Register strains <guides/strain_registration.md>
-→ Register collections <guides/strain_collection.md>
-→ Understand the Registry <guides/use_registry.md>
-→ Transfer your data (for guests) <guides/transfer_data_guests.md>
+→ Register entire collections <guides/strain_collection.md>
 → Register media <guides/media.md>
-→ Use the Electronic Lab Notebook <guides/eln.md>
+→ Transfer your data (for guests) <guides/transfer_data_guests.md>
 ```
 
 ```{toctree}

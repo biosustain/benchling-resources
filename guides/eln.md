@@ -1,8 +1,8 @@
-# Use the Electronic Lab Notebook
+#  Electronic Lab Notebook (ELN) 
 
 Documenting experiments is an indispensable part of scientific research.
 
-Much like the traditional paper notebook, you can open a blank electronic lab notebook (ELN) entry and start writing your experimental notes. However, the ELN is built to facilitate and elevate note taking.
+Much like the traditional paper notebook, you can open a blank electronic lab notebook (ELN) entry and start writing your experimental notes. However, the Benchling ELN (also called "**Notebook**") is built to facilitate and elevate note taking.
 
  🎯 In this guide you will **learn how to make the most out of the ELN capabilities to make experiment documentation easier and more powerful**:
 - Version control your ELN entry
@@ -228,7 +228,7 @@ Benchling automatically generates a dynamic table of contents to help you naviga
 ```
 
 
-# Other resources:
+## Other resources:
 - Try out ELN functionalities by creating entry from template **"The basics"** stored in **LIMS SUPPORT** template collection.
 
 

@@ -1,4 +1,4 @@
-# Benchling essentials
+# Benchling core concepts
 
 
 🎯 This guide will introduce you to the **core concepts of Benchling** that will support your data registration efforts and, generally, ease potential struggles in using the platform.
