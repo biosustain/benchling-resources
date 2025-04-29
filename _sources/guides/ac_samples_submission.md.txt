@@ -3,7 +3,7 @@
  ```{admonition} *COMING SOON*
 :class: my-custom-admonition
 
-This functionality will be available from May 7 onwards.
+This functionality will be available from **May 13**.
 ```
 
 Benchling has replaced one of its modules (**“Requests”**) with another new module (**“Workflow”**). To discover how to submit samples for analysis to the Analytics team using Workflows, follow this guide. 
