@@ -86,6 +86,7 @@ Here are some additional learning materials and guides:
 → Understand the Registry <guides/use_registry.md>
 → Transfer your data (for guests) <guides/transfer_data_guests.md>
 → Register media <guides/media.md>
+→ Use the Electronic Lab Notebook <guides/eln.md>
 ```
 
 ```{toctree}
