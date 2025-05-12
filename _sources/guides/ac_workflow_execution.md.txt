@@ -1,17 +1,17 @@
-# (For analysts only) Execute analysis submissions by researchers
+# (For analysts only) Execute Analytical Workflows
 
  ```{admonition} *Important*
 :class: my-custom-admonition
 
 This guide is intended for Biosustain **Analytics team** only.
 ``` 
-🎯 This guide will show you how to execute analysis submissions created by researchers at Biosustain.
+🎯 This guide will show you how to execute Benchling Workflows submitted by researchers at Biosustain.
 
-**Researchers uses Workflows to request for samples to be analyzed in-house**. The **output** of this request is a **Benchling Workflow** that contains:
+**Researchers** uses **Analytics Workflows** to submit samples for analysis to the Analytics team. A **Benchling Workflow** contains:
 - details of the **samples** to be analysed
 - details of the **analysis** to be performed
 
-Researchers can **choose from the following Workflows**:
+Researchers can **choose between the following Workflows**:
 
 - GC-MS analysis
 - Proteomics
@@ -20,7 +20,7 @@ Researchers can **choose from the following Workflows**:
 
 ## 📩 Check your inbox for new submission by researchers
 
-As an **Analyst**, **you will receive an email notification** once a new analysis submission has been created by a researcher (you will receive notifications only if the submission is relative to the analysis type you are responsible for).
+As an **Analyst**, **you will receive an email notification** once a new Workflow  is created by a researcher (you will receive notifications only for the Workflow you are responsible for).
 
 ### Access the submitted Workflow
 
@@ -33,6 +33,8 @@ Example:
 :align: center
 
 ```
+
+## *Before the analysis*
 
 ## 📄 Download samples list 
 
@@ -75,7 +77,7 @@ In order to **download the full list of samples and the relative details** (incl
 
 When you are about to start the analysis, **you can update the Workflow status** to "PLANNED" to let the researcher know you are on it.
 
-_We suggest to use the status "planned" instead of "in progress" because this enables for a more straightforward execution of the workflow later-on._
+_We suggest to use the status "Planned" instead of "In progress" because this enables for a more straightforward execution of the workflow later-on._
 
 To udpate the status, go the the **"Tasks" table** (where the details of the submissions are), click **"Edit"**, and edit the "**Status**" column. Now click **"Submit"** to save the edit.
 
@@ -87,6 +89,8 @@ In the same table, you can also set yourself as "**Assignee**" of the analysis, 
 :align: center
 
 ```
+
+## *After the analysis*
 
 ## Attach the results
 
@@ -131,17 +135,23 @@ If everything looks correct, click on **"Submit"**.
 
 ```
 
-**The researcher will now receive a notification that the analyis is completed and the results are ready to be accessed.**
+**The researcher will now receive a notification** that the analyis is completed and the results are ready to be accessed in Benchling.
 
 
 ## Troubleshooting
 
-```{dropdown} The "Execute" icon is not clickable.
+```{dropdown} Why I cannot click on the "Execute" icon?
 Check the status of the Workflow. If the status is different from "pending" or "planned", you will not be able to execute the Workflow. You will need to manually "Edit" the status of the Workflow in the "Tasks" table, and manually "Edit" the "Output" table and attaching the result file. Remember to click "Submit" to save the edits.
 ```
 
-```{dropdown} Raw data
+```{dropdown} Which type of results can be attached?
 The implementation doesn't currently allow to attach raw data. Only use the "Result (Attachment)" for pre-processed data. You can send raw data by email to the researcher.
+```
+
+```{dropdown} How can I allow another person to receive notifications when a new Workflow is created?
+Benchling Teams were created for each Workflow type to manage notifications. 
+Go to the dedicated Benchling Team (it is named after the analysis type) and add the new person.
+If you don't know how to do it, contact lims_support@biosustain.dtu.dk.
 ```
 
 <br/><br/>
