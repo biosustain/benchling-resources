@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Manage your strains in Benchling &#8212; Benchling resources</title>
+    <title>(For analysts only) Execute analysis submissions by researchers &#8212; Benchling resources</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=9b2032db" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
@@ -20,8 +20,7 @@
     <script src="../_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Register a strain collection in Benchling" href="strain_collection.html" />
-    <link rel="prev" title="Upload sequences in Benchling" href="sequence_creation.html" /> 
+    <link rel="prev" title="(coming soon) Submit samples to Analytics team using Workflows" href="ac_samples_submission.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -143,10 +142,10 @@
 <li class="toctree-l1"><a class="reference internal" href="eln.html">→ Explore main functionalities</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Data registation</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="use_registry.html">→ Understand the Registry</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sequence_creation.html">→ Upload sequences</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">→ Register strains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="strain_registration.html">→ Register strains</a></li>
 <li class="toctree-l1"><a class="reference internal" href="strain_collection.html">→ Register entire collections</a></li>
 <li class="toctree-l1"><a class="reference internal" href="media.html">→ Register media</a></li>
 <li class="toctree-l1"><a class="reference internal" href="transfer_data_guests.html">→ Transfer your data (for guests)</a></li>
@@ -156,11 +155,11 @@
 <li class="toctree-l1"><a class="reference internal" href="plate_map.html">→ Try out Plate Maps</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">In-house services</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="material_order.html">→ Order lab materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="samples_submission.html">→ Submit samples for analysis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ac_samples_submission.html">→ Submit samples to Analyticsusing Workflows</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ac_workflow_execution.html">→ (For analysts only) Execute analysis submissions by researchers</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">→ (For analysts only) Execute analysis submissions by researchers</a></li>
 </ul>
 
         </div>
@@ -172,156 +171,121 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section class="tex2jax_ignore mathjax_ignore" id="manage-your-strains-in-benchling">
-<h1>Manage your strains in Benchling<a class="headerlink" href="#manage-your-strains-in-benchling" title="Link to this heading">¶</a></h1>
-<p>🎯 This guide will show you how to:</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="for-analysts-only-execute-analysis-submissions-by-researchers">
+<h1>(For analysts only) Execute analysis submissions by researchers<a class="headerlink" href="#for-analysts-only-execute-analysis-submissions-by-researchers" title="Link to this heading">¶</a></h1>
+<div class="my-custom-admonition admonition">
+<p class="admonition-title"><em>Important</em></p>
+<p>This guide is intended for Biosustain <strong>Analytics team</strong> only.</p>
+</div>
+<p>🎯 This guide will show you how to execute analysis submissions created by researchers at Biosustain.</p>
+<p><strong>Researchers uses Workflows to request for samples to be analyzed in-house</strong>. The <strong>output</strong> of this request is a <strong>Benchling Workflow</strong> that contains:</p>
 <ul class="simple">
-<li><p><strong>register strains</strong> in Benchling</p></li>
-<li><p><strong>track strains storage location</strong> in the Benchling Inventory</p></li>
+<li><p>details of the <strong>samples</strong> to be analysed</p></li>
+<li><p>details of the <strong>analysis</strong> to be performed</p></li>
 </ul>
-<p>The guide will illustrate how to do both of this actions <strong>directly from your Electronic Notebook entry</strong>.</p>
-<p>⚠️ If you need to register an <strong>entire Strain Collection</strong>, we recommend you to follow this <a class="reference internal" href="strain_collection.html"><span class="std std-doc">guide</span></a> instead.</p>
-<section id="before-starting">
-<h2>Before starting<a class="headerlink" href="#before-starting" title="Link to this heading">¶</a></h2>
-<p>During the strain registration process in Benchling, <strong>you will be asked to link your strains to relevant entities</strong>, e.g., the parent strain, the contained plasmid, the organism etc.
-Since these entities need to pre-exist in the system before linking them to your strains, we suggest you to register those beforehand.
-To learn how to <strong>create plasmids in Benchling</strong>, follow this <a class="reference internal" href="sequence_creation.html"><span class="std std-doc">guide</span></a>.</p>
-</section>
-<section id="register-your-strains">
-<h2>Register your strains<a class="headerlink" href="#register-your-strains" title="Link to this heading">¶</a></h2>
-<p>Watch the following video to learn <strong>how to add new strains</strong> in Benchling directly from your Notebook entry.</p>
-<div style="text-align: center;">
-   <iframe 
-      width="700" 
-      height="320" 
-      src="https://www.youtube.com/embed/_4SFBM0M1iA?si=CfAimXGJYZkgAKo1?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-   </iframe>
-</div><p><strong>Summary of the steps:</strong></p>
-<ol class="arabic">
-<li><p><strong>Open your Notebook (or create a new Notebook entry)</strong></p>
-<p>Registering Strains directly in the Notebook is the easiest way to register strains.
-You can create a new entry only devoted for strain registration, or use an existing entry where you took your experimental notes.</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> Benchling Navigation Bar &gt; &quot;Create (+)&quot; &gt; &quot;Entry&quot;
-</pre></div>
-</div>
-</li>
-<li><p><strong>Insert a Registration table</strong></p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> “Insert” &gt; “Registration table” &gt; Select schema &quot;Strain&quot;
-</pre></div>
-</div>
-</li>
-<li><p><strong>Fill in the metadata for each strain</strong></p>
-<p>There are some mandatory fields, the rest are optional. You can fill all the fields that are relevant to you.</p>
-<p>→ The field <strong>“Organism”</strong> is mandatory, as it specify the species of your strain.
-If you cannot find the relevant organism for your strain, you need to create it yourself and save it in <em>Benchling Common Inventory</em> project:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> “Insert” &gt; “Registration table” &gt; Select schema &quot;Organism&quot;
-</pre></div>
-</div>
-<p>→ To assure tracking the lineage of your strain, it is reccomended to enter the <strong>Host strain</strong> or the <strong>Parent strain</strong> in the metadata. This is the main difference between the two fields:</p>
-<table class="docutils align-default">
-<thead>
-<tr class="row-odd"><th class="head"><p>Field</p></th>
-<th class="head"><p>Definition</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Host strain</p></td>
-<td><p>A well-characterized microbial strain, like <em>E. coli BL21</em>, used as the baseline for genetic manipulation or protein expression.</p></td>
-</tr>
-<tr class="row-odd"><td><p>Parent strain</p></td>
-<td><p>A genetically modified derivative of the host strain that serves as the starting point for further modifications.</p></td>
-</tr>
-</tbody>
-</table>
-</li>
-<li><p><strong>Click on “Submit”!</strong></p>
-<p>If there is any issue with the registration, the side of the table will be red, and you will get an error message.</p>
-<p>If there are no validation errors, you can click “Submit”. Your strains are now registered!</p>
-<p>→ You can use the same registration table to <strong>register new strains</strong> by adding new rows to the table, and to <strong>edit</strong> metadata, if you made a mistake. To <strong>save the changes</strong>, click again on “Submit”.</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> Edit table &gt; Click &quot;Submit&quot;
-</pre></div>
-</div>
-</li>
-</ol>
-</section>
-<section id="track-strains-storage-location">
-<h2>Track strains storage location<a class="headerlink" href="#track-strains-storage-location" title="Link to this heading">¶</a></h2>
-<p>Watch the following video to learn <strong>how to track the storage location of your newly created strains</strong> directly from your Notebook.</p>
-<div style="text-align: center;">
-   <iframe 
-     width="700"
-     height="320" 
-      src="https://www.youtube.com/embed/-MP_b3G6ULg?si=yfGJ5ZpS7JKkViui?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-   </iframe>
-</div><p><strong>Summary of the steps:</strong></p>
+<p>Researchers can <strong>choose from the following Workflows</strong>:</p>
+<ul class="simple">
+<li><p>GC-MS analysis</p></li>
+<li><p>Proteomics</p></li>
+<li><p>Targeted Metabolomics</p></li>
+<li><p>Untargeted Metabolomics</p></li>
+</ul>
+<section id="check-your-inbox-for-new-submission-by-researchers">
+<h2>📩 Check your inbox for new submission by researchers<a class="headerlink" href="#check-your-inbox-for-new-submission-by-researchers" title="Link to this heading">¶</a></h2>
+<p>As an <strong>Analyst</strong>, <strong>you will receive an email notification</strong> once a new analysis submission has been created by a researcher (you will receive notifications only if the submission is relative to the analysis type you are responsible for).</p>
+<section id="access-the-submitted-workflow">
+<h3>Access the submitted Workflow<a class="headerlink" href="#access-the-submitted-workflow" title="Link to this heading">¶</a></h3>
+<p>Click on the link provided in the email.
+Example:</p>
 <figure class="align-center">
-<a class="reference internal image-reference" href="../_images/store-a-strain-v2.png"><img alt="Strain-storage" src="../_images/store-a-strain-v2.png" style="width: 90%;" />
+<a class="reference internal image-reference" href="../_images/access-workflow.png"><img alt="access the workflow" src="../_images/access-workflow.png" style="width: 80%;" />
 </a>
 </figure>
-<ol class="arabic">
-<li><p><strong>Insert the “Strain storage” sub-template</strong></p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> &quot;Insert&quot; &gt; &quot;Sub-Template&quot; &gt; &quot;LIMS Support&quot; &gt; &quot;Strain Storage&quot;
-</pre></div>
-</div>
-</li>
-<li><p><strong>Fill-in and submit each registration table</strong></p>
-<p><strong>Three tables</strong> are needed to successfully store your strain(s):</p>
-<ul>
-<li><p>Strain batch registration</p>
-<p>Allows you to create entities representing a physical batch of a strain. You can have multiple batches for a single strain.</p>
-</li>
-<li><p>Box/Plate creation</p>
-<p>Allows you to generate a new, empty box in your preferred location (e.g., a Freezer)</p>
-</li>
-<li><p>Container creation</p>
-<p>Allows you to move your newly generated batched to the correct container in a Box or a Plate.</p>
-</li>
-</ul>
-</li>
-</ol>
 </section>
-<section id="can-i-register-strains-using-a-spreadsheet">
-<h2>Can I register strains using a spreadsheet?<a class="headerlink" href="#can-i-register-strains-using-a-spreadsheet" title="Link to this heading">¶</a></h2>
-<p>Yes, you can register strains also by uploading a spreadsheet onto a strain registration table. Watch the video to learn how:</p>
-<div style="text-align: center;">
-   <iframe 
-      width="700" 
-      height="320" 
-      src="https://www.youtube.com/embed/xKyDvrNoZh8?si=ltnVty38KMEbLJxY?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-   </iframe>
-</div><p><strong>Summary of the steps:</strong></p>
-<ol class="arabic">
-<li><p><strong>Insert a Registration table in your Notebook</strong></p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> “Insert” &gt; “Registration table” &gt; Select schema &quot;Strain&quot;
-</pre></div>
+</section>
+<section id="download-samples-list">
+<h2>📄 Download samples list<a class="headerlink" href="#download-samples-list" title="Link to this heading">¶</a></h2>
+<p>In order to <strong>download the full list of samples and the relative details</strong> (including sample position e.g., A1, A2,…), access the Sample List dashboard and download the list as .csv file.</p>
+<section id="copy-the-workflow-id">
+<h3><strong>Copy the Workflow ID</strong><a class="headerlink" href="#copy-the-workflow-id" title="Link to this heading">¶</a></h3>
+<p><strong>Copy the Workflow ID</strong> from the Task table (in the following example image, the Workflow ID is  <strong>GCMS8-T1</strong>)</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/copy-workflow-id.png"><img alt="copy workflow ID" src="../_images/copy-workflow-id.png" style="width: 100%;" />
+</a>
+</figure>
+</section>
+<section id="access-the-sample-list-dashboard">
+<h3>Access the Sample List dashboard<a class="headerlink" href="#access-the-sample-list-dashboard" title="Link to this heading">¶</a></h3>
+<p><strong>Click on the link</strong> included under the “Instruction” field to access the Sample List Dashboard:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/download-samples-list-1.png"><img alt="example of a workflow" src="../_images/download-samples-list-1.png" style="width: 100%;" />
+</a>
+</figure>
+</section>
+<section id="paste-the-workflow-id">
+<h3>Paste the Workflow ID<a class="headerlink" href="#paste-the-workflow-id" title="Link to this heading">¶</a></h3>
+<p><strong>Paste the Workflow ID</strong> to configure the workflow_task_id parameter, click the “<em>more options</em>” icon […] and select “Download as .csv:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/download-samples-list-2.png"><img alt="download .csv file" src="../_images/download-samples-list-2.png" style="width: 100%;" />
+</a>
+</figure>
+</section>
+</section>
+<section id="update-the-workflow-status-to-planned">
+<h2>📆 Update the Workflow status to “Planned”<a class="headerlink" href="#update-the-workflow-status-to-planned" title="Link to this heading">¶</a></h2>
+<p>When you are about to start the analysis, <strong>you can update the Workflow status</strong> to “PLANNED” to let the researcher know you are on it.</p>
+<p><em>We suggest to use the status “planned” instead of “in progress” because this enables for a more straightforward execution of the workflow later-on.</em></p>
+<p>To udpate the status, go the the <strong>“Tasks” table</strong> (where the details of the submissions are), click <strong>“Edit”</strong>, and edit the “<strong>Status</strong>” column. Now click <strong>“Submit”</strong> to save the edit.</p>
+<p>In the same table, you can also set yourself as “<strong>Assignee</strong>” of the analysis, and set a date for when the results will be available to the researcher by editing the “<strong>Scheduled on</strong>” column.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/edit-task-table.png"><img alt="update the status of the workflow" src="../_images/edit-task-table.png" style="width: 100%;" />
+</a>
+</figure>
+</section>
+<section id="attach-the-results">
+<h2>Attach the results<a class="headerlink" href="#attach-the-results" title="Link to this heading">¶</a></h2>
+<p>When you are done with the analysis and you produced results, you are ready to execute the Workflow.</p>
+<section id="execute-the-workflow">
+<h3>Execute the Workflow<a class="headerlink" href="#execute-the-workflow" title="Link to this heading">¶</a></h3>
+<p>To execute the workflow, click on the <strong>“Execute”</strong> blue icon.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/execute-workflow.png"><img alt="execute workflow" src="../_images/execute-workflow.png" style="width: 100%;" />
+</a>
+</figure>
+</section>
+<section id="add-the-file-as-attachment">
+<h3>Add the file as attachment<a class="headerlink" href="#add-the-file-as-attachment" title="Link to this heading">¶</a></h3>
+<p>In the pop-up windown that showed up after clicking “Execute”, scroll directly to the Output table at the botton, and attach the result file by double clicking on the <strong>“Result (Attachment)”</strong> column.</p>
+<p>After attaching the file, click on <strong>“Continue”</strong>.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/attach-results.png"><img alt="attach result file" src="../_images/attach-results.png" style="width: 100%;" />
+</a>
+</figure>
+</section>
+<section id="submit">
+<h3>Submit<a class="headerlink" href="#submit" title="Link to this heading">¶</a></h3>
+<p>At this stage, you will be able to review all the details of the Workflows (Task + Output tables) and see if everything is correct.</p>
+<p>If everything looks correct, click on <strong>“Submit”</strong>.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/submit-execution.png"><img alt="execute workflow" src="../_images/submit-execution.png" style="width: 100%;" />
+</a>
+</figure>
+<p><strong>The researcher will now receive a notification that the analyis is completed and the results are ready to be accessed.</strong></p>
+</section>
+</section>
+<section id="troubleshooting">
+<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Link to this heading">¶</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">The “Execute” icon is not clickable.</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Check the status of the Workflow. If the status is different from “pending” or “planned”, you will not be able to execute the Workflow. You will need to manually “Edit” the status of the Workflow in the “Tasks” table, and manually “Edit” the “Output” table and attaching the result file. Remember to click “Submit” to save the edits.</p>
 </div>
-</li>
-<li><p><strong>Populate table from your spreadsheet</strong></p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Registration table &gt; &quot;Add (+) &gt; &quot;Add from spreadsheet&quot; 
-</pre></div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Raw data</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">The implementation doesn’t currently allow to attach raw data. Only use the “Result (Attachment)” for pre-processed data. You can send raw data by email to the researcher.</p>
 </div>
-<p>In order to use this registration method, your spreadsheet must have columns corresponding to some or all of the required fields.</p>
-<p><strong>You can use the following excel template</strong> to make sure that the spreasheet columns correspond to the columns of the Registration table: <a class="reference download internal" download="" href="../_downloads/08987e5dd9ba8afdd5c4295fc57aeb55/Strain_Template_YourName.xlsx"><code class="xref download docutils literal notranslate"><span class="pre">Strain_Template_YourName.xlsx</span></code></a>.</p>
-<ul class="simple">
-<li><p><strong>Red fields</strong> are mandatory</p></li>
-<li><p><strong>Blue fields</strong> refer to pre-existing Benchling entities</p></li>
-</ul>
-<div class="admonition caution">
-<p class="admonition-title">Caution</p>
-<p>Benchling will try to match the entities names that you added in the <strong>blue fields</strong> to existing entities in the Benchling registry. Make sure to insert the <strong>exact</strong> Benchling name, or the Benchling ID of the entity you are trying to link to your strain.</p>
-</div>
-</li>
-<li><p><strong>Click on “Submit”!</strong></p></li>
-</ol>
+</details><p><br/><br/></p>
 <p>If you have any question, don’t hesitate to contact us at <a class="reference external" href="mailto:lims_support&#37;&#52;&#48;biosustain&#46;dtu&#46;dk" rel="noreferrer" target="_blank">lims_support<span>&#64;</span>biosustain<span>&#46;</span>dtu<span>&#46;</span>dk</a>.</p>
 </section>
 </section>
@@ -340,11 +304,25 @@ If you cannot find the relevant organism for your strain, you need to create it 
             <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
             <div class="page_toc">
                 <ul>
-<li><a class="reference internal" href="#">Manage your strains in Benchling</a><ul>
-<li><a class="reference internal" href="#before-starting">Before starting</a></li>
-<li><a class="reference internal" href="#register-your-strains">Register your strains</a></li>
-<li><a class="reference internal" href="#track-strains-storage-location">Track strains storage location</a></li>
-<li><a class="reference internal" href="#can-i-register-strains-using-a-spreadsheet">Can I register strains using a spreadsheet?</a></li>
+<li><a class="reference internal" href="#">(For analysts only) Execute analysis submissions by researchers</a><ul>
+<li><a class="reference internal" href="#check-your-inbox-for-new-submission-by-researchers">📩 Check your inbox for new submission by researchers</a><ul>
+<li><a class="reference internal" href="#access-the-submitted-workflow">Access the submitted Workflow</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#download-samples-list">📄 Download samples list</a><ul>
+<li><a class="reference internal" href="#copy-the-workflow-id"><strong>Copy the Workflow ID</strong></a></li>
+<li><a class="reference internal" href="#access-the-sample-list-dashboard">Access the Sample List dashboard</a></li>
+<li><a class="reference internal" href="#paste-the-workflow-id">Paste the Workflow ID</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#update-the-workflow-status-to-planned">📆 Update the Workflow status to “Planned”</a></li>
+<li><a class="reference internal" href="#attach-the-results">Attach the results</a><ul>
+<li><a class="reference internal" href="#execute-the-workflow">Execute the Workflow</a></li>
+<li><a class="reference internal" href="#add-the-file-as-attachment">Add the file as attachment</a></li>
+<li><a class="reference internal" href="#submit">Submit</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#troubleshooting">Troubleshooting</a></li>
 </ul>
 </li>
 </ul>
@@ -359,14 +337,12 @@ If you cannot find the relevant organism for your strain, you need to create it 
         <div class="button_nav">
             <div class="left">
                 
-                <a href="sequence_creation.html">
-                    <span class="icon">&lt;</span><span>Upload sequences in Benchling</span></a>
+                <a href="ac_samples_submission.html">
+                    <span class="icon">&lt;</span><span>(<em>coming soon</em>) Submit samples to Analytics team using Workflows</span></a>
                 
             </div>
 
             <div class="right">
-                
-                    <a href="strain_collection.html"><span>Register a strain collection in Benchling</span><span class="icon">&gt;</span></a>
                 
             </div>
         </div>
