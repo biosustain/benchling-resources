@@ -115,7 +115,7 @@ Here are some additional learning materials and guides:
 :hidden:
 :caption: 'In-house services'
 → Order lab materials <guides/material_order.md>
-→ Submit samples for analysis at Biosustain to DNA Foundry and PPP <guides/samples_submission.md>
+→ Submit samples for analysis to DNA Foundry and PPP <guides/samples_submission.md>
 → Submit samples for analysis to Analytics (new Workflows) <guides/ac_samples_submission.md>
 → Execute Analytics Workflows (for analysts only) <guides/ac_workflow_execution.md>
 ```

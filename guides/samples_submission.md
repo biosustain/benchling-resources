@@ -1,4 +1,4 @@
-# Submit samples for analysis at Biosustain to DNA Foundry and PPP
+# Submit samples for analysis to DNA Foundry and PPP
 
  ```{admonition} *Important*
 :class: my-custom-admonition
