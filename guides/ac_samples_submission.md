@@ -1,10 +1,4 @@
-# (_coming soon_) Submit samples to Analytics team using Workflows
-
- ```{admonition} *COMING SOON*
-:class: my-custom-admonition
-
-This functionality will be available from **May 13**.
-```
+# Submit samples for analysis to Analytics
 
 Benchling has replaced one of its modules (**“Requests”**) with another new module (**“Workflow”**). To discover how to submit samples for analysis to the Analytics team using Workflows, follow this guide. 
 

@@ -1,4 +1,10 @@
-# Submit samples for analysis at Biosustain
+# Submit samples for analysis at Biosustain to DNA Foundry and PPP
+
+ ```{admonition} *Important*
+:class: my-custom-admonition
+
+If you need to submit samples for analysis to the Analytics team, follow [this guide](/guides/ac_samples_submission.md) instead.
+``` 
 
 If you need to submit a request for in-house samples analysis, the main steps are:
 
@@ -25,7 +31,6 @@ If you need to submit a request for in-house samples analysis, the main steps ar
 - Select the appropriate template from the list and go through it:
 
     - *“DNF Nanopore Sample Submission”* 
-    - *“AC Analytical Sample Submission“*
     - *“IPC Analytics Sample Submission”*
 
 ## 2. Submit samples (create Request)
@@ -34,12 +39,6 @@ If you need to submit a request for in-house samples analysis, the main steps ar
 
         Benchling Navigation Bar >  “Request” > “Create (+)” > Select request type of interest
 
-```{figure} ../_static/images/select-request.png
-:alt: create a request
-:width: 80%
-:align: center
-
-```
 - Attach submission samples (created in step 1) to the newly created request:
 
 ```{figure} ../_static/images/attach-samples-to-request.png
@@ -53,12 +52,6 @@ If you need to submit a request for in-house samples analysis, the main steps ar
  
 *DNA Foundry* 
 - Nanopore sequencing
-
-*Analytics* 
-- Targeted metabolomics
-- Untargeted metabolomics
-- Gas chromatography (GC-MS)
-- Proteomics 
 
 *Pre-Pilot Plant*
 - Compound quantification

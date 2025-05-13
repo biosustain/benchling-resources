@@ -1,4 +1,4 @@
-# (For analysts only) Execute Analytical Workflows
+# (For analysts only) Execute Analytics Workflows
 
  ```{admonition} *Important*
 :class: my-custom-admonition
