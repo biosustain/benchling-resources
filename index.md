@@ -115,8 +115,8 @@ Here are some additional learning materials and guides:
 :hidden:
 :caption: 'In-house services'
 → Order lab materials <guides/material_order.md>
-→ Submit samples for analysis <guides/samples_submission.md>
-→ Submit samples to Analyticsusing Workflows <guides/ac_samples_submission.md>
-→ (For analysts only) Execute analysis submissions by researchers <guides/ac_workflow_execution.md>
+→ (New Workflows) Submit samples for analysis to Analytics <guides/ac_samples_submission.md>
+→ (For analysts only) Execute Analytics Workflows <guides/ac_workflow_execution.md>
+→ (Legacy) Submit samples for analysis <guides/samples_submission.md>
 
 ```
