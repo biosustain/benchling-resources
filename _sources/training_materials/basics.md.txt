@@ -12,9 +12,9 @@ If you missed the training, you can find <mark style="background-color: #C5DBEC;
 
 Explore Benchling **features**, learn **best practices**, and understand **complex concepts** necessary to navigate and use Benchling effectively.
 
-To **download** the guide, click [here](../_static/files/2025_02_10_Introduction_to_Benchling.pdf).
+To **download** the guide, click [here](../_static/files/2025_05_13_Introduction_to_Benchling.pdf).
 
-<iframe src="https://docs.google.com/gview?url=https://biosustain.github.io/benchling-resources/_static/files/2025_02_10_Introduction_to_Benchling.pdf&embedded=true" width="100%" height="600px"></iframe>
+<iframe src="https://docs.google.com/gview?url=https://biosustain.github.io/benchling-resources/_static/files/2025_05_13_Introduction_to_Benchling.pdf&embedded=true" width="100%" height="600px"></iframe>
 
 ## Introduction to the Molecular Biology Tools
 Explore Benchling Molecular Biology Tools, covering features like **construct design, construct assembly, sequence alignment**, **CRISPR tool**, and much more.
