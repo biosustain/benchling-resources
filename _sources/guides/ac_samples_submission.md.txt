@@ -68,6 +68,27 @@ Follow this video to learn how to do it:
 ````{raw} html
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ooW07ZzWX6M?si=52D7uFrkFkHP2W4z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ````
+
+## VERY IMPORTANT!!
+
+When creating a workflow, **paste all the samples in one single cell** in the "AC Samples" column (as showed in the screenshot downbelow, and in the video). If you have sample-level metadata, please add them in the previous step (when you are registering the  samples in your Notebook entry). 
+
+```{figure} ../_static/images/important-samples-in-one-cell.png
+:alt: Paste samples in one cell
+:width: 100%
+:align: center
+
+```
+
+You can achieve it by using the "Paste special" button:
+
+```{figure} ../_static/images/paste-special.png
+:alt: Use Paste Special to paste all samples in one cell
+:width: 80%
+:align: center
+
+```
+
 _Summary of the steps:_
 
 1. **Create** a Workflow of the relevant type, based on the analysis your are interested in.
