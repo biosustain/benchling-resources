@@ -7,12 +7,21 @@ Add _Analytics_ Benchling Team to the list of collaborators in your Project to e
 
 1. Navigate to your Benchling **Project settings** ⚙️
 
-2. Add the _Analytics_ Benchling team to the list of collaborators ("READ" access is enough) 
+2. Add the _Analytics_ Benchling team to the list of collaborators (with **"WRITE"** access) 
 
 
-```{figure} ../_static/images/grant-analytics-access.png
+```{figure} ../_static/images/grant-analytics-access-to-project.png
 :alt: grant access to Analytics team
 :width: 80%
+:align: center
+
+```
+
+Save edits to the settings by clicking "Done".
+
+```{figure} ../_static/images/done.png
+:alt: grant access to Analytics team
+:width: 50%
 :align: center
 
 ```
