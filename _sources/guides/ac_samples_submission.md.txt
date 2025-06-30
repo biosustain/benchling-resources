@@ -144,7 +144,7 @@ To access the results, download the attached file.
 
 This is the available list of Workflows (one for each analysis type performed by the Analytics team):
 
-```{figure} ../_static/images/ac-workflows.png
+```{figure} ../_static/images/ac-workflows-list.png
 :alt: create a Workflow
 :width: 50%
 :align: center
