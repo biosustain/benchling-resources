@@ -33,34 +33,28 @@ Save edits to the settings by clicking "Done".
 In order to register samples to submit to Analytics, you can follow a **Sub-template** created by LIMS support for this purpose. 
 
 Follow this video to learn how to do it:
+
 ````{raw} html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vKrXOJJsF_8?si=TZb1T8__RiRa-L6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WB6sRFzEi8k?si=iU3P7sP4lspgbm4R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ````
+
 _Summary of the steps:_
 
 1. Navigate to your experiment **Notebook Entry**
 
 2. Insert the **sub-template** "Analytical Sample Submission" in the Entry
 
-→ You can choose between different samples storage options: **Plate**, **Box**, single **Vials**.
-
- ```{admonition} *Note*
-:class: my-custom-admonition
-
-The sub-template includes a Box (or) Plate Creation table for, respectively, a **9x9 box** and a **96-Well plate**. If you are using another type of storage option, you can add your own Box creation table and Plate creation table and select the correct type.
-```
-```{figure} ../_static/images/plate-box-creation-table.png
-:alt: Box/Plate creation table
-:width: 30%
-:align: center
-
-```
+    → You can choose between different samples storage options: **Plate**, **Box**, single **Vials**.
 
 3. **Fill-in** the registration and inventory tables that appeared in your Notebook Entry with the required metadata.
 
+    ```{admonition} *Note*
+    :class: my-custom-admonition
+
+    Please move the samples in the box across rows (A1, A2, A3...) as showed in the video.
+
+    ```
 4. **Copy** (Command+C / CTRL+C) the newly-registered **samples entities** from the last table
-
-
 
 ## Create a Workflow
 
