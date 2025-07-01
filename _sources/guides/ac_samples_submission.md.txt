@@ -51,7 +51,7 @@ _Summary of the steps:_
     ```{admonition} *Note*
     :class: my-custom-admonition
 
-    Please move the samples in the box across rows (A1, A2, A3...) as showed in the video.
+    When moving samples in a Box or a Plate, please do so **row-wise** (A1, A2, A3...) as showed in the video.
 
     ```
 4. **Copy** (Command+C / CTRL+C) the newly-registered **samples entities** from the last table
