@@ -8,7 +8,7 @@
     <title>Submit samples for analysis to DNA Foundry &#8212; Benchling resources</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=9b2032db" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=7d882212" />
     <script src="../_static/documentation_options.js?v=5929fcd5"></script>
@@ -175,7 +175,91 @@
             
   <section class="tex2jax_ignore mathjax_ignore" id="submit-samples-for-analysis-to-dna-foundry">
 <h1>Submit samples for analysis to DNA Foundry<a class="headerlink" href="#submit-samples-for-analysis-to-dna-foundry" title="Link to this heading">¶</a></h1>
-<p><em>Coming soon</em>.</p>
+<p>Benchling has replaced one of its modules (<strong>“Requests”</strong>) with another new module (<strong>“Workflow”</strong>). To discover how to submit samples for analysis to the DNA Foundry team (for <strong>Nanopore GridION</strong> analysis) using Workflows, follow this guide.</p>
+<section id="grant-access-to-dna-foundry-to-your-project">
+<h2>Grant access to DNA Foundry to your Project<a class="headerlink" href="#grant-access-to-dna-foundry-to-your-project" title="Link to this heading">¶</a></h2>
+<p>Add <em>DNA Foundry</em> Benchling Team to the list of collaborators in your Project to enable the analysts to access the samples you are going to register.</p>
+<ol class="arabic simple">
+<li><p>Navigate to your Benchling <strong>Project settings</strong> ⚙️</p></li>
+<li><p>Add the DNA Foundry Benchling team to the list of collaborators (with <strong>“WRITE”</strong> access)</p></li>
+</ol>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/grant-dnafoundry-access-to-project.png"><img alt="grant access to DNA Foundry team" src="../_images/grant-dnafoundry-access-to-project.png" style="width: 80%;" />
+</a>
+</figure>
+<p>Save edits to the settings by clicking “Done”.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/done.png"><img alt="grant access to DNA Foundry team" src="../_images/done.png" style="width: 50%;" />
+</a>
+</figure>
+<p>→ <a class="reference external" href="https://help.benchling.com/hc/en-us/articles/9684263074445-Set-project-permissions" rel="noreferrer" target="_blank">How to add a user or a Team as collaborator in your project</a></p>
+</section>
+<section id="register-samples-directly-in-your-notebook-entry">
+<h2>Register samples directly in your Notebook Entry<a class="headerlink" href="#register-samples-directly-in-your-notebook-entry" title="Link to this heading">¶</a></h2>
+<p>In order to register samples to submit to DNA Foundry, you can follow a <strong>Sub-template</strong> created by LIMS support for this purpose.</p>
+<p>Follow this video to learn how to do it:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iEUbB_NAL1k?si=7SPdNXcdMwIMLhsO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p><em>Summary of the steps:</em></p>
+<ol class="arabic simple">
+<li><p>Navigate to your experiment <strong>Notebook Entry</strong></p></li>
+<li><p>Insert the <strong>sub-template</strong> “Nanopore Sample Submission” in the Entry</p></li>
+</ol>
+<p>→ You can choose between different samples storage options: <strong>Plate</strong>, <strong>Box</strong>, single <strong>Vials</strong>.</p>
+<ol class="arabic simple" start="3">
+<li><p><strong>Fill-in</strong> the registration and inventory tables that appeared in your Notebook Entry with the required metadata.</p></li>
+<li><p><strong>Copy</strong> (Command+C / CTRL+C) the newly-registered <strong>samples entities</strong> from the last table</p></li>
+</ol>
+</section>
+<section id="create-a-workflow">
+<h2>Create a Workflow<a class="headerlink" href="#create-a-workflow" title="Link to this heading">¶</a></h2>
+<p>In order to submit your newly-registered samples for analysis to the DNA Foundry team, you need to create a Workflow and attach the samples within it. The Workflow to submit samples to the DNA Foundry is labelled with “DNF”.</p>
+<p>Follow this video to learn how to do it:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lQ9xJghtMv4?si=dM0PppQa0VyCpNtq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></section>
+<section id="very-important">
+<h2>VERY IMPORTANT!!<a class="headerlink" href="#very-important" title="Link to this heading">¶</a></h2>
+<p>When creating a workflow, <strong>paste all the samples in one single cell</strong> in the “DNF Nanopore Samples” column (as showed in the screenshot downbelow, and in the video). If you have sample-level metadata, please add them in the previous step (when you are registering the  samples in your Notebook entry).</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/important-samples-in-one-cell-nanopore.png"><img alt="Paste samples in one cell" src="../_images/important-samples-in-one-cell-nanopore.png" style="width: 100%;" />
+</a>
+</figure>
+<p>You can achieve it by using the “Paste special” button:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/paste-special-nanopore.png"><img alt="Use Paste Special to paste all samples in one cell" src="../_images/paste-special-nanopore.png" style="width: 80%;" />
+</a>
+</figure>
+<p><em>Summary of the steps:</em></p>
+<ol class="arabic simple">
+<li><p><strong>Create</strong> a Workflow of the relevant type.</p></li>
+<li><p><strong>Select “Table” format</strong> for your Task table</p></li>
+</ol>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/table-format-in-workflow-nanopore.png"><img alt="create a Workflow" src="../_images/table-format-in-workflow-nanopore.png" style="width: 90%;" />
+</a>
+</figure>
+<ol class="arabic simple" start="3">
+<li><p><strong>Paste</strong> the samples entities in a <strong>single</strong> <strong>DNF Nanopore Samples</strong> column cell</p></li>
+</ol>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/paste-special-nanopore.png"><img alt="Use Paste Special to paste all samples in one cell" src="../_images/paste-special-nanopore.png" style="width: 80%;" />
+</a>
+</figure>
+<ol class="arabic simple" start="4">
+<li><p><strong>Fill-in</strong> the remaining metadata fields.</p></li>
+</ol>
+<p>→ Remember to specify the correct <strong>“Project number”</strong> and to save the Workflow in the relevant <strong>Project folder</strong> (the video’s Project number and Project folder are used as examples).</p>
+<ol class="arabic simple" start="5">
+<li><p>Click on <strong>“Create”</strong>. The analyst will receive an email and therefore will be informed about your submission.</p></li>
+</ol>
+</section>
+<section id="list-of-available-workflows">
+<h2>List of available Workflows<a class="headerlink" href="#list-of-available-workflows" title="Link to this heading">¶</a></h2>
+<p>This is the available list of Workflows (currently only one for the DNA Foundry Team):</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/dnf-workflows-list.png"><img alt="create a Workflow" src="../_images/dnf-workflows-list.png" style="width: 50%;" />
+</a>
+</figure>
+<p><br/><br/></p>
+<p>If you have any question, don’t hesitate to contact us at <a class="reference external" href="mailto:lims_support&#37;&#52;&#48;biosustain&#46;dtu&#46;dk" rel="noreferrer" target="_blank">lims_support<span>&#64;</span>biosustain<span>&#46;</span>dtu<span>&#46;</span>dk</a>.</p>
+</section>
 </section>
 
 
@@ -183,6 +267,27 @@
           </div>
         </div>
       </div>
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents</span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">Submit samples for analysis to DNA Foundry</a><ul>
+<li><a class="reference internal" href="#grant-access-to-dna-foundry-to-your-project">Grant access to DNA Foundry to your Project</a></li>
+<li><a class="reference internal" href="#register-samples-directly-in-your-notebook-entry">Register samples directly in your Notebook Entry</a></li>
+<li><a class="reference internal" href="#create-a-workflow">Create a Workflow</a></li>
+<li><a class="reference internal" href="#very-important">VERY IMPORTANT!!</a></li>
+<li><a class="reference internal" href="#list-of-available-workflows">List of available Workflows</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
     
 
       <div class="clearer"></div>
