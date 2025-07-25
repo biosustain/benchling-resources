@@ -1,4 +1,4 @@
-# (For analysts only) Execute PPP Workflow
+# Execute PPP Workflow
 
 
 ```{admonition} ⚠️

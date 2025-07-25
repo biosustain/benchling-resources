@@ -1,4 +1,4 @@
-# (For analysts only) Execute DNF Workflow
+# Execute DNF Workflow
 
 ```{admonition} ⚠️
 :class: my-custom-admonition
