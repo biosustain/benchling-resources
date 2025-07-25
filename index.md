@@ -101,6 +101,7 @@ Here are some additional learning materials and guides:
 → Register entire collections <guides/strain_collection.md>
 → Register media <guides/media.md>
 → Transfer your data (for guests) <guides/transfer_data_guests.md>
+→ Register fermentation data <guides/fermentation_data.md>
 ```
 
 ```{toctree}
@@ -115,17 +116,16 @@ Here are some additional learning materials and guides:
 :hidden:
 :caption: 'In-house services'
 → Order lab materials <guides/material_order.md>
-→ Submit samples for analysis to Analytics <guides/ac_samples_submission.md>
-→ Submit samples for analysis to Pre-Pilot Plant <guides/ppp_samples_submission.md>
-→ Submit samples for analysis to DNA Foundry <guides/nanopore_samples_submission.md>
+→ Submit samples to Analytics <guides/ac_samples_submission.md>
+→ Submit samples to Pre-Pilot Plant <guides/ppp_samples_submission.md>
+→ Submit samples to DNA Foundry <guides/nanopore_samples_submission.md>
 ```
 
 ```{toctree}
 :maxdepth: 1
 :hidden:
-:caption: 'Biofoundry'
-→ Register Fermentation data (for analysts only) <guides/fermentation_data.md>
-→ Execute AC Workflows (for analysts only) <guides/ac_workflow_execution.md>
-→ Execute PPP Workflows (for analysts only) <guides/ppp_workflow_execution.md>
-→ Execute DNF Workflows (for analysts only) <guides/nanopore_workflow_execution.md>
+:caption: 'For analysts'
+→ Execute AC Workflows <guides/ac_workflow_execution.md>
+→ Execute PPP Workflows <guides/ppp_workflow_execution.md>
+→ Execute DNF Workflows <guides/nanopore_workflow_execution.md>
 ```
