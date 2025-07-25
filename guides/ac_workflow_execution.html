@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>(For analysts only) Execute Analytics Workflows &#8212; Benchling resources</title>
+    <title>Execute Analytics Workflows &#8212; Benchling resources</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=9b2032db" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
@@ -21,7 +21,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="(For analysts only) Execute PPP Workflow" href="ppp_workflow_execution.html" />
-    <link rel="prev" title="Register fermentation data (for PPP and IFP)" href="fermentation_data.html" /> 
+    <link rel="prev" title="Submit samples for analysis to DNA Foundry" href="nanopore_samples_submission.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -150,6 +150,7 @@
 <li class="toctree-l1"><a class="reference internal" href="strain_collection.html">→ Register entire collections</a></li>
 <li class="toctree-l1"><a class="reference internal" href="media.html">→ Register media</a></li>
 <li class="toctree-l1"><a class="reference internal" href="transfer_data_guests.html">→ Transfer your data (for guests)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fermentation_data.html">→ Register fermentation data</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">New functionalities</span></p>
 <ul>
@@ -158,16 +159,15 @@
 <p class="caption" role="heading"><span class="caption-text">In-house services</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="material_order.html">→ Order lab materials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ac_samples_submission.html">→ Submit samples for analysis to Analytics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ppp_samples_submission.html">→ Submit samples for analysis to Pre-Pilot Plant</a></li>
-<li class="toctree-l1"><a class="reference internal" href="nanopore_samples_submission.html">→ Submit samples for analysis to DNA Foundry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ac_samples_submission.html">→ Submit samples to Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ppp_samples_submission.html">→ Submit samples to Pre-Pilot Plant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nanopore_samples_submission.html">→ Submit samples to DNA Foundry</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Biofoundry</span></p>
+<p class="caption" role="heading"><span class="caption-text">For analysts</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="fermentation_data.html">→ Register Fermentation data (for analysts only)</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">→ Execute AC Workflows (for analysts only)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ppp_workflow_execution.html">→ Execute PPP Workflows (for analysts only)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="nanopore_workflow_execution.html">→ Execute DNF Workflows (for analysts only)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">→ Execute AC Workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ppp_workflow_execution.html">→ Execute PPP Workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nanopore_workflow_execution.html">→ Execute DNF Workflows</a></li>
 </ul>
 
         </div>
@@ -179,17 +179,20 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section class="tex2jax_ignore mathjax_ignore" id="for-analysts-only-execute-analytics-workflows">
-<h1>(For analysts only) Execute Analytics Workflows<a class="headerlink" href="#for-analysts-only-execute-analytics-workflows" title="Link to this heading">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="execute-analytics-workflows">
+<h1>Execute Analytics Workflows<a class="headerlink" href="#execute-analytics-workflows" title="Link to this heading">¶</a></h1>
 <div class="my-custom-admonition admonition">
-<p class="admonition-title"><em>Important</em></p>
-<p>This guide is intended for Biosustain <strong>Analytics team</strong> only.</p>
+<p class="admonition-title">⚠️</p>
+<p>This guide is intended for the <strong>Analytics team</strong>.</p>
 </div>
-<p>🎯 This guide will show you how to execute Benchling Workflows submitted by researchers at Biosustain.</p>
-<p><strong>Researchers</strong> uses <strong>Analytics Workflows</strong> to submit samples for analysis to the Analytics team. A <strong>Benchling Workflow</strong> contains:</p>
+<p>🎯 This guide will show you how to execute Workflows submitted by researchers at Biosustain.</p>
+<section id="what-is-a-benchling-workflow">
+<h2>What is a Benchling Workflow?<a class="headerlink" href="#what-is-a-benchling-workflow" title="Link to this heading">¶</a></h2>
+<p>A <strong>Benchling Workflow</strong> contains:</p>
 <ul class="simple">
 <li><p>details of the <strong>samples</strong> to be analysed</p></li>
 <li><p>details of the <strong>analysis</strong> to be performed</p></li>
+<li><p>details of who submitted the Workflow (the client)</p></li>
 </ul>
 <p>Researchers can <strong>choose between the following Workflows</strong>:</p>
 <ul class="simple">
@@ -198,6 +201,7 @@
 <li><p>Targeted Metabolomics</p></li>
 <li><p>Untargeted Metabolomics</p></li>
 </ul>
+</section>
 <section id="check-your-inbox-for-new-submission-by-researchers">
 <h2>📩 Check your inbox for new submission by researchers<a class="headerlink" href="#check-your-inbox-for-new-submission-by-researchers" title="Link to this heading">¶</a></h2>
 <p>As an <strong>Analyst</strong>, <strong>you will receive an email notification</strong> once a new Workflow  is created by a researcher (you will receive notifications only for the Workflow you are responsible for).</p>
@@ -325,7 +329,8 @@ If you don’t know how to do it, contact lims_support&#64;biosustain.dtu.dk.</p
             <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
             <div class="page_toc">
                 <ul>
-<li><a class="reference internal" href="#">(For analysts only) Execute Analytics Workflows</a><ul>
+<li><a class="reference internal" href="#">Execute Analytics Workflows</a><ul>
+<li><a class="reference internal" href="#what-is-a-benchling-workflow">What is a Benchling Workflow?</a></li>
 <li><a class="reference internal" href="#check-your-inbox-for-new-submission-by-researchers">📩 Check your inbox for new submission by researchers</a><ul>
 <li><a class="reference internal" href="#access-the-submitted-workflow">Access the submitted Workflow</a></li>
 </ul>
@@ -360,8 +365,8 @@ If you don’t know how to do it, contact lims_support&#64;biosustain.dtu.dk.</p
         <div class="button_nav">
             <div class="left">
                 
-                <a href="fermentation_data.html">
-                    <span class="icon">&lt;</span><span>Register fermentation data (for PPP and IFP)</span></a>
+                <a href="nanopore_samples_submission.html">
+                    <span class="icon">&lt;</span><span>Submit samples for analysis to DNA Foundry</span></a>
                 
             </div>
 

@@ -1,17 +1,20 @@
 # (For analysts only) Execute DNF Workflow
 
-```{admonition} ⚠️ *Important*
+```{admonition} ⚠️
 :class: my-custom-admonition
 
-This guide is intended for Biosustain **DNA Foundry team** only.
+This guide is intended for Biosustain **DNA Foundry team**.
 ``` 
 
-🎯 This guide will show you how to **execute** the "DNF Workflow" submitted by researchers or DNA Foundry team members at Biosustain.
-Follow **[this guide](/guides/nanopore_samples_submission.md)** if you need to **create** the workflow instead.
+🎯 This guide will show you how to execute Workflows submitted by researchers (or yourself) at Biosustain.
+Follow **[this guide](/guides/nanopore_samples_submission.md)** if you need to **create** a Workflow instead.
+
+## What is a Benchling Workflow?
 
 A **Benchling Workflow** contains:
 - details of the **samples** to be analysed
-- details of the **analysis** to be performed (in this case, only Nanopore sequencing is available)
+- details of the **analysis** to be performed (in this case only Nanopore sequencing is available)
+- details of who submitted the Workflow
 
 ## 📩 Check your inbox for new submissions
 

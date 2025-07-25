@@ -21,7 +21,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="(For analysts only) Execute DNF Workflow" href="nanopore_workflow_execution.html" />
-    <link rel="prev" title="(For analysts only) Execute Analytics Workflows" href="ac_workflow_execution.html" /> 
+    <link rel="prev" title="Execute Analytics Workflows" href="ac_workflow_execution.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -150,6 +150,7 @@
 <li class="toctree-l1"><a class="reference internal" href="strain_collection.html">→ Register entire collections</a></li>
 <li class="toctree-l1"><a class="reference internal" href="media.html">→ Register media</a></li>
 <li class="toctree-l1"><a class="reference internal" href="transfer_data_guests.html">→ Transfer your data (for guests)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fermentation_data.html">→ Register fermentation data</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">New functionalities</span></p>
 <ul>
@@ -158,16 +159,15 @@
 <p class="caption" role="heading"><span class="caption-text">In-house services</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="material_order.html">→ Order lab materials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ac_samples_submission.html">→ Submit samples for analysis to Analytics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ppp_samples_submission.html">→ Submit samples for analysis to Pre-Pilot Plant</a></li>
-<li class="toctree-l1"><a class="reference internal" href="nanopore_samples_submission.html">→ Submit samples for analysis to DNA Foundry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ac_samples_submission.html">→ Submit samples to Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ppp_samples_submission.html">→ Submit samples to Pre-Pilot Plant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nanopore_samples_submission.html">→ Submit samples to DNA Foundry</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Biofoundry</span></p>
+<p class="caption" role="heading"><span class="caption-text">For analysts</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="fermentation_data.html">→ Register Fermentation data (for analysts only)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ac_workflow_execution.html">→ Execute AC Workflows (for analysts only)</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">→ Execute PPP Workflows (for analysts only)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="nanopore_workflow_execution.html">→ Execute DNF Workflows (for analysts only)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ac_workflow_execution.html">→ Execute AC Workflows</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">→ Execute PPP Workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nanopore_workflow_execution.html">→ Execute DNF Workflows</a></li>
 </ul>
 
         </div>
@@ -182,34 +182,34 @@
   <section class="tex2jax_ignore mathjax_ignore" id="for-analysts-only-execute-ppp-workflow">
 <h1>(For analysts only) Execute PPP Workflow<a class="headerlink" href="#for-analysts-only-execute-ppp-workflow" title="Link to this heading">¶</a></h1>
 <div class="my-custom-admonition admonition">
-<p class="admonition-title">⚠️ <em>Important</em></p>
-<p>This guide is intended for Biosustain <strong>Pre-Pilot Plant team</strong> only.</p>
+<p class="admonition-title">⚠️</p>
+<p>This guide is intended for the <strong>Pre-Pilot Plant team</strong>.</p>
 </div>
-<p>🎯 This guide will show you how to <strong>execute</strong> the “PPP Workflow” submitted by researchers or your team members at Biosustain.
-Follow <strong><a class="reference internal" href="ppp_samples_submission.html"><span class="std std-doc">this guide</span></a></strong> if you need to <strong>create</strong> the workflow instead.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
-A **Benchling Workflow** contains:
-- details of the **samples** to be analysed
-- details of the **analysis** to be performed
-
-The submitter can **choose between [different assays](https://biosustain.benchling.com/biosustain/registries/src_1MhfzKi0/dropdowns/sfs_mFMjVMtw)**. If you want for a new assay to be added to the options, [contact LIMS support](/contact.md).
-
-## 📩 Check your inbox for new submission
-
-As an **Analyst**, **you will receive an email notification** once a new Workflow  is created by a researcher (you will receive notifications only for the Workflow you are responsible for).
-
-### Access the submitted Workflow
-
-Click on the link provided in the email.
-Example: 
-
-```{figure} ../_static/images/access-workflow-ppp.png
-:alt: access the workflow
-:width: 80%
-:align: center
-
-</pre></div>
-</div>
+<p>🎯 This guide will show you how to execute Workflows submitted by researchers (or yourself) at Biosustain.
+Follow <strong><a class="reference internal" href="ppp_samples_submission.html"><span class="std std-doc">this guide</span></a></strong> if you need to <strong>create</strong> a Workflow instead.</p>
+<section id="what-is-a-benchling-workflow">
+<h2>What is a Benchling Workflow?<a class="headerlink" href="#what-is-a-benchling-workflow" title="Link to this heading">¶</a></h2>
+<p>A <strong>Benchling Workflow</strong> contains:</p>
+<ul class="simple">
+<li><p>details of the <strong>samples</strong> to be analysed</p></li>
+<li><p>details of the <strong>analysis</strong> to be performed</p></li>
+<li><p>details of who submitted the Workflow</p></li>
+</ul>
+<p>The submitter can <strong>choose between <a class="reference external" href="https://biosustain.benchling.com/biosustain/registries/src_1MhfzKi0/dropdowns/sfs_mFMjVMtw" rel="noreferrer" target="_blank">different assays</a></strong>. If you want a new assay to be added to the options, <a class="reference internal" href="../contact.html"><span class="std std-doc">contact LIMS support</span></a>.</p>
+</section>
+<section id="check-your-inbox-for-new-submission">
+<h2>📩 Check your inbox for new submission<a class="headerlink" href="#check-your-inbox-for-new-submission" title="Link to this heading">¶</a></h2>
+<p>As an <strong>Analyst</strong>, <strong>you will receive an email notification</strong> once a new Workflow  is created by a researcher (you will receive notifications only for the Workflow you are responsible for).</p>
+<section id="access-the-submitted-workflow">
+<h3>Access the submitted Workflow<a class="headerlink" href="#access-the-submitted-workflow" title="Link to this heading">¶</a></h3>
+<p>Click on the link provided in the email.
+Example:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/access-workflow-ppp.png"><img alt="access the workflow" src="../_images/access-workflow-ppp.png" style="width: 80%;" />
+</a>
+</figure>
+</section>
+</section>
 <section id="before-the-analysis">
 <h2><em>Before the analysis</em><a class="headerlink" href="#before-the-analysis" title="Link to this heading">¶</a></h2>
 </section>
@@ -304,6 +304,11 @@ Example:
             <div class="page_toc">
                 <ul>
 <li><a class="reference internal" href="#">(For analysts only) Execute PPP Workflow</a><ul>
+<li><a class="reference internal" href="#what-is-a-benchling-workflow">What is a Benchling Workflow?</a></li>
+<li><a class="reference internal" href="#check-your-inbox-for-new-submission">📩 Check your inbox for new submission</a><ul>
+<li><a class="reference internal" href="#access-the-submitted-workflow">Access the submitted Workflow</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#before-the-analysis"><em>Before the analysis</em></a></li>
 <li><a class="reference internal" href="#download-samples-list">📄 Download samples list</a><ul>
 <li><a class="reference internal" href="#copy-the-workflow-id"><strong>Copy the Workflow ID</strong></a></li>
@@ -334,7 +339,7 @@ Example:
             <div class="left">
                 
                 <a href="ac_workflow_execution.html">
-                    <span class="icon">&lt;</span><span>(For analysts only) Execute Analytics Workflows</span></a>
+                    <span class="icon">&lt;</span><span>Execute Analytics Workflows</span></a>
                 
             </div>
 

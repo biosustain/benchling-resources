@@ -1,15 +1,18 @@
-# (For analysts only) Execute Analytics Workflows
+# Execute Analytics Workflows
 
- ```{admonition} *Important*
+ ```{admonition} ⚠️
 :class: my-custom-admonition
 
-This guide is intended for Biosustain **Analytics team** only.
+This guide is intended for the **Analytics team**.
 ``` 
-🎯 This guide will show you how to execute Benchling Workflows submitted by researchers at Biosustain.
+🎯 This guide will show you how to execute Workflows submitted by researchers at Biosustain.
 
-**Researchers** uses **Analytics Workflows** to submit samples for analysis to the Analytics team. A **Benchling Workflow** contains:
+## What is a Benchling Workflow?
+
+A **Benchling Workflow** contains:
 - details of the **samples** to be analysed
 - details of the **analysis** to be performed
+- details of who submitted the Workflow (the client)
 
 Researchers can **choose between the following Workflows**:
 
