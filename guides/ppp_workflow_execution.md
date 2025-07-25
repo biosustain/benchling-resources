@@ -1,7 +1,7 @@
 # (For analysts only) Execute PPP Workflow
 
 
- ```{admonition} ⚠️ *Important*
+```{admonition} ⚠️ *Important*
 :class: my-custom-admonition
 
 This guide is intended for Biosustain **Pre-Pilot Plant team** only.
@@ -9,13 +9,12 @@ This guide is intended for Biosustain **Pre-Pilot Plant team** only.
 
 🎯 This guide will show you how to **execute** the "PPP Workflow" submitted by researchers or your team members at Biosustain.
 Follow **[this guide](/guides/ppp_samples_submission.md)** if you need to **create** the workflow instead.
-``` 
 
 A **Benchling Workflow** contains:
 - details of the **samples** to be analysed
 - details of the **analysis** to be performed
 
-The submitter can **choose between [different assays](https://biosustain.benchling.com/biosustain/registries/src_1MhfzKi0/dropdowns/sfs_mFMjVMtw)**. If you want for a new assay to be added to the options, [contact LIMS support](/contact.md).
+The submitter can **choose between [different assays](https://biosustain.benchling.com/biosustain/registries/src_1MhfzKi0/dropdowns/sfs_mFMjVMtw)**. If you want a new assay to be added to the options, [contact LIMS support](/contact.md).
 
 ## 📩 Check your inbox for new submission
 
