@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Submit samples for analysis to DNA Foundry and PPP &#8212; Benchling resources</title>
+    <title>(For analysts only) Execute PPP Workflow &#8212; Benchling resources</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=9b2032db" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
@@ -20,8 +20,8 @@
     <script src="../_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Submit samples for analysis to Pre-Pilot-Plant (PPP)" href="ppp_samples_submission.html" />
-    <link rel="prev" title="Submit a lab material order" href="material_order.html" /> 
+    <link rel="next" title="(For analysts only) Execute DNF Workflow" href="nanopore_workflow_execution.html" />
+    <link rel="prev" title="(For analysts only) Execute Analytics Workflows" href="ac_workflow_execution.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -156,13 +156,18 @@
 <li class="toctree-l1"><a class="reference internal" href="plate_map.html">→ Try out Plate Maps</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">In-house services</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="material_order.html">→ Order lab materials</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">→ Submit samples for analysis to DNA Foundry and PPP</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ppp_samples_submission.html">→ Submit samples for analysis to Pre-Pilot Plant (new Workflows)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="nanopore_samples_submission.html">→ Submit samples for analysis to DNA Foundry (new Workflows)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ac_samples_submission.html">→ Submit samples for analysis to Analytics (new Workflows)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ac_workflow_execution.html">→ Execute Analytics Workflows (for analysts only)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ac_samples_submission.html">→ Submit samples for analysis to Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ppp_samples_submission.html">→ Submit samples for analysis to Pre-Pilot Plant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nanopore_samples_submission.html">→ Submit samples for analysis to DNA Foundry</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Biofoundry</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="fermentation_data.html">→ Register Fermentation data (for analysts only)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ac_workflow_execution.html">→ Execute AC Workflows (for analysts only)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">→ Execute PPP Workflows (for analysts only)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nanopore_workflow_execution.html">→ Execute DNF Workflows (for analysts only)</a></li>
 </ul>
 
         </div>
@@ -174,66 +179,113 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section class="tex2jax_ignore mathjax_ignore" id="submit-samples-for-analysis-to-dna-foundry-and-ppp">
-<h1>Submit samples for analysis to DNA Foundry and PPP<a class="headerlink" href="#submit-samples-for-analysis-to-dna-foundry-and-ppp" title="Link to this heading">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="for-analysts-only-execute-ppp-workflow">
+<h1>(For analysts only) Execute PPP Workflow<a class="headerlink" href="#for-analysts-only-execute-ppp-workflow" title="Link to this heading">¶</a></h1>
 <div class="my-custom-admonition admonition">
-<p class="admonition-title"><em>Important</em></p>
-<p>If you need to submit samples for analysis to the Analytics team, follow <a class="reference internal" href="ac_samples_submission.html"><span class="std std-doc">this guide</span></a> instead.</p>
+<p class="admonition-title">⚠️ <em>Important</em></p>
+<p>This guide is intended for Biosustain <strong>Pre-Pilot Plant team</strong> only.</p>
 </div>
-<p>If you need to submit a request for in-house samples analysis, the main steps are:</p>
-<figure class="align-center">
-<a class="reference internal image-reference" href="../_images/samples-submission.png"><img alt="steps for samples submission" src="../_images/samples-submission.png" style="width: 80%;" />
-</a>
-</figure>
-<section id="register-samples-create-notebook-entry">
-<h2>1. Register samples (create Notebook entry)<a class="headerlink" href="#register-samples-create-notebook-entry" title="Link to this heading">¶</a></h2>
-<ul>
-<li><p>Register samples to be analyzed in Benchling. You can follow a template that we created for this purpose:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>  Benchling Navigation Bar &gt;  “Create (+)” &gt; “Entry” &gt; “Entry from template”
+<p>🎯 This guide will show you how to <strong>execute</strong> the “PPP Workflow” submitted by researchers or your team members at Biosustain.
+Follow <strong><a class="reference internal" href="ppp_samples_submission.html"><span class="std std-doc">this guide</span></a></strong> if you need to <strong>create</strong> the workflow instead.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+A **Benchling Workflow** contains:
+- details of the **samples** to be analysed
+- details of the **analysis** to be performed
+
+The submitter can **choose between [different assays](https://biosustain.benchling.com/biosustain/registries/src_1MhfzKi0/dropdowns/sfs_mFMjVMtw)**. If you want for a new assay to be added to the options, [contact LIMS support](/contact.md).
+
+## 📩 Check your inbox for new submission
+
+As an **Analyst**, **you will receive an email notification** once a new Workflow  is created by a researcher (you will receive notifications only for the Workflow you are responsible for).
+
+### Access the submitted Workflow
+
+Click on the link provided in the email.
+Example: 
+
+```{figure} ../_static/images/access-workflow-ppp.png
+:alt: access the workflow
+:width: 80%
+:align: center
+
 </pre></div>
 </div>
-</li>
-</ul>
-<figure class="align-center">
-<a class="reference internal image-reference" href="../_images/entry-from-template.png"><img alt="create a entry from template" src="../_images/entry-from-template.png" style="width: 80%;" />
-</a>
-</figure>
-<ul class="simple">
-<li><p>Select the appropriate template from the list and go through it:</p>
-<ul>
-<li><p><em>“DNF Nanopore Sample Submission”</em></p></li>
-<li><p><em>“IPC Analytics Sample Submission”</em></p></li>
-</ul>
-</li>
-</ul>
+<section id="before-the-analysis">
+<h2><em>Before the analysis</em><a class="headerlink" href="#before-the-analysis" title="Link to this heading">¶</a></h2>
 </section>
-<section id="submit-samples-create-request">
-<h2>2. Submit samples (create Request)<a class="headerlink" href="#submit-samples-create-request" title="Link to this heading">¶</a></h2>
-<ul>
-<li><p>Create a new request (select the appropriate request from the list down-below)</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>  Benchling Navigation Bar &gt;  “Request” &gt; “Create (+)” &gt; Select request type of interest
-</pre></div>
-</div>
-</li>
-<li><p>Attach submission samples (created in step 1) to the newly created request:</p></li>
-</ul>
+<section id="download-samples-list">
+<h2>📄 Download samples list<a class="headerlink" href="#download-samples-list" title="Link to this heading">¶</a></h2>
+<p>If you need to <strong>download the full list of samples and the relative details</strong> (including sample position e.g., A1, A2,…), access the Sample List dashboard and download the list as .csv file.</p>
+<section id="copy-the-workflow-id">
+<h3><strong>Copy the Workflow ID</strong><a class="headerlink" href="#copy-the-workflow-id" title="Link to this heading">¶</a></h3>
+<p><strong>Copy the Workflow ID</strong> from the Task table (in the following example image, the Workflow ID is  <strong>QUANT776-T1</strong>)</p>
 <figure class="align-center">
-<a class="reference internal image-reference" href="../_images/attach-samples-to-request.png"><img alt="attach samples to a request" src="../_images/attach-samples-to-request.png" style="width: 90%;" />
+<a class="reference internal image-reference" href="../_images/copy-workflow-id-ppp.png"><img alt="copy workflow ID" src="../_images/copy-workflow-id-ppp.png" style="width: 100%;" />
 </a>
 </figure>
-<section id="overview-of-available-request-types-by-team">
-<h3>Overview of available request types (by team):<a class="headerlink" href="#overview-of-available-request-types-by-team" title="Link to this heading">¶</a></h3>
-<p><em>DNA Foundry</em></p>
-<ul class="simple">
-<li><p>Nanopore sequencing</p></li>
-</ul>
-<p><em>Pre-Pilot Plant</em></p>
-<ul class="simple">
-<li><p>Compound quantification</p></li>
-</ul>
-<p><br/><br/></p>
+</section>
+<section id="access-the-sample-list-dashboard">
+<h3>Access the Sample List dashboard<a class="headerlink" href="#access-the-sample-list-dashboard" title="Link to this heading">¶</a></h3>
+<p><strong>Click on the link</strong> included under the “Instruction” field to access the Sample List Dashboard:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/download-samples-list-1-ppp.png"><img alt="example of a workflow" src="../_images/download-samples-list-1-ppp.png" style="width: 100%;" />
+</a>
+</figure>
+</section>
+<section id="paste-the-workflow-id">
+<h3>Paste the Workflow ID<a class="headerlink" href="#paste-the-workflow-id" title="Link to this heading">¶</a></h3>
+<p><strong>Paste the Workflow ID</strong> to configure the workflow_task_id parameter, click the “<em>more options</em>” icon […] and select “Download as .csv:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/download-samples-list-2-ppp.png"><img alt="download .csv file" src="../_images/download-samples-list-2-ppp.png" style="width: 85%;" />
+</a>
+</figure>
+</section>
+</section>
+<section id="update-the-workflow-status-to-planned">
+<h2>📆 Update the Workflow status to “Planned”<a class="headerlink" href="#update-the-workflow-status-to-planned" title="Link to this heading">¶</a></h2>
+<p>When you are about to start the analysis, <strong>you can update the Workflow status</strong> to “PLANNED” to let the researcher know you are on it.</p>
+<p><em>We suggest to use the status “Planned” instead of “In progress” because this enables for a more straightforward execution of the workflow later-on.</em></p>
+<p>To udpate the status, go the the <strong>“Tasks” table</strong> (where the details of the submissions are), click <strong>“Edit”</strong>, and edit the “<strong>Status</strong>” column. Now click <strong>“Submit”</strong> to save the edit.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/edit-task-table-ppp.png"><img alt="update the status of the workflow" src="../_images/edit-task-table-ppp.png" style="width: 100%;" />
+</a>
+</figure>
+</section>
+<section id="after-the-analysis">
+<h2><em>After the analysis</em><a class="headerlink" href="#after-the-analysis" title="Link to this heading">¶</a></h2>
+<section id="execute-the-workflow">
+<h3>Execute the Workflow<a class="headerlink" href="#execute-the-workflow" title="Link to this heading">¶</a></h3>
+<p>When you are done with the analysis and you produced results, you are ready to execute the Workflow.</p>
+<p>To execute the workflow, click on the <strong>“Execute”</strong> blue icon.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/execute-workflow-ppp.png"><img alt="execute workflow" src="../_images/execute-workflow-ppp.png" style="width: 80%;" />
+</a>
+</figure>
+</section>
+<section id="create-new-execution-entry">
+<h3>Create new Execution Entry<a class="headerlink" href="#create-new-execution-entry" title="Link to this heading">¶</a></h3>
+<p>In the pop-up windown that showed up click “Execute” again, and a new Notebook Entry (from Template) will be automatically created. Follow the steps in the Notebook Entry to upload the data using LIMS extension.</p>
+</section>
+<section id="send-the-entry-for-review">
+<h3>Send the Entry for Review<a class="headerlink" href="#send-the-entry-for-review" title="Link to this heading">¶</a></h3>
+<p>After adding the data using LIMS extension <em>“Analytical Chemistry Compound Quantification”</em>, you can finally send the Notebook Entry for Review. This will enable the data to be downloaded in the LIMS exension <em>“Fermentation reports &gt; Export”</em>.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/send-eln-for-review.png"><img alt="execute workflow" src="../_images/send-eln-for-review.png" style="width: 80%;" />
+</a>
+</figure>
+<p>Accepting the Review will <strong>automatically change the status of the Workflow task to “Completed”</strong>.</p>
+<p><strong>The submitter will now receive a notification</strong> that the analyis is completed and the results are ready to be downloaded in Benchling (or LIMS extensions <em>“Fermentation reports &gt; Export”</em>).</p>
+</section>
+</section>
+<section id="troubleshooting">
+<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Link to this heading">¶</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Why I cannot accept the Notebook Entry during the review process?</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">In order to being able to accept the Notebook Entry in the review process, you need to have the status of “Auditor” in the Project folder in which the Notebook Entry is saved. Learn how to add auditors in the project <a class="reference external" href="https://help.benchling.com/hc/en-us/articles/9684260674189-Add-auditors-for-Notebook-reviews" rel="noreferrer" target="_blank">here</a>.</p>
+</div>
+</details><p><br/><br/></p>
 <p>If you have any question, don’t hesitate to contact us at <a class="reference external" href="mailto:lims_support&#37;&#52;&#48;biosustain&#46;dtu&#46;dk" rel="noreferrer" target="_blank">lims_support<span>&#64;</span>biosustain<span>&#46;</span>dtu<span>&#46;</span>dk</a>.</p>
-</section>
 </section>
 </section>
 
@@ -251,12 +303,22 @@
             <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
             <div class="page_toc">
                 <ul>
-<li><a class="reference internal" href="#">Submit samples for analysis to DNA Foundry and PPP</a><ul>
-<li><a class="reference internal" href="#register-samples-create-notebook-entry">1. Register samples (create Notebook entry)</a></li>
-<li><a class="reference internal" href="#submit-samples-create-request">2. Submit samples (create Request)</a><ul>
-<li><a class="reference internal" href="#overview-of-available-request-types-by-team">Overview of available request types (by team):</a></li>
+<li><a class="reference internal" href="#">(For analysts only) Execute PPP Workflow</a><ul>
+<li><a class="reference internal" href="#before-the-analysis"><em>Before the analysis</em></a></li>
+<li><a class="reference internal" href="#download-samples-list">📄 Download samples list</a><ul>
+<li><a class="reference internal" href="#copy-the-workflow-id"><strong>Copy the Workflow ID</strong></a></li>
+<li><a class="reference internal" href="#access-the-sample-list-dashboard">Access the Sample List dashboard</a></li>
+<li><a class="reference internal" href="#paste-the-workflow-id">Paste the Workflow ID</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#update-the-workflow-status-to-planned">📆 Update the Workflow status to “Planned”</a></li>
+<li><a class="reference internal" href="#after-the-analysis"><em>After the analysis</em></a><ul>
+<li><a class="reference internal" href="#execute-the-workflow">Execute the Workflow</a></li>
+<li><a class="reference internal" href="#create-new-execution-entry">Create new Execution Entry</a></li>
+<li><a class="reference internal" href="#send-the-entry-for-review">Send the Entry for Review</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#troubleshooting">Troubleshooting</a></li>
 </ul>
 </li>
 </ul>
@@ -271,14 +333,14 @@
         <div class="button_nav">
             <div class="left">
                 
-                <a href="material_order.html">
-                    <span class="icon">&lt;</span><span>Submit a lab material order</span></a>
+                <a href="ac_workflow_execution.html">
+                    <span class="icon">&lt;</span><span>(For analysts only) Execute Analytics Workflows</span></a>
                 
             </div>
 
             <div class="right">
                 
-                    <a href="ppp_samples_submission.html"><span>Submit samples for analysis to Pre-Pilot-Plant (PPP)</span><span class="icon">&gt;</span></a>
+                    <a href="nanopore_workflow_execution.html"><span>(For analysts only) Execute DNF Workflow</span><span class="icon">&gt;</span></a>
                 
             </div>
         </div>

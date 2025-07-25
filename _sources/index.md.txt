@@ -115,9 +115,17 @@ Here are some additional learning materials and guides:
 :hidden:
 :caption: 'In-house services'
 → Order lab materials <guides/material_order.md>
-→ Submit samples for analysis to DNA Foundry and PPP <guides/samples_submission.md>
-→ Submit samples for analysis to Pre-Pilot Plant (new Workflows) <guides/ppp_samples_submission.md>
-→ Submit samples for analysis to DNA Foundry (new Workflows) <guides/nanopore_samples_submission.md>
-→ Submit samples for analysis to Analytics (new Workflows) <guides/ac_samples_submission.md>
-→ Execute Analytics Workflows (for analysts only) <guides/ac_workflow_execution.md>
+→ Submit samples for analysis to Analytics <guides/ac_samples_submission.md>
+→ Submit samples for analysis to Pre-Pilot Plant <guides/ppp_samples_submission.md>
+→ Submit samples for analysis to DNA Foundry <guides/nanopore_samples_submission.md>
+```
+
+```{toctree}
+:maxdepth: 1
+:hidden:
+:caption: 'Biofoundry'
+→ Register Fermentation data (for analysts only) <guides/fermentation_data.md>
+→ Execute AC Workflows (for analysts only) <guides/ac_workflow_execution.md>
+→ Execute PPP Workflows (for analysts only) <guides/ppp_workflow_execution.md>
+→ Execute DNF Workflows (for analysts only) <guides/nanopore_workflow_execution.md>
 ```
