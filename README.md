@@ -208,3 +208,5 @@ Now you should be able to see the _build folder in VS code.
 To enable the preview of the site in VS code, install the extension "Live Preview" in VS code.
 
 To preview the website, right-click on index.html and click "Show Preview".
+
+Mia test: editing from new computer
