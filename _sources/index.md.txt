@@ -102,6 +102,7 @@ Here are some additional learning materials and guides:
 → Register media <guides/media.md>
 → Transfer your data (for guests) <guides/transfer_data_guests.md>
 → Register fermentation data <guides/fermentation_data.md>
+→ Register downstream data <guides/downstream_data.md>
 ```
 
 ```{toctree}

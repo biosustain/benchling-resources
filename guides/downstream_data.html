@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Submit a lab material order &#8212; Benchling resources</title>
+    <title>Register Downstream data - draft &#8212; Benchling resources</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=9b2032db" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
@@ -20,8 +20,8 @@
     <script src="../_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Submit samples for analysis to Analytics" href="ac_samples_submission.html" />
-    <link rel="prev" title="Try out Plate Maps" href="plate_map.html" /> 
+    <link rel="next" title="Try out Plate Maps" href="plate_map.html" />
+    <link rel="prev" title="Register fermentation data (for PPP and IFP)" href="fermentation_data.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -143,7 +143,7 @@
 <li class="toctree-l1"><a class="reference internal" href="eln.html">→ Explore main functionalities</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Data registation</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="use_registry.html">→ Understand the Registry</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sequence_creation.html">→ Upload sequences</a></li>
 <li class="toctree-l1"><a class="reference internal" href="strain_registration.html">→ Register strains</a></li>
@@ -151,15 +151,15 @@
 <li class="toctree-l1"><a class="reference internal" href="media.html">→ Register media</a></li>
 <li class="toctree-l1"><a class="reference internal" href="transfer_data_guests.html">→ Transfer your data (for guests)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fermentation_data.html">→ Register fermentation data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="downstream_data.html">→ Register downstream data</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">→ Register downstream data</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">New functionalities</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="plate_map.html">→ Try out Plate Maps</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">In-house services</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">→ Order lab materials</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="material_order.html">→ Order lab materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ac_samples_submission.html">→ Submit samples to Analytics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ppp_samples_submission.html">→ Submit samples to Pre-Pilot Plant</a></li>
 <li class="toctree-l1"><a class="reference internal" href="nanopore_samples_submission.html">→ Submit samples to DNA Foundry</a></li>
@@ -180,14 +180,103 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section class="tex2jax_ignore mathjax_ignore" id="submit-a-lab-material-order">
-<h1>Submit a lab material order<a class="headerlink" href="#submit-a-lab-material-order" title="Link to this heading">¶</a></h1>
-<p>Equipment and consumable procurement is managed by Biosustain procurement team. To submit your order request to the procurement team, follow the down-below guide.</p>
-<p>⏳ <em>If the PowerPoint viewer doesn’t load, please refresh the page (it can take some seconds as the file size is quite big)</em> ⏳</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="register-downstream-data-draft">
+<h1>Register Downstream data - draft<a class="headerlink" href="#register-downstream-data-draft" title="Link to this heading">¶</a></h1>
+<div class="my-custom-admonition admonition">
+<p class="admonition-title">⚠️</p>
+<p>This guide is intended for the <strong>Pre-Pilot Plant team</strong>.</p>
+</div>
 <br/>
-<p>To <strong>download</strong> the guide, click <a class="reference download internal" download="" href="../_downloads/bbdf99a28fc3da2284a2ae9a2e38ebc2/material_order_guide.pdf"><span class="xref download myst">here</span></a>.</p>
-<iframe src="https://docs.google.com/gview?url=https://biosustain.github.io/benchling-resources/_static/files/material_order_guide.pdf&embedded=true" width="100%" height="600px"></iframe>
+<div class="my-custom-admonition admonition">
+<p class="admonition-title">⚙️</p>
+<p>This guide is a draft.
+The showed implementation can only be found in <strong>Benchling Test Environment</strong>.</p>
+</div>
+<section id="test-the-implementation">
+<h2>Test the implementation<a class="headerlink" href="#test-the-implementation" title="Link to this heading">¶</a></h2>
+<p>To test the implementation showed in the guide, access Benchling Test Environment:
+<br/></p>
+<p>🔗 <a class="reference external" href="https://dtubiosustaintest.benchling.com/" rel="noreferrer" target="_blank">https://dtubiosustaintest.benchling.com/</a></p>
+<p>If you cannot access, we have to create a profile for you. <a class="reference internal" href="../contact.html"><span class="std std-doc">Contact us</span></a>.</p>
+</section>
+<section id="create-new-notebook-entry-eln-from-template">
+<h2>1. Create new Notebook entry (ELN) from Template<a class="headerlink" href="#create-new-notebook-entry-eln-from-template" title="Link to this heading">¶</a></h2>
+<p>Create your new Notebook Entry starting from a Template:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/create-eln-from-template-downstream1.png"><img alt="create" src="../_images/create-eln-from-template-downstream1.png" style="width: 80%;" />
+</a>
+</figure>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/create-eln-from-template-downstream2.png"><img alt="create" src="../_images/create-eln-from-template-downstream2.png" style="width: 100%;" />
+</a>
+</figure>
+</section>
+<section id="identify-starting-material">
+<h2>2. Identify starting material<a class="headerlink" href="#identify-starting-material" title="Link to this heading">¶</a></h2>
+<p>The starting material could be a <em>Fermentatin Culture</em> entity created by the Upstream team, or created by you (see Option 1 and Option 2 in the screenshot downbelow).</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/starting-material-downstream.png"><img alt="Identify starting material" src="../_images/starting-material-downstream.png" style="width: 100%;" />
+</a>
+</figure>
+<p><em>Note: If the starting material is not of type “Fermentation Culture”, you can add your own registration table of type “Processed Material”</em>. (<em>Insert &gt; Registration table &gt; Schema “Processed Material”</em>)</p>
+</section>
+<section id="add-first-processing-step">
+<h2>3. Add first processing step<a class="headerlink" href="#add-first-processing-step" title="Link to this heading">¶</a></h2>
+<p>Register your first processing step by adding a new Sub-Template:</p>
+<p>Insert Sub-Template:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/add-subtemplate-downstream1.png"><img alt="Insert Sub-Template" src="../_images/add-subtemplate-downstream1.png" style="width: 50%;" />
+</a>
+</figure>
+<p>Select the relevant step you need:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/add-subtemplate-downstream2.png"><img alt="Select step type" src="../_images/add-subtemplate-downstream2.png" style="width: 80%;" />
+</a>
+</figure>
+<section id="example-filtration">
+<h3>Example: Filtration<a class="headerlink" href="#example-filtration" title="Link to this heading">¶</a></h3>
+<p>Fill in the Input, Output and Step table to register the necessary step metadata.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/example-step-filtration-downstream.png"><img alt="Filtration step" src="../_images/example-step-filtration-downstream.png" style="width: 100%;" />
+</a>
+</figure>
+</section>
+</section>
+<section id="add-next-processing-step">
+<h2>4. Add next processing step<a class="headerlink" href="#add-next-processing-step" title="Link to this heading">¶</a></h2>
+<p>New processing steps can be added by adding additional Sub-templates:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/add-subtemplate-downstream2.png"><img alt="Add next step" src="../_images/add-subtemplate-downstream2.png" style="width: 100%;" />
+</a>
+</figure>
+</section>
+<section id="dashboard">
+<h2>Dashboard<a class="headerlink" href="#dashboard" title="Link to this heading">¶</a></h2>
+<p>You will find the links to the available dashboards at the beginning of the Notebook entry.</p>
+<section id="example">
+<h3>Example:<a class="headerlink" href="#example" title="Link to this heading">¶</a></h3>
+<p>In the <em>Fermentation Culture Processing Dashboard</em> add the IDs of the Fermentation Cultures you want to compare the yield or the process for:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/comparison-dashboard-downstream1.png"><img alt="Dashboard" src="../_images/comparison-dashboard-downstream1.png" style="width: 90%;" />
+</a>
+</figure>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/comparison-dashboard-downstream2.png"><img alt="Dashboard" src="../_images/comparison-dashboard-downstream2.png" style="width: 90%;" />
+</a>
+</figure>
+<p>To change the selected Fermentation Cultures, click on the <em>[…] icon &gt; “Edit parameters”</em>.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/edit-parameters-downstream.png"><img alt="Edit parameters" src="../_images/edit-parameters-downstream.png" style="width: 90%;" />
+</a>
+</figure>
+</section>
+</section>
+<section id="implementation-status">
+<h2>Implementation status:<a class="headerlink" href="#implementation-status" title="Link to this heading">¶</a></h2>
+<p>New <em>Step “types”</em> (and relevant equipment and parameters) needs to be identified.
+<br/><br/></p>
 <p>If you have any question, don’t hesitate to contact us at <a class="reference external" href="mailto:lims_support&#37;&#52;&#48;biosustain&#46;dtu&#46;dk" rel="noreferrer" target="_blank">lims_support<span>&#64;</span>biosustain<span>&#46;</span>dtu<span>&#46;</span>dk</a>.</p>
+</section>
 </section>
 
 
@@ -196,6 +285,35 @@
         </div>
       </div>
     
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents</span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">Register Downstream data - draft</a><ul>
+<li><a class="reference internal" href="#test-the-implementation">Test the implementation</a></li>
+<li><a class="reference internal" href="#create-new-notebook-entry-eln-from-template">1. Create new Notebook entry (ELN) from Template</a></li>
+<li><a class="reference internal" href="#identify-starting-material">2. Identify starting material</a></li>
+<li><a class="reference internal" href="#add-first-processing-step">3. Add first processing step</a><ul>
+<li><a class="reference internal" href="#example-filtration">Example: Filtration</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#add-next-processing-step">4. Add next processing step</a></li>
+<li><a class="reference internal" href="#dashboard">Dashboard</a><ul>
+<li><a class="reference internal" href="#example">Example:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#implementation-status">Implementation status:</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
 
       <div class="clearer"></div>
     </div>
@@ -203,14 +321,14 @@
         <div class="button_nav">
             <div class="left">
                 
-                <a href="plate_map.html">
-                    <span class="icon">&lt;</span><span>Try out Plate Maps</span></a>
+                <a href="fermentation_data.html">
+                    <span class="icon">&lt;</span><span>Register fermentation data (for PPP and IFP)</span></a>
                 
             </div>
 
             <div class="right">
                 
-                    <a href="ac_samples_submission.html"><span>Submit samples for analysis to Analytics</span><span class="icon">&gt;</span></a>
+                    <a href="plate_map.html"><span>Try out Plate Maps</span><span class="icon">&gt;</span></a>
                 
             </div>
         </div>
