@@ -59,7 +59,7 @@ Here are some of the benefits:
 
 - Creation of a **centralized list** of your team's Projects, accessible by you and your PI at any time.
 
-    📚 Access the **full list of your team's Projects** using one of the Menus showed below:
+    📚 Access the **full list of your team's Projects** using one of the Menus shown below:
 
 ```{figure} ../_static/images/projects4-shared-projects-overview.png
 :width: 100%
