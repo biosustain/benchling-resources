@@ -96,6 +96,7 @@ Here are some additional learning materials and guides:
 :caption: 'Data registation'
 
 → Understand the Registry <guides/use_registry.md>
+→ Manage projects <guides/manage_projects.md>
 → Upload sequences <guides/sequence_creation.md>
 → Register strains <guides/strain_registration.md>
 → Register entire collections <guides/strain_collection.md>

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Manage your Benchling Project &#8212; Benchling resources</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=9b2032db" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=883523b8" />
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <script src="../_static/js/petite-vue.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Upload sequences in Benchling" href="sequence_creation.html" />
+    <link rel="prev" title="Understand the Registry" href="use_registry.html" /> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../index.html" title="Go to homepage">Benchling resources</a></h1>
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#fff;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#fff;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#fff;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#fff;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#fff;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#fff;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#fff;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#fff;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#fff;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><circle cx="39.311" cy="39.524" r="15.734" style="fill:#fff;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#fff;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#fff;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#fff;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#fff;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#fff;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#fff;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#fff;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#fff;"/></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewBox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"/><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#fff;"/><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#fff;"/></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#fff;"/></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#fff;"/></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#fff;"/></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#fff;"/></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#fff;"/></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#fff;"/></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#fff;"/></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#fff" />
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../contact.html">📩 Contact us</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../FAQ.html">❓ FAQ</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../benchling_access.html">🔐 Benchling access</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../training_materials/basics.html">📚 Training for new employees</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">📌 Benchling core concepts</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Electronic Lab Notebook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="eln.html">→ Explore main functionalities</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Data registation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="use_registry.html">→ Understand the Registry</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">→ Manage projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sequence_creation.html">→ Upload sequences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="strain_registration.html">→ Register strains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="strain_collection.html">→ Register entire collections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="media.html">→ Register media</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transfer_data_guests.html">→ Transfer your data (for guests)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fermentation_data.html">→ Register fermentation data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="downstream_data.html">→ Register downstream data</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">New functionalities</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="plate_map.html">→ Try out Plate Maps</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">In-house services</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="material_order.html">→ Order lab materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ac_samples_submission.html">→ Submit samples to Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ppp_samples_submission.html">→ Submit samples to Pre-Pilot Plant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nanopore_samples_submission.html">→ Submit samples to DNA Foundry</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">For analysts</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ac_workflow_execution.html">→ Execute AC Workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ppp_workflow_execution.html">→ Execute PPP Workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nanopore_workflow_execution.html">→ Execute DNF Workflows</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="manage-your-benchling-project">
+<h1>Manage your Benchling Project<a class="headerlink" href="#manage-your-benchling-project" title="Link to this heading">¶</a></h1>
+<p>🎯 This guide will show you how to manage Benchling Projects to keep research data <strong>structured</strong> and <strong>accessible</strong>. It will aslo outline good practices to improve <strong>reusability</strong> of your data after your stay at DTU Biosustian.</p>
+<section id="what-are-projects-in-benchling">
+<h2>What are Projects in Benchling?<a class="headerlink" href="#what-are-projects-in-benchling" title="Link to this heading">¶</a></h2>
+<p><strong>Project folders</strong> (referred to as <em>Projects</em> in this guide) are key elements of data management in Benchling that <strong>provide a structure</strong> to the data registered in Benchling.</p>
+<p>Each Project has its own <strong>Permission</strong> settings that allow the Project Admin to define who will be able to access the data inside the Project (the Project <strong>Collaborators</strong>). It is possible to grant access to:</p>
+<ul class="simple">
+<li><p>a single user (e.g., a colleague)</p></li>
+<li><p>an entire team (e.g., your research group)</p></li>
+</ul>
+<p>Go to the section <em>“Add and remove Collaborators”</em> to learn how manage the Project permissions.</p>
+<p>It is possible to further organize the data within the Project by creating <strong>Subfolders</strong>.
+In these folders you can store:</p>
+<ul class="simple">
+<li><p>notebook entries</p></li>
+<li><p>protocols</p></li>
+<li><p>entities (e.g., plasmids, oligos, and DNA sequences)</p></li>
+</ul>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/projects1-project-structure.png"><img alt="../_images/projects1-project-structure.png" src="../_images/projects1-project-structure.png" style="width: 60%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Example of the structure of a <strong>Project folder</strong></em></span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<div class="my-custom-admonition admonition">
+<p class="admonition-title">ℹ️​ Need a Training space?</p>
+<p>If you want to try out some of Benchling’s functionalities, you can use the <a class="reference external" href="https://biosustain.benchling.com/biosustain/f_/xmPebKow-biosustain-training/?filter=section%3Aall%3Bfolder%3Alib_xmPebKow%3Btypes%3AIS_ONE_OF%3Afolder%2Centry%2Cprocess%2Cprotocol%2Cbulk_assembly%2Cbasic_folder_item%2Cprotein%2Cmixture%2Csequence%2Crna_sequence%2Coligo%2Crna_oligo%2Canalysis%2Cdataset%3BarchivePurposes%3AIS_ONE_OF%3ANOT_ARCHIVED%3BisAssociatedWithUnsubmittedRequestV2Submission%3AIS_FALSE%3BProcessesIsSystemDataFilter%3AIS_FALSE&amp;amp;offset=0&amp;amp;limit=50&amp;amp;sorts=starred%3A0%3Bname%3A0&amp;amp;q=&amp;amp;v=2" rel="noreferrer" target="_blank">Biosustain Training</a> project folder for this purpose.</p>
+</div>
+</section>
+<section id="create-a-project-or-use-an-existing-one">
+<h2>Create a Project (or use an existing one)<a class="headerlink" href="#create-a-project-or-use-an-existing-one" title="Link to this heading">¶</a></h2>
+<p>All users can create Projects in Benchling, but new Projects should be created when truly <strong>necessary</strong>, for example when starting a new research project with a specific set of collaborators.</p>
+<p>Each team might have a different preference on how they want to handle their Projects:</p>
+<ul class="simple">
+<li><p>Some teams create one Project <strong>for each team member</strong></p></li>
+<li><p>Some teams create one Project <strong>for each ongoing study</strong></p></li>
+</ul>
+<section id="recommendations">
+<h3>Recommendations<a class="headerlink" href="#recommendations" title="Link to this heading">¶</a></h3>
+<section id="create-one-project-for-each-ongoing-study-rather-than-for-each-team-member">
+<h4>✅ Create one Project for each ongoing study, rather than for each team member.<a class="headerlink" href="#create-one-project-for-each-ongoing-study-rather-than-for-each-team-member" title="Link to this heading">¶</a></h4>
+<p>Here are some of the <strong>benefits</strong>:</p>
+<ul>
+<li><p>The <strong>entirety of the data related to that Project can be found in a single location</strong>, avoiding redundancy and data scattering across personal folders.</p></li>
+<li><p>Easier <strong>permissions management</strong></p>
+<p>🔐 All the <strong>Collaborators can be added only once</strong> (and easily updated), and they will always be able to find and access newly created data, avoiding unnecessary emails and access requests.
+<br/><br/></p>
+</li>
+</ul>
+</section>
+<section id="whenever-possible-add-your-benchling-team-as-collaborator-to-the-projects-you-create">
+<h4>✅ Whenever possible, add your (Benchling) Team as Collaborator to the Projects you create.<a class="headerlink" href="#whenever-possible-add-your-benchling-team-as-collaborator-to-the-projects-you-create" title="Link to this heading">¶</a></h4>
+<p>Here are some of the benefits:</p>
+<ul>
+<li><p><strong>Increased visibility</strong> of your data and its findability</p></li>
+<li><p>Creation of a <strong>centralized list</strong> of your team’s Projects, accessible by you and your PI at any time.</p>
+<p>📚 Access the <strong>full list of your team’s Projects</strong> using one of the Menus showed below:</p>
+</li>
+</ul>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="../_images/projects4-shared-projects-overview.png"><img alt="../_images/projects4-shared-projects-overview.png" src="../_images/projects4-shared-projects-overview.png" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Different ways of having an overview of the Projects shared with your team</em></span><a class="headerlink" href="#id2" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">ℹ️​ Sharing samples with the Analytics team</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">When submitting samples for the Analytics team, it is necessary to grant them “Write” permission to your folder. Many users choose to create dedicated Projects for this.</p>
+<p class="sd-card-text">We recommend creating a <strong>single, team-wide folder</strong> to create samples for analysis.</p>
+</div>
+</details></section>
+<section id="manage-team-s-protocols-and-other-shared-data-by-creating-a-team-level-project">
+<h4>✅ Manage team’s protocols and other shared data by creating a Team-level Project.<a class="headerlink" href="#manage-team-s-protocols-and-other-shared-data-by-creating-a-team-level-project" title="Link to this heading">¶</a></h4>
+<p>In addition to having single Projects for each ongoing study, many teams have found it useful to have a <strong>shared team Project folder</strong> to ease the process of sharing protocols, team guidelines and other commonly shared information that is useful to the whole team.</p>
+<p>This Project should have your (Benchling) Team in the list of Collaborators.</p>
+<ul class="simple">
+<li><p>All <strong>new employees</strong> added to the (Benchling) Team will <strong>automatically gain access to all protocols</strong> and relevant team-level information and data.</p></li>
+</ul>
+<figure class="align-center" id="id3">
+<a class="reference internal image-reference" href="../_images/projects5-team-project.png"><img alt="../_images/projects5-team-project.png" src="../_images/projects5-team-project.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>An example of a shared team Project folder</em></span><a class="headerlink" href="#id3" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+</section>
+<section id="add-and-remove-collaborators">
+<h2>Add and remove Collaborators<a class="headerlink" href="#add-and-remove-collaborators" title="Link to this heading">¶</a></h2>
+<p>Through the <strong>Manage access</strong> menu, you can define which users or teams can have access to your information, and what level of access each should have.</p>
+<figure class="align-center" id="id4">
+<a class="reference internal image-reference" href="../_images/projects2-manage-access.png"><img alt="../_images/projects2-manage-access.png" src="../_images/projects2-manage-access.png" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>View of the Manage Access menu</em></span><a class="headerlink" href="#id4" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Permission levels overview</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">The actions users with different levels of permissions can take are outlined below:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/projects6-permissions.png"><img alt="../_images/projects6-permissions.png" src="../_images/projects6-permissions.png" style="width: 90%;" />
+</a>
+</figure>
+<p class="sd-card-text"><em>Note: Users with append permission may be able to create blank entries, but they will then not be able to edit them. This permission may only be useful to append already completed documents and entities that do not require further editing by the user with this level of permission.</em></p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Granting access to a Team: Admins vs. Members</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">You can also specify separate levels of access for <strong>members</strong> and <strong>admins</strong> of a team. This may be useful if you would like to ensure a link between your Project and your team, but you can’t share the data with the entire team yet.</p>
+<p class="sd-card-text">To do this, locate the team you want to manage the permissions of in the <strong>Manage access</strong> menu of your Project, and follow these steps:</p>
+<p class="sd-card-text"><em>More options button (…) &gt; Add admin member access policy &gt; Select level of access for users and admins</em></p>
+<figure class="align-center" id="id5">
+<a class="reference internal image-reference" href="../_images/projects3-admin-policy.png"><img alt="../_images/projects3-admin-policy.png" src="../_images/projects3-admin-policy.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Setting an admin member access policy</em></span><a class="headerlink" href="#id5" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</div>
+</details></section>
+<section id="identify-your-data-requirements">
+<h2>Identify your data requirements<a class="headerlink" href="#identify-your-data-requirements" title="Link to this heading">¶</a></h2>
+<p>Throughout your stay at Biosustain, it is good to keep in mind the <strong>purpose</strong> of the information you generate and store within Benchling, and how you (and others) will need it in the short, medium and long term. This information will determine how you register and structure your data in Benchling.</p>
+<div class="admonition my-custom-admonition">
+<p class="admonition-title">☑️ Checklist: </p>
+<p>Some questions to guide you through the process of <strong>managing your data</strong> (both within and outside of Benchling) are:</p>
+<ul style="margin-top: 0.4em; margin-bottom: 0.5em; padding-left: 2em; list-style-type: disc; font-size: 0.9em;">
+    <li style="margin-bottom: 0.2em;">If external collaborators ask for some data after one year of running an experiment, can I find it easily?</li>
+    <li style="margin-bottom: 0.2em;">Can my colleagues understand my experiments and find their results?</li>
+    <li style="margin-bottom: 0.2em;">Is there an easy way to find items like strains or plasmids in the freezers?</li>
+    <li style="margin-bottom: 0.2em;">Can I know if someone has a plasmid I need without asking everyone?</li>
+    <li style="margin-bottom: 0.2em;">If I left right now, could people know where I left off and continue my work easily?</li>
+  </ul>
+</div>
+</section>
+<section id="additional-tips-for-day-to-day-usage">
+<h2>Additional tips for day-to-day usage<a class="headerlink" href="#additional-tips-for-day-to-day-usage" title="Link to this heading">¶</a></h2>
+<p>This section covers some suggestions for your day-to-day use of Projects in Benchling.</p>
+<section id="requests-for-access">
+<h3>Requests for access<a class="headerlink" href="#requests-for-access" title="Link to this heading">¶</a></h3>
+<p>You may receive emails requesting access to your Project folder. The format of these emails is the following:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>    [User] has requested to be added to [Project folder], so that they can access [Entry or entity]. To grant access, add them as a collaborator on the project, add them to a team that already has access, or move the item to a project that they already have access to.&quot;
+</pre></div>
+</div>
+<p>As the message states, if it is a user that should be on your (Benchling) Team, ask a Team admin to add them via the <strong>Team</strong> page. If that is not the case, you can grant them individual permission through the <strong>Manage access</strong> menu.</p>
+</section>
+<section id="browsing-data">
+<h3>Browsing data<a class="headerlink" href="#browsing-data" title="Link to this heading">¶</a></h3>
+<p>There are two main ways to browse through Benchling entries and entities:</p>
+<ul class="simple">
+<li><p>Within a Project, you can use the search bar to find contents, including items in subfolders.</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/projects7-browse-projects.gif"><img alt="../_images/projects7-browse-projects.gif" src="../_images/projects7-browse-projects.gif" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>Through the Global Search, you can browse through all data types in Benchling across all the Projects you have access to.</p>
+<ul>
+<li><p>🎯 Set the data type and add relevant filters first and then, if needed, filter by Project or Subfolder.</p></li>
+</ul>
+</li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/projects8-global-search.gif"><img alt="../_images/projects8-global-search.gif" src="../_images/projects8-global-search.gif" style="width: 80%;" />
+</a>
+</figure>
+<ul>
+<li><p><strong>Saved searches</strong> can come in quite handy when you need to apply the same filters again and again.</p>
+<div class="my-custom-admonition admonition">
+<p class="admonition-title">ℹ️​ TIP</p>
+<p>After applying the needed filters, <strong>save your Search and link it directly in your ELN entry</strong> so you can find relevant entities without leaving your notebook.</p>
+</div>
+</li>
+</ul>
+<figure class="align-center" id="id6">
+<a class="reference internal image-reference" href="../_images/insert-saved-search.png"><img alt="../_images/insert-saved-search.png" src="../_images/insert-saved-search.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Add a Saved Search as a link in your ELN entry</em></span><a class="headerlink" href="#id6" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="use-attachments-to-your-advantage">
+<h3>Use attachments to your advantage<a class="headerlink" href="#use-attachments-to-your-advantage" title="Link to this heading">¶</a></h3>
+<p>You can attach files to your ELN, with a limit per attachment of 2 GB. While these files are not findable in Benchling through the global search, it may be useful to keep track of which files were generated in a given day.</p>
+<div class="my-custom-admonition admonition">
+<p class="admonition-title">ℹ️​ TIP</p>
+<p>Use the <em>“Open preview”</em> button to view attachments directly in the ELN entry.</p>
+</div>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/projects9-attachments.gif"><img alt="../_images/projects9-attachments.gif" src="../_images/projects9-attachments.gif" style="width: 80%;" />
+</a>
+</figure>
+</section>
+<section id="maintain-collections">
+<h3>Maintain collections<a class="headerlink" href="#maintain-collections" title="Link to this heading">¶</a></h3>
+<p>While you may create and store plasmid, strain and primer collections externally (for example, in a spreadsheet shared through OneDrive), it is recommended to periodically update them to the Benchling Registry.</p>
+<p>You may find the following guides helpful for this purpose:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://biosustain.github.io/benchling-resources/guides/use_registry.html" rel="noreferrer" target="_blank">Understand the Registry — Benchling resources</a></p></li>
+<li><p><a class="reference external" href="https://biosustain.github.io/benchling-resources/guides/strain_collection.html" rel="noreferrer" target="_blank">Register a strain collection in Benchling — Benchling resources</a></p></li>
+</ul>
+</section>
+</section>
+<section id="the-end-of-your-project">
+<h2>The end of your Project<a class="headerlink" href="#the-end-of-your-project" title="Link to this heading">¶</a></h2>
+<p>As you wrap up a specific study, or you reach the end of your stay at Biosustain, it’s important to consider the fate of the data you are leaving behind in Benchling.</p>
+<p><strong>First</strong>, you must consider whether the data in the Projects you have worked on is complete:</p>
+<ul class="simple">
+<li><p>Does every entry have a clear purpose and conclusion?</p>
+<ul>
+<li><p>Even if sub-projects were stopped, it is important to take note of this and state why.</p></li>
+</ul>
+</li>
+<li><p>Have all relevant entities been registered?</p>
+<ul>
+<li><p>Think of items you would like to leave behind and their locations: strains in -80C freezers, plasmids in -20C freezers.</p></li>
+<li><p>You may have sequence entities which do not have physical instances (eg. a plasmid that needs to be obtained via miniprep of a strain, or failed constructs). Make sure to clearly label them as such, and to link to other relevant entities when necessary. This may be useful for future users when using the global search and trying to locate sequences.</p></li>
+</ul>
+</li>
+<li><p>Is it easy to browse through my project folders?</p>
+<ul>
+<li><p>Make sure your folder structure is well organized. You can always include a README entry to guide others through your folders.</p></li>
+</ul>
+</li>
+<li><p>Are there any findings that were not published, but would still be useful to others?</p>
+<ul>
+<li><p>Negative results</p></li>
+<li><p>Optimized protocols (eg. tricks to improve miniprep yield, how to increase transformation efficiency, or troubleshooting tips for different techniques)</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Then</strong>, you must make sure people in your team will have access to your data. Share the folder with your team or copy the contents of the project into a folder of the shared team project. Note that the data moved to a new location will have the permission settings of the project folder it is moved into.</p>
+<p><strong>Lastly</strong>, make sure you still have access to your data while wrapping up. If you’re finishing a project at Biosustain but still need time to organize or finalize your work in Benchling, you should request temporary extended access through HR. Keep in mind that after your stay ends, access to the Biosustain Benchling tenant will no longer be available, unless otherwise arranged.</p>
+<p><em>With the previous tips in mind, your experience with the management of projects in Benchling should be as smooth as possible!</em></p>
+<div class="my-custom-admonition admonition">
+<p class="admonition-title">ℹ️​ A note on data storage</p>
+<p>You should also consider what to do with data stored elsewhere.</p>
+<p>It’s important to note that once your DTU account is suspended, its associated OneDrive account will also be. This means that data created or shared by you will be deleted, including shared OneDrive folders, if they are linked to your account. Thus, you must remember to save important data to the O drive, to ensure it will remain accessible to others (Department Drive-NNFCFB). Avoid leaving data behind in the M drive, which only you have access to.</p>
+<p>For other kinds of data management inquiries, you can always <strong><a class="reference external" href="https://biosustain.github.io/benchling-resources/contact.html" rel="noreferrer" target="_blank">contact the RDM team</a></strong> to ask questions.</p>
+</div>
+<p><br/><br/></p>
+<p>If you have any question, don’t hesitate to contact us at <a class="reference external" href="mailto:lims_support&#37;&#52;&#48;biosustain&#46;dtu&#46;dk" rel="noreferrer" target="_blank">lims_support<span>&#64;</span>biosustain<span>&#46;</span>dtu<span>&#46;</span>dk</a>.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents</span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">Manage your Benchling Project</a><ul>
+<li><a class="reference internal" href="#what-are-projects-in-benchling">What are Projects in Benchling?</a></li>
+<li><a class="reference internal" href="#create-a-project-or-use-an-existing-one">Create a Project (or use an existing one)</a><ul>
+<li><a class="reference internal" href="#recommendations">Recommendations</a><ul>
+<li><a class="reference internal" href="#create-one-project-for-each-ongoing-study-rather-than-for-each-team-member">✅ Create one Project for each ongoing study, rather than for each team member.</a></li>
+<li><a class="reference internal" href="#whenever-possible-add-your-benchling-team-as-collaborator-to-the-projects-you-create">✅ Whenever possible, add your (Benchling) Team as Collaborator to the Projects you create.</a></li>
+<li><a class="reference internal" href="#manage-team-s-protocols-and-other-shared-data-by-creating-a-team-level-project">✅ Manage team’s protocols and other shared data by creating a Team-level Project.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#add-and-remove-collaborators">Add and remove Collaborators</a></li>
+<li><a class="reference internal" href="#identify-your-data-requirements">Identify your data requirements</a></li>
+<li><a class="reference internal" href="#additional-tips-for-day-to-day-usage">Additional tips for day-to-day usage</a><ul>
+<li><a class="reference internal" href="#requests-for-access">Requests for access</a></li>
+<li><a class="reference internal" href="#browsing-data">Browsing data</a></li>
+<li><a class="reference internal" href="#use-attachments-to-your-advantage">Use attachments to your advantage</a></li>
+<li><a class="reference internal" href="#maintain-collections">Maintain collections</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#the-end-of-your-project">The end of your Project</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+    <div class="button_nav_wrapper">
+        <div class="button_nav">
+            <div class="left">
+                
+                <a href="use_registry.html">
+                    <span class="icon">&lt;</span><span>Understand the Registry</span></a>
+                
+            </div>
+
+            <div class="right">
+                
+                    <a href="sequence_creation.html"><span>Upload sequences in Benchling</span><span class="icon">&gt;</span></a>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2024, DTU Biosustain, Informatics Platform, Research Data Management Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+
+<p id="theme_credit"></p>
+  </body>
+</html>

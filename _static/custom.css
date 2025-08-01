@@ -30,7 +30,10 @@ ul ul li, ol ol li {
     border-left: 4px solid #0f87e3;
     color: #000
 }
-
+.admonition.my-custom-admonition ul,
+.admonition.my-custom-admonition li {
+  font-size: 0.9rem;
+}
 .caption-text {
     color: #4077b5; /* Change as needed 4E87C8 */
     /*font-size: 16px; /* Adjust the size */

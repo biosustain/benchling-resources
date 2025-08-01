@@ -2,7 +2,7 @@
 
 🎯 This guide will help you understand how to use the Benchling Registry according to your needs. 
 
-## Why using the Registry
+## Why use the Registry?
 
 Using the Registry might seem like a daunting task, but it is quite flexible, and **it comes with many benefits**, including:
 - the **ability to assign distinct data types** to samples, containers, and results, ensuring that data is easy to find and interpret
