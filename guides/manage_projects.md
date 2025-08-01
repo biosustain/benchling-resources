@@ -6,7 +6,7 @@
 **Project folders** (referred to as *Projects* in this guide) are key elements of data management in Benchling that **provide a structure** to the data registered in Benchling.
 
 Each Project has its own **Permission** settings that allow the Project Admin to define who will be able to access the data inside the Project (the Project **Collaborators**). It is possible to grant access to:
-- a single users (e.g., a colleague) 
+- a single user (e.g., a colleague) 
 - an entire team (e.g., your research group)
 
 Go to the section *"Add and remove Collaborators"* to learn how manage the Project permissions.
@@ -26,7 +26,7 @@ In these folders you can store:
 
 ````{admonition} ℹ️​ Need a Training space?
 :class: my-custom-admonition
-If you want to try out some of the functionalities, you can use the [Biosustain Training](https://biosustain.benchling.com/biosustain/f_/xmPebKow-biosustain-training/?filter=section%3Aall%3Bfolder%3Alib_xmPebKow%3Btypes%3AIS_ONE_OF%3Afolder%2Centry%2Cprocess%2Cprotocol%2Cbulk_assembly%2Cbasic_folder_item%2Cprotein%2Cmixture%2Csequence%2Crna_sequence%2Coligo%2Crna_oligo%2Canalysis%2Cdataset%3BarchivePurposes%3AIS_ONE_OF%3ANOT_ARCHIVED%3BisAssociatedWithUnsubmittedRequestV2Submission%3AIS_FALSE%3BProcessesIsSystemDataFilter%3AIS_FALSE&offset=0&limit=50&sorts=starred%3A0%3Bname%3A0&q=&v=2) project folder for this purpose. 
+If you want to try out some of Benchling's functionalities, you can use the [Biosustain Training](https://biosustain.benchling.com/biosustain/f_/xmPebKow-biosustain-training/?filter=section%3Aall%3Bfolder%3Alib_xmPebKow%3Btypes%3AIS_ONE_OF%3Afolder%2Centry%2Cprocess%2Cprotocol%2Cbulk_assembly%2Cbasic_folder_item%2Cprotein%2Cmixture%2Csequence%2Crna_sequence%2Coligo%2Crna_oligo%2Canalysis%2Cdataset%3BarchivePurposes%3AIS_ONE_OF%3ANOT_ARCHIVED%3BisAssociatedWithUnsubmittedRequestV2Submission%3AIS_FALSE%3BProcessesIsSystemDataFilter%3AIS_FALSE&offset=0&limit=50&sorts=starred%3A0%3Bname%3A0&q=&v=2) project folder for this purpose. 
 ````
 
 ## Create a Project (or use an existing one)
@@ -51,7 +51,7 @@ Here are some of the **benefits**:
     🔐 All the **Collaborators can be added only once** (and easily updated), and they will always be able to find and access newly created data, avoiding unnecessary emails and access requests.
 <br/><br/>
 
-#### ✅ Whenever possible, add your (Benchling) Team as Collaborator to the Projects you create
+#### ✅ Whenever possible, add your (Benchling) Team as Collaborator to the Projects you create.
 
 Here are some of the benefits:
 
@@ -71,15 +71,15 @@ Here are some of the benefits:
 
 ````{dropdown} ℹ️​ Sharing samples with the Analytics team
 
-When submitting samples for the Analytics team, it is necessary to grant them "Write" permission to your folder. Many users choose to create dedicated Project for this. 
+When submitting samples for the Analytics team, it is necessary to grant them "Write" permission to your folder. Many users choose to create dedicated Projects for this. 
 
 We recommend creating a **single, team-wide folder** to create samples for analysis. 
 
 ````
 
-#### ✅ Manage team's protocols and other shared data by creating a Team-level Project
+#### ✅ Manage team's protocols and other shared data by creating a Team-level Project.
 
-In addition to have single Projects for each ongoing study, many teams found it useful to have a **shared team Project folder** to ease the process of sharing protocols, team guidelines and other commonly shared information that are useful to the whole team.
+In addition to having single Projects for each ongoing study, many teams have found it useful to have a **shared team Project folder** to ease the process of sharing protocols, team guidelines and other commonly shared information that is useful to the whole team.
 
 This Project should have your (Benchling) Team in the list of Collaborators.
 
@@ -135,7 +135,7 @@ To do this, locate the team you want to manage the permissions of in the **Manag
 
 ## Identify your data requirements
 
-Throughout your stay at Biosustain, it is good to keep in mind the **purpose** of the information you generate and store within Benchling, and how you (and others) will need it in the short, medium and long term. This information will inform how you register and structure your data in Benchling.
+Throughout your stay at Biosustain, it is good to keep in mind the **purpose** of the information you generate and store within Benchling, and how you (and others) will need it in the short, medium and long term. This information will determine how you register and structure your data in Benchling.
 
 <div class="admonition my-custom-admonition">
   <p class="admonition-title">☑️ Checklist: </p>
@@ -158,7 +158,7 @@ This section covers some suggestions for your day-to-day use of Projects in Benc
 
 You may receive emails requesting access to your Project folder. The format of these emails is the following:
 
-        [User] has requested to be added to [Project folder], so that they can access [Entry or entity]. To grant access, add them as a collaborator on the project, add them to a team that already has access, or move the item to a project that they already have access to."*
+        [User] has requested to be added to [Project folder], so that they can access [Entry or entity]. To grant access, add them as a collaborator on the project, add them to a team that already has access, or move the item to a project that they already have access to."
 
 As the message states, if it is a user that should be on your (Benchling) Team, ask a Team admin to add them via the **Team** page. If that is not the case, you can grant them individual permission through the **Manage access** menu. 
 
