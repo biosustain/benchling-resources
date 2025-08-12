@@ -1,10 +1,21 @@
 # Register fermentation data (for PPP and IFP)
 
-🎯 This guide will show you how to use the template ***"Registering Fermentation Data in Benchling"*** to keep track of fermentation experiments and the samples they generate. 
+ ```{admonition} 🔍
+:class: my-custom-admonition
 
-## 📝 Create a new Fermentation Data Entry from a Template 
+This guide is tailored to the **Pre-Pilot Plant** and the **Integrated Fermentation Platform** teams at Biosustain.
+``` 
+🎯 This guide will show you how to use the Benchling template ***"Registering Fermentation Data in Benchling"*** to keep track of fermentation experiments and the samples they generate. 
 
-The first step is to create a new Entry using the required Template. 
+## 📝 Create a new Notebook Entry using a Template 
+
+The first step is to create a new Notebook Entry using the Fermentation Template. 
+
+ ```{admonition} ⚠️
+:class: my-custom-admonition
+
+If your team has created its own version of the Template, select that instead while creating the Notebook Entry.
+``` 
 
 Follow this video to learn how to do it:
 
@@ -23,23 +34,23 @@ Follow this video to learn how to do it:
 
 *Summary of the steps:*
 
-1. Navigate to the Benchling folder where you want to register fermentation data. 
+1. Navigate to the Benchling folder where you want to register fermentation data for your experiment. 
 2. Create an **Entry from Template** and select the template *Registering Fermentation Data in Benchling* in the folder *Fermentation Reports (LIMS)*. 
 
 Once you have created the Entry, you can start filling in the relevant tables.
 
-## 🔍 Steps 1 to 3 - Planning and registering related Entities 
+## 🔍 Steps 1 to 3 - Experiment, Media and Strains
 
-The first steps involve creating or locating Entities that are relevant to the Fermentation process.
+After creating the Notebook Entry, you are ready to start plan your experiment by creating the following **entities**: 
 
 * **Step 1 - Register Experiment**
 * **Step 2 - Register Media**
 * **Step 3 - Register Strains**
 
-````{admonition} ℹ️​ Notes
+````{admonition} ℹ️​ 
 :class: my-custom-admonition
 1. The tables included in these steps may be omitted if you have already registered the entities beforehand. 
-2. Entities created through these tables will be found in the same folder where the Entry is located. You can *move* them manually into the correct folder through the *expanded view*. 
+2. Entities created through these tables will be found in the same folder where the Notebook Entry is located. You can *move* them manually into the correct folder through the *expanded view*. 
 
 ````
 
@@ -58,7 +69,7 @@ Follow this video for an example of how to fill the first three steps:
 </div>
 ````
 
-## 🧪 Steps 4 and 5 - Fermentation Cultures and Samples 
+## 🧪 Steps 4 and 5 - Fermentation Cultures and Timepoint samples 
 
 These steps cover logging details for each stage of the fermentation train (e.g., reactor settings, final OD, culture volume) and recording metadata for samples retrieved from the main fermentation (e.g., OD, time, cells/mg, sample type).
 
@@ -80,7 +91,7 @@ Follow this video for an example of how to fill the tables in steps 4 and 5:
 </div>
 ````
 
-## 🔬 Steps 6 to 8 - Preparing Samples for Analysis
+## 🔬 Steps 6 to 8 - Creating Samples for Analysis
 
 The last steps cover creating samples for analysis, assigning them a storage location, and submitting the Workflow to Analytics or the Pre-Pilot Plant.
 
@@ -118,7 +129,10 @@ The videos below show how to achieve this.
 </div>
 ````
 
-````{admonition} ℹ️​ Note
+````{admonition} ℹ️​
 :class: my-custom-admonition
 Analytics/PPP must have **Write** access to the project where the samples are located. 
 ````
+<br/><br/>
+
+If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
