@@ -41,7 +41,7 @@ Once you have created the Entry, you can start filling in the relevant tables.
 
 ## 🔍 Steps 1 to 3 - Experiment, Media and Strains
 
-After creating the Notebook Entry, you are ready to start plan your experiment by creating the following **entities**: 
+After creating the Notebook Entry, you are ready to start planning your experiment by creating the following **entities**: 
 
 * **Step 1 - Register Experiment**
 * **Step 2 - Register Media**
@@ -71,7 +71,7 @@ Follow this video for an example of how to fill the first three steps:
 
 ## 🧪 Steps 4 and 5 - Fermentation Cultures and Timepoint samples 
 
-These steps cover logging details for each stage of the fermentation train (e.g., reactor settings, final OD, culture volume) and recording metadata for samples retrieved from the main fermentation (e.g., OD, time, cells/mg, sample type).
+These steps cover logging details for each stage of the fermentation train (e.g., reactor settings, final OD, culture volume) and recording metadata for samples retrieved from the main fermentation (e.g., OD, time, cells/ml, sample type).
 
 * **Step 4 - Register Fermentation Cultures and Results (Pre-optional, pre-final, main cultures)**
 * **Step 5 - Register Timepoint Samples**
