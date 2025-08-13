@@ -183,7 +183,119 @@
             
   <section class="tex2jax_ignore mathjax_ignore" id="register-fermentation-data-for-ppp-and-ifp">
 <h1>Register fermentation data (for PPP and IFP)<a class="headerlink" href="#register-fermentation-data-for-ppp-and-ifp" title="Link to this heading">¶</a></h1>
-<p>Coming soon</p>
+<div class="my-custom-admonition admonition">
+<p class="admonition-title">🔍</p>
+<p>This guide is tailored to the <strong>Pre-Pilot Plant</strong> and the <strong>Integrated Fermentation Platform</strong> teams at Biosustain.</p>
+</div>
+<p>🎯 This guide will show you how to use the Benchling template <em><strong>“Registering Fermentation Data in Benchling”</strong></em> to keep track of fermentation experiments and the samples they generate.</p>
+<section id="create-a-new-notebook-entry-using-a-template">
+<h2>📝 Create a new Notebook Entry using a Template<a class="headerlink" href="#create-a-new-notebook-entry-using-a-template" title="Link to this heading">¶</a></h2>
+<p>The first step is to create a new Notebook Entry using the Fermentation Template.</p>
+<div class="my-custom-admonition admonition">
+<p class="admonition-title">⚠️</p>
+<p>If your team has created its own version of the Template, select that instead while creating the Notebook Entry.</p>
+</div>
+<p>Follow this video to learn how to do it:</p>
+<div style="text-align: center;">
+<iframe 
+    width="650"
+    height="347"
+    src="https://www.youtube.com/embed/LYKo29SY8RI?si=6XbqoswJwuZfsPMP?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+</div><p><em>Summary of the steps:</em></p>
+<ol class="arabic simple">
+<li><p>Navigate to the Benchling folder where you want to register fermentation data for your experiment.</p></li>
+<li><p>Create an <strong>Entry from Template</strong> and select the template <em>Registering Fermentation Data in Benchling</em> in the folder <em>Fermentation Reports (LIMS)</em>.</p></li>
+</ol>
+<p>Once you have created the Entry, you can start filling in the relevant tables.</p>
+</section>
+<section id="steps-1-to-3-experiment-media-and-strains">
+<h2>🔍 Steps 1 to 3 - Experiment, Media and Strains<a class="headerlink" href="#steps-1-to-3-experiment-media-and-strains" title="Link to this heading">¶</a></h2>
+<p>After creating the Notebook Entry, you are ready to start planning your experiment by creating the following <strong>entities</strong>:</p>
+<ul class="simple">
+<li><p><strong>Step 1 - Register Experiment</strong></p></li>
+<li><p><strong>Step 2 - Register Media</strong></p></li>
+<li><p><strong>Step 3 - Register Strains</strong></p></li>
+</ul>
+<div class="my-custom-admonition admonition">
+<p class="admonition-title">ℹ️​</p>
+<ol class="arabic simple">
+<li><p>The tables included in these steps may be omitted if you have already registered the entities beforehand.</p></li>
+<li><p>Entities created through these tables will be found in the same folder where the Notebook Entry is located. You can <em>move</em> them manually into the correct folder through the <em>expanded view</em>.</p></li>
+</ol>
+</div>
+<p>Follow this video for an example of how to fill the first three steps:</p>
+<div style="text-align: center;">
+<iframe 
+    width="650"
+    height="347"
+    src="https://www.youtube.com/embed/uW1PWMYdCu8?si=FlAF6CDQAiOvxCQh?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+</div></section>
+<section id="steps-4-and-5-fermentation-cultures-and-timepoint-samples">
+<h2>🧪 Steps 4 and 5 - Fermentation Cultures and Timepoint samples<a class="headerlink" href="#steps-4-and-5-fermentation-cultures-and-timepoint-samples" title="Link to this heading">¶</a></h2>
+<p>These steps cover logging details for each stage of the fermentation train (e.g., reactor settings, final OD, culture volume) and recording metadata for samples retrieved from the main fermentation (e.g., OD, time, cells/ml, sample type).</p>
+<ul class="simple">
+<li><p><strong>Step 4 - Register Fermentation Cultures and Results (Pre-optional, pre-final, main cultures)</strong></p></li>
+<li><p><strong>Step 5 - Register Timepoint Samples</strong></p></li>
+</ul>
+<p>Follow this video for an example of how to fill the tables in steps 4 and 5:</p>
+<div style="text-align: center;">
+<iframe 
+    width="650"
+    height="347"
+    src="https://www.youtube.com/embed/D8MwIU05rIo?si=kneheKTopfj9h8Gq?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+</div></section>
+<section id="steps-6-to-8-creating-samples-for-analysis">
+<h2>🔬 Steps 6 to 8 - Creating Samples for Analysis<a class="headerlink" href="#steps-6-to-8-creating-samples-for-analysis" title="Link to this heading">¶</a></h2>
+<p>The last steps cover creating samples for analysis, assigning them a storage location, and submitting the Workflow to Analytics or the Pre-Pilot Plant.</p>
+<ul class="simple">
+<li><p><strong>Step 6 - Register Analytical Submission Samples</strong></p></li>
+<li><p><strong>Step 7 - Move Analytical Submission Samples in a storage location</strong></p></li>
+<li><p><strong>Step 8 - Submit Workflow to Analytics</strong></p></li>
+</ul>
+<p>The videos below show how to achieve this.</p>
+<section id="create-and-store-analytical-submission-samples">
+<h3>☑️ Create and store Analytical Submission Samples<a class="headerlink" href="#create-and-store-analytical-submission-samples" title="Link to this heading">¶</a></h3>
+<div style="text-align: center;">
+<iframe 
+    width="650"
+    height="347"
+    src="https://www.youtube.com/embed/qblko5AIHdc?si=Ig0fcIeLZ3HPEarr?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+</div></section>
+<section id="create-a-workflow">
+<h3>☑️ Create a Workflow<a class="headerlink" href="#create-a-workflow" title="Link to this heading">¶</a></h3>
+<div style="text-align: center;">
+<iframe 
+    width="650"
+    height="347"
+    src="https://www.youtube.com/embed/iPy7QfmsDCw?si=31IM5uT2RL9uKqEL?rel=0&modestbranding=1&autoplay=0&showinfo=0" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+</div><div class="my-custom-admonition admonition">
+<p class="admonition-title">ℹ️​</p>
+<p>Analytics/PPP must have <strong>Write</strong> access to the project where the samples are located.</p>
+</div>
+<p><br/><br/></p>
+<p>If you have any question, don’t hesitate to contact us at <a class="reference external" href="mailto:lims_support&#37;&#52;&#48;biosustain&#46;dtu&#46;dk" rel="noreferrer" target="_blank">lims_support<span>&#64;</span>biosustain<span>&#46;</span>dtu<span>&#46;</span>dk</a>.</p>
+</section>
+</section>
 </section>
 
 
@@ -191,6 +303,30 @@
           </div>
         </div>
       </div>
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents</span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">Register fermentation data (for PPP and IFP)</a><ul>
+<li><a class="reference internal" href="#create-a-new-notebook-entry-using-a-template">📝 Create a new Notebook Entry using a Template</a></li>
+<li><a class="reference internal" href="#steps-1-to-3-experiment-media-and-strains">🔍 Steps 1 to 3 - Experiment, Media and Strains</a></li>
+<li><a class="reference internal" href="#steps-4-and-5-fermentation-cultures-and-timepoint-samples">🧪 Steps 4 and 5 - Fermentation Cultures and Timepoint samples</a></li>
+<li><a class="reference internal" href="#steps-6-to-8-creating-samples-for-analysis">🔬 Steps 6 to 8 - Creating Samples for Analysis</a><ul>
+<li><a class="reference internal" href="#create-and-store-analytical-submission-samples">☑️ Create and store Analytical Submission Samples</a></li>
+<li><a class="reference internal" href="#create-a-workflow">☑️ Create a Workflow</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
     
 
       <div class="clearer"></div>
