@@ -94,11 +94,11 @@ New processing steps can be added by adding additional Sub-templates:
 :align: center
 ``` 
 
-# Edit the implementation
+## Edit the implementation
 
 Any changes to the implementation requires you to be part of the [Pre-Pilot Plant Benchling team](https://biosustain.benchling.com/teams/team_zsgxMbi3/projects). 
 
-## ✏️ Update Dropdowns
+### ✏️ Update Dropdowns
 
 If you notice that one of the dropdowns in the "Step" table (in this case the "Filtration" table) is missing a value, you can add it yourself.
 
@@ -112,14 +112,14 @@ If you notice that one of the dropdowns in the "Step" table (in this case the "F
 :align: center
 
 ```
-## ✏️ Create new equipment
+### ✏️ Create new equipment
 
 If you need to add a new equipment in Benchling, follow the instructions contained in this [Notebook Entry](https://biosustain.benchling.com/biosustain/f/lib_N0MVgvr6oL-downstream-data-capture-ppp/etr_XoztnU2Sj6-registration-of-new-equipment/edit).
 
 To check the full list of existing Equipment, following this link:
 - [List of existing equipment](https://biosustain.benchling.com/search?filter=types%3AIS_ONE_OF%3Abasic_folder_item%3Bschema%3AIS_ONE_OF%3Ats_IV0dk9kVUH%3BarchivePurposes%3AIS_ONE_OF%3ANOT_ARCHIVED%3BisAssociatedWithUnsubmittedRequestV2Submission%3AIS_FALSE%3BProcessesIsSystemDataFilter%3AIS_FALSE&offset=0&limit=100&sorts=name%3A0&q=&v=2)
 
-## ✏️ Add new parameters to an existing step
+### ✏️ Add new parameters to an existing step
 
 If you need to capture a new parameters in a specific step:
 
@@ -148,7 +148,7 @@ If you need to capture a new parameters in a specific step:
 If you need help in making this changes, you can always [contact LIMS Support](/contact.md).
 
 
-## ✏️ Create new step
+### ✏️ Create new step
 
 If you need to capture a new processing step that is not covered by the current implementation, [contact LIMS Support](/contact.md). Please provide the following information:
 
@@ -166,7 +166,7 @@ If you need to capture a new processing step that is not covered by the current 
 To check the full list of existing steps and related parameters, following this link:
 - [List of existing steps](https://biosustain.benchling.com/search?q=step)
 
-## ✏️ Create a downstream processing template
+### ✏️ Create a downstream processing template
 
 If you want to create a template with pre-defined processing steps (for example, to be used in the context of a specific project), you can create a duplicate template from the base template ("_PPP Downstream_") and add all needed processing steps. (Consider that if you already have done this, you can also select another template created for another project). 
 
@@ -196,7 +196,7 @@ If you want to create a template with pre-defined processing steps (for example,
 
 4. Add all the Steps that you want to add for this template, and then publish the draft.
 
-```{figure} ../_static/images/downstream-duplicate-from-version.png
+```{figure} ../_static/images/downstream-publish-template.png
 :alt: 
 :width: 100%
 :align: center
@@ -204,7 +204,7 @@ If you want to create a template with pre-defined processing steps (for example,
 
 5. If you need to edit the published draft, just select "Create New Draft":
 
-```{figure} ../_static/images/downstream-edit-template.png
+```{figure} ../_static/images/downstream-create-new-draft.png
 :alt: 
 :width: 100%
 :align: center
@@ -212,7 +212,7 @@ If you want to create a template with pre-defined processing steps (for example,
 
 6. To start capturing downstream data with this new template, select it when creating a new Notebook Entry (follow step 1. of the guide -"Create new Notebook entry (ELN) from Template"- and select your new template). 
 
-# Dashboards
+## Dashboards
 
 Here is the list of existing dashboards:
 - [Fermentation Culture Processing Dashboard](https://biosustain.benchling.com/analytics/dashboards/axdash_tciiECE1Jb-downstream-fermentation-culture-processing-dashboard)
