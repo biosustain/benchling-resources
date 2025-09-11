@@ -1,6 +1,6 @@
 # Submit a lab material order
 
-Equipment and consumable procurement is managed by Biosustain procurement team. 
+Equipment and consumable procurement is managed by Biosustain procurement team (good reception).
 
 To submit your order request to the procurement team, follow the down-below guide.
 
