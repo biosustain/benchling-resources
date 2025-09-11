@@ -152,9 +152,7 @@
 <li class="toctree-l1"><a class="reference internal" href="media.html">→ Register media</a></li>
 <li class="toctree-l1"><a class="reference internal" href="transfer_data_guests.html">→ Transfer your data (for guests)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fermentation_data.html">→ Register fermentation data</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Register Downstream data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#edit-the-implementation">Edit the implementation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#dashboards">Dashboards</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">→ Register downstream data</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">New functionalities</span></p>
 <ul>
@@ -251,12 +249,11 @@
 </a>
 </figure>
 </section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="edit-the-implementation">
-<h1>Edit the implementation<a class="headerlink" href="#edit-the-implementation" title="Link to this heading">¶</a></h1>
+<section id="edit-the-implementation">
+<h2>Edit the implementation<a class="headerlink" href="#edit-the-implementation" title="Link to this heading">¶</a></h2>
 <p>Any changes to the implementation requires you to be part of the <a class="reference external" href="https://biosustain.benchling.com/teams/team_zsgxMbi3/projects" rel="noreferrer" target="_blank">Pre-Pilot Plant Benchling team</a>.</p>
 <section id="update-dropdowns">
-<h2>✏️ Update Dropdowns<a class="headerlink" href="#update-dropdowns" title="Link to this heading">¶</a></h2>
+<h3>✏️ Update Dropdowns<a class="headerlink" href="#update-dropdowns" title="Link to this heading">¶</a></h3>
 <p>If you notice that one of the dropdowns in the “Step” table (in this case the “Filtration” table) is missing a value, you can add it yourself.</p>
 <ol class="arabic simple">
 <li><p>Go to the <a class="reference external" href="https://biosustain.benchling.com/biosustain/registries/src_1MhfzKi0/dropdowns/" rel="noreferrer" target="_blank">Dropdowns page</a> in Benchling</p></li>
@@ -270,7 +267,7 @@
 </figure>
 </section>
 <section id="create-new-equipment">
-<h2>✏️ Create new equipment<a class="headerlink" href="#create-new-equipment" title="Link to this heading">¶</a></h2>
+<h3>✏️ Create new equipment<a class="headerlink" href="#create-new-equipment" title="Link to this heading">¶</a></h3>
 <p>If you need to add a new equipment in Benchling, follow the instructions contained in this <a class="reference external" href="https://biosustain.benchling.com/biosustain/f/lib_N0MVgvr6oL-downstream-data-capture-ppp/etr_XoztnU2Sj6-registration-of-new-equipment/edit" rel="noreferrer" target="_blank">Notebook Entry</a>.</p>
 <p>To check the full list of existing Equipment, following this link:</p>
 <ul class="simple">
@@ -278,7 +275,7 @@
 </ul>
 </section>
 <section id="add-new-parameters-to-an-existing-step">
-<h2>✏️ Add new parameters to an existing step<a class="headerlink" href="#add-new-parameters-to-an-existing-step" title="Link to this heading">¶</a></h2>
+<h3>✏️ Add new parameters to an existing step<a class="headerlink" href="#add-new-parameters-to-an-existing-step" title="Link to this heading">¶</a></h3>
 <p>If you need to capture a new parameters in a specific step:</p>
 <ol class="arabic simple">
 <li><p>Search for the entity schema (in this case a Step”) of interest in the <a class="reference external" href="https://biosustain.benchling.com/biosustain/registries/src_1MhfzKi0/tag-schemas/" rel="noreferrer" target="_blank">Benchling Settings dedicated to Entity Schemas</a></p></li>
@@ -310,7 +307,7 @@
 <p>If you need help in making this changes, you can always <a class="reference internal" href="../contact.html"><span class="std std-doc">contact LIMS Support</span></a>.</p>
 </section>
 <section id="create-new-step">
-<h2>✏️ Create new step<a class="headerlink" href="#create-new-step" title="Link to this heading">¶</a></h2>
+<h3>✏️ Create new step<a class="headerlink" href="#create-new-step" title="Link to this heading">¶</a></h3>
 <p>If you need to capture a new processing step that is not covered by the current implementation, <a class="reference internal" href="../contact.html"><span class="std std-doc">contact LIMS Support</span></a>. Please provide the following information:</p>
 <ul class="simple">
 <li><p>Process name (e.g., Filtration)</p></li>
@@ -327,7 +324,7 @@
 </ul>
 </section>
 <section id="create-a-downstream-processing-template">
-<h2>✏️ Create a downstream processing template<a class="headerlink" href="#create-a-downstream-processing-template" title="Link to this heading">¶</a></h2>
+<h3>✏️ Create a downstream processing template<a class="headerlink" href="#create-a-downstream-processing-template" title="Link to this heading">¶</a></h3>
 <p>If you want to create a template with pre-defined processing steps (for example, to be used in the context of a specific project), you can create a duplicate template from the base template (”<em>PPP Downstream</em>”) and add all needed processing steps. (Consider that if you already have done this, you can also select another template created for another project).</p>
 <ol class="arabic simple">
 <li><p>Go to feature settings &gt; Template collections</p></li>
@@ -354,14 +351,14 @@
 <li><p>Add all the Steps that you want to add for this template, and then publish the draft.</p></li>
 </ol>
 <figure class="align-center">
-<a class="reference internal image-reference" href="../_images/downstream-duplicate-from-version.png"><img alt="" src="../_images/downstream-duplicate-from-version.png" style="width: 100%;" />
+<a class="reference internal image-reference" href="../_images/downstream-publish-template.png"><img alt="" src="../_images/downstream-publish-template.png" style="width: 100%;" />
 </a>
 </figure>
 <ol class="arabic simple" start="5">
 <li><p>If you need to edit the published draft, just select “Create New Draft”:</p></li>
 </ol>
 <figure class="align-center">
-<a class="reference internal image-reference" href="../_images/downstream-edit-template.png"><img alt="" src="../_images/downstream-edit-template.png" style="width: 100%;" />
+<a class="reference internal image-reference" href="../_images/downstream-create-new-draft.png"><img alt="" src="../_images/downstream-create-new-draft.png" style="width: 100%;" />
 </a>
 </figure>
 <ol class="arabic simple" start="6">
@@ -369,12 +366,13 @@
 </ol>
 </section>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="dashboards">
-<h1>Dashboards<a class="headerlink" href="#dashboards" title="Link to this heading">¶</a></h1>
+<section id="dashboards">
+<h2>Dashboards<a class="headerlink" href="#dashboards" title="Link to this heading">¶</a></h2>
 <p>Here is the list of existing dashboards:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://biosustain.benchling.com/analytics/dashboards/axdash_tciiECE1Jb-downstream-fermentation-culture-processing-dashboard" rel="noreferrer" target="_blank">Fermentation Culture Processing Dashboard</a></p></li>
 </ul>
+</section>
 <section id="compare-fermentation-culture-processing-and-yield">
 <h2>Compare Fermentation Culture processing and yield<a class="headerlink" href="#compare-fermentation-culture-processing-and-yield" title="Link to this heading">¶</a></h2>
 <p>In the <em>Fermentation Culture Processing Dashboard</em>, add the IDs of the Fermentation Cultures for which you want to compare the yield and the process:</p>
@@ -418,8 +416,6 @@ If you have any question, don’t hesitate to contact us at <a class="reference 
 </ul>
 </li>
 <li><a class="reference internal" href="#add-next-processing-step">4. Add next processing step</a></li>
-</ul>
-</li>
 <li><a class="reference internal" href="#edit-the-implementation">Edit the implementation</a><ul>
 <li><a class="reference internal" href="#update-dropdowns">✏️ Update Dropdowns</a></li>
 <li><a class="reference internal" href="#create-new-equipment">✏️ Create new equipment</a></li>
@@ -428,7 +424,7 @@ If you have any question, don’t hesitate to contact us at <a class="reference 
 <li><a class="reference internal" href="#create-a-downstream-processing-template">✏️ Create a downstream processing template</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#dashboards">Dashboards</a><ul>
+<li><a class="reference internal" href="#dashboards">Dashboards</a></li>
 <li><a class="reference internal" href="#compare-fermentation-culture-processing-and-yield">Compare Fermentation Culture processing and yield</a></li>
 </ul>
 </li>
