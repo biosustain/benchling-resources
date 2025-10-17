@@ -78,6 +78,13 @@ Here are some additional learning materials and guides:
 :maxdepth: 1
 :hidden:
 
+ 👤 Superusers <guides/superusers.md>
+```
+
+```{toctree}
+:maxdepth: 1
+:hidden:
+
 📌 Benchling core concepts <guides/introduction.md>
 ```
 
