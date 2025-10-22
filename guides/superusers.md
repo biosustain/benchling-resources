@@ -1,6 +1,7 @@
 # 👤 Benchling superusers at Biosustain
 
-Benchling superusers are researchers who are the main contact point between their research group and the [LIMS support team](/contact.md). Superusers also support their colleagues by addressing their doubts, by sharing training materials ang guides, and by encouraging them to [contact the LIMS team](/contact.md) when needed.
+Benchling superusers are researchers who are the main contact point between their research group and the LIMS support team.
+Superusers also support their colleagues by addressing their doubts, by sharing training materials ang guides, and by encouraging them to [contact the LIMS team](https://biosustain.github.io/benchling-resources/contact.html) when needed.
 
 ## Are you a superuser? 
 Here are some important pieces of information for you.
@@ -51,7 +52,7 @@ _Note: If the Project data needs to stay more private (no access to the whole Te
 
 ### ✅ Other topics 
 
-If your colleague needs help in other aspects, and you don't know the answer, please share with them the link to this Benchling resources page (https://biosustain.github.io/benchling-resources/) or ask them to contact the [LIMS Support team]((/contact.md)).
+If your colleague needs help in other aspects, and you don't know the answer, please share with them the link to this Benchling resources page (https://biosustain.github.io/benchling-resources/) or ask them to contact the LIMS Support team.
 
 <br/><br/><br/>
 
