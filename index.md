@@ -78,7 +78,7 @@ Here are some additional learning materials and guides:
 :maxdepth: 1
 :hidden:
 
- 👤 Superusers <guides/superusers.md>
+ 👤 Benchling Superusers <guides/superusers.md>
 ```
 
 ```{toctree}
