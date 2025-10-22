@@ -21,7 +21,7 @@ As a superusers, understanding a few basic concepts of Benchling will help you t
 ### ✅ Benchling teams
 
 - In Benchling, data access is managed through user teams ("Benchling Teams").
-- If you are part of a Team, you can see all the data ("Benchling Projects") that were shared with that Team.
+- If you are part of a Team, you can see the data (collected in "Benchling Projects") that was shared with that Team.
 - Every research group has its own Benchling Team.
 - You can see in which Teams you are part of by going to the user settings:
 
