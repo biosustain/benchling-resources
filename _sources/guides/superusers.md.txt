@@ -1,17 +1,17 @@
 # 👤 Benchling superusers at Biosustain
 
 Benchling superusers are researchers who are the main contact point between their research group and the LIMS support team.
-Superusers also support their colleagues by addressing their doubts, by sharing training materials ang guides, and by encouraging them to [contact the LIMS team](https://biosustain.github.io/benchling-resources/contact.html) when needed.
+Superusers also support their colleagues by addressing their doubts, by sharing training materials and guides, and by encouraging them to [contact the LIMS team](https://biosustain.github.io/benchling-resources/contact.html) when needed.
 
 ## Are you a superuser? 
 Here are some important pieces of information for you.
 
-As a superusers, understanding a few basic concepts of Benchling will help you to better support your team and to have a smoother experience when encountering issues in Benchling.
+As a superuser, understanding a few basic concepts of Benchling will help you to better support your team and to have a smoother experience when encountering issues in Benchling.
 
 ### ✅ Benchling access
 
-- Benchling access in managed by Biosustain HR.
-- Benchling user accounts are automatically suspended at the end of the users's contract, and reactivated if the user gets a new contract.
+- Benchling access is managed by Biosustain HR.
+- Benchling user accounts are automatically suspended at the end of the user's contract, and reactivated if the user gets a new contract.
 - If a user needs prolonged access to Benchling (after the contract end date), the user needs to contact Biosustain HR and ask for an extension. 
 
 📋 If a colleague needs access to Benchling, follow these steps:
@@ -32,7 +32,7 @@ As a superusers, understanding a few basic concepts of Benchling will help you t
 ```
 
 📋 If a colleague needs access to a team Project, follow these steps:
-1. First, check if your Team is part of the Project collaborator list in the Project setting. 
+1. First, check if your Team is part of the Project collaborator list in the Project settings. 
 
 ```{figure} ../_static/images/superusers-check-collaborators.png
 :width: 70%
