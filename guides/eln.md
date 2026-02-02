@@ -114,7 +114,7 @@ Create templates and subtemplates within your team collection. **If your team do
 </iframe>
 </div>
 ```
----
+
 *Note:*
 
 **Permissions for templates are set at the collection level.** See below the different tiers of permissions that can be granted to users or teams for template collections:
@@ -233,3 +233,4 @@ Benchling automatically generates a dynamic table of contents to help you naviga
 
 
 If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).
+change
