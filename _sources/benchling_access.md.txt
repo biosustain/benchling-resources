@@ -3,7 +3,7 @@
 🎯 This guide provides an overview of how **permissions** are managed in Benchling, as well as [whom to contact](#contact-information) for different permission-related issues. 
 
 ## Access to Benchling
-**First-time access** is granted by HR. Contact [Biosustain HR](https://www.inside.dtu.dk/en/medarbejder/hr-og-arbejdsmiljoe/kontakt-hr) to request access (for you or a colleague). 
+**First-time access** is granted by HR. Contact [BRIGHT HR](mailto:bright-hr@bright.dtu.dk) to request access (for you or a colleague). 
 
 If your account (or a colleague's account) has been **suspended**, contact [LIMS Support](/contact.md) and ask for its reactivation. 
 Reasons for the suspension include inactivity for multiple months or being a past employee that has returned to Biosustain after a period of time.
@@ -39,7 +39,7 @@ _Note: If you cannot add/edit collaborators in your Project, it means that you a
 
 ## Access for external collaborators
 
-An external collaborator cannot access the Biosustain instance of Benchling without having a DTU guest agreement and credentials. Please contact [Biosustain HR](https://www.inside.dtu.dk/en/medarbejder/hr-og-arbejdsmiljoe/kontakt-hr) if you want to initialize the process of guest registration.
+An external collaborator cannot access the BRIGHT instance of Benchling without having a DTU guest agreement and credentials. Please contact [BRIGHT HR](mailto:bright-hr@bright.dtu.dk) if you want to initialize the process of guest registration.
 
 (contact-information)=
 ## Contact information
@@ -47,8 +47,8 @@ An external collaborator cannot access the Biosustain instance of Benchling with
 
 | Goal | Responsible |
 |----------------------------|-------------------------------|
-| First time access for Biosustain employees | [Biosustain HR](https://www.inside.dtu.dk/en/medarbejder/) |
-| External collaborators' access | [Biosustain HR](https://www.inside.dtu.dk/en/medarbejder/) |
+| First time access for BRIGHT employees | [BRIGHT HR](mailto:bright-hr@bright.dtu.dk) |
+| External collaborators' access | [BRIGHT HR](mailto:bright-hr@bright.dtu.dk) |
 | Unsuspension of account  | [LIMS Support](/contact.md) |
 | Adding a user to a Team | Team admin |
 | Adding a user to a Project | Project admin |

@@ -155,4 +155,4 @@ Yes, you can register strains also by uploading a spreadsheet onto a strain regi
 
 3. **Click on “Submit”!**
 
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).

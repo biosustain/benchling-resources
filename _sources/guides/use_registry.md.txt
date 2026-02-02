@@ -164,4 +164,4 @@ Make sure your spreadsheet's columns match the schema fields, although additiona
 
     - You can register from a table multiple times, without duplicating registries – only the changes and additions are uploaded.
 
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).

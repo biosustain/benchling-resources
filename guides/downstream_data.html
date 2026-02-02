@@ -12,8 +12,8 @@
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=883523b8" />
     <script src="../_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="../_static/doctools.js?v=9bcbadda"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="../_static/js/theme.js"></script>
@@ -141,6 +141,13 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">📌 Benchling core concepts</a></li>
 </ul>
+<p class="caption" role="heading"><span class="caption-text">In-house services</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="material_order.html">→ Order lab materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ac_samples_submission.html">→ Submit samples to Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ppp_samples_submission.html">→ Submit samples to Pre-Pilot Plant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nanopore_samples_submission.html">→ Submit samples to DNA Foundry</a></li>
+</ul>
 <p class="caption" role="heading"><span class="caption-text">Electronic Lab Notebook</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="eln.html">→ Explore main functionalities</a></li>
@@ -160,13 +167,6 @@
 <p class="caption" role="heading"><span class="caption-text">New functionalities</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="plate_map.html">→ Try out Plate Maps</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">In-house services</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="material_order.html">→ Order lab materials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ac_samples_submission.html">→ Submit samples to Analytics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ppp_samples_submission.html">→ Submit samples to Pre-Pilot Plant</a></li>
-<li class="toctree-l1"><a class="reference internal" href="nanopore_samples_submission.html">→ Submit samples to DNA Foundry</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">For analysts</span></p>
 <ul>
@@ -188,7 +188,7 @@
 <h1>Register Downstream data<a class="headerlink" href="#register-downstream-data" title="Link to this heading">¶</a></h1>
 <div class="my-custom-admonition admonition">
 <p class="admonition-title">⚠️</p>
-<p>This guide is intended for the <strong>Pre-Pilot Plant team</strong>. To be able to follow the steps in the guide, you need to be <strong>added to the <a class="reference external" href="https://biosustain.benchling.com/teams/team_zsgxMbi3/projects" rel="noreferrer" target="_blank">Pre-Pilot Plant team</a></strong> in Benchling.</p>
+<p>This guide is intended for the <strong>Pre-Pilot Plant team</strong>. To be able to follow the steps in the guide, you need to be <strong>added to the <a class="reference external" href="https://bright.benchling.com/teams/team_zsgxMbi3/projects" rel="noreferrer" target="_blank">Pre-Pilot Plant team</a></strong> in Benchling.</p>
 </div>
 <section id="create-new-notebook-entry-eln-from-template">
 <h2>1. Create new Notebook entry (ELN) from Template<a class="headerlink" href="#create-new-notebook-entry-eln-from-template" title="Link to this heading">¶</a></h2>
@@ -254,12 +254,12 @@
 </section>
 <section id="edit-the-implementation">
 <h2>Edit the implementation<a class="headerlink" href="#edit-the-implementation" title="Link to this heading">¶</a></h2>
-<p>Any changes to the implementation requires you to be part of the <a class="reference external" href="https://biosustain.benchling.com/teams/team_zsgxMbi3/projects" rel="noreferrer" target="_blank">Pre-Pilot Plant Benchling team</a>.</p>
+<p>Any changes to the implementation requires you to be part of the <a class="reference external" href="https://bright.benchling.com/teams/team_zsgxMbi3/projects" rel="noreferrer" target="_blank">Pre-Pilot Plant Benchling team</a>.</p>
 <section id="update-dropdowns">
 <h3>✏️ Update Dropdowns<a class="headerlink" href="#update-dropdowns" title="Link to this heading">¶</a></h3>
 <p>If you notice that one of the dropdowns in the “Step” table (in this case the “Filtration” table) is missing a value, you can add it yourself.</p>
 <ol class="arabic simple">
-<li><p>Go to the <a class="reference external" href="https://biosustain.benchling.com/biosustain/registries/src_1MhfzKi0/dropdowns/" rel="noreferrer" target="_blank">Dropdowns page</a> in Benchling</p></li>
+<li><p>Go to the <a class="reference external" href="https://bright.benchling.com/biosustain/registries/src_1MhfzKi0/dropdowns/" rel="noreferrer" target="_blank">Dropdowns page</a> in Benchling</p></li>
 <li><p>Type the <em>Step name</em> in the search bar, for example “<em>Filtration</em>”</p></li>
 <li><p>Find the relevant dropdown that you need to update</p></li>
 <li><p>Add option to the dropdown.</p></li>
@@ -271,17 +271,17 @@
 </section>
 <section id="create-new-equipment">
 <h3>✏️ Create new equipment<a class="headerlink" href="#create-new-equipment" title="Link to this heading">¶</a></h3>
-<p>If you need to add a new equipment in Benchling, follow the instructions contained in this <a class="reference external" href="https://biosustain.benchling.com/biosustain/f/lib_N0MVgvr6oL-downstream-data-capture-ppp/etr_XoztnU2Sj6-registration-of-new-equipment/edit" rel="noreferrer" target="_blank">Notebook Entry</a>.</p>
+<p>If you need to add a new equipment in Benchling, follow the instructions contained in this <a class="reference external" href="https://bright.benchling.com/biosustain/f/lib_N0MVgvr6oL-downstream-data-capture-ppp/etr_XoztnU2Sj6-registration-of-new-equipment/edit" rel="noreferrer" target="_blank">Notebook Entry</a>.</p>
 <p>To check the full list of existing Equipment, following this link:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://biosustain.benchling.com/search?filter=types%3AIS_ONE_OF%3Abasic_folder_item%3Bschema%3AIS_ONE_OF%3Ats_IV0dk9kVUH%3BarchivePurposes%3AIS_ONE_OF%3ANOT_ARCHIVED%3BisAssociatedWithUnsubmittedRequestV2Submission%3AIS_FALSE%3BProcessesIsSystemDataFilter%3AIS_FALSE&amp;amp;offset=0&amp;amp;limit=100&amp;amp;sorts=name%3A0&amp;amp;q=&amp;amp;v=2" rel="noreferrer" target="_blank">List of existing equipment</a></p></li>
+<li><p><a class="reference external" href="https://bright.benchling.com/search?filter=types%3AIS_ONE_OF%3Abasic_folder_item%3Bschema%3AIS_ONE_OF%3Ats_IV0dk9kVUH%3BarchivePurposes%3AIS_ONE_OF%3ANOT_ARCHIVED%3BisAssociatedWithUnsubmittedRequestV2Submission%3AIS_FALSE%3BProcessesIsSystemDataFilter%3AIS_FALSE&amp;amp;offset=0&amp;amp;limit=100&amp;amp;sorts=name%3A0&amp;amp;q=&amp;amp;v=2" rel="noreferrer" target="_blank">List of existing equipment</a></p></li>
 </ul>
 </section>
 <section id="add-new-parameters-to-an-existing-step">
 <h3>✏️ Add new parameters to an existing step<a class="headerlink" href="#add-new-parameters-to-an-existing-step" title="Link to this heading">¶</a></h3>
 <p>If you need to capture a new parameters in a specific step:</p>
 <ol class="arabic simple">
-<li><p>Search for the entity schema (in this case a Step”) of interest in the <a class="reference external" href="https://biosustain.benchling.com/biosustain/registries/src_1MhfzKi0/tag-schemas/" rel="noreferrer" target="_blank">Benchling Settings dedicated to Entity Schemas</a></p></li>
+<li><p>Search for the entity schema (in this case a Step”) of interest in the <a class="reference external" href="https://bright.benchling.com/biosustain/registries/src_1MhfzKi0/tag-schemas/" rel="noreferrer" target="_blank">Benchling Settings dedicated to Entity Schemas</a></p></li>
 <li><p>Click on the entity schema to enter the specific settings</p></li>
 <li><p>Scroll down to the “entity fields” table</p></li>
 <li><p>Add a new metadata field by clicking the “+” icon:</p></li>
@@ -323,7 +323,7 @@
 </figure>
 <p>To check the full list of existing steps and related parameters, following this link:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://biosustain.benchling.com/search?q=step" rel="noreferrer" target="_blank">List of existing steps</a></p></li>
+<li><p><a class="reference external" href="https://bright.benchling.com/search?q=step" rel="noreferrer" target="_blank">List of existing steps</a></p></li>
 </ul>
 </section>
 <section id="create-a-downstream-processing-template">
@@ -373,7 +373,7 @@
 <h2>Dashboards<a class="headerlink" href="#dashboards" title="Link to this heading">¶</a></h2>
 <p>Here is the list of existing dashboards:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://biosustain.benchling.com/analytics/dashboards/axdash_tciiECE1Jb-downstream-fermentation-culture-processing-dashboard" rel="noreferrer" target="_blank">Fermentation Culture Processing Dashboard</a></p></li>
+<li><p><a class="reference external" href="https://bright.benchling.com/analytics/dashboards/axdash_tciiECE1Jb-downstream-fermentation-culture-processing-dashboard" rel="noreferrer" target="_blank">Fermentation Culture Processing Dashboard</a></p></li>
 </ul>
 </section>
 <section id="compare-fermentation-culture-processing-and-yield">
@@ -393,7 +393,7 @@
 </a>
 </figure>
 <p><br/><br/>
-If you have any question, don’t hesitate to contact us at <a class="reference external" href="mailto:lims_support&#37;&#52;&#48;biosustain&#46;dtu&#46;dk" rel="noreferrer" target="_blank">lims_support<span>&#64;</span>biosustain<span>&#46;</span>dtu<span>&#46;</span>dk</a>.</p>
+If you have any question, don’t hesitate to contact us at <a class="reference external" href="mailto:lims_support&#37;&#52;&#48;bright&#46;dtu&#46;dk" rel="noreferrer" target="_blank">lims_support<span>&#64;</span>bright<span>&#46;</span>dtu<span>&#46;</span>dk</a>.</p>
 </section>
 </section>
 
@@ -458,8 +458,8 @@ If you have any question, don’t hesitate to contact us at <a class="reference 
 
 
     <div class="footer" role="contentinfo">
-    &#169; Copyright 2024, DTU Biosustain, Informatics Platform, Research Data Management Team.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    &#169; Copyright 2026, NNF-BRIGHT, Informatics Platform, Research Data Management Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
     </div>
 
 <p id="theme_credit"></p>

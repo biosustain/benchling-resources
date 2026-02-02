@@ -90,4 +90,4 @@ Watch the following video to **learn how to create and use a Plate Map** directl
    
     Indicate the values for the contents filling up the plate in your experiment: total well volume, stock concentration, transfer volume and well concentration.
 
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).

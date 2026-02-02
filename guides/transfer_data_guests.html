@@ -12,8 +12,8 @@
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=883523b8" />
     <script src="../_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="../_static/doctools.js?v=9bcbadda"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="../_static/js/theme.js"></script>
@@ -141,6 +141,13 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">📌 Benchling core concepts</a></li>
 </ul>
+<p class="caption" role="heading"><span class="caption-text">In-house services</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="material_order.html">→ Order lab materials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ac_samples_submission.html">→ Submit samples to Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ppp_samples_submission.html">→ Submit samples to Pre-Pilot Plant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nanopore_samples_submission.html">→ Submit samples to DNA Foundry</a></li>
+</ul>
 <p class="caption" role="heading"><span class="caption-text">Electronic Lab Notebook</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="eln.html">→ Explore main functionalities</a></li>
@@ -161,13 +168,6 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="plate_map.html">→ Try out Plate Maps</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">In-house services</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="material_order.html">→ Order lab materials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ac_samples_submission.html">→ Submit samples to Analytics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ppp_samples_submission.html">→ Submit samples to Pre-Pilot Plant</a></li>
-<li class="toctree-l1"><a class="reference internal" href="nanopore_samples_submission.html">→ Submit samples to DNA Foundry</a></li>
-</ul>
 <p class="caption" role="heading"><span class="caption-text">For analysts</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="ac_workflow_execution.html">→ Execute AC Workflows</a></li>
@@ -186,7 +186,7 @@
             
   <section class="tex2jax_ignore mathjax_ignore" id="how-to-export-research-data-and-continue-working-on-benchling">
 <h1>How to export research data and continue working on Benchling<a class="headerlink" href="#how-to-export-research-data-and-continue-working-on-benchling" title="Link to this heading">¶</a></h1>
-<p><strong>If you are a guest researcher</strong> at DTU Biosustain, staying for a limited amount of time, you may still want to work on Benchling after your stay is over.</p>
+<p><strong>If you are a guest researcher</strong> at BRIGHT, staying for a limited amount of time, you may still want to work on Benchling after your stay is over.</p>
 <p>🎯 This guide explains the available options and limitations related to data export and setting up a free Benchling account.</p>
 <section id="how-to-export-your-data">
 <h2>How to export your data<a class="headerlink" href="#how-to-export-your-data" title="Link to this heading">¶</a></h2>
@@ -213,7 +213,7 @@
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text"><strong>Registered entities and inventory information</strong></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<p class="sd-card-text">The “Export” options shown above generate <strong>individual files for each registered entity</strong>, and the option to obtain a spreadsheet leads to all entities of a given schema in the Biosustain Registry being included.</p>
+<p class="sd-card-text">The “Export” options shown above generate <strong>individual files for each registered entity</strong>, and the option to obtain a spreadsheet leads to all entities of a given schema in the BRIGHT Registry being included.</p>
 <p class="sd-card-text">To obtain a <strong>spreadsheet of specific entities</strong>, you can either select them from the expanded workspace view or from registration tables in your Notebook entry, as shown below.</p>
 <ul class="simple">
 <li><p class="sd-card-text"><strong>Note:</strong> The first option lets you download entities from different schemas at the same time, generating a single spreadsheet that combines all schema fields as columns. To avoid this, you can filter by schema before selecting the entities to export.</p></li>
@@ -263,7 +263,7 @@
     allowfullscreen>
 </iframe>
 </div><p><strong>Notebook entries</strong></p>
-<p>These can be exported as HTML or PDF files. If there are links, they will remain functional, but may lead back to the Biosustain tenant (for example, if you link to a particular plasmid).</p>
+<p>These can be exported as HTML or PDF files. If there are links, they will remain functional, but may lead back to the BRIGHT tenant (for example, if you link to a particular plasmid).</p>
 <p>Files attached to your entries will be mentioned or shown in the HTML/PDF file and also provided as separate files.</p>
 <p><strong>Registered entities</strong></p>
 <p>As mentioned in the previous section, the <em>“Export”</em> option for an entire folder generates individual <strong>.txt</strong> files for each entity, which list off all fields that correspond to their schema. Schemas that have an associated DNA file to them also generate a <strong>.gb</strong> file, which includes both the sequence and the schema fields in the <em>“Keywords”</em> field.</p>
@@ -272,12 +272,12 @@
 <h2>Setting up a personal Benchling account<a class="headerlink" href="#setting-up-a-personal-benchling-account" title="Link to this heading">¶</a></h2>
 <ol class="arabic">
 <li><p><strong>Create a free personal account.</strong></p>
-<p>Go to <a class="reference external" href="https://www.benchling.com/" rel="noreferrer" target="_blank"><strong>Benchling’s academic website</strong></a> (<strong>not</strong> the Biosustain tenant) and click on <em>“Sign Up”</em>. Create an account with a personal email or with a Google account.</p>
+<p>Go to <a class="reference external" href="https://www.benchling.com/" rel="noreferrer" target="_blank"><strong>Benchling’s academic website</strong></a> (<strong>not</strong> the BRIGHT tenant) and click on <em>“Sign Up”</em>. Create an account with a personal email or with a Google account.</p>
 </li>
 </ol>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
-<p>You should not create your personal account with your DTU email, which will be <strong>deactivated</strong> once you leave Biosustain. Make sure to use an email address you will not lose access to.</p>
+<p>You should not create your personal account with your DTU email, which will be <strong>deactivated</strong> once you leave BRIGHT. Make sure to use an email address you will not lose access to.</p>
 </div>
 <ol class="arabic" start="2">
 <li><p><strong>Create your folder/data structure.</strong>
@@ -314,7 +314,7 @@ Follow the recommendations from the previous sections, along with the table belo
 <p class="admonition-title">Note</p>
 <p>Once you’re done with these steps, you will be able to continue using the free version of Benchling to keep track of your experiments and to take advantage of its <strong>Molecular Biology</strong> suite.</p>
 </div>
-<p>If you have any question, don’t hesitate to contact us at <a class="reference external" href="mailto:lims_support&#37;&#52;&#48;biosustain&#46;dtu&#46;dk" rel="noreferrer" target="_blank">lims_support<span>&#64;</span>biosustain<span>&#46;</span>dtu<span>&#46;</span>dk</a>.</p>
+<p>If you have any question, don’t hesitate to contact us at <a class="reference external" href="mailto:lims_support&#37;&#52;&#48;bright&#46;dtu&#46;dk" rel="noreferrer" target="_blank">lims_support<span>&#64;</span>bright<span>&#46;</span>dtu<span>&#46;</span>dk</a>.</p>
 </section>
 </section>
 </section>
@@ -372,8 +372,8 @@ Follow the recommendations from the previous sections, along with the table belo
 
 
     <div class="footer" role="contentinfo">
-    &#169; Copyright 2024, DTU Biosustain, Informatics Platform, Research Data Management Team.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    &#169; Copyright 2026, NNF-BRIGHT, Informatics Platform, Research Data Management Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
     </div>
 
 <p id="theme_credit"></p>

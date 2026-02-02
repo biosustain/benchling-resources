@@ -7,7 +7,7 @@
 This guide is intended for the **Pre-Pilot Plant team**.
 ``` 
 
-🎯 This guide will show you how to execute Workflows submitted by researchers (or yourself) at Biosustain.
+🎯 This guide will show you how to execute Workflows submitted by researchers (or yourself) at BRIGHT.
 Follow **[this guide](/guides/ppp_samples_submission.md)** if you need to **create** a Workflow instead.
 
 ## What is a Benchling Workflow?
@@ -17,7 +17,7 @@ A **Benchling Workflow** contains:
 - details of the **analysis** to be performed
 - details of who submitted the Workflow
 
-The submitter can **choose between [different assays](https://biosustain.benchling.com/biosustain/registries/src_1MhfzKi0/dropdowns/sfs_mFMjVMtw)**. If you want a new assay to be added to the options, [contact LIMS support](/contact.md).
+The submitter can **choose between [different assays](https://bright.benchling.com/biosustain/registries/src_1MhfzKi0/dropdowns/sfs_mFMjVMtw)**. If you want a new assay to be added to the options, [contact LIMS support](/contact.md).
 
 ## 📩 Check your inbox for new submission
 
@@ -136,4 +136,4 @@ In order to being able to accept the Notebook Entry in the review process, you n
 
 <br/><br/>
 
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).

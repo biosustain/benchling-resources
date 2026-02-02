@@ -1,6 +1,6 @@
 # How to export research data and continue working on Benchling 
 
-**If you are a guest researcher** at DTU Biosustain, staying for a limited amount of time, you may still want to work on Benchling after your stay is over. 
+**If you are a guest researcher** at BRIGHT, staying for a limited amount of time, you may still want to work on Benchling after your stay is over. 
 
 🎯 This guide explains the available options and limitations related to data export and setting up a free Benchling account. 
 
@@ -30,7 +30,7 @@ You will receive an email with a link to download the file. Depending on the siz
 
 ````{dropdown}  **Registered entities and inventory information**
 
-The “Export” options shown above generate **individual files for each registered entity**, and the option to obtain a spreadsheet leads to all entities of a given schema in the Biosustain Registry being included. 
+The “Export” options shown above generate **individual files for each registered entity**, and the option to obtain a spreadsheet leads to all entities of a given schema in the BRIGHT Registry being included. 
 
 To obtain a **spreadsheet of specific entities**, you can either select them from the expanded workspace view or from registration tables in your Notebook entry, as shown below. 
 
@@ -92,7 +92,7 @@ Primers attached to a sequence are formatted as annotations when exported, with 
 
 **Notebook entries**
 
-These can be exported as HTML or PDF files. If there are links, they will remain functional, but may lead back to the Biosustain tenant (for example, if you link to a particular plasmid). 
+These can be exported as HTML or PDF files. If there are links, they will remain functional, but may lead back to the BRIGHT tenant (for example, if you link to a particular plasmid). 
 
 Files attached to your entries will be mentioned or shown in the HTML/PDF file and also provided as separate files. 
 
@@ -105,10 +105,10 @@ As mentioned in the previous section, the *“Export”* option for an entire fo
 
 1. **Create a free personal account.**
 
-    Go to [**Benchling’s academic website**](https://www.benchling.com/) (**not** the Biosustain tenant) and click on *“Sign Up”*. Create an account with a personal email or with a Google account. 
+    Go to [**Benchling’s academic website**](https://www.benchling.com/) (**not** the BRIGHT tenant) and click on *“Sign Up”*. Create an account with a personal email or with a Google account. 
 
 ```{caution}
-You should not create your personal account with your DTU email, which will be **deactivated** once you leave Biosustain. Make sure to use an email address you will not lose access to. 
+You should not create your personal account with your DTU email, which will be **deactivated** once you leave BRIGHT. Make sure to use an email address you will not lose access to. 
 ```
 
 2. **Create your folder/data structure.**
@@ -133,4 +133,4 @@ You should not create your personal account with your DTU email, which will be *
 ```{note}
 Once you’re done with these steps, you will be able to continue using the free version of Benchling to keep track of your experiments and to take advantage of its **Molecular Biology** suite.
 ```
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).

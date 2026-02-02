@@ -5,7 +5,7 @@
 
 This guide is intended for the **Analytics team**.
 ``` 
-🎯 This guide will show you how to execute Workflows submitted by researchers at Biosustain.
+🎯 This guide will show you how to execute Workflows submitted by researchers at BRIGHT.
 
 ## What is a Benchling Workflow?
 
@@ -154,9 +154,9 @@ The implementation doesn't currently allow to attach raw data. Only use the "Res
 ```{dropdown} How can I allow another person to receive notifications when a new Workflow is created?
 Benchling Teams were created for each Workflow type to manage notifications. 
 Go to the dedicated Benchling Team (it is named after the analysis type) and add the new person.
-If you don't know how to do it, contact lims_support@biosustain.dtu.dk.
+If you don't know how to do it, contact lims_support@bright.dtu.dk.
 ```
 
 <br/><br/>
 
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).

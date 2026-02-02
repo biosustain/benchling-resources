@@ -11,7 +11,7 @@
 
 * You’d like to keep a record of where all your strains are stored and when they are used
 
-* You’d like to upload strain-related metadata to Benchling at the end of a project or before leaving Biosustain, to make sure that data is not lost over time
+* You’d like to upload strain-related metadata to Benchling at the end of a project or before leaving BRIGHT, to make sure that data is not lost over time
 
 * You’d like to promote FAIR data! 😄
 ```
@@ -98,7 +98,7 @@ The only prerequisite to the following steps is to **have a spreadsheet** with m
     * You only need to upload a file with the same filename as the entity name, and the entity will be updated accordingly, keeping the fields that had already been filled.
 ```
 
-If you have any other problem, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk)!
+If you have any other problem, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk)!
 
 ## Additional resources
 

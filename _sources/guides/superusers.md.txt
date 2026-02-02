@@ -1,6 +1,6 @@
-# 👤 Benchling superusers at Biosustain
+# 👤 Benchling superusers at BRIGHT
 
-Benchling superusers are researchers who are the main contact point between their research group and the LIMS support team.
+Benchling Superusers are researchers who are the main contact point between their research group and the LIMS support team.
 Superusers also support their colleagues by addressing their doubts, by sharing training materials and guides, and by encouraging them to [contact the LIMS team](https://biosustain.github.io/benchling-resources/contact.html) when needed.
 
 ## Are you a superuser? 
@@ -10,13 +10,13 @@ As a superuser, understanding a few basic concepts of Benchling will help you to
 
 ### ✅ Benchling access
 
-- Benchling access is managed by Biosustain HR.
+- Benchling access is managed by BRIGHT HR.
 - Benchling user accounts are automatically suspended at the end of the user's contract, and reactivated if the user gets a new contract.
-- If a user needs prolonged access to Benchling (after the contract end date), the user needs to contact Biosustain HR and ask for an extension. 
+- If a user needs prolonged access to Benchling (after the contract end date), the user needs to contact BRIGHT HR and ask for an extension. 
 
 📋 If a colleague needs access to Benchling, follow these steps:
 1. First, share with them the link to Benchling and check if they can already login.
-2.  - If they cannot login, ask your colleague  to contact Biosustain HR and ask for access. 
+2.  - If they cannot login, ask your colleague  to contact BRIGHT HR and ask for access. 
     - If the account is found to be suspended, or if an existing account is denying them access, ask your colleague to contact LIMS support.
 
 ### ✅ Benchling teams
@@ -52,8 +52,8 @@ _Note: If the Project data needs to stay more private (no access to the whole Te
 
 ### ✅ Other topics 
 
-If your colleague needs help in other aspects, and you don't know the answer, please share with them the link to this Benchling resources page (https://biosustain.github.io/benchling-resources/) or ask them to contact the LIMS Support team.
+If your colleague needs help in other aspects, and you don't know the answer, please share with them the link to this [Benchling resources page](https://biosustain.github.io/benchling-resources/) or ask them to contact the LIMS Support team.
 
 <br/><br/><br/>
 
-*LIMS support is part of the [Informatics Platform](https://www.biosustain.dtu.dk/technologies/biofoundry/informatics) at the Novo Nordisk Foundation Center for Biosustainability*
+*LIMS support is part of the **Informatics Platform** at the Novo Nordisk Foundation Biotechnology Research Institute for the Green Transition (BRIGHT).*
