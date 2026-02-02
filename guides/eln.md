@@ -114,7 +114,7 @@ Create templates and subtemplates within your team collection. **If your team do
 </iframe>
 </div>
 ```
----
+
 *Note:*
 
 **Permissions for templates are set at the collection level.** See below the different tiers of permissions that can be granted to users or teams for template collections:
