@@ -232,4 +232,4 @@ Benchling automatically generates a dynamic table of contents to help you naviga
 - Try out ELN functionalities by creating entry from template **"The basics"** stored in **LIMS SUPPORT** template collection.
 
 
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).

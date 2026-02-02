@@ -1,8 +1,8 @@
-# Benchling resources at DTU Biosustain
+# Benchling resources at BRIGHT
 
 ## Description
 
-This repository builds a static website  containing Benchling resources created at DTU Biosustain.
+This repository builds a static website  containing Benchling resources created at BRIGHT.
 
 The website is built using [Sphinx](https://www.sphinx-doc.org/en/master/usage/index.html) and [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 

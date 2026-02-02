@@ -124,5 +124,5 @@ This is the available list of Workflows (currently only one for the DNA Foundry 
 
 <br/><br/>
 
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).
 

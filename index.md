@@ -1,6 +1,6 @@
 # Welcome!
 
-The Biosustain **Benchling Resources** page will help you navigate Benchling and successfully track and manage your experimental data during your time at Biosustain.
+The BRIGHT **Benchling Resources** page will help you navigate Benchling and successfully track and manage your experimental data during your time at BRIGHT.
 
 Here you will find **step-by-step tutorials** and short **training videos** covering topics like:
 - How to access Benchling
@@ -91,6 +91,16 @@ Here are some additional learning materials and guides:
 ```{toctree}
 :maxdepth: 1
 :hidden:
+:caption: 'In-house services'
+→ Order lab materials <guides/material_order.md>
+→ Submit samples to Analytics <guides/ac_samples_submission.md>
+→ Submit samples to Pre-Pilot Plant <guides/ppp_samples_submission.md>
+→ Submit samples to DNA Foundry <guides/nanopore_samples_submission.md>
+```
+
+```{toctree}
+:maxdepth: 1
+:hidden:
 :caption: 'Electronic Lab Notebook'
 
 → Explore main functionalities <guides/eln.md>
@@ -118,16 +128,6 @@ Here are some additional learning materials and guides:
 :hidden:
 :caption: 'New functionalities'
 → Try out Plate Maps <guides/plate_map.md>
-```
-
-```{toctree}
-:maxdepth: 1
-:hidden:
-:caption: 'In-house services'
-→ Order lab materials <guides/material_order.md>
-→ Submit samples to Analytics <guides/ac_samples_submission.md>
-→ Submit samples to Pre-Pilot Plant <guides/ppp_samples_submission.md>
-→ Submit samples to DNA Foundry <guides/nanopore_samples_submission.md>
 ```
 
 ```{toctree}

@@ -3,10 +3,10 @@
 ```{admonition} ⚠️
 :class: my-custom-admonition
 
-This guide is intended for Biosustain **DNA Foundry team**.
+This guide is intended for the BRIGHT **DNA Foundry team**.
 ``` 
 
-🎯 This guide will show you how to execute Workflows submitted by researchers (or yourself) at Biosustain.
+🎯 This guide will show you how to execute Workflows submitted by researchers (or yourself) at BRIGHT.
 Follow **[this guide](/guides/nanopore_samples_submission.md)** if you need to **create** a Workflow instead.
 
 ## What is a Benchling Workflow?

@@ -26,7 +26,7 @@ In these folders you can store:
 
 ````{admonition} ℹ️​ Need a Training space?
 :class: my-custom-admonition
-If you want to try out some of Benchling's functionalities, you can use the [Biosustain Training](https://biosustain.benchling.com/biosustain/f_/xmPebKow-biosustain-training/?filter=section%3Aall%3Bfolder%3Alib_xmPebKow%3Btypes%3AIS_ONE_OF%3Afolder%2Centry%2Cprocess%2Cprotocol%2Cbulk_assembly%2Cbasic_folder_item%2Cprotein%2Cmixture%2Csequence%2Crna_sequence%2Coligo%2Crna_oligo%2Canalysis%2Cdataset%3BarchivePurposes%3AIS_ONE_OF%3ANOT_ARCHIVED%3BisAssociatedWithUnsubmittedRequestV2Submission%3AIS_FALSE%3BProcessesIsSystemDataFilter%3AIS_FALSE&offset=0&limit=50&sorts=starred%3A0%3Bname%3A0&q=&v=2) project folder for this purpose. 
+If you want to try out some of Benchling's functionalities, you can use the [BRIGHT Training](https://bright.benchling.com/biosustain/f_/xmPebKow-bright-training/) project folder for this purpose. 
 ````
 
 ## Create a Project (or use an existing one)
@@ -135,7 +135,7 @@ To do this, locate the team you want to manage the permissions of in the **Manag
 
 ## Identify your data requirements
 
-Throughout your stay at Biosustain, it is good to keep in mind the **purpose** of the information you generate and store within Benchling, and how you (and others) will need it in the short, medium and long term. This information will determine how you register and structure your data in Benchling.
+Throughout your stay at BRIGHT, it is good to keep in mind the **purpose** of the information you generate and store within Benchling, and how you (and others) will need it in the short, medium and long term. This information will determine how you register and structure your data in Benchling.
 
 <div class="admonition my-custom-admonition">
   <p class="admonition-title">☑️ Checklist: </p>
@@ -225,7 +225,7 @@ You may find the following guides helpful for this purpose:
 
 ## The end of your Project
 
-As you wrap up a specific study, or you reach the end of your stay at Biosustain, it’s important to consider the fate of the data you are leaving behind in Benchling. 
+As you wrap up a specific study, or you reach the end of your stay at BRIGHT, it’s important to consider the fate of the data you are leaving behind in Benchling. 
 
 **First**, you must consider whether the data in the Projects you have worked on is complete:
 
@@ -251,22 +251,10 @@ As you wrap up a specific study, or you reach the end of your stay at Biosustain
 
 **Then**, you must make sure people in your team will have access to your data. Share the folder with your team or copy the contents of the project into a folder of the shared team project. Note that the data moved to a new location will have the permission settings of the project folder it is moved into. 
 
-**Lastly**, make sure you still have access to your data while wrapping up. If you're finishing a project at Biosustain but still need time to organize or finalize your work in Benchling, you should request temporary extended access through HR. Keep in mind that after your stay ends, access to the Biosustain Benchling tenant will no longer be available, unless otherwise arranged.
+**Lastly**, make sure you still have access to your data while wrapping up. If you're finishing a project at BRIGHT but still need time to organize or finalize your work in Benchling, you should request temporary extended access through HR. Keep in mind that after your stay ends, access to the BRIGHT Benchling tenant will no longer be available, unless otherwise arranged.
 
 *With the previous tips in mind, your experience with the management of projects in Benchling should be as smooth as possible!*
 
-````{admonition} ℹ️​ A note on data storage
-:class: my-custom-admonition
-You should also consider what to do with data stored elsewhere. 
-
-It’s important to note that once your DTU account is suspended, its associated OneDrive account will also be. This means that data created or shared by you will be deleted, including shared OneDrive folders, if they are linked to your account. Thus, you must remember to save important data to the O drive, to ensure it will remain accessible to others (Department Drive-NNFCFB). Avoid leaving data behind in the M drive, which only you have access to. 
-
-For other kinds of data management inquiries, you can always **[contact the RDM team](https://biosustain.github.io/benchling-resources/contact.html)** to ask questions.
-
-````
-
 <br/><br/>
 
-
-
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).
