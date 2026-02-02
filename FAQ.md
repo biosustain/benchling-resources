@@ -4,15 +4,15 @@
 <br/>
 
 ```{dropdown} How can I get access to Benchling?
-First-time access is granted by HR. Contact [Biosustain HR](https://www.inside.dtu.dk/en/medarbejder/hr-og-arbejdsmiljoe/kontakt-hr) to request access (for you or a colleague). 
+First-time access is granted by HR. Contact [BRIGHT HR](mailto:bright-hr@bright.dtu.dk) to request access (for you or a colleague). 
 ```
 
 ```{dropdown} Which credentials do I need to use to log in to Benchling?
-Biosustain has its own instance of Benchling, so it is different from the free version of Benchling. You can access the Biosustain instance by using your personal DTU credentials.
+BRIGHT has its own instance of Benchling, so it is different from the free version of Benchling. You can access the BRIGHT instance by using your personal DTU credentials.
 ```
 
 ```{dropdown} How can I regain access to Benchling if my account was suspended?
-If your account was suspended, contact lims_support@biosustain.dtu.dk and ask for its reactivation. 
+If your account was suspended, contact lims_support@bright.dtu.dk and ask for its reactivation. 
 Reasons for the suspension include inactivity for multiple months or being a past employee that has returned to Biosustain after a period of time.
 ```
 
@@ -26,7 +26,7 @@ Make sure they are included in the collaborators of your Benchling project.
 ```
 
 ```{dropdown} How can I grant an external collaborator access to my data in Benchling?
-An external collaborator cannot access the Biosustain instance of Benchling without having a DTU guest agreement and credentials. Please contact [Biosustain HR](https://www.inside.dtu.dk/en/medarbejder/hr-og-arbejdsmiljoe/kontakt-hr) if you want to initialize the process of guest registration.
+An external collaborator cannot access the Biosustain instance of Benchling without having a DTU guest agreement and credentials. Please contact [BRIGHT HR](mailto:bright-hr@bright.dtu.dk) if you want to initialize the process of guest registration.
 ```
 
 ## Exporting data
@@ -37,8 +37,8 @@ To export data from Benchling, please check this [Benchling official guide](http
 Please consider data ownership and confidentiality matters if you plan to share the exported data with collaborators.
 ```
 
-```{dropdown} Can I transfer data from the Biosustain instance of Benchling to a free version account?
-There is no automatic way to trasfer file across instances (for example, from your Biosustain account to a free version account). In order to achieve it, you can follow [this guide](https://biosustain.github.io/benchling-resources/guides/transfer_data_guests.html) that explains the step to follow to transfer the data manually.
+```{dropdown} Can I transfer data from the BRIGHT instance of Benchling to a free version account?
+There is no automatic way to trasfer file across instances (for example, from your BRIGHT account to a free version account). In order to achieve it, you can follow [this guide](https://biosustain.github.io/benchling-resources/guides/transfer_data_guests.html) that explains the step to follow to transfer the data manually.
 ```
 
 

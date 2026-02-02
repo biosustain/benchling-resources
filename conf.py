@@ -7,7 +7,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "Benchling resources"
-copyright = "2024, DTU Biosustain, Informatics Platform, Research Data Management Team"
+copyright = "2026, NNF-BRIGHT, Informatics Platform, Research Data Management Team"
 #author = "Ester Milesi"
 
 

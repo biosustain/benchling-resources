@@ -136,4 +136,4 @@ It’s also possible to import sequences from genomic loci by searching for them
 
 ➜ Import the human HBB gene by selecting the human genome, chromosome 11, and write 5225464 as the start and 5229395 as the end.  
 ```
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).

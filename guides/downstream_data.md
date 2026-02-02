@@ -3,7 +3,7 @@
  ```{admonition} ⚠️
 :class: my-custom-admonition
 
-This guide is intended for the **Pre-Pilot Plant team**. To be able to follow the steps in the guide, you need to be **added to the [Pre-Pilot Plant team](https://biosustain.benchling.com/teams/team_zsgxMbi3/projects)** in Benchling. 
+This guide is intended for the **Pre-Pilot Plant team**. To be able to follow the steps in the guide, you need to be **added to the [Pre-Pilot Plant team](https://bright.benchling.com/teams/team_zsgxMbi3/projects)** in Benchling. 
 ``` 
 
 ## 1. Create new Notebook entry (ELN) from Template
@@ -96,13 +96,13 @@ New processing steps can be added by adding additional Sub-templates:
 
 ## Edit the implementation
 
-Any changes to the implementation requires you to be part of the [Pre-Pilot Plant Benchling team](https://biosustain.benchling.com/teams/team_zsgxMbi3/projects). 
+Any changes to the implementation requires you to be part of the [Pre-Pilot Plant Benchling team](https://bright.benchling.com/teams/team_zsgxMbi3/projects). 
 
 ### ✏️ Update Dropdowns
 
 If you notice that one of the dropdowns in the "Step" table (in this case the "Filtration" table) is missing a value, you can add it yourself.
 
-1. Go to the [Dropdowns page](https://biosustain.benchling.com/biosustain/registries/src_1MhfzKi0/dropdowns/) in Benchling
+1. Go to the [Dropdowns page](https://bright.benchling.com/biosustain/registries/src_1MhfzKi0/dropdowns/) in Benchling
 2. Type the *Step name* in the search bar, for example "*Filtration*"
 3. Find the relevant dropdown that you need to update
 4. Add option to the dropdown.
@@ -114,16 +114,16 @@ If you notice that one of the dropdowns in the "Step" table (in this case the "F
 ```
 ### ✏️ Create new equipment
 
-If you need to add a new equipment in Benchling, follow the instructions contained in this [Notebook Entry](https://biosustain.benchling.com/biosustain/f/lib_N0MVgvr6oL-downstream-data-capture-ppp/etr_XoztnU2Sj6-registration-of-new-equipment/edit).
+If you need to add a new equipment in Benchling, follow the instructions contained in this [Notebook Entry](https://bright.benchling.com/biosustain/f/lib_N0MVgvr6oL-downstream-data-capture-ppp/etr_XoztnU2Sj6-registration-of-new-equipment/edit).
 
 To check the full list of existing Equipment, following this link:
-- [List of existing equipment](https://biosustain.benchling.com/search?filter=types%3AIS_ONE_OF%3Abasic_folder_item%3Bschema%3AIS_ONE_OF%3Ats_IV0dk9kVUH%3BarchivePurposes%3AIS_ONE_OF%3ANOT_ARCHIVED%3BisAssociatedWithUnsubmittedRequestV2Submission%3AIS_FALSE%3BProcessesIsSystemDataFilter%3AIS_FALSE&offset=0&limit=100&sorts=name%3A0&q=&v=2)
+- [List of existing equipment](https://bright.benchling.com/search?filter=types%3AIS_ONE_OF%3Abasic_folder_item%3Bschema%3AIS_ONE_OF%3Ats_IV0dk9kVUH%3BarchivePurposes%3AIS_ONE_OF%3ANOT_ARCHIVED%3BisAssociatedWithUnsubmittedRequestV2Submission%3AIS_FALSE%3BProcessesIsSystemDataFilter%3AIS_FALSE&offset=0&limit=100&sorts=name%3A0&q=&v=2)
 
 ### ✏️ Add new parameters to an existing step
 
 If you need to capture a new parameters in a specific step:
 
-1. Search for the entity schema (in this case a Step") of interest in the [Benchling Settings dedicated to Entity Schemas](https://biosustain.benchling.com/biosustain/registries/src_1MhfzKi0/tag-schemas/)
+1. Search for the entity schema (in this case a Step") of interest in the [Benchling Settings dedicated to Entity Schemas](https://bright.benchling.com/biosustain/registries/src_1MhfzKi0/tag-schemas/)
 
 2. Click on the entity schema to enter the specific settings
 
@@ -164,7 +164,7 @@ If you need to capture a new processing step that is not covered by the current 
 
 
 To check the full list of existing steps and related parameters, following this link:
-- [List of existing steps](https://biosustain.benchling.com/search?q=step)
+- [List of existing steps](https://bright.benchling.com/search?q=step)
 
 ### ✏️ Create a downstream processing template
 
@@ -215,7 +215,7 @@ If you want to create a template with pre-defined processing steps (for example,
 ## Dashboards
 
 Here is the list of existing dashboards:
-- [Fermentation Culture Processing Dashboard](https://biosustain.benchling.com/analytics/dashboards/axdash_tciiECE1Jb-downstream-fermentation-culture-processing-dashboard)
+- [Fermentation Culture Processing Dashboard](https://bright.benchling.com/analytics/dashboards/axdash_tciiECE1Jb-downstream-fermentation-culture-processing-dashboard)
 
 ## Compare Fermentation Culture processing and yield
 
@@ -244,4 +244,4 @@ To change the selected Fermentation Cultures, click on the _[...] icon > "Edit p
 
 
 <br/><br/>
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).

@@ -172,4 +172,4 @@ Having a library of Medium Recipes for your project may help you document your e
 If you are creating multiple Medium Recipes at once, bulk import of Medium Recipe composition from a spreadsheet may be the best option. Learn how to do it with Benchling guide [Import Mixture Ingredients in Bulk](https://help.benchling.com/hc/en-us/articles/9684226244621-Import-mixture-ingredients-in-bulk).
 
 
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).
