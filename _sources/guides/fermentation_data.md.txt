@@ -3,7 +3,7 @@
  ```{admonition} 🔍
 :class: my-custom-admonition
 
-This guide is tailored to the **Pre-Pilot Plant** and the **Integrated Fermentation Platform** teams at Biosustain.
+This guide is tailored to the **Pre-Pilot Plant** and the **Integrated Fermentation Platform** teams at BRIGHT.
 ``` 
 🎯 This guide will show you how to use the Benchling template ***"Registering Fermentation Data in Benchling"*** to keep track of fermentation experiments and the samples they generate. 
 
@@ -135,4 +135,4 @@ Analytics/PPP must have **Write** access to the project where the samples are lo
 ````
 <br/><br/>
 
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).
