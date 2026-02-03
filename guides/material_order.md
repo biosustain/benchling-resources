@@ -10,9 +10,9 @@ _Note: If you have already received a quote, you don't need to follow the guide.
 
 <br/>
 
-To **download** the guide, click [here](../_static/files/material_order_guide.pdf).
+To **download** the guide, click [here](../_static/files/2026_Updated_Purchasing_Training_Users.pdf). 
 
-<iframe src="https://docs.google.com/gview?url=https://biosustain.github.io/benchling-resources/_static/files/material_order_guide.pdf&embedded=true" width="100%" height="600px"></iframe>
+<iframe src="https://docs.google.com/gview?url=https://biosustain.github.io/benchling-resources/_static/files/2026_Updated_Purchasing_Training_Users.pdf&embedded=true" width="100%" height="600px"></iframe>
 
 If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).
 
