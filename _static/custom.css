@@ -40,3 +40,13 @@ ul ul li, ol ol li {
     font-weight: bold; /* Optional: Make it bold */
     /*font-style: italic; /* Optional: Make it italic */
 }
+
+.admonition.strong-warning {
+    background-color: #f3d99d;
+    border-left: 4px solid #e59500;
+    color: #000
+}
+.admonition.strong-warning ul,
+.admonition.strong-warning li {
+  font-size: 0.9rem;
+}
