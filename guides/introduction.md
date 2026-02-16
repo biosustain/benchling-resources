@@ -123,7 +123,7 @@ You can track the location of your entities in Benchling (for example, by specif
 
 ````{dropdown} More on the Inventory
 
-The **Inventory** is a virtual representation of the storage system of the labs at DTU Biosustain. It allows user to track the physical location of registered entities. 
+The **Inventory** is a virtual representation of the storage system of the labs at BRIGHT. It allows user to track the physical location of registered entities. 
 
 Using the Inventory requires a few essential steps. First, you must create a box or a plate in the location (room, freezer) you want your samples to be. This can be done from the Inventory menu or from an ELN. Afterwards, you need to store your registered entity in a container, such as a tube or a vial. Alternatively, if you want to store a sample in a plate, only the plate needs to exist beforehand.
 
@@ -257,11 +257,11 @@ If you are unsure about the meaning of a term in Benchling, here you can find a 
 | Entry | Notebook page for research documentation. Can contain text, tables, images and links to Benchling entities. |
 | Schema | Defined data structure of Entities, Entries, Workflows, Requests or Automation runs. A schema comprises a set of fields that captures relevant properties of an object, including tracking its relationships with other objects within Benchling. |
 | Project | Folder for storing and organizing materials created in the development of a research project: ELN entries, biological entities, protocols. Permissions can be managed to facilitate collaboration. |
-| Registry | Database with the biological materials used/created in research projects at DTU Biosustain, where metadata is searchable and standardized. When an entity is registered, it is formalized within the system through the assignment of an unique ID and the storage of its metadata in structured manner (i.e., within a schema). |
-| Inventory | Represents the physical storage system of samples and reagents at DTU Biosustain, and is used to manage and track these items at the center: their location, container, quantity, usage history. |
+| Registry | Database with the biological materials used/created in research projects at BRIGHT, where metadata is searchable and standardized. When an entity is registered, it is formalized within the system through the assignment of an unique ID and the storage of its metadata in structured manner (i.e., within a schema). |
+| Inventory | Represents the physical storage system of samples and reagents at BRIGHT, and is used to manage and track these items at the center: their location, container, quantity, usage history. |
 | Worklist | List of samples facilitating transfer of entities between applications and performing actions in bulk. |
 | Sequence | (entity type) DNA, RNA, Amino Acid or Oligo sequence which can be processed with Benchling’s molecular biology design and analysis tools. There are currently 9 sequence entity schemas. |
-| Custom Entity | (entity type) Entity created using a “custom schema” developed at Biosustain based on researchers needs and most used sample types. There are currently 49 custom entity schemas. |
+| Custom Entity | (entity type) Entity created using a “custom schema” developed at BRIGHT based on researchers needs and most used sample types. There are currently 49 custom entity schemas. |
 | Mixture | (entity type) Solution comprised of multiple ingredients where the exact quantities of each ingredient are tracked. There are currently two mixture entity schemas: Medium with recipe and Medium prep.  |
 | Container | Represents physical containers such as tubes or wells that hold biological samples or reagents, and tracks concentration and volume of the contents. |
 | Box | Structured inventory type that is assigned a location, representing boxes stored at the center. Technically functions as a grid of containers of fixed dimension (i.e., with a max number of containers it can hold).  |
@@ -281,4 +281,4 @@ If you are unsure about the meaning of a term in Benchling, here you can find a 
 | Benchling App | External application integrated into Benchling’s platform.  |
 ````
 
-If you have any question, don’t hesitate to contact us at [lims_support@biosustain.dtu.dk](mailto:lims_support@biosustain.dtu.dk).
+If you have any question, don’t hesitate to contact us at [lims_support@bright.dtu.dk](mailto:lims_support@bright.dtu.dk).
