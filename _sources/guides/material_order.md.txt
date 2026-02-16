@@ -3,8 +3,16 @@
 Equipment and consumable procurement is managed by the BRIGHT procurement team (goods reception).
 
 To submit your order request to the procurement team, follow the following guide.
+```{admonition} Note
+:class: my-custom-admonition
+If you have already received a quote, you don't need to follow the guide. In your case, you can forward the quote from the supplier (along with your project number and task number) to [**procure@bright.dtu.dk**](mailto:procure@bright.dtu.dk).
+```
 
-_Note: If you have already received a quote, you don't need to follow the guide. In your case, you can forward the quote from the supplier (along with your project number and task number) to **procure@bright.dtu.dk**._ 
+```{admonition} Caution
+:class: strong-warning
+
+If you need to **cancel** an order that has already been marked as _'In Progress'_, please contact [**procure@bright.dtu.dk**](mailto:procure@bright.dtu.dk). 
+```
 
 ⏳ If the PowerPoint viewer doesn't load, please refresh the page (it can take some seconds as the file size is quite big) ⏳
 
