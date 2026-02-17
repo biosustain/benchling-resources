@@ -77,9 +77,28 @@ You can also do the search directly from the "Legacy Requests" Menu. Just rememb
 ```
 
 ````
-````{dropdown} 🔎 How to look for materials 
+````{dropdown} 🔎 How to view all orders for a specific material
 
-If you would like to know information related to orders of specific materials, such as when a material was last ordered, follow these steps:
+If you would like to know when a specific Commercial material was last ordered and by whom, you can click on the **Dashboard** tab of a Commercial material entity. A list of all orders, from newest to oldest, is displayed. 
+
+```{figure} ../_static/images/material-dashboard.png
+:width: 70%
+:align: center
+
+```
+1. Go to the Search Menu.
+
+2. Set the filter to _Type: Commercial Material_ and write the product name in the search bar. 
+
+3. Select the product. 
+
+4. Click on the **Dashboard** tab. You will be able to see all past orders for the material. If no results are displayed, it means the material has not been previously ordered.
+
+````
+
+````{dropdown} 🔎 How to use Search filters to look for materials 
+
+This method allows you to look for information about several Commercial materials at the same time.
 
 1. Go to the Search Menu and open the Expanded View. This will allow you to see details of the results displayed after the Search.  
 
