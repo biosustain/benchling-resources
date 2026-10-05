@@ -1,6 +1,6 @@
 # Submit samples for analysis to Analytics
 
-Benchling has replaced one of its modules (**“Requests”**) with another new module (**“Workflow”**). To discover how to submit samples for analysis to the Analytics team using Workflows, follow this guide. 
+Follow this guide when submitting samples for analysis (e.g. proteomics, metabolomics, HPLC) to the Analytics team at BRIGHT. 
 
 ## Grant access to Analytics to your Project
 Add _Analytics_ Benchling Team to the list of collaborators in your Project to enable the analysts to access the samples you are going to register. 
@@ -30,7 +30,7 @@ Save edits to the settings by clicking "Done".
 
 ## Register samples directly in your Notebook Entry
 
-In order to register samples to submit to Analytics, you can follow a **Sub-template** created by LIMS support for this purpose. 
+In order to register samples to submit to Analytics, you can follow a **Sub-template** created by LIMS support for this purpose. It is meant to be added to an already existing notebook entry.
 
 Follow this video to learn how to do it:
 
@@ -44,14 +44,14 @@ _Summary of the steps:_
 
 2. Insert the **sub-template** "Analytical Sample Submission" in the Entry
 
-    → You can choose between different samples storage options: **Plate**, **Box**, single **Vials**.
+    → You can choose between different samples storage options: **Plate** and **Box**.
 
 3. **Fill-in** the registration and inventory tables that appeared in your Notebook Entry with the required metadata.
 
     ```{admonition} *Note*
     :class: my-custom-admonition
 
-    When moving samples in a Box or a Plate, please do so **row-wise** (A1, A2, A3...) as showed in the video.
+    When moving samples in a Box or a Plate, please do so **row-wise** (A1, A2, A3...) as shown in the video.
 
     ```
 4. **Copy** (Command+C / CTRL+C) the newly-registered **samples entities** from the last table
@@ -138,7 +138,7 @@ To access the results, download the attached file.
 
 This is the available list of Workflows (one for each analysis type performed by the Analytics team):
 
-```{figure} ../_static/images/ac-workflows-list.png
+```{figure} ../_static/images/updated-ac-workflows.png
 :alt: create a Workflow
 :width: 50%
 :align: center
